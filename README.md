@@ -8,9 +8,7 @@ Strong models that have memorized standard-rule solutions are forced to
 *re-reason* under the perturbed rules.
 
 Every task is **open-ended**: the model reads the puzzle and produces the
-answer directly, which is verified by a programmatic checker. There are no
-multiple-choice options.
-
+answer directly, which is verified by a programmatic checker. 
 The repo ships both the **generators** (so anyone can reproduce or extend the
 benchmark) and a **frozen snapshot** of the generated dataset (for citing an
 exact version).
@@ -179,33 +177,6 @@ model calls):
 ```bash
 python non_math_games_eval/evaluate.py --self-test --all
 ```
-
-## Design notes
-
-- **Open-ended only.** Every task asks the model for the answer directly.
-  An earlier draft used multiple-choice questions with wrong-rule distractors;
-  that design was abandoned because models could solve MCQ items by elimination
-  rather than by reasoning under the CF rule. The shipped CSVs reflect the
-  open-ended evaluation that was actually run in the thesis.
-
-- **Verifiable answers.** Every game has a programmatic checker
-  (`llm_eval/evaluate_games_open.py` for `game_cf`,
-  `non_math_games_eval/graders/` for the path games). No string match against
-  a reference answer — each checker re-validates the model's output against
-  the puzzle's rules.
-
-- **Structural CFs.** Some CFs constrain the *form* of the answer rather than
-  the value (e.g. `countdown/cf2_no_subtraction` forbids `−`,
-  `game24/cf2_each_operator_once` requires using each of `+ − × ÷` at most
-  once). The checker verifies both the value and the structural rule.
-
-- **Reproducibility.** Generators use `--seed 42` by default. The CSVs in
-  this repo are the canonical seeded snapshot.
-
-- **No chess.** An earlier version of this work included chess opening
-  legality. It was dropped: chess questions degenerated into "is this opening
-  legal?" which is largely a tokenization / memorization task rather than a
-  reasoning task. The remaining 8 games all admit verifiable solutions.
 
 ## License
 
