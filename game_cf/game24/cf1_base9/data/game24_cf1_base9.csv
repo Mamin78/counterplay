@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 game24_cf1_base9_0001,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""17"", ""35"", ""37""], ""numbers_decimal"": [8, 16, 32, 34], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -10,7 +10,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 8, 17, 35, 37
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((37 − 8) − (35 ÷ 17)),"{""numbers_decimal"": [8, 16, 32, 34], ""numbers_base9"": [""8"", ""17"", ""35"", ""37""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((37 − 8) − (35 ÷ 17)),"{""numbers_decimal"": [8, 16, 32, 34], ""numbers_base9"": [""8"", ""17"", ""35"", ""37""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0002,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""88"", ""44"", ""5"", ""27""], ""numbers_decimal"": [80, 40, 5, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -22,7 +22,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 88, 44, 5, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((88 + 44) ÷ (27 ÷ 5)),"{""numbers_decimal"": [80, 40, 5, 25], ""numbers_base9"": [""88"", ""44"", ""5"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((88 + 44) ÷ (27 ÷ 5)),"{""numbers_decimal"": [80, 40, 5, 25], ""numbers_base9"": [""88"", ""44"", ""5"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0003,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""35"", ""53"", ""20"", ""17""], ""numbers_decimal"": [32, 48, 18, 16], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -34,7 +34,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 35, 53, 20, 17
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(53 ÷ (17 − (35 − 20))),"{""numbers_decimal"": [32, 48, 18, 16], ""numbers_base9"": [""35"", ""53"", ""20"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(53 ÷ (17 − (35 − 20))),"{""numbers_decimal"": [32, 48, 18, 16], ""numbers_base9"": [""35"", ""53"", ""20"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0004,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""14"", ""11"", ""37"", ""46""], ""numbers_decimal"": [13, 10, 34, 42], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -46,7 +46,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 14, 11, 37, 46
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((14 − 11) × (46 − 37)),"{""numbers_decimal"": [13, 10, 34, 42], ""numbers_base9"": [""14"", ""11"", ""37"", ""46""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((14 − 11) × (46 − 37)),"{""numbers_decimal"": [13, 10, 34, 42], ""numbers_base9"": [""14"", ""11"", ""37"", ""46""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0005,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""43"", ""14"", ""35"", ""85""], ""numbers_decimal"": [39, 13, 32, 77], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -58,7 +58,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 43, 14, 35, 85
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(14 + (85 ÷ (43 − 35))),"{""numbers_decimal"": [39, 13, 32, 77], ""numbers_base9"": [""43"", ""14"", ""35"", ""85""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(14 + (85 ÷ (43 − 35))),"{""numbers_decimal"": [39, 13, 32, 77], ""numbers_base9"": [""43"", ""14"", ""35"", ""85""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0006,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""70"", ""25"", ""42"", ""24""], ""numbers_decimal"": [63, 23, 38, 22], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -70,7 +70,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 70, 25, 42, 24
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((70 − 25) − (42 − 24)),"{""numbers_decimal"": [63, 23, 38, 22], ""numbers_base9"": [""70"", ""25"", ""42"", ""24""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((70 − 25) − (42 − 24)),"{""numbers_decimal"": [63, 23, 38, 22], ""numbers_base9"": [""70"", ""25"", ""42"", ""24""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0007,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""76"", ""20"", ""47"", ""76""], ""numbers_decimal"": [69, 18, 43, 69], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -82,7 +82,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 76, 20, 47, 76
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((47 − 20) − (76 ÷ 76)),"{""numbers_decimal"": [69, 18, 43, 69], ""numbers_base9"": [""76"", ""20"", ""47"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((47 − 20) − (76 ÷ 76)),"{""numbers_decimal"": [69, 18, 43, 69], ""numbers_base9"": [""76"", ""20"", ""47"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0008,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""13"", ""37"", ""14"", ""10""], ""numbers_decimal"": [12, 34, 13, 9], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -94,7 +94,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 13, 37, 14, 10
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((13 + 37) − (14 + 10)),"{""numbers_decimal"": [12, 34, 13, 9], ""numbers_base9"": [""13"", ""37"", ""14"", ""10""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((13 + 37) − (14 + 10)),"{""numbers_decimal"": [12, 34, 13, 9], ""numbers_base9"": [""13"", ""37"", ""14"", ""10""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0009,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""23"", ""86"", ""86"", ""72""], ""numbers_decimal"": [21, 78, 78, 65], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -106,7 +106,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 23, 86, 86, 72
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(((23 × 86) − 86) ÷ 72),"{""numbers_decimal"": [21, 78, 78, 65], ""numbers_base9"": [""23"", ""86"", ""86"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(((23 × 86) − 86) ÷ 72),"{""numbers_decimal"": [21, 78, 78, 65], ""numbers_base9"": [""23"", ""86"", ""86"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0010,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""18"", ""18"", ""66"", ""55""], ""numbers_decimal"": [17, 17, 60, 50], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -118,7 +118,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 18, 18, 66, 55
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((18 + 18) − (66 − 55)),"{""numbers_decimal"": [17, 17, 60, 50], ""numbers_base9"": [""18"", ""18"", ""66"", ""55""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((18 + 18) − (66 − 55)),"{""numbers_decimal"": [17, 17, 60, 50], ""numbers_base9"": [""18"", ""18"", ""66"", ""55""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0011,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""12"", ""82"", ""6"", ""17""], ""numbers_decimal"": [11, 74, 6, 16], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -130,7 +130,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 12, 82, 6, 17
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((82 + 17) − (12 × 6)),"{""numbers_decimal"": [11, 74, 6, 16], ""numbers_base9"": [""12"", ""82"", ""6"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((82 + 17) − (12 × 6)),"{""numbers_decimal"": [11, 74, 6, 16], ""numbers_base9"": [""12"", ""82"", ""6"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0012,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""15"", ""81"", ""35"", ""76""], ""numbers_decimal"": [14, 73, 32, 69], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -142,7 +142,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 15, 81, 35, 76
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((15 × (81 − 76)) − 35),"{""numbers_decimal"": [14, 73, 32, 69], ""numbers_base9"": [""15"", ""81"", ""35"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((15 × (81 − 76)) − 35),"{""numbers_decimal"": [14, 73, 32, 69], ""numbers_base9"": [""15"", ""81"", ""35"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0013,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""34"", ""53"", ""34"", ""42""], ""numbers_decimal"": [31, 48, 31, 38], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -154,7 +154,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 34, 53, 34, 42
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((42 − 34) − (34 − 53)),"{""numbers_decimal"": [31, 48, 31, 38], ""numbers_base9"": [""34"", ""53"", ""34"", ""42""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((42 − 34) − (34 − 53)),"{""numbers_decimal"": [31, 48, 31, 38], ""numbers_base9"": [""34"", ""53"", ""34"", ""42""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0014,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""76"", ""74"", ""41"", ""12""], ""numbers_decimal"": [69, 67, 37, 11], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -166,7 +166,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 76, 74, 41, 12
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((41 + 12) ÷ (76 − 74)),"{""numbers_decimal"": [69, 67, 37, 11], ""numbers_base9"": [""76"", ""74"", ""41"", ""12""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((41 + 12) ÷ (76 − 74)),"{""numbers_decimal"": [69, 67, 37, 11], ""numbers_base9"": [""76"", ""74"", ""41"", ""12""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0015,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""52"", ""23"", ""42""], ""numbers_decimal"": [5, 47, 21, 38], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -178,7 +178,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 5, 52, 23, 42
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((5 × (52 − 42)) − 23),"{""numbers_decimal"": [5, 47, 21, 38], ""numbers_base9"": [""5"", ""52"", ""23"", ""42""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((5 × (52 − 42)) − 23),"{""numbers_decimal"": [5, 47, 21, 38], ""numbers_base9"": [""5"", ""52"", ""23"", ""42""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0016,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""84"", ""6"", ""21"", ""15""], ""numbers_decimal"": [76, 6, 19, 14], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -190,7 +190,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 84, 6, 21, 15
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(21 + ((84 − 6) ÷ 15)),"{""numbers_decimal"": [76, 6, 19, 14], ""numbers_base9"": [""84"", ""6"", ""21"", ""15""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(21 + ((84 − 6) ÷ 15)),"{""numbers_decimal"": [76, 6, 19, 14], ""numbers_base9"": [""84"", ""6"", ""21"", ""15""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0017,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""23"", ""11"", ""48"", ""56""], ""numbers_decimal"": [21, 10, 44, 51], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -202,7 +202,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 23, 11, 48, 56
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((23 + 11) + (48 − 56)),"{""numbers_decimal"": [21, 10, 44, 51], ""numbers_base9"": [""23"", ""11"", ""48"", ""56""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((23 + 11) + (48 − 56)),"{""numbers_decimal"": [21, 10, 44, 51], ""numbers_base9"": [""23"", ""11"", ""48"", ""56""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0018,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""20"", ""55"", ""84"", ""63""], ""numbers_decimal"": [18, 50, 76, 57], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -214,7 +214,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 20, 55, 84, 63
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((63 × (55 − 20)) ÷ 84),"{""numbers_decimal"": [18, 50, 76, 57], ""numbers_base9"": [""20"", ""55"", ""84"", ""63""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((63 × (55 − 20)) ÷ 84),"{""numbers_decimal"": [18, 50, 76, 57], ""numbers_base9"": [""20"", ""55"", ""84"", ""63""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0019,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""20"", ""58"", ""10"", ""72""], ""numbers_decimal"": [18, 53, 9, 65], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -226,7 +226,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 20, 58, 10, 72
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((20 ÷ 10) × (72 − 58)),"{""numbers_decimal"": [18, 53, 9, 65], ""numbers_base9"": [""20"", ""58"", ""10"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((20 ÷ 10) × (72 − 58)),"{""numbers_decimal"": [18, 53, 9, 65], ""numbers_base9"": [""20"", ""58"", ""10"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0020,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""42"", ""10"", ""20"", ""66""], ""numbers_decimal"": [38, 9, 18, 60], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -238,7 +238,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 42, 10, 20, 66
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((20 ÷ 10) − (42 − 66)),"{""numbers_decimal"": [38, 9, 18, 60], ""numbers_base9"": [""42"", ""10"", ""20"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((20 ÷ 10) − (42 − 66)),"{""numbers_decimal"": [38, 9, 18, 60], ""numbers_base9"": [""42"", ""10"", ""20"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0021,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""21"", ""60"", ""86"", ""32""], ""numbers_decimal"": [19, 54, 78, 29], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -250,7 +250,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 21, 60, 86, 32
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((21 + 60) − (86 − 32)),"{""numbers_decimal"": [19, 54, 78, 29], ""numbers_base9"": [""21"", ""60"", ""86"", ""32""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((21 + 60) − (86 − 32)),"{""numbers_decimal"": [19, 54, 78, 29], ""numbers_base9"": [""21"", ""60"", ""86"", ""32""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0022,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""33"", ""25"", ""8"", ""11""], ""numbers_decimal"": [30, 23, 8, 10], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -262,7 +262,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 33, 25, 8, 11
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(8 × (11 − (33 − 25))),"{""numbers_decimal"": [30, 23, 8, 10], ""numbers_base9"": [""33"", ""25"", ""8"", ""11""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(8 × (11 − (33 − 25))),"{""numbers_decimal"": [30, 23, 8, 10], ""numbers_base9"": [""33"", ""25"", ""8"", ""11""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0023,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""40"", ""72"", ""15"", ""70""], ""numbers_decimal"": [36, 65, 14, 63], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -274,7 +274,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 40, 72, 15, 70
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((40 + 72) − (15 + 70)),"{""numbers_decimal"": [36, 65, 14, 63], ""numbers_base9"": [""40"", ""72"", ""15"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((40 + 72) − (15 + 70)),"{""numbers_decimal"": [36, 65, 14, 63], ""numbers_base9"": [""40"", ""72"", ""15"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0024,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""24"", ""71"", ""80"", ""84""], ""numbers_decimal"": [22, 64, 72, 76], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -286,7 +286,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 24, 71, 80, 84
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((24 × (84 − 80)) − 71),"{""numbers_decimal"": [22, 64, 72, 76], ""numbers_base9"": [""24"", ""71"", ""80"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((24 × (84 − 80)) − 71),"{""numbers_decimal"": [22, 64, 72, 76], ""numbers_base9"": [""24"", ""71"", ""80"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0025,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""68"", ""42"", ""40"", ""44""], ""numbers_decimal"": [62, 38, 36, 40], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -298,7 +298,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 68, 42, 40, 44
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((68 + 42) − (40 + 44)),"{""numbers_decimal"": [62, 38, 36, 40], ""numbers_base9"": [""68"", ""42"", ""40"", ""44""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((68 + 42) − (40 + 44)),"{""numbers_decimal"": [62, 38, 36, 40], ""numbers_base9"": [""68"", ""42"", ""40"", ""44""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0026,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""58"", ""51"", ""35"", ""70""], ""numbers_decimal"": [53, 46, 32, 63], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -310,7 +310,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 58, 51, 35, 70
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((70 − 35) − (58 − 51)),"{""numbers_decimal"": [53, 46, 32, 63], ""numbers_base9"": [""58"", ""51"", ""35"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((70 − 35) − (58 − 51)),"{""numbers_decimal"": [53, 46, 32, 63], ""numbers_base9"": [""58"", ""51"", ""35"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0027,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""40"", ""33"", ""7"", ""26""], ""numbers_decimal"": [36, 30, 7, 24], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -322,7 +322,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 40, 33, 7, 26
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(26 × (7 − (40 − 33))),"{""numbers_decimal"": [36, 30, 7, 24], ""numbers_base9"": [""40"", ""33"", ""7"", ""26""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(26 × (7 − (40 − 33))),"{""numbers_decimal"": [36, 30, 7, 24], ""numbers_base9"": [""40"", ""33"", ""7"", ""26""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0028,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""20"", ""47"", ""22"", ""85""], ""numbers_decimal"": [18, 43, 20, 77], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -334,7 +334,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 20, 47, 22, 85
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(20 + ((47 + 85) ÷ 22)),"{""numbers_decimal"": [18, 43, 20, 77], ""numbers_base9"": [""20"", ""47"", ""22"", ""85""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(20 + ((47 + 85) ÷ 22)),"{""numbers_decimal"": [18, 43, 20, 77], ""numbers_base9"": [""20"", ""47"", ""22"", ""85""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0029,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""66"", ""56"", ""70"", ""26""], ""numbers_decimal"": [60, 51, 63, 24], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -346,7 +346,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 66, 56, 70, 26
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((66 + 56) − (70 + 26)),"{""numbers_decimal"": [60, 51, 63, 24], ""numbers_base9"": [""66"", ""56"", ""70"", ""26""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((66 + 56) − (70 + 26)),"{""numbers_decimal"": [60, 51, 63, 24], ""numbers_base9"": [""66"", ""56"", ""70"", ""26""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0030,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""38"", ""63"", ""74"", ""84""], ""numbers_decimal"": [35, 57, 67, 76], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -358,7 +358,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 38, 63, 74, 84
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((63 × (74 − 38)) ÷ 84),"{""numbers_decimal"": [35, 57, 67, 76], ""numbers_base9"": [""38"", ""63"", ""74"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((63 × (74 − 38)) ÷ 84),"{""numbers_decimal"": [35, 57, 67, 76], ""numbers_base9"": [""38"", ""63"", ""74"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0031,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""83"", ""46"", ""23"", ""74""], ""numbers_decimal"": [75, 42, 21, 67], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -370,7 +370,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 83, 46, 23, 74
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(23 − (83 ÷ (46 − 74))),"{""numbers_decimal"": [75, 42, 21, 67], ""numbers_base9"": [""83"", ""46"", ""23"", ""74""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(23 − (83 ÷ (46 − 74))),"{""numbers_decimal"": [75, 42, 21, 67], ""numbers_base9"": [""83"", ""46"", ""23"", ""74""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0032,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""34"", ""35"", ""42"", ""16""], ""numbers_decimal"": [31, 32, 38, 15], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -382,7 +382,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 34, 35, 42, 16
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((42 − 16) − (34 − 35)),"{""numbers_decimal"": [31, 32, 38, 15], ""numbers_base9"": [""34"", ""35"", ""42"", ""16""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((42 − 16) − (34 − 35)),"{""numbers_decimal"": [31, 32, 38, 15], ""numbers_base9"": [""34"", ""35"", ""42"", ""16""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0033,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""27"", ""38"", ""30"", ""83""], ""numbers_decimal"": [25, 35, 27, 75], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -394,7 +394,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 27, 38, 30, 83
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((83 ÷ 27) × (38 − 30)),"{""numbers_decimal"": [25, 35, 27, 75], ""numbers_base9"": [""27"", ""38"", ""30"", ""83""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((83 ÷ 27) × (38 − 30)),"{""numbers_decimal"": [25, 35, 27, 75], ""numbers_base9"": [""27"", ""38"", ""30"", ""83""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0034,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""15"", ""37"", ""42"", ""88""], ""numbers_decimal"": [14, 34, 38, 80], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -406,7 +406,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 15, 37, 42, 88
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(88 + (15 × (37 − 42))),"{""numbers_decimal"": [14, 34, 38, 80], ""numbers_base9"": [""15"", ""37"", ""42"", ""88""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(88 + (15 × (37 − 42))),"{""numbers_decimal"": [14, 34, 38, 80], ""numbers_base9"": [""15"", ""37"", ""42"", ""88""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0035,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""41"", ""8"", ""17"", ""37""], ""numbers_decimal"": [37, 8, 16, 34], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -418,7 +418,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 41, 8, 17, 37
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((41 − 37) × (17 − 8)),"{""numbers_decimal"": [37, 8, 16, 34], ""numbers_base9"": [""41"", ""8"", ""17"", ""37""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((41 − 37) × (17 − 8)),"{""numbers_decimal"": [37, 8, 16, 34], ""numbers_base9"": [""41"", ""8"", ""17"", ""37""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0036,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""86"", ""11"", ""30"", ""72""], ""numbers_decimal"": [78, 10, 27, 65], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -430,7 +430,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 86, 11, 30, 72
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((30 + 72) − (86 − 11)),"{""numbers_decimal"": [78, 10, 27, 65], ""numbers_base9"": [""86"", ""11"", ""30"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((30 + 72) − (86 − 11)),"{""numbers_decimal"": [78, 10, 27, 65], ""numbers_base9"": [""86"", ""11"", ""30"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0037,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""78"", ""67"", ""44"", ""31""], ""numbers_decimal"": [71, 61, 40, 28], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -442,7 +442,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 78, 67, 44, 31
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(31 − (44 ÷ (78 − 67))),"{""numbers_decimal"": [71, 61, 40, 28], ""numbers_base9"": [""78"", ""67"", ""44"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(31 − (44 ÷ (78 − 67))),"{""numbers_decimal"": [71, 61, 40, 28], ""numbers_base9"": [""78"", ""67"", ""44"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0038,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""50"", ""41"", ""51"", ""21""], ""numbers_decimal"": [45, 37, 46, 19], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -454,7 +454,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 50, 41, 51, 21
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(21 − (50 ÷ (41 − 51))),"{""numbers_decimal"": [45, 37, 46, 19], ""numbers_base9"": [""50"", ""41"", ""51"", ""21""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(21 − (50 ÷ (41 − 51))),"{""numbers_decimal"": [45, 37, 46, 19], ""numbers_base9"": [""50"", ""41"", ""51"", ""21""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0039,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""22"", ""8"", ""38"", ""27""], ""numbers_decimal"": [20, 8, 35, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -466,7 +466,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 22, 8, 38, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(8 × ((38 + 27) ÷ 22)),"{""numbers_decimal"": [20, 8, 35, 25], ""numbers_base9"": [""22"", ""8"", ""38"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(8 × ((38 + 27) ÷ 22)),"{""numbers_decimal"": [20, 8, 35, 25], ""numbers_base9"": [""22"", ""8"", ""38"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0040,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""14"", ""38"", ""45""], ""numbers_decimal"": [9, 13, 35, 41], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -478,7 +478,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 10, 14, 38, 45
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((10 − 14) × (38 − 45)),"{""numbers_decimal"": [9, 13, 35, 41], ""numbers_base9"": [""10"", ""14"", ""38"", ""45""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((10 − 14) × (38 − 45)),"{""numbers_decimal"": [9, 13, 35, 41], ""numbers_base9"": [""10"", ""14"", ""38"", ""45""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0041,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""11"", ""51"", ""13""], ""numbers_decimal"": [8, 10, 46, 12], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -490,7 +490,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 8, 11, 51, 13
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((8 × (51 − 11)) ÷ 13),"{""numbers_decimal"": [8, 10, 46, 12], ""numbers_base9"": [""8"", ""11"", ""51"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((8 × (51 − 11)) ÷ 13),"{""numbers_decimal"": [8, 10, 46, 12], ""numbers_base9"": [""8"", ""11"", ""51"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0042,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""46"", ""55"", ""57"", ""66""], ""numbers_decimal"": [42, 50, 52, 60], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -502,7 +502,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 46, 55, 57, 66
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((46 × (57 − 55)) − 66),"{""numbers_decimal"": [42, 50, 52, 60], ""numbers_base9"": [""46"", ""55"", ""57"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((46 × (57 − 55)) − 66),"{""numbers_decimal"": [42, 50, 52, 60], ""numbers_base9"": [""46"", ""55"", ""57"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0043,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""85"", ""31"", ""28"", ""30""], ""numbers_decimal"": [77, 28, 26, 27], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -514,7 +514,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 85, 31, 28, 30
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(31 − ((85 + 30) ÷ 28)),"{""numbers_decimal"": [77, 28, 26, 27], ""numbers_base9"": [""85"", ""31"", ""28"", ""30""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(31 − ((85 + 30) ÷ 28)),"{""numbers_decimal"": [77, 28, 26, 27], ""numbers_base9"": [""85"", ""31"", ""28"", ""30""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0044,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""47"", ""65"", ""41"", ""70""], ""numbers_decimal"": [43, 59, 37, 63], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -526,7 +526,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 47, 65, 41, 70
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((47 − 41) × (70 − 65)),"{""numbers_decimal"": [43, 59, 37, 63], ""numbers_base9"": [""47"", ""65"", ""41"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((47 − 41) × (70 − 65)),"{""numbers_decimal"": [43, 59, 37, 63], ""numbers_base9"": [""47"", ""65"", ""41"", ""70""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0045,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""47"", ""33"", ""60"", ""73""], ""numbers_decimal"": [43, 30, 54, 66], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -538,7 +538,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 47, 33, 60, 73
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(33 + (73 ÷ (47 − 60))),"{""numbers_decimal"": [43, 30, 54, 66], ""numbers_base9"": [""47"", ""33"", ""60"", ""73""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(33 + (73 ÷ (47 − 60))),"{""numbers_decimal"": [43, 30, 54, 66], ""numbers_base9"": [""47"", ""33"", ""60"", ""73""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0046,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""41"", ""24"", ""18"", ""11""], ""numbers_decimal"": [37, 22, 17, 10], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -550,7 +550,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 41, 24, 18, 11
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(24 + ((41 − 18) ÷ 11)),"{""numbers_decimal"": [37, 22, 17, 10], ""numbers_base9"": [""41"", ""24"", ""18"", ""11""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(24 + ((41 − 18) ÷ 11)),"{""numbers_decimal"": [37, 22, 17, 10], ""numbers_base9"": [""41"", ""24"", ""18"", ""11""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0047,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""47"", ""63"", ""21"", ""24""], ""numbers_decimal"": [43, 57, 19, 22], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -562,7 +562,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 47, 63, 21, 24
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((47 − 24) + (63 ÷ 21)),"{""numbers_decimal"": [43, 57, 19, 22], ""numbers_base9"": [""47"", ""63"", ""21"", ""24""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((47 − 24) + (63 ÷ 21)),"{""numbers_decimal"": [43, 57, 19, 22], ""numbers_base9"": [""47"", ""63"", ""21"", ""24""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0048,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""11"", ""10"", ""47"", ""75""], ""numbers_decimal"": [10, 9, 43, 68], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -574,7 +574,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 11, 10, 47, 75
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((75 − 47) − (11 − 10)),"{""numbers_decimal"": [10, 9, 43, 68], ""numbers_base9"": [""11"", ""10"", ""47"", ""75""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((75 − 47) − (11 − 10)),"{""numbers_decimal"": [10, 9, 43, 68], ""numbers_base9"": [""11"", ""10"", ""47"", ""75""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0049,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""44"", ""10"", ""57"", ""35""], ""numbers_decimal"": [40, 9, 52, 32], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -586,7 +586,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 44, 10, 57, 35
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((10 × 35) ÷ (57 − 44)),"{""numbers_decimal"": [40, 9, 52, 32], ""numbers_base9"": [""44"", ""10"", ""57"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((10 × 35) ÷ (57 − 44)),"{""numbers_decimal"": [40, 9, 52, 32], ""numbers_base9"": [""44"", ""10"", ""57"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0050,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""23"", ""6"", ""55"", ""38""], ""numbers_decimal"": [21, 6, 50, 35], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -598,7 +598,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 23, 6, 55, 38
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(((23 × 55) ÷ 38) − 6),"{""numbers_decimal"": [21, 6, 50, 35], ""numbers_base9"": [""23"", ""6"", ""55"", ""38""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(((23 × 55) ÷ 38) − 6),"{""numbers_decimal"": [21, 6, 50, 35], ""numbers_base9"": [""23"", ""6"", ""55"", ""38""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0051,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""13"", ""73"", ""62""], ""numbers_decimal"": [8, 12, 66, 56], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -610,7 +610,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 8, 13, 73, 62
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(13 × ((73 − 8) − 62)),"{""numbers_decimal"": [8, 12, 66, 56], ""numbers_base9"": [""8"", ""13"", ""73"", ""62""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(13 × ((73 − 8) − 62)),"{""numbers_decimal"": [8, 12, 66, 56], ""numbers_base9"": [""8"", ""13"", ""73"", ""62""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0052,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""15"", ""16"", ""51"", ""25""], ""numbers_decimal"": [14, 15, 46, 23], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -622,7 +622,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 15, 16, 51, 25
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((51 − 25) − (15 − 16)),"{""numbers_decimal"": [14, 15, 46, 23], ""numbers_base9"": [""15"", ""16"", ""51"", ""25""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((51 − 25) − (15 − 16)),"{""numbers_decimal"": [14, 15, 46, 23], ""numbers_base9"": [""15"", ""16"", ""51"", ""25""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0053,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""14"", ""23"", ""44"", ""87""], ""numbers_decimal"": [13, 21, 40, 79], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -634,7 +634,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 14, 23, 44, 87
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(23 − ((44 − 87) ÷ 14)),"{""numbers_decimal"": [13, 21, 40, 79], ""numbers_base9"": [""14"", ""23"", ""44"", ""87""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(23 − ((44 − 87) ÷ 14)),"{""numbers_decimal"": [13, 21, 40, 79], ""numbers_base9"": [""14"", ""23"", ""44"", ""87""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0054,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""46"", ""70"", ""76"", ""66""], ""numbers_decimal"": [42, 63, 69, 60], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -646,7 +646,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 46, 70, 76, 66
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((76 + 66) − (46 + 70)),"{""numbers_decimal"": [42, 63, 69, 60], ""numbers_base9"": [""46"", ""70"", ""76"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((76 + 66) − (46 + 70)),"{""numbers_decimal"": [42, 63, 69, 60], ""numbers_base9"": [""46"", ""70"", ""76"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0055,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""18"", ""21"", ""83"", ""35""], ""numbers_decimal"": [17, 19, 75, 32], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -658,7 +658,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 18, 21, 83, 35
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(21 − (83 ÷ (18 − 35))),"{""numbers_decimal"": [17, 19, 75, 32], ""numbers_base9"": [""18"", ""21"", ""83"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(21 − (83 ÷ (18 − 35))),"{""numbers_decimal"": [17, 19, 75, 32], ""numbers_base9"": [""18"", ""21"", ""83"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0056,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""14"", ""17"", ""16"", ""17""], ""numbers_decimal"": [13, 16, 15, 16], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -670,7 +670,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 14, 17, 16, 17
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(17 − (17 ÷ (14 − 16))),"{""numbers_decimal"": [13, 16, 15, 16], ""numbers_base9"": [""14"", ""17"", ""16"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(17 − (17 ÷ (14 − 16))),"{""numbers_decimal"": [13, 16, 15, 16], ""numbers_base9"": [""14"", ""17"", ""16"", ""17""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0057,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""76"", ""35"", ""26"", ""73""], ""numbers_decimal"": [69, 32, 24, 66], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -682,7 +682,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 76, 35, 26, 73
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((76 − 73) × (35 − 26)),"{""numbers_decimal"": [69, 32, 24, 66], ""numbers_base9"": [""76"", ""35"", ""26"", ""73""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((76 − 73) × (35 − 26)),"{""numbers_decimal"": [69, 32, 24, 66], ""numbers_base9"": [""76"", ""35"", ""26"", ""73""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0058,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""36"", ""20"", ""54"", ""84""], ""numbers_decimal"": [33, 18, 49, 76], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -694,7 +694,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 36, 20, 54, 84
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((36 + 20) + (54 − 84)),"{""numbers_decimal"": [33, 18, 49, 76], ""numbers_base9"": [""36"", ""20"", ""54"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((36 + 20) + (54 − 84)),"{""numbers_decimal"": [33, 18, 49, 76], ""numbers_base9"": [""36"", ""20"", ""54"", ""84""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0059,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""43"", ""8"", ""31""], ""numbers_decimal"": [8, 39, 8, 28], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -706,7 +706,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 8, 43, 8, 31
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(8 × ((43 − 8) − 31)),"{""numbers_decimal"": [8, 39, 8, 28], ""numbers_base9"": [""8"", ""43"", ""8"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(8 × ((43 − 8) − 31)),"{""numbers_decimal"": [8, 39, 8, 28], ""numbers_base9"": [""8"", ""43"", ""8"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0060,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""43"", ""48"", ""53"", ""54""], ""numbers_decimal"": [39, 44, 48, 49], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -718,7 +718,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 43, 48, 53, 54
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((48 × 53) ÷ (43 + 54)),"{""numbers_decimal"": [39, 44, 48, 49], ""numbers_base9"": [""43"", ""48"", ""53"", ""54""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((48 × 53) ÷ (43 + 54)),"{""numbers_decimal"": [39, 44, 48, 49], ""numbers_base9"": [""43"", ""48"", ""53"", ""54""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0061,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""62"", ""14"", ""25"", ""8""], ""numbers_decimal"": [56, 13, 23, 8], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -730,7 +730,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 62, 14, 25, 8
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(8 × ((62 + 14) ÷ 25)),"{""numbers_decimal"": [56, 13, 23, 8], ""numbers_base9"": [""62"", ""14"", ""25"", ""8""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(8 × ((62 + 14) ÷ 25)),"{""numbers_decimal"": [56, 13, 23, 8], ""numbers_base9"": [""62"", ""14"", ""25"", ""8""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0062,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""16"", ""12"", ""26"", ""27""], ""numbers_decimal"": [15, 11, 24, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -742,7 +742,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 16, 12, 26, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(26 × ((16 + 12) − 27)),"{""numbers_decimal"": [15, 11, 24, 25], ""numbers_base9"": [""16"", ""12"", ""26"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(26 × ((16 + 12) − 27)),"{""numbers_decimal"": [15, 11, 24, 25], ""numbers_base9"": [""16"", ""12"", ""26"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0063,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""65"", ""74"", ""67"", ""64""], ""numbers_decimal"": [59, 67, 61, 58], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -754,7 +754,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 65, 74, 67, 64
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((65 − 74) × (64 − 67)),"{""numbers_decimal"": [59, 67, 61, 58], ""numbers_base9"": [""65"", ""74"", ""67"", ""64""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((65 − 74) × (64 − 67)),"{""numbers_decimal"": [59, 67, 61, 58], ""numbers_base9"": [""65"", ""74"", ""67"", ""64""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0064,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""11"", ""36"", ""61"", ""13""], ""numbers_decimal"": [10, 33, 55, 12], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -766,7 +766,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 11, 36, 61, 13
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((61 + 13) − (11 + 36)),"{""numbers_decimal"": [10, 33, 55, 12], ""numbers_base9"": [""11"", ""36"", ""61"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((61 + 13) − (11 + 36)),"{""numbers_decimal"": [10, 33, 55, 12], ""numbers_base9"": [""11"", ""36"", ""61"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0065,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""34"", ""47"", ""35""], ""numbers_decimal"": [5, 31, 43, 32], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -778,7 +778,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 5, 34, 47, 35
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((5 × (47 − 35)) − 34),"{""numbers_decimal"": [5, 31, 43, 32], ""numbers_base9"": [""5"", ""34"", ""47"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((5 × (47 − 35)) − 34),"{""numbers_decimal"": [5, 31, 43, 32], ""numbers_base9"": [""5"", ""34"", ""47"", ""35""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0066,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""15"", ""77"", ""21"", ""80""], ""numbers_decimal"": [14, 70, 19, 72], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -790,7 +790,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 15, 77, 21, 80
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((21 × (80 − 77)) − 15),"{""numbers_decimal"": [14, 70, 19, 72], ""numbers_base9"": [""15"", ""77"", ""21"", ""80""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((21 × (80 − 77)) − 15),"{""numbers_decimal"": [14, 70, 19, 72], ""numbers_base9"": [""15"", ""77"", ""21"", ""80""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0067,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""12"", ""52"", ""14"", ""52""], ""numbers_decimal"": [11, 47, 13, 47], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -802,7 +802,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 12, 52, 14, 52
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((12 + 52) + (14 − 52)),"{""numbers_decimal"": [11, 47, 13, 47], ""numbers_base9"": [""12"", ""52"", ""14"", ""52""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((12 + 52) + (14 − 52)),"{""numbers_decimal"": [11, 47, 13, 47], ""numbers_base9"": [""12"", ""52"", ""14"", ""52""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0068,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""15"", ""46"", ""18"", ""76""], ""numbers_decimal"": [14, 42, 17, 69], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -814,7 +814,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 15, 46, 18, 76
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((15 − 46) − (18 − 76)),"{""numbers_decimal"": [14, 42, 17, 69], ""numbers_base9"": [""15"", ""46"", ""18"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((15 − 46) − (18 − 76)),"{""numbers_decimal"": [14, 42, 17, 69], ""numbers_base9"": [""15"", ""46"", ""18"", ""76""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0069,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""45"", ""16"", ""27"", ""43""], ""numbers_decimal"": [41, 15, 25, 39], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -826,7 +826,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 45, 16, 27, 43
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(((27 × 43) ÷ 16) − 45),"{""numbers_decimal"": [41, 15, 25, 39], ""numbers_base9"": [""45"", ""16"", ""27"", ""43""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(((27 × 43) ÷ 16) − 45),"{""numbers_decimal"": [41, 15, 25, 39], ""numbers_base9"": [""45"", ""16"", ""27"", ""43""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0070,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""68"", ""77"", ""25"", ""66""], ""numbers_decimal"": [62, 70, 23, 60], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -838,7 +838,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 68, 77, 25, 66
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(77 − (25 × (68 − 66))),"{""numbers_decimal"": [62, 70, 23, 60], ""numbers_base9"": [""68"", ""77"", ""25"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(77 − (25 × (68 − 66))),"{""numbers_decimal"": [62, 70, 23, 60], ""numbers_base9"": [""68"", ""77"", ""25"", ""66""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0071,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""24"", ""72"", ""68"", ""5""], ""numbers_decimal"": [22, 65, 62, 5], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -850,7 +850,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 24, 72, 68, 5
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((24 − 72) + (68 + 5)),"{""numbers_decimal"": [22, 65, 62, 5], ""numbers_base9"": [""24"", ""72"", ""68"", ""5""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((24 − 72) + (68 + 5)),"{""numbers_decimal"": [22, 65, 62, 5], ""numbers_base9"": [""24"", ""72"", ""68"", ""5""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0072,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""32"", ""45"", ""55"", ""12""], ""numbers_decimal"": [29, 41, 50, 11], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -862,7 +862,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 32, 45, 55, 12
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((12 + (32 × 45)) ÷ 55),"{""numbers_decimal"": [29, 41, 50, 11], ""numbers_base9"": [""32"", ""45"", ""55"", ""12""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((12 + (32 × 45)) ÷ 55),"{""numbers_decimal"": [29, 41, 50, 11], ""numbers_base9"": [""32"", ""45"", ""55"", ""12""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0073,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""52"", ""43"", ""22"", ""57""], ""numbers_decimal"": [47, 39, 20, 52], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -874,7 +874,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 52, 43, 22, 57
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((57 − 22) − (52 − 43)),"{""numbers_decimal"": [47, 39, 20, 52], ""numbers_base9"": [""52"", ""43"", ""22"", ""57""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((57 − 22) − (52 − 43)),"{""numbers_decimal"": [47, 39, 20, 52], ""numbers_base9"": [""52"", ""43"", ""22"", ""57""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0074,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""23"", ""14"", ""38"", ""56""], ""numbers_decimal"": [21, 13, 35, 51], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -886,7 +886,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 23, 14, 38, 56
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((23 − 14) − (38 − 56)),"{""numbers_decimal"": [21, 13, 35, 51], ""numbers_base9"": [""23"", ""14"", ""38"", ""56""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((23 − 14) − (38 − 56)),"{""numbers_decimal"": [21, 13, 35, 51], ""numbers_base9"": [""23"", ""14"", ""38"", ""56""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0075,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""26"", ""68"", ""57"", ""57""], ""numbers_decimal"": [24, 62, 52, 52], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -898,7 +898,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 26, 68, 57, 57
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(26 + (68 × (57 − 57))),"{""numbers_decimal"": [24, 62, 52, 52], ""numbers_base9"": [""26"", ""68"", ""57"", ""57""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(26 + (68 × (57 − 57))),"{""numbers_decimal"": [24, 62, 52, 52], ""numbers_base9"": [""26"", ""68"", ""57"", ""57""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0076,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""31"", ""75"", ""78"", ""60""], ""numbers_decimal"": [28, 68, 71, 54], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -910,7 +910,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 31, 75, 78, 60
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(31 − (75 ÷ (78 − 60))),"{""numbers_decimal"": [28, 68, 71, 54], ""numbers_base9"": [""31"", ""75"", ""78"", ""60""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(31 − (75 ÷ (78 − 60))),"{""numbers_decimal"": [28, 68, 71, 54], ""numbers_base9"": [""31"", ""75"", ""78"", ""60""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0077,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""33"", ""22"", ""24"", ""15""], ""numbers_decimal"": [30, 20, 22, 14], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -922,7 +922,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 33, 22, 24, 15
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((22 × (24 + 15)) ÷ 33),"{""numbers_decimal"": [30, 20, 22, 14], ""numbers_base9"": [""33"", ""22"", ""24"", ""15""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((22 × (24 + 15)) ÷ 33),"{""numbers_decimal"": [30, 20, 22, 14], ""numbers_base9"": [""33"", ""22"", ""24"", ""15""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0078,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""22"", ""33"", ""24"", ""38""], ""numbers_decimal"": [20, 30, 22, 35], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -934,7 +934,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 22, 33, 24, 38
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(24 − (33 ÷ (22 − 38))),"{""numbers_decimal"": [20, 30, 22, 35], ""numbers_base9"": [""22"", ""33"", ""24"", ""38""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(24 − (33 ÷ (22 − 38))),"{""numbers_decimal"": [20, 30, 22, 35], ""numbers_base9"": [""22"", ""33"", ""24"", ""38""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0079,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""78"", ""54"", ""23"", ""83""], ""numbers_decimal"": [71, 49, 21, 75], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -946,7 +946,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 78, 54, 23, 83
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((78 + 54) − (23 + 83)),"{""numbers_decimal"": [71, 49, 21, 75], ""numbers_base9"": [""78"", ""54"", ""23"", ""83""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((78 + 54) − (23 + 83)),"{""numbers_decimal"": [71, 49, 21, 75], ""numbers_base9"": [""78"", ""54"", ""23"", ""83""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0080,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""73"", ""40"", ""62"", ""47""], ""numbers_decimal"": [66, 36, 56, 43], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -958,7 +958,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 73, 40, 62, 47
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((73 × 40) ÷ (62 + 47)),"{""numbers_decimal"": [66, 36, 56, 43], ""numbers_base9"": [""73"", ""40"", ""62"", ""47""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((73 × 40) ÷ (62 + 47)),"{""numbers_decimal"": [66, 36, 56, 43], ""numbers_base9"": [""73"", ""40"", ""62"", ""47""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0081,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""67"", ""64"", ""73"", ""71""], ""numbers_decimal"": [61, 58, 66, 64], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -970,7 +970,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 67, 64, 73, 71
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((67 − 71) × (64 − 73)),"{""numbers_decimal"": [61, 58, 66, 64], ""numbers_base9"": [""67"", ""64"", ""73"", ""71""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((67 − 71) × (64 − 73)),"{""numbers_decimal"": [61, 58, 66, 64], ""numbers_base9"": [""67"", ""64"", ""73"", ""71""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0082,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""34"", ""53"", ""25"", ""50""], ""numbers_decimal"": [31, 48, 23, 45], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -982,7 +982,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 34, 53, 25, 50
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((34 − 25) × (53 − 50)),"{""numbers_decimal"": [31, 48, 23, 45], ""numbers_base9"": [""34"", ""53"", ""25"", ""50""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((34 − 25) × (53 − 50)),"{""numbers_decimal"": [31, 48, 23, 45], ""numbers_base9"": [""34"", ""53"", ""25"", ""50""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0083,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""18"", ""12"", ""46"", ""60""], ""numbers_decimal"": [17, 11, 42, 54], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -994,7 +994,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 18, 12, 46, 60
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(((12 × 46) − 60) ÷ 18),"{""numbers_decimal"": [17, 11, 42, 54], ""numbers_base9"": [""18"", ""12"", ""46"", ""60""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(((12 × 46) − 60) ÷ 18),"{""numbers_decimal"": [17, 11, 42, 54], ""numbers_base9"": [""18"", ""12"", ""46"", ""60""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0084,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""44"", ""22"", ""23"", ""18""], ""numbers_decimal"": [40, 20, 21, 17], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1006,7 +1006,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 44, 22, 23, 18
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((44 − 22) + (23 − 18)),"{""numbers_decimal"": [40, 20, 21, 17], ""numbers_base9"": [""44"", ""22"", ""23"", ""18""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((44 − 22) + (23 − 18)),"{""numbers_decimal"": [40, 20, 21, 17], ""numbers_base9"": [""44"", ""22"", ""23"", ""18""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0085,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""24"", ""52"", ""72""], ""numbers_decimal"": [9, 22, 47, 65], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1018,7 +1018,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 10, 24, 52, 72
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(24 − ((52 − 72) ÷ 10)),"{""numbers_decimal"": [9, 22, 47, 65], ""numbers_base9"": [""10"", ""24"", ""52"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(24 − ((52 − 72) ÷ 10)),"{""numbers_decimal"": [9, 22, 47, 65], ""numbers_base9"": [""10"", ""24"", ""52"", ""72""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0086,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""85"", ""47"", ""72"", ""7""], ""numbers_decimal"": [77, 43, 65, 7], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1030,7 +1030,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 85, 47, 72, 7
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((72 − 7) − (85 − 47)),"{""numbers_decimal"": [77, 43, 65, 7], ""numbers_base9"": [""85"", ""47"", ""72"", ""7""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((72 − 7) − (85 − 47)),"{""numbers_decimal"": [77, 43, 65, 7], ""numbers_base9"": [""85"", ""47"", ""72"", ""7""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0087,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""12"", ""87"", ""73"", ""28""], ""numbers_decimal"": [11, 79, 66, 26], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1042,7 +1042,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 12, 87, 73, 28
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((12 − 87) + (73 + 28)),"{""numbers_decimal"": [11, 79, 66, 26], ""numbers_base9"": [""12"", ""87"", ""73"", ""28""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((12 − 87) + (73 + 28)),"{""numbers_decimal"": [11, 79, 66, 26], ""numbers_base9"": [""12"", ""87"", ""73"", ""28""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0088,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""67"", ""50"", ""64""], ""numbers_decimal"": [7, 61, 45, 58], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1054,7 +1054,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 7, 67, 50, 64
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(50 − (7 × (67 − 64))),"{""numbers_decimal"": [7, 61, 45, 58], ""numbers_base9"": [""7"", ""67"", ""50"", ""64""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(50 − (7 × (67 − 64))),"{""numbers_decimal"": [7, 61, 45, 58], ""numbers_base9"": [""7"", ""67"", ""50"", ""64""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0089,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""26"", ""63"", ""34"", ""63""], ""numbers_decimal"": [24, 57, 31, 57], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1066,7 +1066,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 26, 63, 34, 63
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(26 + (34 × (63 − 63))),"{""numbers_decimal"": [24, 57, 31, 57], ""numbers_base9"": [""26"", ""63"", ""34"", ""63""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(26 + (34 × (63 − 63))),"{""numbers_decimal"": [24, 57, 31, 57], ""numbers_base9"": [""26"", ""63"", ""34"", ""63""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0090,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""11"", ""45"", ""16"", ""54""], ""numbers_decimal"": [10, 41, 15, 49], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1078,7 +1078,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 11, 45, 16, 54
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(16 + ((45 + 54) ÷ 11)),"{""numbers_decimal"": [10, 41, 15, 49], ""numbers_base9"": [""11"", ""45"", ""16"", ""54""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(16 + ((45 + 54) ÷ 11)),"{""numbers_decimal"": [10, 41, 15, 49], ""numbers_base9"": [""11"", ""45"", ""16"", ""54""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0091,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""36"", ""37"", ""12"", ""18""], ""numbers_decimal"": [33, 34, 11, 17], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1090,7 +1090,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 36, 37, 12, 18
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((36 − 12) + (37 ÷ 18)),"{""numbers_decimal"": [33, 34, 11, 17], ""numbers_base9"": [""36"", ""37"", ""12"", ""18""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((36 − 12) + (37 ÷ 18)),"{""numbers_decimal"": [33, 34, 11, 17], ""numbers_base9"": [""36"", ""37"", ""12"", ""18""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0092,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""24"", ""5"", ""83"", ""27""], ""numbers_decimal"": [22, 5, 75, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1102,7 +1102,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 24, 5, 83, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((24 + 5) − (83 ÷ 27)),"{""numbers_decimal"": [22, 5, 75, 25], ""numbers_base9"": [""24"", ""5"", ""83"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((24 + 5) − (83 ÷ 27)),"{""numbers_decimal"": [22, 5, 75, 25], ""numbers_base9"": [""24"", ""5"", ""83"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0093,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""45"", ""51"", ""45"", ""13""], ""numbers_decimal"": [41, 46, 41, 12], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1114,7 +1114,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 45, 51, 45, 13
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((45 − 51) + (45 − 13)),"{""numbers_decimal"": [41, 46, 41, 12], ""numbers_base9"": [""45"", ""51"", ""45"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((45 − 51) + (45 − 13)),"{""numbers_decimal"": [41, 46, 41, 12], ""numbers_base9"": [""45"", ""51"", ""45"", ""13""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0094,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""61"", ""75"", ""31""], ""numbers_decimal"": [9, 55, 68, 28], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1126,7 +1126,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 10, 61, 75, 31
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((10 + 61) − (75 − 31)),"{""numbers_decimal"": [9, 55, 68, 28], ""numbers_base9"": [""10"", ""61"", ""75"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((10 + 61) − (75 − 31)),"{""numbers_decimal"": [9, 55, 68, 28], ""numbers_base9"": [""10"", ""61"", ""75"", ""31""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0095,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""46"", ""10"", ""6"", ""47""], ""numbers_decimal"": [42, 9, 6, 43], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1138,7 +1138,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 46, 10, 6, 47
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(((6 × 47) − 46) ÷ 10),"{""numbers_decimal"": [42, 9, 6, 43], ""numbers_base9"": [""46"", ""10"", ""6"", ""47""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(((6 × 47) − 46) ÷ 10),"{""numbers_decimal"": [42, 9, 6, 43], ""numbers_base9"": [""46"", ""10"", ""6"", ""47""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0096,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""32"", ""21"", ""52"", ""27""], ""numbers_decimal"": [29, 19, 47, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1150,7 +1150,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 32, 21, 52, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((52 + 27) − (32 + 21)),"{""numbers_decimal"": [29, 19, 47, 25], ""numbers_base9"": [""32"", ""21"", ""52"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((52 + 27) − (32 + 21)),"{""numbers_decimal"": [29, 19, 47, 25], ""numbers_base9"": [""32"", ""21"", ""52"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0097,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""22"", ""71"", ""48"", ""27""], ""numbers_decimal"": [20, 64, 44, 25], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1162,7 +1162,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 22, 71, 48, 27
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(27 + (48 ÷ (22 − 71))),"{""numbers_decimal"": [20, 64, 44, 25], ""numbers_base9"": [""22"", ""71"", ""48"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(27 + (48 ÷ (22 − 71))),"{""numbers_decimal"": [20, 64, 44, 25], ""numbers_base9"": [""22"", ""71"", ""48"", ""27""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0098,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""81"", ""26"", ""28"", ""51""], ""numbers_decimal"": [73, 24, 26, 46], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1174,7 +1174,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 81, 26, 28, 51
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,(26 × ((81 − 28) − 51)),"{""numbers_decimal"": [73, 24, 26, 46], ""numbers_base9"": [""81"", ""26"", ""28"", ""51""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",(26 × ((81 − 28) − 51)),"{""numbers_decimal"": [73, 24, 26, 46], ""numbers_base9"": [""81"", ""26"", ""28"", ""51""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0099,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""13"", ""84"", ""71"", ""48""], ""numbers_decimal"": [12, 76, 64, 44], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1186,7 +1186,7 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 13, 84, 71, 48
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((13 × 71) ÷ (84 − 48)),"{""numbers_decimal"": [12, 76, 64, 44], ""numbers_base9"": [""13"", ""84"", ""71"", ""48""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((13 × 71) ÷ (84 − 48)),"{""numbers_decimal"": [12, 76, 64, 44], ""numbers_base9"": [""13"", ""84"", ""71"", ""48""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
 game24_cf1_base9_0100,game24_cf1_base9,counterfactual,"{""numbers_base9"": [""24"", ""54"", ""22"", ""30""], ""numbers_decimal"": [22, 49, 20, 27], ""target_decimal"": 24, ""target_base9"": ""26""}","Solve the following Game-of-24 puzzle.
 Rule change: every numeral in this problem — the four given operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. '17' means 1·9 + 7 = decimal 16; '26' means 2·9 + 6 = decimal 24).
@@ -1198,4 +1198,4 @@ Rule change: every numeral in this problem — the four given operands, the targ
 Numbers (base 9): 24, 54, 22, 30
 Target (base 9): 26
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",,,,,,((24 + 54) − (22 + 30)),"{""numbers_decimal"": [22, 49, 20, 27], ""numbers_base9"": [""24"", ""54"", ""22"", ""30""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that uses each operand exactly once and reaches the target.",((24 + 54) − (22 + 30)),"{""numbers_decimal"": [22, 49, 20, 27], ""numbers_base9"": [""24"", ""54"", ""22"", ""30""], ""target_decimal"": 24, ""target_base9"": ""26"", ""eval_mode"": ""open_native_base9""}"

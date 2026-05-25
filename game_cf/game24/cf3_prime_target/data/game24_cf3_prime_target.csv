@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 game24_cf3_prime_target_0001,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 5, 12, 10], ""target"": 71}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -6,9 +6,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 5, 12, 10
-Prime target: 71
-
-Which expression — using each number exactly once — reaches 71?",((9 − 12) + (5 × 10)),((9 × 12) + (5 × 10)),((9 + 12) × (5 × 10)),((9 + 12) + (5 × 10)),D,((9 + 12) + (5 × 10)),"{""numbers"": [9, 5, 12, 10], ""target"": 71}"
+Prime target: 71",((9 + 12) + (5 × 10)),"{""numbers"": [9, 5, 12, 10], ""target"": 71}"
 game24_cf3_prime_target_0002,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 5, 4, 1], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -16,9 +14,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 5, 4, 1
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((4 × (6 + 5)) − 1),((4 × (6 + 5)) × 1),((4 × (6 + 5)) + 1),((4 − (6 + 5)) − 1),A,((4 × (6 + 5)) − 1),"{""numbers"": [6, 5, 4, 1], ""target"": 43}"
+Prime target: 43",((4 × (6 + 5)) − 1),"{""numbers"": [6, 5, 4, 1], ""target"": 43}"
 game24_cf3_prime_target_0003,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 4, 10, 4], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -26,9 +22,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 4, 10, 4
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((4 × 4) − (9 − 10)),((4 × 4) − (9 × 10)),((4 × 4) + (9 − 10)),((4 × 4) × (9 − 10)),A,((4 × 4) − (9 − 10)),"{""numbers"": [9, 4, 10, 4], ""target"": 17}"
+Prime target: 17",((4 × 4) − (9 − 10)),"{""numbers"": [9, 4, 10, 4], ""target"": 17}"
 game24_cf3_prime_target_0004,game24_cf3_prime_target,counterfactual,"{""numbers"": [1, 12, 7, 1], ""target"": 83}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -36,9 +30,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 1, 12, 7, 1
-Prime target: 83
-
-Which expression — using each number exactly once — reaches 83?",((7 + (1 × 12)) − 1),((7 × (1 − 12)) − 1),((7 × (1 × 12)) × 1),((7 × (1 × 12)) − 1),D,((7 × (1 × 12)) − 1),"{""numbers"": [1, 12, 7, 1], ""target"": 83}"
+Prime target: 83",((7 × (1 × 12)) − 1),"{""numbers"": [1, 12, 7, 1], ""target"": 83}"
 game24_cf3_prime_target_0005,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 7, 7, 10], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -46,9 +38,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 7, 7, 10
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((7 × (10 × 7)) − 4),((7 × (10 + 7)) − 4),((7 × (10 − 7)) − 4),((7 − (10 − 7)) − 4),C,((7 × (10 − 7)) − 4),"{""numbers"": [4, 7, 7, 10], ""target"": 17}"
+Prime target: 17",((7 × (10 − 7)) − 4),"{""numbers"": [4, 7, 7, 10], ""target"": 17}"
 game24_cf3_prime_target_0006,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 11, 7, 12], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -56,9 +46,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 11, 7, 12
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",((11 × 11) × (7 × 12)),((11 ÷ 11) − (7 × 12)),((11 × 11) − (7 − 12)),((11 × 11) − (7 × 12)),D,((11 × 11) − (7 × 12)),"{""numbers"": [11, 11, 7, 12], ""target"": 37}"
+Prime target: 37",((11 × 11) − (7 × 12)),"{""numbers"": [11, 11, 7, 12], ""target"": 37}"
 game24_cf3_prime_target_0007,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 1, 1, 4], ""target"": 41}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -66,9 +54,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 1, 1, 4
-Prime target: 41
-
-Which expression — using each number exactly once — reaches 41?",(1 + (4 × (11 − 1))),(1 + (4 − (11 − 1))),(1 + (4 × (11 + 1))),(1 + (4 × (11 ÷ 1))),A,(1 + (4 × (11 − 1))),"{""numbers"": [11, 1, 1, 4], ""target"": 41}"
+Prime target: 41",(1 + (4 × (11 − 1))),"{""numbers"": [11, 1, 1, 4], ""target"": 41}"
 game24_cf3_prime_target_0008,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 12, 5, 9], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -76,9 +62,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 12, 5, 9
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((10 − 9) × (12 + 5)),((10 − 9) − (12 + 5)),((10 − 9) × (12 × 5)),((10 + 9) × (12 + 5)),A,((10 − 9) × (12 + 5)),"{""numbers"": [10, 12, 5, 9], ""target"": 17}"
+Prime target: 17",((10 − 9) × (12 + 5)),"{""numbers"": [10, 12, 5, 9], ""target"": 17}"
 game24_cf3_prime_target_0009,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 8, 12, 10], ""target"": 79}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -86,9 +70,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 8, 12, 10
-Prime target: 79
-
-Which expression — using each number exactly once — reaches 79?",((8 × 12) − (7 × 10)),((8 × 12) − (7 + 10)),((8 × 12) × (7 + 10)),((8 × 12) − (7 − 10)),B,((8 × 12) − (7 + 10)),"{""numbers"": [7, 8, 12, 10], ""target"": 79}"
+Prime target: 79",((8 × 12) − (7 + 10)),"{""numbers"": [7, 8, 12, 10], ""target"": 79}"
 game24_cf3_prime_target_0010,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 2, 6, 11], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -96,9 +78,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 2, 6, 11
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",(11 + (6 × (11 + 2))),(11 + (6 + (11 + 2))),(11 × (6 × (11 + 2))),(11 − (6 × (11 + 2))),A,(11 + (6 × (11 + 2))),"{""numbers"": [11, 2, 6, 11], ""target"": 89}"
+Prime target: 89",(11 + (6 × (11 + 2))),"{""numbers"": [11, 2, 6, 11], ""target"": 89}"
 game24_cf3_prime_target_0011,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 5, 1, 1], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -106,9 +86,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 5, 1, 1
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",((12 − 5) − (1 × 1)),((12 × 5) − (1 + 1)),((12 × 5) − (1 × 1)),((12 × 5) ÷ (1 × 1)),C,((12 × 5) − (1 × 1)),"{""numbers"": [12, 5, 1, 1], ""target"": 59}"
+Prime target: 59",((12 × 5) − (1 × 1)),"{""numbers"": [12, 5, 1, 1], ""target"": 59}"
 game24_cf3_prime_target_0012,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 3, 2, 5], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -116,9 +94,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 3, 2, 5
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",((12 × 5) − (3 − 2)),((12 × 5) ÷ (3 − 2)),((12 × 5) − (3 + 2)),((12 + 5) − (3 − 2)),A,((12 × 5) − (3 − 2)),"{""numbers"": [12, 3, 2, 5], ""target"": 59}"
+Prime target: 59",((12 × 5) − (3 − 2)),"{""numbers"": [12, 3, 2, 5], ""target"": 59}"
 game24_cf3_prime_target_0013,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 5, 11, 7], ""target"": 29}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -126,9 +102,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 5, 11, 7
-Prime target: 29
-
-Which expression — using each number exactly once — reaches 29?",((12 × 7) − (5 × 11)),((12 × 7) − (5 + 11)),((12 × 7) × (5 × 11)),((12 × 7) + (5 × 11)),A,((12 × 7) − (5 × 11)),"{""numbers"": [12, 5, 11, 7], ""target"": 29}"
+Prime target: 29",((12 × 7) − (5 × 11)),"{""numbers"": [12, 5, 11, 7], ""target"": 29}"
 game24_cf3_prime_target_0014,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 7, 9, 2], ""target"": 23}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -136,9 +110,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 7, 9, 2
-Prime target: 23
-
-Which expression — using each number exactly once — reaches 23?",((12 + 7) + (9 × 2)),((12 − 7) − (9 × 2)),((12 − 7) × (9 × 2)),((12 − 7) + (9 × 2)),D,((12 − 7) + (9 × 2)),"{""numbers"": [12, 7, 9, 2], ""target"": 23}"
+Prime target: 23",((12 − 7) + (9 × 2)),"{""numbers"": [12, 7, 9, 2], ""target"": 23}"
 game24_cf3_prime_target_0015,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 11, 1, 1], ""target"": 79}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -146,9 +118,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 11, 1, 1
-Prime target: 79
-
-Which expression — using each number exactly once — reaches 79?",((8 − (11 − 1)) − 1),((8 × (11 − 1)) − 1),((8 × (11 + 1)) − 1),((8 × (11 − 1)) + 1),B,((8 × (11 − 1)) − 1),"{""numbers"": [8, 11, 1, 1], ""target"": 79}"
+Prime target: 79",((8 × (11 − 1)) − 1),"{""numbers"": [8, 11, 1, 1], ""target"": 79}"
 game24_cf3_prime_target_0016,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 1, 10, 9], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -156,9 +126,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 1, 10, 9
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",(9 + (10 × (9 ÷ 1))),(9 × (10 × (9 − 1))),(9 + (10 × (9 − 1))),(9 + (10 × (9 + 1))),C,(9 + (10 × (9 − 1))),"{""numbers"": [9, 1, 10, 9], ""target"": 89}"
+Prime target: 89",(9 + (10 × (9 − 1))),"{""numbers"": [9, 1, 10, 9], ""target"": 89}"
 game24_cf3_prime_target_0017,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 10, 2, 1], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -166,9 +134,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 10, 2, 1
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((10 × 2) + (10 + 1)),((10 × 2) + (10 × 1)),((10 ÷ 2) + (10 + 1)),((10 × 2) × (10 + 1)),A,((10 × 2) + (10 + 1)),"{""numbers"": [10, 10, 2, 1], ""target"": 31}"
+Prime target: 31",((10 × 2) + (10 + 1)),"{""numbers"": [10, 10, 2, 1], ""target"": 31}"
 game24_cf3_prime_target_0018,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 7, 10, 1], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -176,9 +142,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 7, 10, 1
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((4 × 7) − (10 ÷ 1)),((4 + 7) − (10 + 1)),((4 × 7) − (10 − 1)),((4 × 7) − (10 + 1)),D,((4 × 7) − (10 + 1)),"{""numbers"": [4, 7, 10, 1], ""target"": 17}"
+Prime target: 17",((4 × 7) − (10 + 1)),"{""numbers"": [4, 7, 10, 1], ""target"": 17}"
 game24_cf3_prime_target_0019,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 7, 12, 11], ""target"": 71}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -186,9 +150,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 7, 12, 11
-Prime target: 71
-
-Which expression — using each number exactly once — reaches 71?",((10 × 7) + (12 + 11)),((10 × 7) − (12 − 11)),((10 × 7) + (12 − 11)),((10 × 7) + (12 × 11)),C,((10 × 7) + (12 − 11)),"{""numbers"": [10, 7, 12, 11], ""target"": 71}"
+Prime target: 71",((10 × 7) + (12 − 11)),"{""numbers"": [10, 7, 12, 11], ""target"": 71}"
 game24_cf3_prime_target_0020,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 8, 11, 10], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -196,9 +158,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 8, 11, 10
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",((10 × 8) − (11 − 10)),((10 × 8) − (11 + 10)),((10 × 8) − (11 × 10)),((10 × 8) + (11 + 10)),B,((10 × 8) − (11 + 10)),"{""numbers"": [10, 8, 11, 10], ""target"": 59}"
+Prime target: 59",((10 × 8) − (11 + 10)),"{""numbers"": [10, 8, 11, 10], ""target"": 59}"
 game24_cf3_prime_target_0021,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 2, 12, 7], ""target"": 23}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -206,9 +166,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 2, 12, 7
-Prime target: 23
-
-Which expression — using each number exactly once — reaches 23?",(((5 × 12) ÷ 2) − 7),(((5 × 12) ÷ 2) + 7),(((5 × 12) × 2) − 7),(((5 × 12) − 2) − 7),A,(((5 × 12) ÷ 2) − 7),"{""numbers"": [5, 2, 12, 7], ""target"": 23}"
+Prime target: 23",(((5 × 12) ÷ 2) − 7),"{""numbers"": [5, 2, 12, 7], ""target"": 23}"
 game24_cf3_prime_target_0022,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 12, 7, 3], ""target"": 73}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -216,9 +174,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 12, 7, 3
-Prime target: 73
-
-Which expression — using each number exactly once — reaches 73?",(7 − (3 × (10 + 12))),(7 + (3 × (10 × 12))),(7 + (3 + (10 + 12))),(7 + (3 × (10 + 12))),D,(7 + (3 × (10 + 12))),"{""numbers"": [10, 12, 7, 3], ""target"": 73}"
+Prime target: 73",(7 + (3 × (10 + 12))),"{""numbers"": [10, 12, 7, 3], ""target"": 73}"
 game24_cf3_prime_target_0023,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 6, 11, 5], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -226,9 +182,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 6, 11, 5
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",(7 + (6 × (11 − 5))),(7 − (6 × (11 − 5))),(7 + (6 × (11 × 5))),(7 + (6 × (11 + 5))),A,(7 + (6 × (11 − 5))),"{""numbers"": [7, 6, 11, 5], ""target"": 43}"
+Prime target: 43",(7 + (6 × (11 − 5))),"{""numbers"": [7, 6, 11, 5], ""target"": 43}"
 game24_cf3_prime_target_0024,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 7, 10, 2], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -236,9 +190,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 7, 10, 2
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((7 × 10) + (7 × 2)),((7 + 10) + (7 × 2)),((7 − 10) + (7 × 2)),((7 + 10) + (7 − 2)),B,((7 + 10) + (7 × 2)),"{""numbers"": [7, 7, 10, 2], ""target"": 31}"
+Prime target: 31",((7 + 10) + (7 × 2)),"{""numbers"": [7, 7, 10, 2], ""target"": 31}"
 game24_cf3_prime_target_0025,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 9, 5, 3], ""target"": 53}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -246,9 +198,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 9, 5, 3
-Prime target: 53
-
-Which expression — using each number exactly once — reaches 53?",((11 − 3) × (9 × 5)),((11 × 3) + (9 × 5)),((11 − 3) + (9 + 5)),((11 − 3) + (9 × 5)),D,((11 − 3) + (9 × 5)),"{""numbers"": [11, 9, 5, 3], ""target"": 53}"
+Prime target: 53",((11 − 3) + (9 × 5)),"{""numbers"": [11, 9, 5, 3], ""target"": 53}"
 game24_cf3_prime_target_0026,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 4, 9, 5], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -256,9 +206,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 4, 9, 5
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",(9 + (5 × (4 + 4))),(9 + (5 × (4 × 4))),(9 + (5 × (4 ÷ 4))),(9 + (5 + (4 × 4))),B,(9 + (5 × (4 × 4))),"{""numbers"": [4, 4, 9, 5], ""target"": 89}"
+Prime target: 89",(9 + (5 × (4 × 4))),"{""numbers"": [4, 4, 9, 5], ""target"": 89}"
 game24_cf3_prime_target_0027,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 5, 8, 11], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -266,9 +214,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 5, 8, 11
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((6 × 5) + (8 × 11)),((6 − 5) + (8 + 11)),((6 − 5) + (8 × 11)),((6 − 5) − (8 × 11)),C,((6 − 5) + (8 × 11)),"{""numbers"": [6, 5, 8, 11], ""target"": 89}"
+Prime target: 89",((6 − 5) + (8 × 11)),"{""numbers"": [6, 5, 8, 11], ""target"": 89}"
 game24_cf3_prime_target_0028,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 4, 4, 11], ""target"": 23}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -276,9 +222,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 4, 4, 11
-Prime target: 23
-
-Which expression — using each number exactly once — reaches 23?",((11 ÷ 11) + (4 ÷ 4)),((11 + 11) + (4 × 4)),((11 + 11) × (4 ÷ 4)),((11 + 11) + (4 ÷ 4)),D,((11 + 11) + (4 ÷ 4)),"{""numbers"": [11, 4, 4, 11], ""target"": 23}"
+Prime target: 23",((11 + 11) + (4 ÷ 4)),"{""numbers"": [11, 4, 4, 11], ""target"": 23}"
 game24_cf3_prime_target_0029,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 10, 10, 11], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -286,9 +230,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 10, 10, 11
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",((6 + 10) + (10 − 11)),((6 × 10) + (10 × 11)),((6 × 10) + (10 − 11)),((6 − 10) + (10 − 11)),C,((6 × 10) + (10 − 11)),"{""numbers"": [6, 10, 10, 11], ""target"": 59}"
+Prime target: 59",((6 × 10) + (10 − 11)),"{""numbers"": [6, 10, 10, 11], ""target"": 59}"
 game24_cf3_prime_target_0030,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 5, 6, 9], ""target"": 79}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -296,9 +238,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 5, 6, 9
-Prime target: 79
-
-Which expression — using each number exactly once — reaches 79?",((5 − 5) + (6 × 9)),((5 × 5) + (6 × 9)),((5 × 5) + (6 − 9)),((5 + 5) + (6 × 9)),B,((5 × 5) + (6 × 9)),"{""numbers"": [5, 5, 6, 9], ""target"": 79}"
+Prime target: 79",((5 × 5) + (6 × 9)),"{""numbers"": [5, 5, 6, 9], ""target"": 79}"
 game24_cf3_prime_target_0031,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 8, 1, 1], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -306,9 +246,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 8, 1, 1
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((11 − 8) + (1 × 1)),((11 × 8) − (1 × 1)),((11 × 8) × (1 × 1)),((11 × 8) + (1 × 1)),D,((11 × 8) + (1 × 1)),"{""numbers"": [11, 8, 1, 1], ""target"": 89}"
+Prime target: 89",((11 × 8) + (1 × 1)),"{""numbers"": [11, 8, 1, 1], ""target"": 89}"
 game24_cf3_prime_target_0032,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 4, 10, 9], ""target"": 47}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -316,9 +254,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 4, 10, 9
-Prime target: 47
-
-Which expression — using each number exactly once — reaches 47?",((4 + (4 + 10)) − 9),((4 × (4 + 10)) − 9),((4 − (4 + 10)) − 9),((4 × (4 + 10)) + 9),B,((4 × (4 + 10)) − 9),"{""numbers"": [4, 4, 10, 9], ""target"": 47}"
+Prime target: 47",((4 × (4 + 10)) − 9),"{""numbers"": [4, 4, 10, 9], ""target"": 47}"
 game24_cf3_prime_target_0033,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 11, 2, 11], ""target"": 19}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -326,9 +262,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 11, 2, 11
-Prime target: 19
-
-Which expression — using each number exactly once — reaches 19?",(11 − ((5 + 11) ÷ 2)),(11 × ((5 + 11) ÷ 2)),(11 + ((5 + 11) ÷ 2)),(11 + ((5 + 11) − 2)),C,(11 + ((5 + 11) ÷ 2)),"{""numbers"": [5, 11, 2, 11], ""target"": 19}"
+Prime target: 19",(11 + ((5 + 11) ÷ 2)),"{""numbers"": [5, 11, 2, 11], ""target"": 19}"
 game24_cf3_prime_target_0034,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 11, 6, 10], ""target"": 29}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -336,9 +270,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 11, 6, 10
-Prime target: 29
-
-Which expression — using each number exactly once — reaches 29?",(11 − (6 + (7 − 10))),(11 − (6 × (7 + 10))),(11 − (6 − (7 − 10))),(11 − (6 × (7 − 10))),D,(11 − (6 × (7 − 10))),"{""numbers"": [7, 11, 6, 10], ""target"": 29}"
+Prime target: 29",(11 − (6 × (7 − 10))),"{""numbers"": [7, 11, 6, 10], ""target"": 29}"
 game24_cf3_prime_target_0035,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 7, 2, 5], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -346,9 +278,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 7, 2, 5
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",(((12 × 7) − 2) − 5),(((12 × 7) ÷ 2) + 5),(((12 × 7) + 2) − 5),(((12 × 7) ÷ 2) − 5),D,(((12 × 7) ÷ 2) − 5),"{""numbers"": [12, 7, 2, 5], ""target"": 37}"
+Prime target: 37",(((12 × 7) ÷ 2) − 5),"{""numbers"": [12, 7, 2, 5], ""target"": 37}"
 game24_cf3_prime_target_0036,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 11, 7, 7], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -356,9 +286,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 11, 7, 7
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((7 − (11 − 7)) − 11),((7 × (11 − 7)) − 11),((7 + (11 − 7)) − 11),((7 × (11 − 7)) × 11),B,((7 × (11 − 7)) − 11),"{""numbers"": [11, 11, 7, 7], ""target"": 17}"
+Prime target: 17",((7 × (11 − 7)) − 11),"{""numbers"": [11, 11, 7, 7], ""target"": 17}"
 game24_cf3_prime_target_0037,game24_cf3_prime_target,counterfactual,"{""numbers"": [3, 10, 3, 4], ""target"": 41}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -366,9 +294,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 3, 10, 3, 4
-Prime target: 41
-
-Which expression — using each number exactly once — reaches 41?",((3 ÷ 3) + (10 × 4)),((3 ÷ 3) + (10 − 4)),((3 + 3) + (10 × 4)),((3 ÷ 3) × (10 × 4)),A,((3 ÷ 3) + (10 × 4)),"{""numbers"": [3, 10, 3, 4], ""target"": 41}"
+Prime target: 41",((3 ÷ 3) + (10 × 4)),"{""numbers"": [3, 10, 3, 4], ""target"": 41}"
 game24_cf3_prime_target_0038,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 11, 8, 1], ""target"": 29}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -376,9 +302,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 11, 8, 1
-Prime target: 29
-
-Which expression — using each number exactly once — reaches 29?",((2 + 11) + (8 − 1)),((2 × 11) − (8 − 1)),((2 × 11) + (8 − 1)),((2 × 11) + (8 ÷ 1)),C,((2 × 11) + (8 − 1)),"{""numbers"": [2, 11, 8, 1], ""target"": 29}"
+Prime target: 29",((2 × 11) + (8 − 1)),"{""numbers"": [2, 11, 8, 1], ""target"": 29}"
 game24_cf3_prime_target_0039,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 11, 5, 12], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -386,9 +310,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 11, 5, 12
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((12 × (11 × 7)) − 5),((12 × (11 − 7)) − 5),((12 × (11 + 7)) − 5),((12 − (11 − 7)) − 5),B,((12 × (11 − 7)) − 5),"{""numbers"": [7, 11, 5, 12], ""target"": 43}"
+Prime target: 43",((12 × (11 − 7)) − 5),"{""numbers"": [7, 11, 5, 12], ""target"": 43}"
 game24_cf3_prime_target_0040,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 9, 10, 1], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -396,9 +318,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 9, 10, 1
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",(10 − (9 × (2 + 1))),(10 + (9 ÷ (2 + 1))),(10 + (9 × (2 + 1))),(10 × (9 × (2 + 1))),C,(10 + (9 × (2 + 1))),"{""numbers"": [2, 9, 10, 1], ""target"": 37}"
+Prime target: 37",(10 + (9 × (2 + 1))),"{""numbers"": [2, 9, 10, 1], ""target"": 37}"
 game24_cf3_prime_target_0041,game24_cf3_prime_target,counterfactual,"{""numbers"": [1, 1, 7, 9], ""target"": 53}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -406,9 +326,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 1, 1, 7, 9
-Prime target: 53
-
-Which expression — using each number exactly once — reaches 53?",((9 + (7 − 1)) − 1),((9 × (7 + 1)) − 1),((9 × (7 − 1)) − 1),((9 − (7 − 1)) − 1),C,((9 × (7 − 1)) − 1),"{""numbers"": [1, 1, 7, 9], ""target"": 53}"
+Prime target: 53",((9 × (7 − 1)) − 1),"{""numbers"": [1, 1, 7, 9], ""target"": 53}"
 game24_cf3_prime_target_0042,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 12, 11, 7], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -416,9 +334,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 12, 11, 7
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((11 × (12 − 7)) × 12),((11 × (12 + 7)) − 12),((11 + (12 − 7)) − 12),((11 × (12 − 7)) − 12),D,((11 × (12 − 7)) − 12),"{""numbers"": [12, 12, 11, 7], ""target"": 43}"
+Prime target: 43",((11 × (12 − 7)) − 12),"{""numbers"": [12, 12, 11, 7], ""target"": 43}"
 game24_cf3_prime_target_0043,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 7, 12, 12], ""target"": 53}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -426,9 +342,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 7, 12, 12
-Prime target: 53
-
-Which expression — using each number exactly once — reaches 53?",((11 − 7) − (12 + 12)),((11 × 7) − (12 × 12)),((11 × 7) − (12 + 12)),((11 + 7) − (12 + 12)),C,((11 × 7) − (12 + 12)),"{""numbers"": [11, 7, 12, 12], ""target"": 53}"
+Prime target: 53",((11 × 7) − (12 + 12)),"{""numbers"": [11, 7, 12, 12], ""target"": 53}"
 game24_cf3_prime_target_0044,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 10, 1, 7], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -436,9 +350,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 10, 1, 7
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",(1 × (10 × (10 − 7))),(1 + (10 − (10 − 7))),(1 + (10 × (10 − 7))),(1 + (10 × (10 + 7))),C,(1 + (10 × (10 − 7))),"{""numbers"": [10, 10, 1, 7], ""target"": 31}"
+Prime target: 31",(1 + (10 × (10 − 7))),"{""numbers"": [10, 10, 1, 7], ""target"": 31}"
 game24_cf3_prime_target_0045,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 1, 1, 7], ""target"": 73}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -446,9 +358,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 1, 1, 7
-Prime target: 73
-
-Which expression — using each number exactly once — reaches 73?",(1 + (12 × (1 − 7))),(1 − (12 ÷ (1 − 7))),(1 × (12 × (1 − 7))),(1 − (12 × (1 − 7))),D,(1 − (12 × (1 − 7))),"{""numbers"": [12, 1, 1, 7], ""target"": 73}"
+Prime target: 73",(1 − (12 × (1 − 7))),"{""numbers"": [12, 1, 1, 7], ""target"": 73}"
 game24_cf3_prime_target_0046,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 4, 4, 7], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -456,9 +366,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 4, 4, 7
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((4 × (6 × 4)) − 7),((4 × (6 + 4)) − 7),((4 × (6 × 4)) + 7),((4 + (6 × 4)) − 7),A,((4 × (6 × 4)) − 7),"{""numbers"": [6, 4, 4, 7], ""target"": 89}"
+Prime target: 89",((4 × (6 × 4)) − 7),"{""numbers"": [6, 4, 4, 7], ""target"": 89}"
 game24_cf3_prime_target_0047,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 7, 9, 7], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -466,9 +374,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 7, 9, 7
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((7 + (2 × 7)) − 9),((7 × (2 × 7)) × 9),((7 × (2 × 7)) − 9),((7 − (2 × 7)) − 9),C,((7 × (2 × 7)) − 9),"{""numbers"": [2, 7, 9, 7], ""target"": 89}"
+Prime target: 89",((7 × (2 × 7)) − 9),"{""numbers"": [2, 7, 9, 7], ""target"": 89}"
 game24_cf3_prime_target_0048,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 7, 6, 8], ""target"": 47}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -476,9 +382,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 7, 6, 8
-Prime target: 47
-
-Which expression — using each number exactly once — reaches 47?",((7 × 7) + (6 × 8)),((7 ÷ 7) + (6 − 8)),((7 + 7) + (6 − 8)),((7 × 7) + (6 − 8)),D,((7 × 7) + (6 − 8)),"{""numbers"": [7, 7, 6, 8], ""target"": 47}"
+Prime target: 47",((7 × 7) + (6 − 8)),"{""numbers"": [7, 7, 6, 8], ""target"": 47}"
 game24_cf3_prime_target_0049,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 5, 11, 6], ""target"": 47}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -486,9 +390,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 5, 11, 6
-Prime target: 47
-
-Which expression — using each number exactly once — reaches 47?",((6 − 5) + (11 + 6)),((6 × 5) + (11 + 6)),((6 + 5) + (11 + 6)),((6 × 5) × (11 + 6)),B,((6 × 5) + (11 + 6)),"{""numbers"": [6, 5, 11, 6], ""target"": 47}"
+Prime target: 47",((6 × 5) + (11 + 6)),"{""numbers"": [6, 5, 11, 6], ""target"": 47}"
 game24_cf3_prime_target_0050,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 3, 11, 9], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -496,9 +398,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 3, 11, 9
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",((3 × 11) − (5 × 9)),((3 + 11) − (5 − 9)),((3 − 11) − (5 − 9)),((3 × 11) − (5 − 9)),D,((3 × 11) − (5 − 9)),"{""numbers"": [5, 3, 11, 9], ""target"": 37}"
+Prime target: 37",((3 × 11) − (5 − 9)),"{""numbers"": [5, 3, 11, 9], ""target"": 37}"
 game24_cf3_prime_target_0051,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 8, 1, 11], ""target"": 97}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -506,9 +406,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 8, 1, 11
-Prime target: 97
-
-Which expression — using each number exactly once — reaches 97?",((11 × (8 − 1)) − 2),((11 × (8 + 1)) × 2),((11 × (8 + 1)) − 2),((11 − (8 + 1)) − 2),C,((11 × (8 + 1)) − 2),"{""numbers"": [2, 8, 1, 11], ""target"": 97}"
+Prime target: 97",((11 × (8 + 1)) − 2),"{""numbers"": [2, 8, 1, 11], ""target"": 97}"
 game24_cf3_prime_target_0052,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 11, 1, 1], ""target"": 73}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -516,9 +414,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 11, 1, 1
-Prime target: 73
-
-Which expression — using each number exactly once — reaches 73?",(1 + (6 × (11 + 1))),(1 + (6 × (11 ÷ 1))),(1 × (6 × (11 + 1))),(1 − (6 × (11 + 1))),A,(1 + (6 × (11 + 1))),"{""numbers"": [6, 11, 1, 1], ""target"": 73}"
+Prime target: 73",(1 + (6 × (11 + 1))),"{""numbers"": [6, 11, 1, 1], ""target"": 73}"
 game24_cf3_prime_target_0053,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 1, 11, 1], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -526,9 +422,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 1, 11, 1
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((11 + (4 × 1)) − 1),((11 × (4 × 1)) × 1),((11 × (4 × 1)) − 1),((11 × (4 × 1)) + 1),C,((11 × (4 × 1)) − 1),"{""numbers"": [4, 1, 11, 1], ""target"": 43}"
+Prime target: 43",((11 × (4 × 1)) − 1),"{""numbers"": [4, 1, 11, 1], ""target"": 43}"
 game24_cf3_prime_target_0054,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 9, 6, 7], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -536,9 +430,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 9, 6, 7
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",(10 + (7 + (9 − 6))),(10 + (7 × (9 − 6))),(10 × (7 × (9 − 6))),(10 + (7 × (9 × 6))),B,(10 + (7 × (9 − 6))),"{""numbers"": [10, 9, 6, 7], ""target"": 31}"
+Prime target: 31",(10 + (7 × (9 − 6))),"{""numbers"": [10, 9, 6, 7], ""target"": 31}"
 game24_cf3_prime_target_0055,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 2, 9, 12], ""target"": 29}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -546,9 +438,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 2, 9, 12
-Prime target: 29
-
-Which expression — using each number exactly once — reaches 29?",((2 × (7 − 12)) − 9),((2 × (7 + 12)) − 9),((2 × (7 + 12)) + 9),((2 − (7 + 12)) − 9),B,((2 × (7 + 12)) − 9),"{""numbers"": [7, 2, 9, 12], ""target"": 29}"
+Prime target: 29",((2 × (7 + 12)) − 9),"{""numbers"": [7, 2, 9, 12], ""target"": 29}"
 game24_cf3_prime_target_0056,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 12, 8, 7], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -556,9 +446,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 12, 8, 7
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",((8 × 7) − (7 + 12)),((8 × 7) × (7 + 12)),((8 × 7) + (7 + 12)),((8 × 7) − (7 − 12)),A,((8 × 7) − (7 + 12)),"{""numbers"": [7, 12, 8, 7], ""target"": 37}"
+Prime target: 37",((8 × 7) − (7 + 12)),"{""numbers"": [7, 12, 8, 7], ""target"": 37}"
 game24_cf3_prime_target_0057,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 11, 11, 11], ""target"": 67}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -566,9 +454,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 11, 11, 11
-Prime target: 67
-
-Which expression — using each number exactly once — reaches 67?",((6 × 11) − (11 ÷ 11)),((6 × 11) + (11 × 11)),((6 × 11) + (11 − 11)),((6 × 11) + (11 ÷ 11)),D,((6 × 11) + (11 ÷ 11)),"{""numbers"": [6, 11, 11, 11], ""target"": 67}"
+Prime target: 67",((6 × 11) + (11 ÷ 11)),"{""numbers"": [6, 11, 11, 11], ""target"": 67}"
 game24_cf3_prime_target_0058,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 9, 10, 10], ""target"": 79}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -576,9 +462,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 9, 10, 10
-Prime target: 79
-
-Which expression — using each number exactly once — reaches 79?",((6 × 10) + (9 + 10)),((6 × 10) × (9 + 10)),((6 × 10) + (9 − 10)),((6 − 10) + (9 + 10)),A,((6 × 10) + (9 + 10)),"{""numbers"": [6, 9, 10, 10], ""target"": 79}"
+Prime target: 79",((6 × 10) + (9 + 10)),"{""numbers"": [6, 9, 10, 10], ""target"": 79}"
 game24_cf3_prime_target_0059,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 11, 10, 9], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -586,9 +470,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 11, 10, 9
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",(9 − (11 + (8 − 10))),(9 − (11 × (8 − 10))),(9 + (11 × (8 − 10))),(9 − (11 × (8 × 10))),B,(9 − (11 × (8 − 10))),"{""numbers"": [8, 11, 10, 9], ""target"": 31}"
+Prime target: 31",(9 − (11 × (8 − 10))),"{""numbers"": [8, 11, 10, 9], ""target"": 31}"
 game24_cf3_prime_target_0060,game24_cf3_prime_target,counterfactual,"{""numbers"": [3, 3, 7, 10], ""target"": 83}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -596,9 +478,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 3, 3, 7, 10
-Prime target: 83
-
-Which expression — using each number exactly once — reaches 83?",((10 × (3 × 3)) − 7),((10 × (3 + 3)) − 7),((10 + (3 × 3)) − 7),((10 − (3 × 3)) − 7),A,((10 × (3 × 3)) − 7),"{""numbers"": [3, 3, 7, 10], ""target"": 83}"
+Prime target: 83",((10 × (3 × 3)) − 7),"{""numbers"": [3, 3, 7, 10], ""target"": 83}"
 game24_cf3_prime_target_0061,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 9, 12, 10], ""target"": 41}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -606,9 +486,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 9, 12, 10
-Prime target: 41
-
-Which expression — using each number exactly once — reaches 41?",((10 − 9) + (12 + 10)),((10 + 9) + (12 × 10)),((10 + 9) + (12 + 10)),((10 + 9) − (12 + 10)),C,((10 + 9) + (12 + 10)),"{""numbers"": [10, 9, 12, 10], ""target"": 41}"
+Prime target: 41",((10 + 9) + (12 + 10)),"{""numbers"": [10, 9, 12, 10], ""target"": 41}"
 game24_cf3_prime_target_0062,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 6, 8, 4], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -616,9 +494,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 6, 8, 4
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((11 + 8) + (6 − 4)),((11 − 8) + (6 × 4)),((11 + 8) + (6 + 4)),((11 + 8) + (6 × 4)),D,((11 + 8) + (6 × 4)),"{""numbers"": [11, 6, 8, 4], ""target"": 43}"
+Prime target: 43",((11 + 8) + (6 × 4)),"{""numbers"": [11, 6, 8, 4], ""target"": 43}"
 game24_cf3_prime_target_0063,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 9, 8, 8], ""target"": 19}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -626,9 +502,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 9, 8, 8
-Prime target: 19
-
-Which expression — using each number exactly once — reaches 19?",((9 ÷ 9) + (8 ÷ 8)),((9 + 9) + (8 × 8)),((9 + 9) + (8 + 8)),((9 + 9) + (8 ÷ 8)),D,((9 + 9) + (8 ÷ 8)),"{""numbers"": [9, 9, 8, 8], ""target"": 19}"
+Prime target: 19",((9 + 9) + (8 ÷ 8)),"{""numbers"": [9, 9, 8, 8], ""target"": 19}"
 game24_cf3_prime_target_0064,game24_cf3_prime_target,counterfactual,"{""numbers"": [1, 9, 11, 1], ""target"": 97}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -636,9 +510,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 1, 9, 11, 1
-Prime target: 97
-
-Which expression — using each number exactly once — reaches 97?",((9 − 11) − (1 + 1)),((9 × 11) − (1 + 1)),((9 × 11) − (1 − 1)),((9 × 11) − (1 ÷ 1)),B,((9 × 11) − (1 + 1)),"{""numbers"": [1, 9, 11, 1], ""target"": 97}"
+Prime target: 97",((9 × 11) − (1 + 1)),"{""numbers"": [1, 9, 11, 1], ""target"": 97}"
 game24_cf3_prime_target_0065,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 4, 9, 6], ""target"": 67}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -646,9 +518,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 4, 9, 6
-Prime target: 67
-
-Which expression — using each number exactly once — reaches 67?",((6 × (4 × 9)) − 11),((6 × (4 + 9)) − 11),((6 − (4 + 9)) − 11),((6 × (4 − 9)) − 11),B,((6 × (4 + 9)) − 11),"{""numbers"": [11, 4, 9, 6], ""target"": 67}"
+Prime target: 67",((6 × (4 + 9)) − 11),"{""numbers"": [11, 4, 9, 6], ""target"": 67}"
 game24_cf3_prime_target_0066,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 4, 7, 6], ""target"": 29}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -656,9 +526,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 4, 7, 6
-Prime target: 29
-
-Which expression — using each number exactly once — reaches 29?",(11 × (6 × (4 − 7))),(11 − (6 × (4 × 7))),(11 − (6 − (4 − 7))),(11 − (6 × (4 − 7))),D,(11 − (6 × (4 − 7))),"{""numbers"": [11, 4, 7, 6], ""target"": 29}"
+Prime target: 29",(11 − (6 × (4 − 7))),"{""numbers"": [11, 4, 7, 6], ""target"": 29}"
 game24_cf3_prime_target_0067,game24_cf3_prime_target,counterfactual,"{""numbers"": [3, 10, 10, 3], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -666,9 +534,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 3, 10, 10, 3
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",(10 − (3 × (3 × 10))),(10 − (3 × (3 − 10))),(10 − (3 + (3 − 10))),(10 − (3 − (3 − 10))),B,(10 − (3 × (3 − 10))),"{""numbers"": [3, 10, 10, 3], ""target"": 31}"
+Prime target: 31",(10 − (3 × (3 − 10))),"{""numbers"": [3, 10, 10, 3], ""target"": 31}"
 game24_cf3_prime_target_0068,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 9, 9, 11], ""target"": 71}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -676,9 +542,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 9, 9, 11
-Prime target: 71
-
-Which expression — using each number exactly once — reaches 71?",((4 × (9 − 11)) − 9),((4 + (9 + 11)) − 9),((4 × (9 + 11)) × 9),((4 × (9 + 11)) − 9),D,((4 × (9 + 11)) − 9),"{""numbers"": [4, 9, 9, 11], ""target"": 71}"
+Prime target: 71",((4 × (9 + 11)) − 9),"{""numbers"": [4, 9, 9, 11], ""target"": 71}"
 game24_cf3_prime_target_0069,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 9, 2, 9], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -686,9 +550,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 9, 2, 9
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((2 × 9) − (10 − 9)),((2 × 9) + (10 − 9)),((2 + 9) − (10 − 9)),((2 × 9) − (10 + 9)),A,((2 × 9) − (10 − 9)),"{""numbers"": [10, 9, 2, 9], ""target"": 17}"
+Prime target: 17",((2 × 9) − (10 − 9)),"{""numbers"": [10, 9, 2, 9], ""target"": 17}"
 game24_cf3_prime_target_0070,game24_cf3_prime_target,counterfactual,"{""numbers"": [3, 7, 11, 1], ""target"": 23}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -696,9 +558,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 3, 7, 11, 1
-Prime target: 23
-
-Which expression — using each number exactly once — reaches 23?",((3 × (11 ÷ 1)) − 7),((3 + (11 − 1)) − 7),((3 × (11 − 1)) − 7),((3 × (11 − 1)) × 7),C,((3 × (11 − 1)) − 7),"{""numbers"": [3, 7, 11, 1], ""target"": 23}"
+Prime target: 23",((3 × (11 − 1)) − 7),"{""numbers"": [3, 7, 11, 1], ""target"": 23}"
 game24_cf3_prime_target_0071,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 9, 5, 4], ""target"": 19}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -706,9 +566,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 9, 5, 4
-Prime target: 19
-
-Which expression — using each number exactly once — reaches 19?",((11 + 9) − (5 + 4)),((11 + 9) − (5 × 4)),((11 + 9) − (5 − 4)),((11 + 9) ÷ (5 − 4)),C,((11 + 9) − (5 − 4)),"{""numbers"": [11, 9, 5, 4], ""target"": 19}"
+Prime target: 19",((11 + 9) − (5 − 4)),"{""numbers"": [11, 9, 5, 4], ""target"": 19}"
 game24_cf3_prime_target_0072,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 1, 9, 1], ""target"": 79}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -716,9 +574,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 1, 9, 1
-Prime target: 79
-
-Which expression — using each number exactly once — reaches 79?",((10 × (9 − 1)) + 1),((10 + (9 − 1)) − 1),((10 × (9 − 1)) − 1),((10 × (9 − 1)) × 1),C,((10 × (9 − 1)) − 1),"{""numbers"": [10, 1, 9, 1], ""target"": 79}"
+Prime target: 79",((10 × (9 − 1)) − 1),"{""numbers"": [10, 1, 9, 1], ""target"": 79}"
 game24_cf3_prime_target_0073,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 10, 11, 11], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -726,9 +582,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 10, 11, 11
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((10 × 11) − (10 − 11)),((10 × 11) × (10 + 11)),((10 + 11) − (10 + 11)),((10 × 11) − (10 + 11)),D,((10 × 11) − (10 + 11)),"{""numbers"": [10, 10, 11, 11], ""target"": 89}"
+Prime target: 89",((10 × 11) − (10 + 11)),"{""numbers"": [10, 10, 11, 11], ""target"": 89}"
 game24_cf3_prime_target_0074,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 11, 3, 3], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -736,9 +590,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 11, 3, 3
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",(11 + (8 × (3 + 3))),(11 + (8 − (3 + 3))),(11 − (8 × (3 + 3))),(11 + (8 + (3 + 3))),A,(11 + (8 × (3 + 3))),"{""numbers"": [8, 11, 3, 3], ""target"": 59}"
+Prime target: 59",(11 + (8 × (3 + 3))),"{""numbers"": [8, 11, 3, 3], ""target"": 59}"
 game24_cf3_prime_target_0075,game24_cf3_prime_target,counterfactual,"{""numbers"": [12, 5, 10, 11], ""target"": 67}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -746,9 +598,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 12, 5, 10, 11
-Prime target: 67
-
-Which expression — using each number exactly once — reaches 67?",((11 − (12 − 5)) − 10),((11 × (12 × 5)) − 10),((11 × (12 − 5)) − 10),((11 + (12 − 5)) − 10),C,((11 × (12 − 5)) − 10),"{""numbers"": [12, 5, 10, 11], ""target"": 67}"
+Prime target: 67",((11 × (12 − 5)) − 10),"{""numbers"": [12, 5, 10, 11], ""target"": 67}"
 game24_cf3_prime_target_0076,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 9, 2, 2], ""target"": 47}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -756,9 +606,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 9, 2, 2
-Prime target: 47
-
-Which expression — using each number exactly once — reaches 47?",(2 + (9 × (7 × 2))),(2 + (9 × (7 − 2))),(2 × (9 × (7 − 2))),(2 + (9 × (7 + 2))),B,(2 + (9 × (7 − 2))),"{""numbers"": [7, 9, 2, 2], ""target"": 47}"
+Prime target: 47",(2 + (9 × (7 − 2))),"{""numbers"": [7, 9, 2, 2], ""target"": 47}"
 game24_cf3_prime_target_0077,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 5, 9, 8], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -766,9 +614,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 5, 9, 8
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((9 + 5) × (9 + 8)),((9 + 5) + (9 + 8)),((9 × 5) + (9 + 8)),((9 + 5) − (9 + 8)),B,((9 + 5) + (9 + 8)),"{""numbers"": [9, 5, 9, 8], ""target"": 31}"
+Prime target: 31",((9 + 5) + (9 + 8)),"{""numbers"": [9, 5, 9, 8], ""target"": 31}"
 game24_cf3_prime_target_0078,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 3, 5, 1], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -776,9 +622,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 3, 5, 1
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",(5 × (3 × (5 − 1))),(5 + (3 × (5 − 1))),(5 + (3 − (5 − 1))),(5 + (3 + (5 − 1))),B,(5 + (3 × (5 − 1))),"{""numbers"": [5, 3, 5, 1], ""target"": 17}"
+Prime target: 17",(5 + (3 × (5 − 1))),"{""numbers"": [5, 3, 5, 1], ""target"": 17}"
 game24_cf3_prime_target_0079,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 6, 9, 11], ""target"": 61}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -786,9 +630,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 6, 9, 11
-Prime target: 61
-
-Which expression — using each number exactly once — reaches 61?",((4 − 9) + (6 − 11)),((4 + 9) + (6 × 11)),((4 − 9) + (6 × 11)),((4 − 9) + (6 + 11)),C,((4 − 9) + (6 × 11)),"{""numbers"": [4, 6, 9, 11], ""target"": 61}"
+Prime target: 61",((4 − 9) + (6 × 11)),"{""numbers"": [4, 6, 9, 11], ""target"": 61}"
 game24_cf3_prime_target_0080,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 8, 8, 7], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -796,9 +638,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 8, 8, 7
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((8 − 7) − (6 − 8)),((8 + 7) − (6 × 8)),((8 + 7) − (6 − 8)),((8 + 7) × (6 − 8)),C,((8 + 7) − (6 − 8)),"{""numbers"": [6, 8, 8, 7], ""target"": 17}"
+Prime target: 17",((8 + 7) − (6 − 8)),"{""numbers"": [6, 8, 8, 7], ""target"": 17}"
 game24_cf3_prime_target_0081,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 7, 9, 7], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -806,9 +646,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 7, 9, 7
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((7 × 7) − (2 + 9)),((7 × 7) − (2 − 9)),((7 × 7) − (2 × 9)),((7 + 7) − (2 × 9)),C,((7 × 7) − (2 × 9)),"{""numbers"": [2, 7, 9, 7], ""target"": 31}"
+Prime target: 31",((7 × 7) − (2 × 9)),"{""numbers"": [2, 7, 9, 7], ""target"": 31}"
 game24_cf3_prime_target_0082,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 7, 6, 11], ""target"": 97}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -816,9 +654,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 7, 6, 11
-Prime target: 97
-
-Which expression — using each number exactly once — reaches 97?",((5 × 11) + (7 + 6)),((5 × 11) + (7 × 6)),((5 + 11) + (7 × 6)),((5 − 11) + (7 × 6)),B,((5 × 11) + (7 × 6)),"{""numbers"": [5, 7, 6, 11], ""target"": 97}"
+Prime target: 97",((5 × 11) + (7 × 6)),"{""numbers"": [5, 7, 6, 11], ""target"": 97}"
 game24_cf3_prime_target_0083,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 12, 3, 12], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -826,9 +662,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 12, 3, 12
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((3 + 12) + (10 − 12)),((3 + 12) − (10 + 12)),((3 + 12) × (10 − 12)),((3 + 12) − (10 − 12)),D,((3 + 12) − (10 − 12)),"{""numbers"": [10, 12, 3, 12], ""target"": 17}"
+Prime target: 17",((3 + 12) − (10 − 12)),"{""numbers"": [10, 12, 3, 12], ""target"": 17}"
 game24_cf3_prime_target_0084,game24_cf3_prime_target,counterfactual,"{""numbers"": [4, 2, 3, 3], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -836,9 +670,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 4, 2, 3, 3
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((4 × 2) + (3 ÷ 3)),((4 − 2) + (3 × 3)),((4 × 2) + (3 × 3)),((4 × 2) + (3 + 3)),C,((4 × 2) + (3 × 3)),"{""numbers"": [4, 2, 3, 3], ""target"": 17}"
+Prime target: 17",((4 × 2) + (3 × 3)),"{""numbers"": [4, 2, 3, 3], ""target"": 17}"
 game24_cf3_prime_target_0085,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 8, 3, 3], ""target"": 41}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -846,9 +678,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 8, 3, 3
-Prime target: 41
-
-Which expression — using each number exactly once — reaches 41?",(8 − (3 × (8 + 3))),(8 + (3 × (8 × 3))),(8 + (3 × (8 + 3))),(8 + (3 − (8 + 3))),C,(8 + (3 × (8 + 3))),"{""numbers"": [8, 8, 3, 3], ""target"": 41}"
+Prime target: 41",(8 + (3 × (8 + 3))),"{""numbers"": [8, 8, 3, 3], ""target"": 41}"
 game24_cf3_prime_target_0086,game24_cf3_prime_target,counterfactual,"{""numbers"": [9, 9, 7, 12], ""target"": 19}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -856,9 +686,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 9, 9, 7, 12
-Prime target: 19
-
-Which expression — using each number exactly once — reaches 19?",((9 − 9) + (7 + 12)),((9 − 9) × (7 + 12)),((9 ÷ 9) + (7 + 12)),((9 + 9) + (7 + 12)),A,((9 − 9) + (7 + 12)),"{""numbers"": [9, 9, 7, 12], ""target"": 19}"
+Prime target: 19",((9 − 9) + (7 + 12)),"{""numbers"": [9, 9, 7, 12], ""target"": 19}"
 game24_cf3_prime_target_0087,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 8, 8, 9], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -866,9 +694,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 8, 8, 9
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((8 × 8) − (8 − 9)),((8 + 8) − (8 × 9)),((8 − 8) − (8 − 9)),((8 + 8) − (8 − 9)),D,((8 + 8) − (8 − 9)),"{""numbers"": [8, 8, 8, 9], ""target"": 17}"
+Prime target: 17",((8 + 8) − (8 − 9)),"{""numbers"": [8, 8, 8, 9], ""target"": 17}"
 game24_cf3_prime_target_0088,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 7, 2, 7], ""target"": 89}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -876,9 +702,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 7, 2, 7
-Prime target: 89
-
-Which expression — using each number exactly once — reaches 89?",((7 × (6 − 7)) − 2),((7 × (6 + 7)) − 2),((7 × (6 + 7)) × 2),((7 × (6 + 7)) + 2),B,((7 × (6 + 7)) − 2),"{""numbers"": [6, 7, 2, 7], ""target"": 89}"
+Prime target: 89",((7 × (6 + 7)) − 2),"{""numbers"": [6, 7, 2, 7], ""target"": 89}"
 game24_cf3_prime_target_0089,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 10, 6, 5], ""target"": 83}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -886,9 +710,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 10, 6, 5
-Prime target: 83
-
-Which expression — using each number exactly once — reaches 83?",((6 × (10 + 5)) − 7),((6 × (10 × 5)) − 7),((6 + (10 + 5)) − 7),((6 × (10 + 5)) + 7),A,((6 × (10 + 5)) − 7),"{""numbers"": [7, 10, 6, 5], ""target"": 83}"
+Prime target: 83",((6 × (10 + 5)) − 7),"{""numbers"": [7, 10, 6, 5], ""target"": 83}"
 game24_cf3_prime_target_0090,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 10, 12, 11], ""target"": 59}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -896,9 +718,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 10, 12, 11
-Prime target: 59
-
-Which expression — using each number exactly once — reaches 59?",((10 × (12 − 5)) + 11),((10 × (12 − 5)) × 11),((10 × (12 − 5)) − 11),((10 × (12 × 5)) − 11),C,((10 × (12 − 5)) − 11),"{""numbers"": [5, 10, 12, 11], ""target"": 59}"
+Prime target: 59",((10 × (12 − 5)) − 11),"{""numbers"": [5, 10, 12, 11], ""target"": 59}"
 game24_cf3_prime_target_0091,game24_cf3_prime_target,counterfactual,"{""numbers"": [3, 2, 9, 11], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -906,9 +726,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 3, 2, 9, 11
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((11 − (9 ÷ 3)) − 2),((11 × (9 ÷ 3)) + 2),((11 × (9 − 3)) − 2),((11 × (9 ÷ 3)) − 2),D,((11 × (9 ÷ 3)) − 2),"{""numbers"": [3, 2, 9, 11], ""target"": 31}"
+Prime target: 31",((11 × (9 ÷ 3)) − 2),"{""numbers"": [3, 2, 9, 11], ""target"": 31}"
 game24_cf3_prime_target_0092,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 3, 12, 10], ""target"": 97}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -916,9 +734,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 3, 12, 10
-Prime target: 97
-
-Which expression — using each number exactly once — reaches 97?",((7 + 12) + (3 + 10)),((7 × 12) + (3 − 10)),((7 × 12) × (3 + 10)),((7 × 12) + (3 + 10)),D,((7 × 12) + (3 + 10)),"{""numbers"": [7, 3, 12, 10], ""target"": 97}"
+Prime target: 97",((7 × 12) + (3 + 10)),"{""numbers"": [7, 3, 12, 10], ""target"": 97}"
 game24_cf3_prime_target_0093,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 12, 10, 7], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -926,9 +742,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 12, 10, 7
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",((8 + 12) + (10 − 7)),((8 + 12) + (10 + 7)),((8 × 12) + (10 + 7)),((8 − 12) + (10 + 7)),B,((8 + 12) + (10 + 7)),"{""numbers"": [8, 12, 10, 7], ""target"": 37}"
+Prime target: 37",((8 + 12) + (10 + 7)),"{""numbers"": [8, 12, 10, 7], ""target"": 37}"
 game24_cf3_prime_target_0094,game24_cf3_prime_target,counterfactual,"{""numbers"": [6, 5, 5, 2], ""target"": 47}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -936,9 +750,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 6, 5, 5, 2
-Prime target: 47
-
-Which expression — using each number exactly once — reaches 47?",(5 + (6 + (5 + 2))),(5 + (6 × (5 + 2))),(5 − (6 × (5 + 2))),(5 × (6 × (5 + 2))),B,(5 + (6 × (5 + 2))),"{""numbers"": [6, 5, 5, 2], ""target"": 47}"
+Prime target: 47",(5 + (6 × (5 + 2))),"{""numbers"": [6, 5, 5, 2], ""target"": 47}"
 game24_cf3_prime_target_0095,game24_cf3_prime_target,counterfactual,"{""numbers"": [2, 12, 3, 5], ""target"": 53}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -946,9 +758,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 2, 12, 3, 5
-Prime target: 53
-
-Which expression — using each number exactly once — reaches 53?",(3 × (5 × (2 − 12))),(3 − (5 + (2 − 12))),(3 − (5 × (2 − 12))),(3 − (5 × (2 × 12))),C,(3 − (5 × (2 − 12))),"{""numbers"": [2, 12, 3, 5], ""target"": 53}"
+Prime target: 53",(3 − (5 × (2 − 12))),"{""numbers"": [2, 12, 3, 5], ""target"": 53}"
 game24_cf3_prime_target_0096,game24_cf3_prime_target,counterfactual,"{""numbers"": [7, 12, 2, 9], ""target"": 43}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -956,9 +766,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 7, 12, 2, 9
-Prime target: 43
-
-Which expression — using each number exactly once — reaches 43?",((9 × (12 + 7)) − 2),((9 × (12 − 7)) + 2),((9 × (12 − 7)) − 2),((9 − (12 − 7)) − 2),C,((9 × (12 − 7)) − 2),"{""numbers"": [7, 12, 2, 9], ""target"": 43}"
+Prime target: 43",((9 × (12 − 7)) − 2),"{""numbers"": [7, 12, 2, 9], ""target"": 43}"
 game24_cf3_prime_target_0097,game24_cf3_prime_target,counterfactual,"{""numbers"": [8, 10, 1, 4], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -966,9 +774,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 8, 10, 1, 4
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((10 × 4) + (8 + 1)),((10 × 4) × (8 + 1)),((10 × 4) − (8 × 1)),((10 × 4) − (8 + 1)),D,((10 × 4) − (8 + 1)),"{""numbers"": [8, 10, 1, 4], ""target"": 31}"
+Prime target: 31",((10 × 4) − (8 + 1)),"{""numbers"": [8, 10, 1, 4], ""target"": 31}"
 game24_cf3_prime_target_0098,game24_cf3_prime_target,counterfactual,"{""numbers"": [5, 7, 12, 8], ""target"": 31}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -976,9 +782,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 5, 7, 12, 8
-Prime target: 31
-
-Which expression — using each number exactly once — reaches 31?",((5 × 7) + (12 − 8)),((5 × 7) − (12 − 8)),((5 + 7) − (12 − 8)),((5 × 7) − (12 × 8)),B,((5 × 7) − (12 − 8)),"{""numbers"": [5, 7, 12, 8], ""target"": 31}"
+Prime target: 31",((5 × 7) − (12 − 8)),"{""numbers"": [5, 7, 12, 8], ""target"": 31}"
 game24_cf3_prime_target_0099,game24_cf3_prime_target,counterfactual,"{""numbers"": [11, 5, 6, 7], ""target"": 17}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -986,9 +790,7 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 11, 5, 6, 7
-Prime target: 17
-
-Which expression — using each number exactly once — reaches 17?",((11 + 5) − (6 × 7)),((11 + 5) − (6 − 7)),((11 − 5) − (6 − 7)),((11 + 5) − (6 + 7)),B,((11 + 5) − (6 − 7)),"{""numbers"": [11, 5, 6, 7], ""target"": 17}"
+Prime target: 17",((11 + 5) − (6 − 7)),"{""numbers"": [11, 5, 6, 7], ""target"": 17}"
 game24_cf3_prime_target_0100,game24_cf3_prime_target,counterfactual,"{""numbers"": [10, 3, 11, 10], ""target"": 37}","Solve the following Game-of-24 variant.
 Rule change: the target is a **prime** integer (not 24).
   - Four numbers, used each exactly once.
@@ -996,6 +798,4 @@ Rule change: the target is a **prime** integer (not 24).
   - The expression must evaluate to the stated prime target.
 
 Numbers: 10, 3, 11, 10
-Prime target: 37
-
-Which expression — using each number exactly once — reaches 37?",((11 + (10 ÷ 10)) ÷ 3),((11 + (10 × 10)) ÷ 3),((11 + (10 × 10)) × 3),((11 + (10 × 10)) + 3),B,((11 + (10 × 10)) ÷ 3),"{""numbers"": [10, 3, 11, 10], ""target"": 37}"
+Prime target: 37",((11 + (10 × 10)) ÷ 3),"{""numbers"": [10, 3, 11, 10], ""target"": 37}"

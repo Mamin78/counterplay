@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 cryptarithmetic_cf2_base9_sub_0001,cryptarithmetic_cf2_base9_sub,counterfactual,EAAB - CC = DFCD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -9,7 +9,7 @@ Rules:
 
 Equation:  EAAB - CC = DFCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAAB - CC = DFCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAAB - CC = DFCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0002,cryptarithmetic_cf2_base9_sub,counterfactual,EACF - DB = DFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -20,7 +20,7 @@ Rules:
 
 Equation:  EACF - DB = DFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACF - DB = DFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACF - DB = DFEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0003,cryptarithmetic_cf2_base9_sub,counterfactual,BDCB - FEF = AEED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -31,7 +31,7 @@ Rules:
 
 Equation:  BDCB - FEF = AEED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDCB - FEF = AEED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDCB - FEF = AEED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0004,cryptarithmetic_cf2_base9_sub,counterfactual,DABD - CE = CFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -42,7 +42,7 @@ Rules:
 
 Equation:  DABD - CE = CFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - CE = CFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - CE = CFEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0005,cryptarithmetic_cf2_base9_sub,counterfactual,DADA - EB = CFEC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -53,7 +53,7 @@ Rules:
 
 Equation:  DADA - EB = CFEC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADA - EB = CFEC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADA - EB = CFEC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0006,cryptarithmetic_cf2_base9_sub,counterfactual,CABD - EF = BFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -64,7 +64,7 @@ Rules:
 
 Equation:  CABD - EF = BFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CABD - EF = BFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CABD - EF = BFEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0007,cryptarithmetic_cf2_base9_sub,counterfactual,FABCB - DEE = EGEFE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -75,7 +75,7 @@ Rules:
 
 Equation:  FABCB - DEE = EGEFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FABCB - DEE = EGEFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FABCB - DEE = EGEFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0008,cryptarithmetic_cf2_base9_sub,counterfactual,DCAB - FBA = CCEA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -86,7 +86,7 @@ Rules:
 
 Equation:  DCAB - FBA = CCEA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DCAB - FBA = CCEA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 2, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DCAB - FBA = CCEA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0009,cryptarithmetic_cf2_base9_sub,counterfactual,BECBF - FAD = BDEAC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -97,7 +97,7 @@ Rules:
 
 Equation:  BECBF - FAD = BDEAC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BECBF - FAD = BDEAC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BECBF - FAD = BDEAC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0010,cryptarithmetic_cf2_base9_sub,counterfactual,DABF - CD = CFED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -108,7 +108,7 @@ Rules:
 
 Equation:  DABF - CD = CFED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABF - CD = CFED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABF - CD = CFED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0011,cryptarithmetic_cf2_base9_sub,counterfactual,EABF - DE = DFCB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -119,7 +119,7 @@ Rules:
 
 Equation:  EABF - DE = DFCB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - DE = DFCB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - DE = DFCB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0012,cryptarithmetic_cf2_base9_sub,counterfactual,BACF - DB = FDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -130,7 +130,7 @@ Rules:
 
 Equation:  BACF - DB = FDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACF - DB = FDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACF - DB = FDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0013,cryptarithmetic_cf2_base9_sub,counterfactual,EAAB - CD = DFCC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -141,7 +141,7 @@ Rules:
 
 Equation:  EAAB - CD = DFCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAAB - CD = DFCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAAB - CD = DFCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0014,cryptarithmetic_cf2_base9_sub,counterfactual,GABEB - CBD = FHHDG,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -152,7 +152,7 @@ Rules:
 
 Equation:  GABEB - CBD = FHHDG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GABEB - CBD = FHHDG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GABEB - CBD = FHHDG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0015,cryptarithmetic_cf2_base9_sub,counterfactual,BAAFD - CDF = FEBE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -163,7 +163,7 @@ Rules:
 
 Equation:  BAAFD - CDF = FEBE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BAAFD - CDF = FEBE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BAAFD - CDF = FEBE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0016,cryptarithmetic_cf2_base9_sub,counterfactual,CACEB - FDE = BFDDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -174,7 +174,7 @@ Rules:
 
 Equation:  CACEB - FDE = BFDDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACEB - FDE = BFDDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACEB - FDE = BFDDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0017,cryptarithmetic_cf2_base9_sub,counterfactual,BEEA - FCD = FCC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -185,7 +185,7 @@ Rules:
 
 Equation:  BEEA - FCD = FCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BEEA - FCD = FCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BEEA - FCD = FCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0018,cryptarithmetic_cf2_base9_sub,counterfactual,DACB - EC = CFDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -196,7 +196,7 @@ Rules:
 
 Equation:  DACB - EC = CFDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DACB - EC = CFDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DACB - EC = CFDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0019,cryptarithmetic_cf2_base9_sub,counterfactual,FABF - CC = EFDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -207,7 +207,7 @@ Rules:
 
 Equation:  FABF - CC = EFDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABF - CC = EFDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABF - CC = EFDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0020,cryptarithmetic_cf2_base9_sub,counterfactual,CABA - FEF = BCED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -218,7 +218,7 @@ Rules:
 
 Equation:  CABA - FEF = BCED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CABA - FEF = BCED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CABA - FEF = BCED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0021,cryptarithmetic_cf2_base9_sub,counterfactual,GABEC - DGE = FIGGH,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -229,7 +229,7 @@ Rules:
 
 Equation:  GABEC - DGE = FIGGH
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GABEC - DGE = FIGGH"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GABEC - DGE = FIGGH"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0022,cryptarithmetic_cf2_base9_sub,counterfactual,FACFD - FDE = EFDBF,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -240,7 +240,7 @@ Rules:
 
 Equation:  FACFD - FDE = EFDBF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FACFD - FDE = EFDBF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FACFD - FDE = EFDBF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0023,cryptarithmetic_cf2_base9_sub,counterfactual,CADA - EB = BFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -251,7 +251,7 @@ Rules:
 
 Equation:  CADA - EB = BFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADA - EB = BFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADA - EB = BFEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0024,cryptarithmetic_cf2_base9_sub,counterfactual,EABF - EC = DFDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -262,7 +262,7 @@ Rules:
 
 Equation:  EABF - EC = DFDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - EC = DFDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - EC = DFDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0025,cryptarithmetic_cf2_base9_sub,counterfactual,FCAA - DBB = EEBC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -273,7 +273,7 @@ Rules:
 
 Equation:  FCAA - DBB = EEBC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FCAA - DBB = EEBC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FCAA - DBB = EEBC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0026,cryptarithmetic_cf2_base9_sub,counterfactual,FABAD - EEG = EGCBE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -284,7 +284,7 @@ Rules:
 
 Equation:  FABAD - EEG = EGCBE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FABAD - EEG = EGCBE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FABAD - EEG = EGCBE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0027,cryptarithmetic_cf2_base9_sub,counterfactual,FACDB - DCC = EGFBG,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -295,7 +295,7 @@ Rules:
 
 Equation:  FACDB - DCC = EGFBG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FACDB - DCC = EGFBG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FACDB - DCC = EGFBG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0028,cryptarithmetic_cf2_base9_sub,counterfactual,BDFB - EBC = AFCD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -306,7 +306,7 @@ Rules:
 
 Equation:  BDFB - EBC = AFCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDFB - EBC = AFCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDFB - EBC = AFCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0029,cryptarithmetic_cf2_base9_sub,counterfactual,DABGC - EBB = CGEFB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -317,7 +317,7 @@ Rules:
 
 Equation:  DABGC - EBB = CGEFB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DABGC - EBB = CGEFB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DABGC - EBB = CGEFB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0030,cryptarithmetic_cf2_base9_sub,counterfactual,DABE - FB = CGCC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -328,7 +328,7 @@ Rules:
 
 Equation:  DABE - FB = CGCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DABE - FB = CGCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DABE - FB = CGCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0031,cryptarithmetic_cf2_base9_sub,counterfactual,GAGCD - HEB = FIHHC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -339,7 +339,7 @@ Rules:
 
 Equation:  GAGCD - HEB = FIHHC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GAGCD - HEB = FIHHC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GAGCD - HEB = FIHHC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0032,cryptarithmetic_cf2_base9_sub,counterfactual,EABF - CE = DFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -350,7 +350,7 @@ Rules:
 
 Equation:  EABF - CE = DFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - CE = DFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABF - CE = DFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0033,cryptarithmetic_cf2_base9_sub,counterfactual,GABCE - EFB = FGCDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -361,7 +361,7 @@ Rules:
 
 Equation:  GABCE - EFB = FGCDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GABCE - EFB = FGCDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GABCE - EFB = FGCDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0034,cryptarithmetic_cf2_base9_sub,counterfactual,BACBD - DEC = FECB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -372,7 +372,7 @@ Rules:
 
 Equation:  BACBD - DEC = FECB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACBD - DEC = FECB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACBD - DEC = FECB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0035,cryptarithmetic_cf2_base9_sub,counterfactual,EACB - DE = DFEC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -383,7 +383,7 @@ Rules:
 
 Equation:  EACB - DE = DFEC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACB - DE = DFEC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACB - DE = DFEC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0036,cryptarithmetic_cf2_base9_sub,counterfactual,BBBF - CDD = AEED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -394,7 +394,7 @@ Rules:
 
 Equation:  BBBF - CDD = AEED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BBBF - CDD = AEED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BBBF - CDD = AEED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0037,cryptarithmetic_cf2_base9_sub,counterfactual,GCBA - GEE = FDEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -405,7 +405,7 @@ Rules:
 
 Equation:  GCBA - GEE = FDEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCBA - GEE = FDEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCBA - GEE = FDEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0038,cryptarithmetic_cf2_base9_sub,counterfactual,CACA - DB = BFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -416,7 +416,7 @@ Rules:
 
 Equation:  CACA - DB = BFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACA - DB = BFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACA - DB = BFEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0039,cryptarithmetic_cf2_base9_sub,counterfactual,CADA - EB = BFEC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -427,7 +427,7 @@ Rules:
 
 Equation:  CADA - EB = BFEC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADA - EB = BFEC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADA - EB = BFEC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0040,cryptarithmetic_cf2_base9_sub,counterfactual,CAEDC - EED = BFFED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -438,7 +438,7 @@ Rules:
 
 Equation:  CAEDC - EED = BFFED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CAEDC - EED = BFFED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CAEDC - EED = BFFED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0041,cryptarithmetic_cf2_base9_sub,counterfactual,BAAC - ED = FBD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -449,7 +449,7 @@ Rules:
 
 Equation:  BAAC - ED = FBD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BAAC - ED = FBD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BAAC - ED = FBD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0042,cryptarithmetic_cf2_base9_sub,counterfactual,CBFA - DCF = BEDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -460,7 +460,7 @@ Rules:
 
 Equation:  CBFA - DCF = BEDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBFA - DCF = BEDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBFA - DCF = BEDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0043,cryptarithmetic_cf2_base9_sub,counterfactual,CABA - DD = BGFE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -471,7 +471,7 @@ Rules:
 
 Equation:  CABA - DD = BGFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CABA - DD = BGFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CABA - DD = BGFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0044,cryptarithmetic_cf2_base9_sub,counterfactual,CADEE - EBA = BFEDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -482,7 +482,7 @@ Rules:
 
 Equation:  CADEE - EBA = BFEDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADEE - EBA = BFEDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CADEE - EBA = BFEDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0045,cryptarithmetic_cf2_base9_sub,counterfactual,EABA - CD = DFEB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -493,7 +493,7 @@ Rules:
 
 Equation:  EABA - CD = DFEB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABA - CD = DFEB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABA - CD = DFEB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0046,cryptarithmetic_cf2_base9_sub,counterfactual,GAEFC - GBB = FGFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -504,7 +504,7 @@ Rules:
 
 Equation:  GAEFC - GBB = FGFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GAEFC - GBB = FGFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GAEFC - GBB = FGFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0047,cryptarithmetic_cf2_base9_sub,counterfactual,FBAC - FCC = ECDA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -515,7 +515,7 @@ Rules:
 
 Equation:  FBAC - FCC = ECDA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FBAC - FCC = ECDA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FBAC - FCC = ECDA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0048,cryptarithmetic_cf2_base9_sub,counterfactual,EABE - FB = DGDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -526,7 +526,7 @@ Rules:
 
 Equation:  EABE - FB = DGDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABE - FB = DGDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABE - FB = DGDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0049,cryptarithmetic_cf2_base9_sub,counterfactual,DCAD - FEB = CCCA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -537,7 +537,7 @@ Rules:
 
 Equation:  DCAD - FEB = CCCA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DCAD - FEB = CCCA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DCAD - FEB = CCCA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0050,cryptarithmetic_cf2_base9_sub,counterfactual,BACD - DE = FDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -548,7 +548,7 @@ Rules:
 
 Equation:  BACD - DE = FDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - DE = FDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - DE = FDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0051,cryptarithmetic_cf2_base9_sub,counterfactual,BACF - ED = FDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -559,7 +559,7 @@ Rules:
 
 Equation:  BACF - ED = FDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACF - ED = FDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACF - ED = FDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0052,cryptarithmetic_cf2_base9_sub,counterfactual,BADC - EE = FED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -570,7 +570,7 @@ Rules:
 
 Equation:  BADC - EE = FED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BADC - EE = FED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BADC - EE = FED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0053,cryptarithmetic_cf2_base9_sub,counterfactual,DADB - ED = CFED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -581,7 +581,7 @@ Rules:
 
 Equation:  DADB - ED = CFED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADB - ED = CFED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADB - ED = CFED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0054,cryptarithmetic_cf2_base9_sub,counterfactual,GACB - ED = FGEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -592,7 +592,7 @@ Rules:
 
 Equation:  GACB - ED = FGEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GACB - ED = FGEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GACB - ED = FGEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0055,cryptarithmetic_cf2_base9_sub,counterfactual,EACF - EE = DFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -603,7 +603,7 @@ Rules:
 
 Equation:  EACF - EE = DFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACF - EE = DFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACF - EE = DFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0056,cryptarithmetic_cf2_base9_sub,counterfactual,CDDA - ECF = BECB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -614,7 +614,7 @@ Rules:
 
 Equation:  CDDA - ECF = BECB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CDDA - ECF = BECB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CDDA - ECF = BECB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0057,cryptarithmetic_cf2_base9_sub,counterfactual,DACB - ED = CFDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -625,7 +625,7 @@ Rules:
 
 Equation:  DACB - ED = CFDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DACB - ED = CFDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DACB - ED = CFDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0058,cryptarithmetic_cf2_base9_sub,counterfactual,EABA - CB = DFDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -636,7 +636,7 @@ Rules:
 
 Equation:  EABA - CB = DFDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABA - CB = DFDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABA - CB = DFDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0059,cryptarithmetic_cf2_base9_sub,counterfactual,DAABC - EAB = CFCBB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -647,7 +647,7 @@ Rules:
 
 Equation:  DAABC - EAB = CFCBB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DAABC - EAB = CFCBB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DAABC - EAB = CFCBB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0060,cryptarithmetic_cf2_base9_sub,counterfactual,DAEHC - GFE = CHFBG,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -658,7 +658,7 @@ Rules:
 
 Equation:  DAEHC - GFE = CHFBG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DAEHC - GFE = CHFBG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DAEHC - GFE = CHFBG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0061,cryptarithmetic_cf2_base9_sub,counterfactual,CACD - EC = BFDC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -669,7 +669,7 @@ Rules:
 
 Equation:  CACD - EC = BFDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACD - EC = BFDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACD - EC = BFDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0062,cryptarithmetic_cf2_base9_sub,counterfactual,GACBB - FAD = FGDAE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -680,7 +680,7 @@ Rules:
 
 Equation:  GACBB - FAD = FGDAE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GACBB - FAD = FGDAE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GACBB - FAD = FGDAE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0063,cryptarithmetic_cf2_base9_sub,counterfactual,DBCB - EEA = CEFA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -691,7 +691,7 @@ Rules:
 
 Equation:  DBCB - EEA = CEFA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DBCB - EEA = CEFA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DBCB - EEA = CEFA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0064,cryptarithmetic_cf2_base9_sub,counterfactual,DABB - EC = CFEF,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -702,7 +702,7 @@ Rules:
 
 Equation:  DABB - EC = CFEF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABB - EC = CFEF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABB - EC = CFEF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0065,cryptarithmetic_cf2_base9_sub,counterfactual,FABF - DC = EFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -713,7 +713,7 @@ Rules:
 
 Equation:  FABF - DC = EFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABF - DC = EFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABF - DC = EFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0066,cryptarithmetic_cf2_base9_sub,counterfactual,EABC - CE = DFDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -724,7 +724,7 @@ Rules:
 
 Equation:  EABC - CE = DFDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABC - CE = DFDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABC - CE = DFDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0067,cryptarithmetic_cf2_base9_sub,counterfactual,BACFA - FBD = FDEC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -735,7 +735,7 @@ Rules:
 
 Equation:  BACFA - FBD = FDEC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACFA - FBD = FDEC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACFA - FBD = FDEC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0068,cryptarithmetic_cf2_base9_sub,counterfactual,DADE - EB = CFFB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -746,7 +746,7 @@ Rules:
 
 Equation:  DADE - EB = CFFB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADE - EB = CFFB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DADE - EB = CFFB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0069,cryptarithmetic_cf2_base9_sub,counterfactual,FABC - DD = EFCD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -757,7 +757,7 @@ Rules:
 
 Equation:  FABC - DD = EFCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABC - DD = EFCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABC - DD = EFCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0070,cryptarithmetic_cf2_base9_sub,counterfactual,FABC - DD = EFCE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -768,7 +768,7 @@ Rules:
 
 Equation:  FABC - DD = EFCE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABC - DD = EFCE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABC - DD = EFCE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0071,cryptarithmetic_cf2_base9_sub,counterfactual,ECAC - EFF = DFBF,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -779,7 +779,7 @@ Rules:
 
 Equation:  ECAC - EFF = DFBF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECAC - EFF = DFBF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECAC - EFF = DFBF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0072,cryptarithmetic_cf2_base9_sub,counterfactual,CACD - DE = BFDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -790,7 +790,7 @@ Rules:
 
 Equation:  CACD - DE = BFDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACD - DE = BFDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CACD - DE = BFDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0073,cryptarithmetic_cf2_base9_sub,counterfactual,EABBG - DCB = DGEGF,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -801,7 +801,7 @@ Rules:
 
 Equation:  EABBG - DCB = DGEGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABBG - DCB = DGEGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABBG - DCB = DGEGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0074,cryptarithmetic_cf2_base9_sub,counterfactual,CBAD - FED = BDDA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -812,7 +812,7 @@ Rules:
 
 Equation:  CBAD - FED = BDDA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBAD - FED = BDDA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBAD - FED = BDDA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0075,cryptarithmetic_cf2_base9_sub,counterfactual,CABHC - DAE = BHFGF,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -823,7 +823,7 @@ Rules:
 
 Equation:  CABHC - DAE = BHFGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""CABHC - DAE = BHFGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""CABHC - DAE = BHFGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0076,cryptarithmetic_cf2_base9_sub,counterfactual,BDBF - FAE = AEAC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -834,7 +834,7 @@ Rules:
 
 Equation:  BDBF - FAE = AEAC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDBF - FAE = AEAC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDBF - FAE = AEAC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0077,cryptarithmetic_cf2_base9_sub,counterfactual,EACA - EE = DFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -845,7 +845,7 @@ Rules:
 
 Equation:  EACA - EE = DFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACA - EE = DFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACA - EE = DFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0078,cryptarithmetic_cf2_base9_sub,counterfactual,FACB - CEE = EBDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -856,7 +856,7 @@ Rules:
 
 Equation:  FACB - CEE = EBDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FACB - CEE = EBDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FACB - CEE = EBDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0079,cryptarithmetic_cf2_base9_sub,counterfactual,CADG - FC = BGFE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -867,7 +867,7 @@ Rules:
 
 Equation:  CADG - FC = BGFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CADG - FC = BGFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CADG - FC = BGFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0080,cryptarithmetic_cf2_base9_sub,counterfactual,BACD - EE = FDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -878,7 +878,7 @@ Rules:
 
 Equation:  BACD - EE = FDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - EE = FDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - EE = FDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0081,cryptarithmetic_cf2_base9_sub,counterfactual,EABDA - CBE = DGFCC,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -889,7 +889,7 @@ Rules:
 
 Equation:  EABDA - CBE = DGFCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABDA - CBE = DGFCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EABDA - CBE = DGFCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0082,cryptarithmetic_cf2_base9_sub,counterfactual,BABCE - FGF = HDDG,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -900,7 +900,7 @@ Rules:
 
 Equation:  BABCE - FGF = HDDG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""BABCE - FGF = HDDG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""BABCE - FGF = HDDG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0083,cryptarithmetic_cf2_base9_sub,counterfactual,EACE - DB = DFDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -911,7 +911,7 @@ Rules:
 
 Equation:  EACE - DB = DFDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACE - DB = DFDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACE - DB = DFDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0084,cryptarithmetic_cf2_base9_sub,counterfactual,BBAB - CBE = AEFD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -922,7 +922,7 @@ Rules:
 
 Equation:  BBAB - CBE = AEFD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BBAB - CBE = AEFD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BBAB - CBE = AEFD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0085,cryptarithmetic_cf2_base9_sub,counterfactual,EABE - CC = DFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -933,7 +933,7 @@ Rules:
 
 Equation:  EABE - CC = DFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABE - CC = DFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EABE - CC = DFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0086,cryptarithmetic_cf2_base9_sub,counterfactual,EAACE - EBB = DFDBD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -944,7 +944,7 @@ Rules:
 
 Equation:  EAACE - EBB = DFDBD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAACE - EBB = DFDBD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EAACE - EBB = DFDBD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0087,cryptarithmetic_cf2_base9_sub,counterfactual,FABD - DC = EFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -955,7 +955,7 @@ Rules:
 
 Equation:  FABD - DC = EFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABD - DC = EFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABD - DC = EFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0088,cryptarithmetic_cf2_base9_sub,counterfactual,FAFE - CBD = ECDA,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -966,7 +966,7 @@ Rules:
 
 Equation:  FAFE - CBD = ECDA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FAFE - CBD = ECDA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FAFE - CBD = ECDA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0089,cryptarithmetic_cf2_base9_sub,counterfactual,DACB - DC = CGFE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -977,7 +977,7 @@ Rules:
 
 Equation:  DACB - DC = CGFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DACB - DC = CGFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DACB - DC = CGFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0090,cryptarithmetic_cf2_base9_sub,counterfactual,DABFD - CBH = CHGDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -988,7 +988,7 @@ Rules:
 
 Equation:  DABFD - CBH = CHGDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DABFD - CBH = CHGDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DABFD - CBH = CHGDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0091,cryptarithmetic_cf2_base9_sub,counterfactual,DAAFA - DAF = CFCEB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -999,7 +999,7 @@ Rules:
 
 Equation:  DAAFA - DAF = CFCEB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DAAFA - DAF = CFCEB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DAAFA - DAF = CFCEB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0092,cryptarithmetic_cf2_base9_sub,counterfactual,CBDA - DBD = BFAE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1010,7 +1010,7 @@ Rules:
 
 Equation:  CBDA - DBD = BFAE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBDA - DBD = BFAE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBDA - DBD = BFAE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0093,cryptarithmetic_cf2_base9_sub,counterfactual,BACD - DE = FEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1021,7 +1021,7 @@ Rules:
 
 Equation:  BACD - DE = FEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - DE = FEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BACD - DE = FEE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0094,cryptarithmetic_cf2_base9_sub,counterfactual,BFAC - FBD = FED,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1032,7 +1032,7 @@ Rules:
 
 Equation:  BFAC - FBD = FED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BFAC - FBD = FED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BFAC - FBD = FED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0095,cryptarithmetic_cf2_base9_sub,counterfactual,CDAD - FEB = BEEB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1043,7 +1043,7 @@ Rules:
 
 Equation:  CDAD - FEB = BEEB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CDAD - FEB = BEEB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CDAD - FEB = BEEB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0096,cryptarithmetic_cf2_base9_sub,counterfactual,DABD - DE = CFDE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1054,7 +1054,7 @@ Rules:
 
 Equation:  DABD - DE = CFDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - DE = CFDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - DE = CFDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0097,cryptarithmetic_cf2_base9_sub,counterfactual,DABF - EB = CFDB,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1065,7 +1065,7 @@ Rules:
 
 Equation:  DABF - EB = CFDB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABF - EB = CFDB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABF - EB = CFDB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0098,cryptarithmetic_cf2_base9_sub,counterfactual,EACB - BEE = DFDD,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1076,7 +1076,7 @@ Rules:
 
 Equation:  EACB - BEE = DFDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACB - BEE = DFDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EACB - BEE = DFDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0099,cryptarithmetic_cf2_base9_sub,counterfactual,BADA - EED = ACFE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1087,7 +1087,7 @@ Rules:
 
 Equation:  BADA - EED = ACFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BADA - EED = ACFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BADA - EED = ACFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf2_base9_sub_0100,cryptarithmetic_cf2_base9_sub,counterfactual,DABD - EF = CFEE,"Solve the following cryptarithmetic subtraction puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1098,4 +1098,4 @@ Rules:
 
 Equation:  DABD - EF = CFEE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - EF = CFEE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DABD - EF = CFEE"", ""eval_mode"": ""open_native_base9""}"

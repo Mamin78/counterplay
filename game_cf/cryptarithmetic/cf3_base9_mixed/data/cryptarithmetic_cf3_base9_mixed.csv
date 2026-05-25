@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 cryptarithmetic_cf3_base9_mixed_0001,cryptarithmetic_cf3_base9_mixed,counterfactual,GDDG + GAA - EC = BACGF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -10,7 +10,7 @@ Rules:
 
 Equation:  GDDG + GAA - EC = BACGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDDG + GAA - EC = BACGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDDG + GAA - EC = BACGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0002,cryptarithmetic_cf3_base9_mixed,counterfactual,IHBD + HCD - FA = BAEHG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -22,7 +22,7 @@ Rules:
 
 Equation:  IHBD + HCD - FA = BAEHG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHBD + HCD - FA = BAEHG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHBD + HCD - FA = BAEHG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0003,cryptarithmetic_cf3_base9_mixed,counterfactual,GGBD + DDB - BGF = BACEG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -34,7 +34,7 @@ Rules:
 
 Equation:  GGBD + DDB - BGF = BACEG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGBD + DDB - BGF = BACEG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGBD + DDB - BGF = BACEG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0004,cryptarithmetic_cf3_base9_mixed,counterfactual,IFEC + HHE - FG = BADGA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -46,7 +46,7 @@ Rules:
 
 Equation:  IFEC + HHE - FG = BADGA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IFEC + HHE - FG = BADGA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IFEC + HHE - FG = BADGA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0005,cryptarithmetic_cf3_base9_mixed,counterfactual,GGFE + GCA - DDF = BAEDG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -58,7 +58,7 @@ Rules:
 
 Equation:  GGFE + GCA - DDF = BAEDG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFE + GCA - DDF = BAEDG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFE + GCA - DDF = BAEDG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0006,cryptarithmetic_cf3_base9_mixed,counterfactual,CDDC + GFCF - GE = BCAGD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -70,7 +70,7 @@ Rules:
 
 Equation:  CDDC + GFCF - GE = BCAGD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CDDC + GFCF - GE = BCAGD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""CDDC + GFCF - GE = BCAGD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0007,cryptarithmetic_cf3_base9_mixed,counterfactual,GFCF + GGE - BBA = BAEBD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -82,7 +82,7 @@ Rules:
 
 Equation:  GFCF + GGE - BBA = BAEBD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCF + GGE - BBA = BAEBD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCF + GGE - BBA = BAEBD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0008,cryptarithmetic_cf3_base9_mixed,counterfactual,EDCA + HGHE - HG = BEBBF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -94,7 +94,7 @@ Rules:
 
 Equation:  EDCA + HGHE - HG = BEBBF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""EDCA + HGHE - HG = BEBBF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""EDCA + HGHE - HG = BEBBF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0009,cryptarithmetic_cf3_base9_mixed,counterfactual,GEDE + GABD - CG = AEFCB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -106,7 +106,7 @@ Rules:
 
 Equation:  GEDE + GABD - CG = AEFCB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDE + GABD - CG = AEFCB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDE + GABD - CG = AEFCB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0010,cryptarithmetic_cf3_base9_mixed,counterfactual,GECE + FAD - FF = BACDC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -118,7 +118,7 @@ Rules:
 
 Equation:  GECE + FAD - FF = BACDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECE + FAD - FF = BACDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECE + FAD - FF = BACDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0011,cryptarithmetic_cf3_base9_mixed,counterfactual,GFBG + FCF - DB = BADBE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -130,7 +130,7 @@ Rules:
 
 Equation:  GFBG + FCF - DB = BADBE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFBG + FCF - DB = BADBE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFBG + FCF - DB = BADBE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0012,cryptarithmetic_cf3_base9_mixed,counterfactual,HEFE + HEH - CG = BADHF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -142,7 +142,7 @@ Rules:
 
 Equation:  HEFE + HEH - CG = BADHF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEFE + HEH - CG = BADHF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEFE + HEH - CG = BADHF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0013,cryptarithmetic_cf3_base9_mixed,counterfactual,HEAF + GDA - GH = BACEG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -154,7 +154,7 @@ Rules:
 
 Equation:  HEAF + GDA - GH = BACEG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEAF + GDA - GH = BACEG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEAF + GDA - GH = BACEG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0014,cryptarithmetic_cf3_base9_mixed,counterfactual,HGED + HEF - CAH = BADHA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -166,7 +166,7 @@ Rules:
 
 Equation:  HGED + HEF - CAH = BADHA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGED + HEF - CAH = BADHA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGED + HEF - CAH = BADHA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0015,cryptarithmetic_cf3_base9_mixed,counterfactual,EGFG + EBDD - EE = BCAEF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -178,7 +178,7 @@ Rules:
 
 Equation:  EGFG + EBDD - EE = BCAEF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EGFG + EBDD - EE = BCAEF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EGFG + EBDD - EE = BCAEF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0016,cryptarithmetic_cf3_base9_mixed,counterfactual,DABG + GCG - HFE = CGGA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -190,7 +190,7 @@ Rules:
 
 Equation:  DABG + GCG - HFE = CGGA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DABG + GCG - HFE = CGGA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DABG + GCG - HFE = CGGA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0017,cryptarithmetic_cf3_base9_mixed,counterfactual,HFGE + EHH - EC = BADCC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -202,7 +202,7 @@ Rules:
 
 Equation:  HFGE + EHH - EC = BADCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFGE + EHH - EC = BADCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFGE + EHH - EC = BADCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0018,cryptarithmetic_cf3_base9_mixed,counterfactual,HDFD + GEE - BH = BACBA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -214,7 +214,7 @@ Rules:
 
 Equation:  HDFD + GEE - BH = BACBA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDFD + GEE - BH = BACBA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDFD + GEE - BH = BACBA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0019,cryptarithmetic_cf3_base9_mixed,counterfactual,IIFB + HFG - ECE = BACID,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -226,7 +226,7 @@ Rules:
 
 Equation:  IIFB + HFG - ECE = BACID
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IIFB + HFG - ECE = BACID"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IIFB + HFG - ECE = BACID"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0020,cryptarithmetic_cf3_base9_mixed,counterfactual,FCEF + DEDG - GC = ACACB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -238,7 +238,7 @@ Rules:
 
 Equation:  FCEF + DEDG - GC = ACACB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FCEF + DEDG - GC = ACACB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FCEF + DEDG - GC = ACACB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0021,cryptarithmetic_cf3_base9_mixed,counterfactual,GFAC + EGC - FF = BADAE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -250,7 +250,7 @@ Rules:
 
 Equation:  GFAC + EGC - FF = BADAE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAC + EGC - FF = BADAE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAC + EGC - FF = BADAE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0022,cryptarithmetic_cf3_base9_mixed,counterfactual,EDGB + FCFA - BC = BDBCE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -262,7 +262,7 @@ Rules:
 
 Equation:  EDGB + FCFA - BC = BDBCE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EDGB + FCFA - BC = BDBCE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EDGB + FCFA - BC = BDBCE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0023,cryptarithmetic_cf3_base9_mixed,counterfactual,IDGC + ICEA - DI = BHFGD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -274,7 +274,7 @@ Rules:
 
 Equation:  IDGC + ICEA - DI = BHFGD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IDGC + ICEA - DI = BHFGD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IDGC + ICEA - DI = BHFGD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0024,cryptarithmetic_cf3_base9_mixed,counterfactual,HFBH + GDE - GC = BADGC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -286,7 +286,7 @@ Rules:
 
 Equation:  HFBH + GDE - GC = BADGC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFBH + GDE - GC = BADGC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFBH + GDE - GC = BADGC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0025,cryptarithmetic_cf3_base9_mixed,counterfactual,HEFG + GGDF - HA = BFBCC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -298,7 +298,7 @@ Rules:
 
 Equation:  HEFG + GGDF - HA = BFBCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEFG + GGDF - HA = BFBCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEFG + GGDF - HA = BFBCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0026,cryptarithmetic_cf3_base9_mixed,counterfactual,BCFH + GFDF - BE = BAABA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -310,7 +310,7 @@ Rules:
 
 Equation:  BCFH + GFDF - BE = BAABA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""BCFH + GFDF - BE = BAABA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""BCFH + GFDF - BE = BAABA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0027,cryptarithmetic_cf3_base9_mixed,counterfactual,HGED + FAC - CG = BAEBG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -322,7 +322,7 @@ Rules:
 
 Equation:  HGED + FAC - CG = BAEBG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGED + FAC - CG = BAEBG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGED + FAC - CG = BAEBG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0028,cryptarithmetic_cf3_base9_mixed,counterfactual,GGEC + DAG - CFB = BABAB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -334,7 +334,7 @@ Rules:
 
 Equation:  GGEC + DAG - CFB = BABAB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGEC + DAG - CFB = BABAB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGEC + DAG - CFB = BABAB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0029,cryptarithmetic_cf3_base9_mixed,counterfactual,HFAF + EGF - CD = BAAFG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -346,7 +346,7 @@ Rules:
 
 Equation:  HFAF + EGF - CD = BAAFG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFAF + EGF - CD = BAAFG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFAF + EGF - CD = BAAFG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0030,cryptarithmetic_cf3_base9_mixed,counterfactual,HGCF + FHE - BED = BADFG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -358,7 +358,7 @@ Rules:
 
 Equation:  HGCF + FHE - BED = BADFG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCF + FHE - BED = BADFG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCF + FHE - BED = BADFG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0031,cryptarithmetic_cf3_base9_mixed,counterfactual,GCCD + FFC - EB = BABDE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -370,7 +370,7 @@ Rules:
 
 Equation:  GCCD + FFC - EB = BABDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCCD + FFC - EB = BABDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCCD + FFC - EB = BABDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0032,cryptarithmetic_cf3_base9_mixed,counterfactual,GEGF + EDC - BG = BACCB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -382,7 +382,7 @@ Rules:
 
 Equation:  GEGF + EDC - BG = BACCB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEGF + EDC - BG = BACCB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEGF + EDC - BG = BACCB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0033,cryptarithmetic_cf3_base9_mixed,counterfactual,GBEF + FFEE - HG = BCGAD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -394,7 +394,7 @@ Rules:
 
 Equation:  GBEF + FFEE - HG = BCGAD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GBEF + FFEE - HG = BCGAD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GBEF + FFEE - HG = BCGAD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0034,cryptarithmetic_cf3_base9_mixed,counterfactual,HGCG + EDF - FD = BACAB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -406,7 +406,7 @@ Rules:
 
 Equation:  HGCG + EDF - FD = BACAB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCG + EDF - FD = BACAB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCG + EDF - FD = BACAB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0035,cryptarithmetic_cf3_base9_mixed,counterfactual,GGBG + CEAC - DF = BCDFD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -418,7 +418,7 @@ Rules:
 
 Equation:  GGBG + CEAC - DF = BCDFD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGBG + CEAC - DF = BCDFD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGBG + CEAC - DF = BCDFD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0036,cryptarithmetic_cf3_base9_mixed,counterfactual,GGFB + DEA - FF = BACDC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -430,7 +430,7 @@ Rules:
 
 Equation:  GGFB + DEA - FF = BACDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFB + DEA - FF = BACDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFB + DEA - FF = BACDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0037,cryptarithmetic_cf3_base9_mixed,counterfactual,GFAG + EAA - CB = BADFF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -442,7 +442,7 @@ Rules:
 
 Equation:  GFAG + EAA - CB = BADFF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAG + EAA - CB = BADFF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAG + EAA - CB = BADFF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0038,cryptarithmetic_cf3_base9_mixed,counterfactual,IGGF + HGH - DEA = BACAD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -454,7 +454,7 @@ Rules:
 
 Equation:  IGGF + HGH - DEA = BACAD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGGF + HGH - DEA = BACAD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGGF + HGH - DEA = BACAD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0039,cryptarithmetic_cf3_base9_mixed,counterfactual,IHCI + EGE - CFH = BAADF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -466,7 +466,7 @@ Rules:
 
 Equation:  IHCI + EGE - CFH = BAADF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHCI + EGE - CFH = BAADF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHCI + EGE - CFH = BAADF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0040,cryptarithmetic_cf3_base9_mixed,counterfactual,GGGE + DCA - CAF = BABBF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -478,7 +478,7 @@ Rules:
 
 Equation:  GGGE + DCA - CAF = BABBF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGGE + DCA - CAF = BABBF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGGE + DCA - CAF = BABBF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0041,cryptarithmetic_cf3_base9_mixed,counterfactual,HGCE + HEG - CFD = BAEBH,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -490,7 +490,7 @@ Rules:
 
 Equation:  HGCE + HEG - CFD = BAEBH
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCE + HEG - CFD = BAEBH"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGCE + HEG - CFD = BAEBH"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0042,cryptarithmetic_cf3_base9_mixed,counterfactual,GDFC + FGB - FE = BABFF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -502,7 +502,7 @@ Rules:
 
 Equation:  GDFC + FGB - FE = BABFF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDFC + FGB - FE = BABFF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDFC + FGB - FE = BABFF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0043,cryptarithmetic_cf3_base9_mixed,counterfactual,GFAB + FFC - CF = BADCE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -514,7 +514,7 @@ Rules:
 
 Equation:  GFAB + FFC - CF = BADCE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAB + FFC - CF = BADCE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAB + FFC - CF = BADCE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0044,cryptarithmetic_cf3_base9_mixed,counterfactual,IHIC + FBG - CE = BADHE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -526,7 +526,7 @@ Rules:
 
 Equation:  IHIC + FBG - CE = BADHE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHIC + FBG - CE = BADHE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHIC + FBG - CE = BADHE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0045,cryptarithmetic_cf3_base9_mixed,counterfactual,IHDF + IEI - GB = BAGCD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -538,7 +538,7 @@ Rules:
 
 Equation:  IHDF + IEI - GB = BAGCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHDF + IEI - GB = BAGCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IHDF + IEI - GB = BAGCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0046,cryptarithmetic_cf3_base9_mixed,counterfactual,GDEG + DAC - FD = BAAGE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -550,7 +550,7 @@ Rules:
 
 Equation:  GDEG + DAC - FD = BAAGE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEG + DAC - FD = BAAGE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEG + DAC - FD = BAAGE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0047,cryptarithmetic_cf3_base9_mixed,counterfactual,HEAC + GAH - EF = BACDD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -562,7 +562,7 @@ Rules:
 
 Equation:  HEAC + GAH - EF = BACDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEAC + GAH - EF = BACDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEAC + GAH - EF = BACDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0048,cryptarithmetic_cf3_base9_mixed,counterfactual,IGHA + EHFD - CH = BEFAF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -574,7 +574,7 @@ Rules:
 
 Equation:  IGHA + EHFD - CH = BEFAF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGHA + EHFD - CH = BEFAF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGHA + EHFD - CH = BEFAF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0049,cryptarithmetic_cf3_base9_mixed,counterfactual,HEEH + HFF - BDB = BACGD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -586,7 +586,7 @@ Rules:
 
 Equation:  HEEH + HFF - BDB = BACGD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEEH + HFF - BDB = BACGD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEEH + HFF - BDB = BACGD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0050,cryptarithmetic_cf3_base9_mixed,counterfactual,EFDG + FDEF - EE = BCBEA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -598,7 +598,7 @@ Rules:
 
 Equation:  EFDG + FDEF - EE = BCBEA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EFDG + FDEF - EE = BCBEA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EFDG + FDEF - EE = BCBEA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0051,cryptarithmetic_cf3_base9_mixed,counterfactual,HDAF + HFG - BEC = BACCC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -610,7 +610,7 @@ Rules:
 
 Equation:  HDAF + HFG - BEC = BACCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDAF + HFG - BEC = BACCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDAF + HFG - BEC = BACCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0052,cryptarithmetic_cf3_base9_mixed,counterfactual,GDGE + FGD - CB = BACCB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -622,7 +622,7 @@ Rules:
 
 Equation:  GDGE + FGD - CB = BACCB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDGE + FGD - CB = BACCB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDGE + FGD - CB = BACCB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0053,cryptarithmetic_cf3_base9_mixed,counterfactual,GDEG + GAA - DF = BACCB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -634,7 +634,7 @@ Rules:
 
 Equation:  GDEG + GAA - DF = BACCB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEG + GAA - DF = BACCB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEG + GAA - DF = BACCB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0054,cryptarithmetic_cf3_base9_mixed,counterfactual,GFBE + GAE - DEC = BACEG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -646,7 +646,7 @@ Rules:
 
 Equation:  GFBE + GAE - DEC = BACEG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFBE + GAE - DEC = BACEG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFBE + GAE - DEC = BACEG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0055,cryptarithmetic_cf3_base9_mixed,counterfactual,IIII + GDF - CEG = BADHH,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -658,7 +658,7 @@ Rules:
 
 Equation:  IIII + GDF - CEG = BADHH
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IIII + GDF - CEG = BADHH"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IIII + GDF - CEG = BADHH"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0056,cryptarithmetic_cf3_base9_mixed,counterfactual,GFFG + EDG - CEE = BABEB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -670,7 +670,7 @@ Rules:
 
 Equation:  GFFG + EDG - CEE = BABEB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFFG + EDG - CEE = BABEB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFFG + EDG - CEE = BABEB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0057,cryptarithmetic_cf3_base9_mixed,counterfactual,BEFD + GEF - AE = CECE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -682,7 +682,7 @@ Rules:
 
 Equation:  BEFD + GEF - AE = CECE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""BEFD + GEF - AE = CECE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""BEFD + GEF - AE = CECE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0058,cryptarithmetic_cf3_base9_mixed,counterfactual,GDEA + DFC - CE = BACBD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -694,7 +694,7 @@ Rules:
 
 Equation:  GDEA + DFC - CE = BACBD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEA + DFC - CE = BACBD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEA + DFC - CE = BACBD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0059,cryptarithmetic_cf3_base9_mixed,counterfactual,FCEG + FBFE - DA = BEDAD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -706,7 +706,7 @@ Rules:
 
 Equation:  FCEG + FBFE - DA = BEDAD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FCEG + FBFE - DA = BEDAD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FCEG + FBFE - DA = BEDAD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0060,cryptarithmetic_cf3_base9_mixed,counterfactual,GEAG + FADC - CF = ADFBD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -718,7 +718,7 @@ Rules:
 
 Equation:  GEAG + FADC - CF = ADFBD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEAG + FADC - CF = ADFBD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEAG + FADC - CF = ADFBD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0061,cryptarithmetic_cf3_base9_mixed,counterfactual,GEDE + GFBA - CG = BFBBF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -730,7 +730,7 @@ Rules:
 
 Equation:  GEDE + GFBA - CG = BFBBF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDE + GFBA - CG = BFBBF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDE + GFBA - CG = BFBBF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0062,cryptarithmetic_cf3_base9_mixed,counterfactual,HFHH + GHH - DCE = BAAGD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -742,7 +742,7 @@ Rules:
 
 Equation:  HFHH + GHH - DCE = BAAGD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFHH + GHH - DCE = BAAGD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFHH + GHH - DCE = BAAGD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0063,cryptarithmetic_cf3_base9_mixed,counterfactual,HDEC + GCF - FG = BAABB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -754,7 +754,7 @@ Rules:
 
 Equation:  HDEC + GCF - FG = BAABB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDEC + GCF - FG = BAABB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDEC + GCF - FG = BAABB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0064,cryptarithmetic_cf3_base9_mixed,counterfactual,GCGE + EDBF - GA = ADGCC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -766,7 +766,7 @@ Rules:
 
 Equation:  GCGE + EDBF - GA = ADGCC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCGE + EDBF - GA = ADGCC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCGE + EDBF - GA = ADGCC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0065,cryptarithmetic_cf3_base9_mixed,counterfactual,GEFA + EFD - BF = BADCE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -778,7 +778,7 @@ Rules:
 
 Equation:  GEFA + EFD - BF = BADCE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEFA + EFD - BF = BADCE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEFA + EFD - BF = BADCE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0066,cryptarithmetic_cf3_base9_mixed,counterfactual,GGFD + FBD - CF = BAEDC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -790,7 +790,7 @@ Rules:
 
 Equation:  GGFD + FBD - CF = BAEDC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFD + FBD - CF = BAEDC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGFD + FBD - CF = BAEDC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0067,cryptarithmetic_cf3_base9_mixed,counterfactual,GGGF + EDC - CCB = BACAG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -802,7 +802,7 @@ Rules:
 
 Equation:  GGGF + EDC - CCB = BACAG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGGF + EDC - CCB = BACAG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGGF + EDC - CCB = BACAG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0068,cryptarithmetic_cf3_base9_mixed,counterfactual,GCAD + BFB - FFE = FDGG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -814,7 +814,7 @@ Rules:
 
 Equation:  GCAD + BFB - FFE = FDGG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCAD + BFB - FFE = FDGG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCAD + BFB - FFE = FDGG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0069,cryptarithmetic_cf3_base9_mixed,counterfactual,HFDF + GGC - CG = BAEAB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -826,7 +826,7 @@ Rules:
 
 Equation:  HFDF + GGC - CG = BAEAB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFDF + GGC - CG = BAEAB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFDF + GGC - CG = BAEAB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0070,cryptarithmetic_cf3_base9_mixed,counterfactual,GCGF + FFG - EC = BABCD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -838,7 +838,7 @@ Rules:
 
 Equation:  GCGF + FFG - EC = BABCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCGF + FFG - EC = BABCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCGF + FFG - EC = BABCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0071,cryptarithmetic_cf3_base9_mixed,counterfactual,GDBG + EEC - FB = BAABB,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -850,7 +850,7 @@ Rules:
 
 Equation:  GDBG + EEC - FB = BAABB
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDBG + EEC - FB = BAABB"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDBG + EEC - FB = BAABB"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0072,cryptarithmetic_cf3_base9_mixed,counterfactual,HFCF + FCE - BBG = BAADD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -862,7 +862,7 @@ Rules:
 
 Equation:  HFCF + FCE - BBG = BAADD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFCF + FCE - BBG = BAADD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFCF + FCE - BBG = BAADD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0073,cryptarithmetic_cf3_base9_mixed,counterfactual,GHEB + CIBD - BI = BAGDF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -874,7 +874,7 @@ Rules:
 
 Equation:  GHEB + CIBD - BI = BAGDF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GHEB + CIBD - BI = BAGDF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""GHEB + CIBD - BI = BAGDF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0074,cryptarithmetic_cf3_base9_mixed,counterfactual,HFCE + GEA - GB = BADHD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -886,7 +886,7 @@ Rules:
 
 Equation:  HFCE + GEA - GB = BADHD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFCE + GEA - GB = BADHD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFCE + GEA - GB = BADHD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0075,cryptarithmetic_cf3_base9_mixed,counterfactual,GFDD + EFC - DBG = BAAAF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -898,7 +898,7 @@ Rules:
 
 Equation:  GFDD + EFC - DBG = BAAAF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFDD + EFC - DBG = BAAAF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFDD + EFC - DBG = BAAAF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0076,cryptarithmetic_cf3_base9_mixed,counterfactual,GGDE + FGB - BFD = BADFC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -910,7 +910,7 @@ Rules:
 
 Equation:  GGDE + FGB - BFD = BADFC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGDE + FGB - BFD = BADFC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGDE + FGB - BFD = BADFC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0077,cryptarithmetic_cf3_base9_mixed,counterfactual,EDFB + EBAB - AD = ACFEG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -922,7 +922,7 @@ Rules:
 
 Equation:  EDFB + EBAB - AD = ACFEG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EDFB + EBAB - AD = ACFEG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EDFB + EBAB - AD = ACFEG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0078,cryptarithmetic_cf3_base9_mixed,counterfactual,GECA + FCG - BD = BAADF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -934,7 +934,7 @@ Rules:
 
 Equation:  GECA + FCG - BD = BAADF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECA + FCG - BD = BAADF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECA + FCG - BD = BAADF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0079,cryptarithmetic_cf3_base9_mixed,counterfactual,HGEH + FEF - DFC = BABDD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -946,7 +946,7 @@ Rules:
 
 Equation:  HGEH + FEF - DFC = BABDD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGEH + FEF - DFC = BABDD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGEH + FEF - DFC = BABDD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0080,cryptarithmetic_cf3_base9_mixed,counterfactual,GEGB + DGC - BGE = BAAFE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -958,7 +958,7 @@ Rules:
 
 Equation:  GEGB + DGC - BGE = BAAFE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEGB + DGC - BGE = BAAFE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEGB + DGC - BGE = BAAFE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0081,cryptarithmetic_cf3_base9_mixed,counterfactual,GFED + EED - CBF = BABGG,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -970,7 +970,7 @@ Rules:
 
 Equation:  GFED + EED - CBF = BABGG
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFED + EED - CBF = BABGG"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFED + EED - CBF = BABGG"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0082,cryptarithmetic_cf3_base9_mixed,counterfactual,DCAB + EGBG - FD = AAAFF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -982,7 +982,7 @@ Rules:
 
 Equation:  DCAB + EGBG - FD = AAAFF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DCAB + EGBG - FD = AAAFF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DCAB + EGBG - FD = AAAFF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0083,cryptarithmetic_cf3_base9_mixed,counterfactual,HEHB + GHE - CA = BADFF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -994,7 +994,7 @@ Rules:
 
 Equation:  HEHB + GHE - CA = BADFF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEHB + GHE - CA = BADFF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEHB + GHE - CA = BADFF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0084,cryptarithmetic_cf3_base9_mixed,counterfactual,GEFF + DFHG - FB = BCCAD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1006,7 +1006,7 @@ Rules:
 
 Equation:  GEFF + DFHG - FB = BCCAD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GEFF + DFHG - FB = BCCAD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GEFF + DFHG - FB = BCCAD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0085,cryptarithmetic_cf3_base9_mixed,counterfactual,GEAG + DEF - CA = BACDE,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1018,7 +1018,7 @@ Rules:
 
 Equation:  GEAG + DEF - CA = BACDE
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEAG + DEF - CA = BACDE"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEAG + DEF - CA = BACDE"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0086,cryptarithmetic_cf3_base9_mixed,counterfactual,GFEA + BGEB - CD = BADFF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1030,7 +1030,7 @@ Rules:
 
 Equation:  GFEA + BGEB - CD = BADFF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFEA + BGEB - CD = BADFF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFEA + BGEB - CD = BADFF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0087,cryptarithmetic_cf3_base9_mixed,counterfactual,GEDB + GGD - DCE = BACGF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1042,7 +1042,7 @@ Rules:
 
 Equation:  GEDB + GGD - DCE = BACGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDB + GGD - DCE = BACGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDB + GGD - DCE = BACGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0088,cryptarithmetic_cf3_base9_mixed,counterfactual,GDEF + DFA - CC = BACCD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1054,7 +1054,7 @@ Rules:
 
 Equation:  GDEF + DFA - CC = BACCD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEF + DFA - CC = BACCD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEF + DFA - CC = BACCD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0089,cryptarithmetic_cf3_base9_mixed,counterfactual,GCDF + BEED - EC = BAFEA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1066,7 +1066,7 @@ Rules:
 
 Equation:  GCDF + BEED - EC = BAFEA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCDF + BEED - EC = BAFEA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCDF + BEED - EC = BAFEA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0090,cryptarithmetic_cf3_base9_mixed,counterfactual,GEFE + FGD - BA = BADEC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1078,7 +1078,7 @@ Rules:
 
 Equation:  GEFE + FGD - BA = BADEC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEFE + FGD - BA = BADEC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEFE + FGD - BA = BADEC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0091,cryptarithmetic_cf3_base9_mixed,counterfactual,CHEA + FDAE - FH = BABGF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1090,7 +1090,7 @@ Rules:
 
 Equation:  CHEA + FDAE - FH = BABGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""CHEA + FDAE - FH = BABGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""CHEA + FDAE - FH = BABGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0092,cryptarithmetic_cf3_base9_mixed,counterfactual,GFGA + FFA - CF = BAECD,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1102,7 +1102,7 @@ Rules:
 
 Equation:  GFGA + FFA - CF = BAECD
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFGA + FFA - CF = BAECD"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFGA + FFA - CF = BAECD"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0093,cryptarithmetic_cf3_base9_mixed,counterfactual,ECDG + DEBH - CA = BAHCF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1114,7 +1114,7 @@ Rules:
 
 Equation:  ECDG + DEBH - CA = BAHCF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""ECDG + DEBH - CA = BAHCF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""ECDG + DEBH - CA = BAHCF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0094,cryptarithmetic_cf3_base9_mixed,counterfactual,IGGB + GHD - CF = BAEBI,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1126,7 +1126,7 @@ Rules:
 
 Equation:  IGGB + GHD - CF = BAEBI
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGGB + GHD - CF = BAEBI"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGGB + GHD - CF = BAEBI"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0095,cryptarithmetic_cf3_base9_mixed,counterfactual,DDGA + GBFA - FG = ACEFC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1138,7 +1138,7 @@ Rules:
 
 Equation:  DDGA + GBFA - FG = ACEFC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DDGA + GBFA - FG = ACEFC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DDGA + GBFA - FG = ACEFC"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0096,cryptarithmetic_cf3_base9_mixed,counterfactual,HDBE + GGF - DC = BACEA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1150,7 +1150,7 @@ Rules:
 
 Equation:  HDBE + GGF - DC = BACEA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDBE + GGF - DC = BACEA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDBE + GGF - DC = BACEA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0097,cryptarithmetic_cf3_base9_mixed,counterfactual,GFAC + EAA - CG = BADED,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1162,7 +1162,7 @@ Rules:
 
 Equation:  GFAC + EAA - CG = BADED
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAC + EAA - CG = BADED"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFAC + EAA - CG = BADED"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0098,cryptarithmetic_cf3_base9_mixed,counterfactual,HEDG + FFB - CH = BACHA,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1174,7 +1174,7 @@ Rules:
 
 Equation:  HEDG + FFB - CH = BACHA
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEDG + FFB - CH = BACHA"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEDG + FFB - CH = BACHA"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0099,cryptarithmetic_cf3_base9_mixed,counterfactual,HGGH + FDH - EC = BACGF,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1186,7 +1186,7 @@ Rules:
 
 Equation:  HGGH + FDH - EC = BACGF
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGGH + FDH - EC = BACGF"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGGH + FDH - EC = BACGF"", ""eval_mode"": ""open_native_base9""}"
 cryptarithmetic_cf3_base9_mixed_0100,cryptarithmetic_cf3_base9_mixed,counterfactual,IDHF + HEH - GB = BABGC,"Solve the following chained cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
 Rules:
   - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
@@ -1198,4 +1198,4 @@ Rules:
 
 Equation:  IDHF + HEH - GB = BABGC
 
-Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IDHF + HEH - GB = BABGC"", ""eval_mode"": ""open_native_base9""}"
+Provide the unique letter-to-digit assignment as a JSON object.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IDHF + HEH - GB = BABGC"", ""eval_mode"": ""open_native_base9""}"

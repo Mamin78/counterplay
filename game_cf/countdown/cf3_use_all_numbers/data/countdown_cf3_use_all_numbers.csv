@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 countdown_cf3_use_all_numbers_0001,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 3, 6, 6, 4, 5], ""target"": 94}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -6,9 +6,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 3, 6, 6, 4, 5
-Target: 94
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(4 − (3 × (6 × (6 − (6 − 5))))),(4 + (3 × (6 × (6 ÷ (6 − 5))))),(4 + (3 × (6 × (6 − (6 − 5))))),(4 + (6 × (6 + (6 + 3)))),C,(4 + (3 × (6 × (6 − (6 − 5))))),"{""numbers"": [6, 3, 6, 6, 4, 5], ""target"": 94, ""has_wrong_rule_distractor"": true}"
+Target: 94",(4 + (3 × (6 × (6 − (6 − 5))))),"{""numbers"": [6, 3, 6, 6, 4, 5], ""target"": 94, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0002,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 2, 1, 9, 1, 2], ""target"": 81}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -16,9 +14,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 2, 1, 9, 1, 2
-Target: 81
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 − (1 − (2 ÷ 2))) ÷ (9 ÷ 1)),(9 × ((9 + 2) − (1 + 1))),((9 − (1 + (2 ÷ 2))) × (9 ÷ 1)),((9 − (1 − (2 ÷ 2))) × (9 ÷ 1)),D,((9 − (1 − (2 ÷ 2))) × (9 ÷ 1)),"{""numbers"": [9, 2, 1, 9, 1, 2], ""target"": 81, ""has_wrong_rule_distractor"": true}"
+Target: 81",((9 − (1 − (2 ÷ 2))) × (9 ÷ 1)),"{""numbers"": [9, 2, 1, 9, 1, 2], ""target"": 81, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0003,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 8, 8, 8, 4, 9], ""target"": 86}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -26,9 +22,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 8, 8, 8, 4, 9
-Target: 86
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 + (8 − 8)) − (6 − (8 × 9))),((4 × (8 + 8)) − (6 − (8 × 9))),((4 + (8 × (8 × 8))) ÷ 6),((4 + (8 + 8)) − (6 − (8 × 9))),D,((4 + (8 + 8)) − (6 − (8 × 9))),"{""numbers"": [6, 8, 8, 8, 4, 9], ""target"": 86, ""has_wrong_rule_distractor"": true}"
+Target: 86",((4 + (8 + 8)) − (6 − (8 × 9))),"{""numbers"": [6, 8, 8, 8, 4, 9], ""target"": 86, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0004,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 9, 1, 7, 1, 2], ""target"": 150}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -36,9 +30,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 9, 1, 7, 1, 2
-Target: 150
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((1 × (7 − 2)) × (3 × (9 − 1))),((1 × (7 + 2)) × (3 × (9 + 1))),((1 × (7 − 2)) × (3 × (9 + 1))),((1 − 7) × (2 − (3 × 9))),C,((1 × (7 − 2)) × (3 × (9 + 1))),"{""numbers"": [3, 9, 1, 7, 1, 2], ""target"": 150, ""has_wrong_rule_distractor"": true}"
+Target: 150",((1 × (7 − 2)) × (3 × (9 + 1))),"{""numbers"": [3, 9, 1, 7, 1, 2], ""target"": 150, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0005,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 6, 1, 8, 6, 3], ""target"": 298}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -46,9 +38,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 6, 1, 8, 6, 3
-Target: 298
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 + (3 + (6 × (6 × 8)))) ÷ 1),((7 + 3) + (6 × (6 × 8))),((7 + (3 + (6 × (6 × 8)))) − 1),((7 + (3 − (6 × (6 × 8)))) ÷ 1),A,((7 + (3 + (6 × (6 × 8)))) ÷ 1),"{""numbers"": [7, 6, 1, 8, 6, 3], ""target"": 298, ""has_wrong_rule_distractor"": true}"
+Target: 298",((7 + (3 + (6 × (6 × 8)))) ÷ 1),"{""numbers"": [7, 6, 1, 8, 6, 3], ""target"": 298, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0006,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 5, 5, 1, 7, 5], ""target"": 90}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -56,9 +46,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 5, 5, 1, 7, 5
-Target: 90
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 × (6 + 7)) + (5 × (5 × 1))),((5 × 1) × (7 + (6 + 5))),((5 × (6 + 7)) + (5 − (5 × 1))),((5 × (6 + 7)) + (5 × (5 + 1))),A,((5 × (6 + 7)) + (5 × (5 × 1))),"{""numbers"": [6, 5, 5, 1, 7, 5], ""target"": 90, ""has_wrong_rule_distractor"": true}"
+Target: 90",((5 × (6 + 7)) + (5 × (5 × 1))),"{""numbers"": [6, 5, 5, 1, 7, 5], ""target"": 90, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0007,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 8, 8, 2, 2, 6], ""target"": 83}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -66,9 +54,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 8, 8, 2, 2, 6
-Target: 83
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × (2 + 8)) + (6 ÷ 2)),((6 + ((8 + 2) × (8 + 2))) ÷ 2),((6 + ((8 + 2) × (8 × 2))) ÷ 2),((6 × ((8 + 2) × (8 × 2))) ÷ 2),C,((6 + ((8 + 2) × (8 × 2))) ÷ 2),"{""numbers"": [2, 8, 8, 2, 2, 6], ""target"": 83, ""has_wrong_rule_distractor"": true}"
+Target: 83",((6 + ((8 + 2) × (8 × 2))) ÷ 2),"{""numbers"": [2, 8, 8, 2, 2, 6], ""target"": 83, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0008,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 1, 8, 4, 6, 8], ""target"": 288}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -76,9 +62,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 1, 8, 4, 6, 8
-Target: 288
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 × 8) × (4 − (8 − (1 + 6)))),((9 × 8) × (4 ÷ (8 − (1 + 6)))),((9 − 8) × (4 ÷ (8 − (1 + 6)))),((8 × 6) × ((9 + 1) − 4)),B,((9 × 8) × (4 ÷ (8 − (1 + 6)))),"{""numbers"": [9, 1, 8, 4, 6, 8], ""target"": 288, ""has_wrong_rule_distractor"": true}"
+Target: 288",((9 × 8) × (4 ÷ (8 − (1 + 6)))),"{""numbers"": [9, 1, 8, 4, 6, 8], ""target"": 288, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0009,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 1, 7, 6, 5, 1], ""target"": 55}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -86,9 +70,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 1, 7, 6, 5, 1
-Target: 55
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × 7) − ((1 + 6) − (5 × 1))),((8 × 7) − ((1 × 6) − (5 × 1))),((7 × 6) + (5 + (8 × 1))),((8 × 7) + ((1 × 6) − (5 × 1))),B,((8 × 7) − ((1 × 6) − (5 × 1))),"{""numbers"": [8, 1, 7, 6, 5, 1], ""target"": 55, ""has_wrong_rule_distractor"": true}"
+Target: 55",((8 × 7) − ((1 × 6) − (5 × 1))),"{""numbers"": [8, 1, 7, 6, 5, 1], ""target"": 55, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0010,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 6, 7, 5, 1, 2], ""target"": 128}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -96,9 +78,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 6, 7, 5, 1, 2
-Target: 128
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 + (5 × 2)) × (1 + (7 ÷ 1))),((6 + (5 × 2)) × (1 − (7 ÷ 1))),((1 + 7) × (6 + (5 × 2))),((6 + (5 × 2)) × (1 + (7 + 1))),A,((6 + (5 × 2)) × (1 + (7 ÷ 1))),"{""numbers"": [1, 6, 7, 5, 1, 2], ""target"": 128, ""has_wrong_rule_distractor"": true}"
+Target: 128",((6 + (5 × 2)) × (1 + (7 ÷ 1))),"{""numbers"": [1, 6, 7, 5, 1, 2], ""target"": 128, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0011,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 3, 7, 9, 8, 1], ""target"": 66}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -106,9 +86,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 3, 7, 9, 8, 1
-Target: 66
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 − ((1 − (7 × 9)) − (3 + 8))),(9 − ((1 − (7 × 9)) − (3 − 8))),((9 − 7) × (9 + (3 × 8))),(9 − ((1 − (7 × 9)) × (3 − 8))),B,(9 − ((1 − (7 × 9)) − (3 − 8))),"{""numbers"": [9, 3, 7, 9, 8, 1], ""target"": 66, ""has_wrong_rule_distractor"": true}"
+Target: 66",(9 − ((1 − (7 × 9)) − (3 − 8))),"{""numbers"": [9, 3, 7, 9, 8, 1], ""target"": 66, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0012,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 3, 7, 8, 9, 9], ""target"": 265}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -116,9 +94,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 3, 7, 8, 9, 9
-Target: 265
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((3 × 9) + (7 × (2 × (8 × 9)))),((3 × (8 + (9 × 9))) − 2),((3 × 9) + (7 × (2 − (8 + 9)))),((3 × 9) + (7 × (2 × (8 + 9)))),D,((3 × 9) + (7 × (2 × (8 + 9)))),"{""numbers"": [2, 3, 7, 8, 9, 9], ""target"": 265, ""has_wrong_rule_distractor"": true}"
+Target: 265",((3 × 9) + (7 × (2 × (8 + 9)))),"{""numbers"": [2, 3, 7, 8, 9, 9], ""target"": 265, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0013,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 9, 8, 6, 8, 2], ""target"": 112}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -126,9 +102,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 9, 8, 6, 8, 2
-Target: 112
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 × 2) − (8 − (9 × (4 + 8)))),((8 + 8) × ((4 + 9) − 6)),((6 − 2) − (8 − (9 × (4 + 8)))),((6 × 2) − (8 − (9 + (4 + 8)))),A,((6 × 2) − (8 − (9 × (4 + 8)))),"{""numbers"": [4, 9, 8, 6, 8, 2], ""target"": 112, ""has_wrong_rule_distractor"": true}"
+Target: 112",((6 × 2) − (8 − (9 × (4 + 8)))),"{""numbers"": [4, 9, 8, 6, 8, 2], ""target"": 112, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0014,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 6, 4, 3, 2, 4], ""target"": 144}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -136,9 +110,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 6, 4, 3, 2, 4
-Target: 144
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(2 × (4 × (3 × (9 − (6 × 4))))),(2 × (4 + (3 − (9 − (6 × 4))))),(2 × (4 × (3 − (9 − (6 × 4))))),((4 × 2) × (3 + (9 + 6))),C,(2 × (4 × (3 − (9 − (6 × 4))))),"{""numbers"": [9, 6, 4, 3, 2, 4], ""target"": 144, ""has_wrong_rule_distractor"": true}"
+Target: 144",(2 × (4 × (3 − (9 − (6 × 4))))),"{""numbers"": [9, 6, 4, 3, 2, 4], ""target"": 144, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0015,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 6, 4, 3, 6, 3], ""target"": 156}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -146,9 +118,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 6, 4, 3, 6, 3
-Target: 156
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(6 × ((3 + (1 + 4)) + (6 × 3))),(6 − ((3 + (1 + 4)) + (6 × 3))),((4 × 3) × (6 + (1 + 6))),(6 × ((3 × (1 + 4)) + (6 × 3))),A,(6 × ((3 + (1 + 4)) + (6 × 3))),"{""numbers"": [1, 6, 4, 3, 6, 3], ""target"": 156, ""has_wrong_rule_distractor"": true}"
+Target: 156",(6 × ((3 + (1 + 4)) + (6 × 3))),"{""numbers"": [1, 6, 4, 3, 6, 3], ""target"": 156, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0016,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 3, 1, 7, 1, 3], ""target"": 63}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -156,9 +126,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 3, 1, 7, 1, 3
-Target: 63
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 + ((1 − 1) ÷ 3)) − (3 × 3)),((3 × 3) × ((1 + 7) − 1)),((7 + ((1 − 1) ÷ 3)) × (3 × 3)),((7 + ((1 − 1) ÷ 3)) × (3 + 3)),C,((7 + ((1 − 1) ÷ 3)) × (3 × 3)),"{""numbers"": [3, 3, 1, 7, 1, 3], ""target"": 63, ""has_wrong_rule_distractor"": true}"
+Target: 63",((7 + ((1 − 1) ÷ 3)) × (3 × 3)),"{""numbers"": [3, 3, 1, 7, 1, 3], ""target"": 63, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0017,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 2, 9, 7, 3, 6], ""target"": 94}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -166,9 +134,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 2, 9, 7, 3, 6
-Target: 94
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((3 × (5 × 6)) + (2 + (9 − 7))),((3 − (5 × 6)) + (2 + (9 − 7))),((3 + (5 × 6)) + (2 + (9 − 7))),((5 × 2) + (7 × (9 + 3))),A,((3 × (5 × 6)) + (2 + (9 − 7))),"{""numbers"": [5, 2, 9, 7, 3, 6], ""target"": 94, ""has_wrong_rule_distractor"": true}"
+Target: 94",((3 × (5 × 6)) + (2 + (9 − 7))),"{""numbers"": [5, 2, 9, 7, 3, 6], ""target"": 94, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0018,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 6, 5, 6, 5, 5], ""target"": 192}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -176,9 +142,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 6, 5, 6, 5, 5
-Target: 192
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((2 × 6) × (5 + (5 + 6))),(6 × (2 + (5 + (6 + (5 − 5))))),(6 × (2 + (5 × (6 + (5 − 5))))),(6 + (2 + (5 × (6 + (5 − 5))))),C,(6 × (2 + (5 × (6 + (5 − 5))))),"{""numbers"": [2, 6, 5, 6, 5, 5], ""target"": 192, ""has_wrong_rule_distractor"": true}"
+Target: 192",(6 × (2 + (5 × (6 + (5 − 5))))),"{""numbers"": [2, 6, 5, 6, 5, 5], ""target"": 192, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0019,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 1, 5, 6, 6, 7], ""target"": 53}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -186,9 +150,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 1, 5, 6, 6, 7
-Target: 53
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(5 − (6 × (6 × (1 − (3 + 7))))),(5 + (6 + (6 × (1 − (3 + 7))))),(5 − (6 + (6 × (1 − (3 + 7))))),(5 + ((3 + 1) × (6 + 6))),C,(5 − (6 + (6 × (1 − (3 + 7))))),"{""numbers"": [3, 1, 5, 6, 6, 7], ""target"": 53, ""has_wrong_rule_distractor"": true}"
+Target: 53",(5 − (6 + (6 × (1 − (3 + 7))))),"{""numbers"": [3, 1, 5, 6, 6, 7], ""target"": 53, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0020,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 7, 5, 9, 5, 3], ""target"": 317}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -196,9 +158,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 7, 5, 9, 5, 3
-Target: 317
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 × 3) + ((7 × 5) × (9 ÷ 1))),((5 − 3) + ((7 × 5) × (9 + 1))),((7 × (1 + (5 × 9))) − 5),((5 − 3) + ((7 × 5) × (9 ÷ 1))),D,((5 − 3) + ((7 × 5) × (9 ÷ 1))),"{""numbers"": [1, 7, 5, 9, 5, 3], ""target"": 317, ""has_wrong_rule_distractor"": true}"
+Target: 317",((5 − 3) + ((7 × 5) × (9 ÷ 1))),"{""numbers"": [1, 7, 5, 9, 5, 3], ""target"": 317, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0021,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 1, 8, 3, 9, 4], ""target"": 576}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -206,9 +166,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 1, 8, 3, 9, 4
-Target: 576
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × 9) × (4 + (7 × (1 × 3)))),((8 × 9) × (4 + (7 − (1 × 3)))),((8 × 9) − (4 + (7 − (1 × 3)))),((8 × (7 − 1)) × (3 + 9)),B,((8 × 9) × (4 + (7 − (1 × 3)))),"{""numbers"": [7, 1, 8, 3, 9, 4], ""target"": 576, ""has_wrong_rule_distractor"": true}"
+Target: 576",((8 × 9) × (4 + (7 − (1 × 3)))),"{""numbers"": [7, 1, 8, 3, 9, 4], ""target"": 576, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0022,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 2, 8, 8, 8, 4], ""target"": 112}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -216,9 +174,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 2, 8, 8, 8, 4
-Target: 112
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 + 8) × (8 − (4 − (8 − 2)))),((6 + 8) × (8 − (4 − (8 ÷ 2)))),((6 + 8) × (8 − (4 + (8 ÷ 2)))),((8 + 8) + (8 × (6 × 2))),B,((6 + 8) × (8 − (4 − (8 ÷ 2)))),"{""numbers"": [6, 2, 8, 8, 8, 4], ""target"": 112, ""has_wrong_rule_distractor"": true}"
+Target: 112",((6 + 8) × (8 − (4 − (8 ÷ 2)))),"{""numbers"": [6, 2, 8, 8, 8, 4], ""target"": 112, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0023,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 6, 6, 5, 4, 4], ""target"": 72}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -226,9 +182,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 6, 6, 5, 4, 4
-Target: 72
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(4 × ((6 ÷ 6) × (9 + (5 × 4)))),((6 × 4) × ((9 + 6) ÷ 5)),(4 × ((6 ÷ 6) × (9 + (5 + 4)))),(4 + ((6 ÷ 6) × (9 + (5 + 4)))),C,(4 × ((6 ÷ 6) × (9 + (5 + 4)))),"{""numbers"": [9, 6, 6, 5, 4, 4], ""target"": 72, ""has_wrong_rule_distractor"": true}"
+Target: 72",(4 × ((6 ÷ 6) × (9 + (5 + 4)))),"{""numbers"": [9, 6, 6, 5, 4, 4], ""target"": 72, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0024,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 5, 9, 1, 7, 2], ""target"": 322}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -236,9 +190,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 5, 9, 1, 7, 2
-Target: 322
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 × 2) + ((9 ÷ 1) × (5 × 7))),((5 + 2) × (1 + (5 × 9))),((5 + 2) + ((9 ÷ 1) × (5 × 7))),((5 + 2) + ((9 ÷ 1) × (5 − 7))),C,((5 + 2) + ((9 ÷ 1) × (5 × 7))),"{""numbers"": [5, 5, 9, 1, 7, 2], ""target"": 322, ""has_wrong_rule_distractor"": true}"
+Target: 322",((5 + 2) + ((9 ÷ 1) × (5 × 7))),"{""numbers"": [5, 5, 9, 1, 7, 2], ""target"": 322, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0025,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 1, 1, 7, 9, 2], ""target"": 69}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -246,9 +198,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 1, 1, 7, 9, 2
-Target: 69
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 × 9) + ((9 − 1) − (1 × 2))),(9 − ((9 + 1) × (1 − 7))),((7 × 9) × ((9 − 1) − (1 × 2))),((7 + 9) + ((9 − 1) − (1 × 2))),A,((7 × 9) + ((9 − 1) − (1 × 2))),"{""numbers"": [9, 1, 1, 7, 9, 2], ""target"": 69, ""has_wrong_rule_distractor"": true}"
+Target: 69",((7 × 9) + ((9 − 1) − (1 × 2))),"{""numbers"": [9, 1, 1, 7, 9, 2], ""target"": 69, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0026,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 9, 6, 8, 1, 9], ""target"": 65}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -256,9 +206,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 9, 6, 8, 1, 9
-Target: 65
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(1 − (8 × (6 − (5 + 9)))),(5 + (6 − (9 + (1 − (9 + 8))))),(5 × (6 − (9 + (1 − (9 + 8))))),(5 × (6 × (9 + (1 − (9 + 8))))),C,(5 × (6 − (9 + (1 − (9 + 8))))),"{""numbers"": [5, 9, 6, 8, 1, 9], ""target"": 65, ""has_wrong_rule_distractor"": true}"
+Target: 65",(5 × (6 − (9 + (1 − (9 + 8))))),"{""numbers"": [5, 9, 6, 8, 1, 9], ""target"": 65, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0027,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 7, 8, 9, 5, 1], ""target"": 69}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -266,9 +214,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 7, 8, 9, 5, 1
-Target: 69
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 × 8) + ((9 ÷ 1) × (5 + 1))),((7 + 8) + ((9 ÷ 1) × (5 + 1))),((7 − 8) + ((9 ÷ 1) × (5 + 1))),((8 × 9) + (5 − (1 + 7))),B,((7 + 8) + ((9 ÷ 1) × (5 + 1))),"{""numbers"": [1, 7, 8, 9, 5, 1], ""target"": 69, ""has_wrong_rule_distractor"": true}"
+Target: 69",((7 + 8) + ((9 ÷ 1) × (5 + 1))),"{""numbers"": [1, 7, 8, 9, 5, 1], ""target"": 69, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0028,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 1, 5, 1, 9, 3], ""target"": 60}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -276,9 +222,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 1, 5, 1, 9, 3
-Target: 60
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((1 × (1 × 5)) − (9 + (1 × 3))),(5 × ((1 + 1) + (1 + 9))),((1 − (1 × 5)) × (9 + (1 × 3))),((1 × (1 × 5)) × (9 + (1 × 3))),D,((1 × (1 × 5)) × (9 + (1 × 3))),"{""numbers"": [1, 1, 5, 1, 9, 3], ""target"": 60, ""has_wrong_rule_distractor"": true}"
+Target: 60",((1 × (1 × 5)) × (9 + (1 × 3))),"{""numbers"": [1, 1, 5, 1, 9, 3], ""target"": 60, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0029,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 3, 8, 2, 5, 1], ""target"": 280}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -286,9 +230,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 3, 8, 2, 5, 1
-Target: 280
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × (5 ÷ 1)) × (3 + (8 ÷ 2))),((8 × (5 ÷ 1)) × (3 − (8 ÷ 2))),((8 × (5 − 1)) × (3 + (8 ÷ 2))),((8 × 5) × (2 + (8 − 3))),A,((8 × (5 ÷ 1)) × (3 + (8 ÷ 2))),"{""numbers"": [8, 3, 8, 2, 5, 1], ""target"": 280, ""has_wrong_rule_distractor"": true}"
+Target: 280",((8 × (5 ÷ 1)) × (3 + (8 ÷ 2))),"{""numbers"": [8, 3, 8, 2, 5, 1], ""target"": 280, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0030,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 8, 1, 3, 1, 8], ""target"": 103}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -296,9 +238,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 8, 1, 3, 1, 8
-Target: 103
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(1 − ((9 + 8) × (3 − (8 − 1)))),(1 − ((9 + 8) × (3 − (8 + 1)))),((8 × (3 + (9 + 1))) − 1),(1 − ((9 + 8) × (3 × (8 + 1)))),B,(1 − ((9 + 8) × (3 − (8 + 1)))),"{""numbers"": [9, 8, 1, 3, 1, 8], ""target"": 103, ""has_wrong_rule_distractor"": true}"
+Target: 103",(1 − ((9 + 8) × (3 − (8 + 1)))),"{""numbers"": [9, 8, 1, 3, 1, 8], ""target"": 103, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0031,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 3, 9, 7, 1, 5], ""target"": 120}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -306,9 +246,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 3, 9, 7, 1, 5
-Target: 120
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 + 3) × ((9 + 7) − 1)),(((5 + (7 − 5)) × (9 × 1)) ÷ 3),(((5 × (7 × 5)) × (9 × 1)) ÷ 3),(((5 + (7 × 5)) × (9 × 1)) ÷ 3),D,(((5 + (7 × 5)) × (9 × 1)) ÷ 3),"{""numbers"": [5, 3, 9, 7, 1, 5], ""target"": 120, ""has_wrong_rule_distractor"": true}"
+Target: 120",(((5 + (7 × 5)) × (9 × 1)) ÷ 3),"{""numbers"": [5, 3, 9, 7, 1, 5], ""target"": 120, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0032,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 1, 8, 8, 3, 7], ""target"": 192}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -316,9 +254,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 1, 8, 8, 3, 7
-Target: 192
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 × (3 × (7 + (8 × (8 ÷ 1))))),(8 × (3 × (7 + (8 ÷ (8 ÷ 1))))),(8 × (3 × (7 ÷ (8 ÷ (8 ÷ 1))))),((8 + 8) × (3 + (8 + 1))),B,(8 × (3 × (7 + (8 ÷ (8 ÷ 1))))),"{""numbers"": [8, 1, 8, 8, 3, 7], ""target"": 192, ""has_wrong_rule_distractor"": true}"
+Target: 192",(8 × (3 × (7 + (8 ÷ (8 ÷ 1))))),"{""numbers"": [8, 1, 8, 8, 3, 7], ""target"": 192, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0033,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 3, 9, 8, 3, 4], ""target"": 82}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -326,9 +262,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 3, 9, 8, 3, 4
-Target: 82
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(7 + (9 − (3 × (4 + (3 × 8))))),((3 × (9 + (7 × 3))) − 8),(7 − (9 − (3 × (4 + (3 × 8))))),(7 − (9 − (3 + (4 + (3 × 8))))),C,(7 − (9 − (3 × (4 + (3 × 8))))),"{""numbers"": [7, 3, 9, 8, 3, 4], ""target"": 82, ""has_wrong_rule_distractor"": true}"
+Target: 82",(7 − (9 − (3 × (4 + (3 × 8))))),"{""numbers"": [7, 3, 9, 8, 3, 4], ""target"": 82, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0034,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 2, 5, 8, 8, 4], ""target"": 56}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -336,9 +270,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 2, 5, 8, 8, 4
-Target: 56
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × (2 + (2 + 4))) + (5 × 8)),(8 × ((2 + 2) − (5 − 8))),((8 + (2 + (2 + 4))) + (5 − 8)),((8 + (2 + (2 + 4))) + (5 × 8)),D,((8 + (2 + (2 + 4))) + (5 × 8)),"{""numbers"": [2, 2, 5, 8, 8, 4], ""target"": 56, ""has_wrong_rule_distractor"": true}"
+Target: 56",((8 + (2 + (2 + 4))) + (5 × 8)),"{""numbers"": [2, 2, 5, 8, 8, 4], ""target"": 56, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0035,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 6, 5, 6, 1, 1], ""target"": 78}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -346,9 +278,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 6, 5, 6, 1, 1
-Target: 78
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(6 + ((6 + (7 − 1)) + (5 + 1))),((7 × 6) + (6 × (5 + 1))),(6 + ((6 + (7 − 1)) × (5 + 1))),(6 + ((6 + (7 ÷ 1)) × (5 + 1))),C,(6 + ((6 + (7 − 1)) × (5 + 1))),"{""numbers"": [7, 6, 5, 6, 1, 1], ""target"": 78, ""has_wrong_rule_distractor"": true}"
+Target: 78",(6 + ((6 + (7 − 1)) × (5 + 1))),"{""numbers"": [7, 6, 5, 6, 1, 1], ""target"": 78, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0036,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 7, 6, 3, 9, 1], ""target"": 156}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -356,9 +286,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 7, 6, 3, 9, 1
-Target: 156
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(3 × ((7 × 9) − (5 + (6 × 1)))),(3 × ((5 − 7) + (6 × 9))),(3 − ((7 × 9) − (5 + (6 × 1)))),(3 × ((7 × 9) − (5 + (6 + 1)))),A,(3 × ((7 × 9) − (5 + (6 × 1)))),"{""numbers"": [5, 7, 6, 3, 9, 1], ""target"": 156, ""has_wrong_rule_distractor"": true}"
+Target: 156",(3 × ((7 × 9) − (5 + (6 × 1)))),"{""numbers"": [5, 7, 6, 3, 9, 1], ""target"": 156, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0037,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 2, 1, 9, 6, 8], ""target"": 58}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -366,9 +294,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 2, 1, 9, 6, 8
-Target: 58
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(1 − ((2 − 8) − (9 + (7 × 6)))),((9 × (1 + 6)) − (7 − 2)),(1 + ((2 − 8) − (9 + (7 × 6)))),(1 − ((2 + 8) − (9 + (7 × 6)))),A,(1 − ((2 − 8) − (9 + (7 × 6)))),"{""numbers"": [7, 2, 1, 9, 6, 8], ""target"": 58, ""has_wrong_rule_distractor"": true}"
+Target: 58",(1 − ((2 − 8) − (9 + (7 × 6)))),"{""numbers"": [7, 2, 1, 9, 6, 8], ""target"": 58, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0038,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 2, 4, 2, 9, 4], ""target"": 69}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -376,9 +302,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 2, 4, 2, 9, 4
-Target: 69
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 × 9) + ((4 + (4 × 2)) ÷ 2)),(9 + (2 × (2 + (7 × 4)))),((7 × 9) × ((4 + (4 × 2)) ÷ 2)),((7 + 9) + ((4 + (4 × 2)) ÷ 2)),A,((7 × 9) + ((4 + (4 × 2)) ÷ 2)),"{""numbers"": [7, 2, 4, 2, 9, 4], ""target"": 69, ""has_wrong_rule_distractor"": true}"
+Target: 69",((7 × 9) + ((4 + (4 × 2)) ÷ 2)),"{""numbers"": [7, 2, 4, 2, 9, 4], ""target"": 69, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0039,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 9, 4, 2, 6, 9], ""target"": 54}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -386,9 +310,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 9, 4, 2, 6, 9
-Target: 54
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 × 6) − ((2 + (7 − 9)) ÷ 4)),((9 × 2) × (6 − (7 − 4))),((9 × 6) − ((2 + (7 − 9)) − 4)),((9 × 6) × ((2 + (7 − 9)) ÷ 4)),A,((9 × 6) − ((2 + (7 − 9)) ÷ 4)),"{""numbers"": [7, 9, 4, 2, 6, 9], ""target"": 54, ""has_wrong_rule_distractor"": true}"
+Target: 54",((9 × 6) − ((2 + (7 − 9)) ÷ 4)),"{""numbers"": [7, 9, 4, 2, 6, 9], ""target"": 54, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0040,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 7, 9, 8, 1, 1], ""target"": 137}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -396,9 +318,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 7, 9, 8, 1, 1
-Target: 137
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 + ((8 × 1) × (1 × (9 + 7)))),((9 × 1) + (8 × (9 + 7))),(9 + ((8 × 1) × (1 × (9 − 7)))),(9 + ((8 × 1) − (1 × (9 + 7)))),A,(9 + ((8 × 1) × (1 × (9 + 7)))),"{""numbers"": [9, 7, 9, 8, 1, 1], ""target"": 137, ""has_wrong_rule_distractor"": true}"
+Target: 137",(9 + ((8 × 1) × (1 × (9 + 7)))),"{""numbers"": [9, 7, 9, 8, 1, 1], ""target"": 137, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0041,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 6, 7, 6, 7, 3], ""target"": 54}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -406,9 +326,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 6, 7, 6, 7, 3
-Target: 54
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((2 + 3) + (7 × (6 + (6 − 7)))),(6 × ((2 + 6) + (7 ÷ 7))),((2 + 3) + (7 × (6 − (6 − 7)))),((2 + 3) + (7 + (6 − (6 − 7)))),C,((2 + 3) + (7 × (6 − (6 − 7)))),"{""numbers"": [2, 6, 7, 6, 7, 3], ""target"": 54, ""has_wrong_rule_distractor"": true}"
+Target: 54",((2 + 3) + (7 × (6 − (6 − 7)))),"{""numbers"": [2, 6, 7, 6, 7, 3], ""target"": 54, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0042,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 3, 5, 4, 9, 1], ""target"": 180}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -416,9 +334,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 3, 5, 4, 9, 1
-Target: 180
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 × (5 − ((1 × (8 + 4)) ÷ 3))),(9 + (5 × ((1 × (8 + 4)) ÷ 3))),(9 × (5 × ((1 × (8 + 4)) ÷ 3))),((5 + 4) × (9 + (8 + 3))),C,(9 × (5 × ((1 × (8 + 4)) ÷ 3))),"{""numbers"": [8, 3, 5, 4, 9, 1], ""target"": 180, ""has_wrong_rule_distractor"": true}"
+Target: 180",(9 × (5 × ((1 × (8 + 4)) ÷ 3))),"{""numbers"": [8, 3, 5, 4, 9, 1], ""target"": 180, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0043,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 2, 1, 1, 5, 1], ""target"": 60}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -426,9 +342,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 2, 1, 1, 5, 1
-Target: 60
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(1 × (1 × ((5 + 1) × (8 − 2)))),(1 × (1 × ((5 + 1) + (8 + 2)))),(1 × (1 × ((5 + 1) × (8 + 2)))),(5 × ((8 + 2) + (1 + 1))),C,(1 × (1 × ((5 + 1) × (8 + 2)))),"{""numbers"": [8, 2, 1, 1, 5, 1], ""target"": 60, ""has_wrong_rule_distractor"": true}"
+Target: 60",(1 × (1 × ((5 + 1) × (8 + 2)))),"{""numbers"": [8, 2, 1, 1, 5, 1], ""target"": 60, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0044,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 7, 4, 4, 5, 2], ""target"": 53}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -436,9 +350,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 7, 4, 4, 5, 2
-Target: 53
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 − (9 + 4)) + (2 ÷ (7 − 5))),(5 − (4 × (4 − (9 + 7)))),((4 × (9 + 4)) ÷ (2 ÷ (7 − 5))),((4 × (9 + 4)) + (2 ÷ (7 − 5))),D,((4 × (9 + 4)) + (2 ÷ (7 − 5))),"{""numbers"": [9, 7, 4, 4, 5, 2], ""target"": 53, ""has_wrong_rule_distractor"": true}"
+Target: 53",((4 × (9 + 4)) + (2 ÷ (7 − 5))),"{""numbers"": [9, 7, 4, 4, 5, 2], ""target"": 53, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0045,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 3, 1, 9, 7, 6], ""target"": 68}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -446,9 +358,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 3, 1, 9, 7, 6
-Target: 68
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(5 × ((7 + (9 × 6)) + (3 − 1))),(5 + ((7 + (9 × 6)) + (3 − 1))),(5 + ((7 + (9 × 6)) + (3 × 1))),((7 × (1 + 9)) − (5 − 3)),B,(5 + ((7 + (9 × 6)) + (3 − 1))),"{""numbers"": [5, 3, 1, 9, 7, 6], ""target"": 68, ""has_wrong_rule_distractor"": true}"
+Target: 68",(5 + ((7 + (9 × 6)) + (3 − 1))),"{""numbers"": [5, 3, 1, 9, 7, 6], ""target"": 68, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0046,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 2, 5, 7, 3, 9], ""target"": 324}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -456,9 +366,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 2, 5, 7, 3, 9
-Target: 324
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 × ((8 ÷ 2) + (5 × (7 − 3)))),(9 × ((8 × 2) + (5 × (7 − 3)))),(9 × ((8 × 2) + (5 + (7 − 3)))),((2 × 9) × (3 + (8 + 7))),B,(9 × ((8 × 2) + (5 × (7 − 3)))),"{""numbers"": [8, 2, 5, 7, 3, 9], ""target"": 324, ""has_wrong_rule_distractor"": true}"
+Target: 324",(9 × ((8 × 2) + (5 × (7 − 3)))),"{""numbers"": [8, 2, 5, 7, 3, 9], ""target"": 324, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0047,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 5, 6, 8, 3, 4], ""target"": 88}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -466,9 +374,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 5, 6, 8, 3, 4
-Target: 88
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 − (5 + (3 × 3))) + (8 − 4)),((6 × (5 + (3 × 3))) − (8 − 4)),((6 × (5 + (3 × 3))) + (8 − 4)),((3 + 5) × ((6 + 8) − 3)),C,((6 × (5 + (3 × 3))) + (8 − 4)),"{""numbers"": [3, 5, 6, 8, 3, 4], ""target"": 88, ""has_wrong_rule_distractor"": true}"
+Target: 88",((6 × (5 + (3 × 3))) + (8 − 4)),"{""numbers"": [3, 5, 6, 8, 3, 4], ""target"": 88, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0048,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 6, 5, 2, 1, 3], ""target"": 468}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -476,9 +382,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 6, 5, 2, 1, 3
-Target: 468
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(2 × ((6 × 3) × (8 + (5 ÷ 1)))),(2 − ((6 × 3) × (8 + (5 ÷ 1)))),((6 × 2) × ((8 × 5) − 1)),(2 × ((6 − 3) × (8 + (5 ÷ 1)))),A,(2 × ((6 × 3) × (8 + (5 ÷ 1)))),"{""numbers"": [8, 6, 5, 2, 1, 3], ""target"": 468, ""has_wrong_rule_distractor"": true}"
+Target: 468",(2 × ((6 × 3) × (8 + (5 ÷ 1)))),"{""numbers"": [8, 6, 5, 2, 1, 3], ""target"": 468, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0049,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 9, 8, 9, 9, 4], ""target"": 166}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -486,9 +390,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 9, 8, 9, 9, 4
-Target: 166
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 − 4) + (9 × (9 + 9))),(4 + (9 × (9 − (8 + (9 ÷ 9))))),(4 + (9 × (9 + (8 ÷ (9 ÷ 9))))),(4 + (9 × (9 + (8 + (9 ÷ 9))))),D,(4 + (9 × (9 + (8 + (9 ÷ 9))))),"{""numbers"": [9, 9, 8, 9, 9, 4], ""target"": 166, ""has_wrong_rule_distractor"": true}"
+Target: 166",(4 + (9 × (9 + (8 + (9 ÷ 9))))),"{""numbers"": [9, 9, 8, 9, 9, 4], ""target"": 166, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0050,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 8, 4, 8, 2, 1], ""target"": 128}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -496,9 +398,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 8, 4, 8, 2, 1
-Target: 128
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 × ((8 × (4 × (1 × 2))) ÷ 1)),((4 × 8) × ((1 × 8) ÷ 2)),(8 − ((8 × (4 − (1 × 2))) ÷ 1)),(8 × ((8 × (4 − (1 × 2))) ÷ 1)),D,(8 × ((8 × (4 − (1 × 2))) ÷ 1)),"{""numbers"": [1, 8, 4, 8, 2, 1], ""target"": 128, ""has_wrong_rule_distractor"": true}"
+Target: 128",(8 × ((8 × (4 − (1 × 2))) ÷ 1)),"{""numbers"": [1, 8, 4, 8, 2, 1], ""target"": 128, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0051,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 1, 7, 7, 8, 1], ""target"": 840}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -506,9 +406,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 1, 7, 7, 8, 1
-Target: 840
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × (1 ÷ 1)) × (7 × (7 + 8))),((8 × (1 ÷ 1)) × (7 × (7 × 8))),((8 × (1 − 1)) × (7 × (7 + 8))),((7 + 8) × (7 × (8 × 1))),A,((8 × (1 ÷ 1)) × (7 × (7 + 8))),"{""numbers"": [8, 1, 7, 7, 8, 1], ""target"": 840, ""has_wrong_rule_distractor"": true}"
+Target: 840",((8 × (1 ÷ 1)) × (7 × (7 + 8))),"{""numbers"": [8, 1, 7, 7, 8, 1], ""target"": 840, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0052,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 3, 1, 5, 5, 2], ""target"": 88}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -516,9 +414,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 3, 1, 5, 5, 2
-Target: 88
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 × 1) × ((5 × 5) − 3)),(4 − ((5 + 2) + (1 × (3 × 5)))),(4 × ((5 + 2) + (1 × (3 × 5)))),(4 × ((5 − 2) + (1 × (3 × 5)))),C,(4 × ((5 + 2) + (1 × (3 × 5)))),"{""numbers"": [4, 3, 1, 5, 5, 2], ""target"": 88, ""has_wrong_rule_distractor"": true}"
+Target: 88",(4 × ((5 + 2) + (1 × (3 × 5)))),"{""numbers"": [4, 3, 1, 5, 5, 2], ""target"": 88, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0053,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 9, 2, 4, 4, 6], ""target"": 216}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -526,9 +422,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 9, 2, 4, 4, 6
-Target: 216
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(((2 × 6) × (9 − 4)) ÷ (4 ÷ 2)),(((2 × 6) × (9 × 4)) ÷ (4 ÷ 2)),(((2 − 6) × (9 × 4)) ÷ (4 ÷ 2)),((2 × 9) × (4 + (2 × 4))),B,(((2 × 6) × (9 × 4)) ÷ (4 ÷ 2)),"{""numbers"": [2, 9, 2, 4, 4, 6], ""target"": 216, ""has_wrong_rule_distractor"": true}"
+Target: 216",(((2 × 6) × (9 × 4)) ÷ (4 ÷ 2)),"{""numbers"": [2, 9, 2, 4, 4, 6], ""target"": 216, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0054,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 6, 7, 5, 9, 9], ""target"": 68}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -536,9 +430,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 6, 7, 5, 9, 9
-Target: 68
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 − (7 + (6 + 9))) × (5 + 9)),((5 − (7 + (6 − 9))) × (5 − 9)),((5 − (7 + (6 + 9))) × (5 − 9)),((7 × 9) − (5 × (5 − 6))),C,((5 − (7 + (6 + 9))) × (5 − 9)),"{""numbers"": [5, 6, 7, 5, 9, 9], ""target"": 68, ""has_wrong_rule_distractor"": true}"
+Target: 68",((5 − (7 + (6 + 9))) × (5 − 9)),"{""numbers"": [5, 6, 7, 5, 9, 9], ""target"": 68, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0055,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 9, 6, 1, 8, 3], ""target"": 80}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -546,9 +438,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 9, 6, 1, 8, 3
-Target: 80
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 ÷ (3 − (6 ÷ 3))) × (9 + 1)),((8 ÷ (3 − (6 ÷ 3))) + (9 + 1)),((8 ÷ (3 − (6 ÷ 3))) − (9 + 1)),(8 + ((3 + 9) × (6 × 1))),A,((8 ÷ (3 − (6 ÷ 3))) × (9 + 1)),"{""numbers"": [3, 9, 6, 1, 8, 3], ""target"": 80, ""has_wrong_rule_distractor"": true}"
+Target: 80",((8 ÷ (3 − (6 ÷ 3))) × (9 + 1)),"{""numbers"": [3, 9, 6, 1, 8, 3], ""target"": 80, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0056,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 8, 7, 7, 1, 5], ""target"": 78}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -556,9 +446,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 8, 7, 7, 1, 5
-Target: 78
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((1 × 8) + (5 × (7 + 7))),((8 + (1 × (5 × (7 + 7)))) + 1),((8 + (1 × (5 × (7 + 7)))) ÷ 1),((8 + (1 × (5 × (7 − 7)))) ÷ 1),C,((8 + (1 × (5 × (7 + 7)))) ÷ 1),"{""numbers"": [1, 8, 7, 7, 1, 5], ""target"": 78, ""has_wrong_rule_distractor"": true}"
+Target: 78",((8 + (1 × (5 × (7 + 7)))) ÷ 1),"{""numbers"": [1, 8, 7, 7, 1, 5], ""target"": 78, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0057,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 7, 1, 7, 5, 1], ""target"": 51}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -566,9 +454,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 7, 1, 7, 5, 1
-Target: 51
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((1 × (9 × 7)) − ((7 − 5) ÷ 1)),((1 × (9 + 7)) − ((7 + 5) ÷ 1)),((9 + 7) + (5 × (1 × 7))),((1 × (9 × 7)) − ((7 + 5) ÷ 1)),D,((1 × (9 × 7)) − ((7 + 5) ÷ 1)),"{""numbers"": [9, 7, 1, 7, 5, 1], ""target"": 51, ""has_wrong_rule_distractor"": true}"
+Target: 51",((1 × (9 × 7)) − ((7 + 5) ÷ 1)),"{""numbers"": [9, 7, 1, 7, 5, 1], ""target"": 51, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0058,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 2, 8, 7, 3, 8], ""target"": 75}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -576,9 +462,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 2, 8, 7, 3, 8
-Target: 75
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(((2 + 8) ÷ (5 − 3)) × (7 + 8)),(((2 + 8) × (5 − 3)) × (7 + 8)),(((2 − 8) ÷ (5 − 3)) × (7 + 8)),(3 × ((5 × 2) + (8 + 7))),A,(((2 + 8) ÷ (5 − 3)) × (7 + 8)),"{""numbers"": [5, 2, 8, 7, 3, 8], ""target"": 75, ""has_wrong_rule_distractor"": true}"
+Target: 75",(((2 + 8) ÷ (5 − 3)) × (7 + 8)),"{""numbers"": [5, 2, 8, 7, 3, 8], ""target"": 75, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0059,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 7, 1, 6, 1, 8], ""target"": 217}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -586,9 +470,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 7, 1, 6, 1, 8
-Target: 217
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(7 × (1 − (6 − (4 × (1 + 8))))),(7 × (1 − (6 − (4 × (1 − 8))))),(7 × (1 + (6 × (4 + 1)))),(7 × (1 + (6 − (4 × (1 + 8))))),A,(7 × (1 − (6 − (4 × (1 + 8))))),"{""numbers"": [4, 7, 1, 6, 1, 8], ""target"": 217, ""has_wrong_rule_distractor"": true}"
+Target: 217",(7 × (1 − (6 − (4 × (1 + 8))))),"{""numbers"": [4, 7, 1, 6, 1, 8], ""target"": 217, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0060,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 7, 8, 6, 6, 6], ""target"": 112}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -596,9 +478,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 7, 8, 6, 6, 6
-Target: 112
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 × ((8 + 7) − (6 ÷ 6))),((7 − (6 − 6)) × (8 × (8 − 6))),((7 − (6 − 6)) × (8 + (8 − 6))),((7 − (6 − 6)) + (8 × (8 − 6))),B,((7 − (6 − 6)) × (8 × (8 − 6))),"{""numbers"": [8, 7, 8, 6, 6, 6], ""target"": 112, ""has_wrong_rule_distractor"": true}"
+Target: 112",((7 − (6 − 6)) × (8 × (8 − 6))),"{""numbers"": [8, 7, 8, 6, 6, 6], ""target"": 112, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0061,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 5, 7, 6, 6, 9], ""target"": 264}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -606,9 +486,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 5, 7, 6, 6, 9
-Target: 264
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(6 × ((7 × (1 + 6)) − 5)),((6 × (5 × 7)) − ((6 × 9) ÷ 1)),((6 × (5 × 7)) + ((6 − 9) ÷ 1)),((6 × (5 × 7)) + ((6 × 9) ÷ 1)),D,((6 × (5 × 7)) + ((6 × 9) ÷ 1)),"{""numbers"": [1, 5, 7, 6, 6, 9], ""target"": 264, ""has_wrong_rule_distractor"": true}"
+Target: 264",((6 × (5 × 7)) + ((6 × 9) ÷ 1)),"{""numbers"": [1, 5, 7, 6, 6, 9], ""target"": 264, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0062,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 2, 4, 3, 6, 4], ""target"": 88}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -616,9 +494,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 2, 4, 3, 6, 4
-Target: 88
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 × (4 × (2 × 3))) − (2 + 6)),((2 + 2) × (4 + (3 × 6))),((4 × (4 − (2 × 3))) − (2 + 6)),((4 × (4 × (2 × 3))) + (2 + 6)),A,((4 × (4 × (2 × 3))) − (2 + 6)),"{""numbers"": [2, 2, 4, 3, 6, 4], ""target"": 88, ""has_wrong_rule_distractor"": true}"
+Target: 88",((4 × (4 × (2 × 3))) − (2 + 6)),"{""numbers"": [2, 2, 4, 3, 6, 4], ""target"": 88, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0063,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 8, 7, 3, 5, 9], ""target"": 135}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -626,9 +502,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 8, 7, 3, 5, 9
-Target: 135
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(5 × (3 × ((9 ÷ (8 − 7)) ÷ 1))),(5 × (3 + ((9 ÷ (8 − 7)) ÷ 1))),(5 × (3 × ((9 ÷ (8 − 7)) + 1))),((1 + 8) × (5 + (7 + 3))),A,(5 × (3 × ((9 ÷ (8 − 7)) ÷ 1))),"{""numbers"": [1, 8, 7, 3, 5, 9], ""target"": 135, ""has_wrong_rule_distractor"": true}"
+Target: 135",(5 × (3 × ((9 ÷ (8 − 7)) ÷ 1))),"{""numbers"": [1, 8, 7, 3, 5, 9], ""target"": 135, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0064,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 2, 8, 7, 4, 5], ""target"": 136}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -636,9 +510,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 2, 8, 7, 4, 5
-Target: 136
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 × ((7 × (5 − 2)) − 4)),(8 × ((7 + (2 × 5)) ÷ (5 − 4))),(8 + ((7 + (2 × 5)) ÷ (5 − 4))),(8 × ((7 + (2 × 5)) + (5 − 4))),B,(8 × ((7 + (2 × 5)) ÷ (5 − 4))),"{""numbers"": [5, 2, 8, 7, 4, 5], ""target"": 136, ""has_wrong_rule_distractor"": true}"
+Target: 136",(8 × ((7 + (2 × 5)) ÷ (5 − 4))),"{""numbers"": [5, 2, 8, 7, 4, 5], ""target"": 136, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0065,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 3, 6, 7, 9, 1], ""target"": 75}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -646,9 +518,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 3, 6, 7, 9, 1
-Target: 75
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 × (7 − 1)) + (6 + (3 × 9))),((6 × 9) + (7 × (6 − 3))),((6 × (7 × 1)) + (6 + (3 × 9))),((6 × (7 × 1)) × (6 + (3 × 9))),C,((6 × (7 × 1)) + (6 + (3 × 9))),"{""numbers"": [6, 3, 6, 7, 9, 1], ""target"": 75, ""has_wrong_rule_distractor"": true}"
+Target: 75",((6 × (7 × 1)) + (6 + (3 × 9))),"{""numbers"": [6, 3, 6, 7, 9, 1], ""target"": 75, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0066,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 9, 3, 6, 6, 9], ""target"": 440}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -656,9 +526,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 9, 3, 6, 6, 9
-Target: 440
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 + ((9 + 3) × (6 × 6))),(8 × ((9 × 6) − (3 ÷ (6 − 9)))),(8 × ((9 × 6) + (3 ÷ (6 − 9)))),(8 × ((9 × 6) − (3 − (6 − 9)))),B,(8 × ((9 × 6) − (3 ÷ (6 − 9)))),"{""numbers"": [8, 9, 3, 6, 6, 9], ""target"": 440, ""has_wrong_rule_distractor"": true}"
+Target: 440",(8 × ((9 × 6) − (3 ÷ (6 − 9)))),"{""numbers"": [8, 9, 3, 6, 6, 9], ""target"": 440, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0067,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 4, 1, 9, 2, 8], ""target"": 87}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -666,9 +534,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 4, 1, 9, 2, 8
-Target: 87
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 × 8) + (1 + (2 + (3 × 4)))),((9 × 8) + (1 + (2 × (3 × 4)))),((4 − 1) × (2 + (3 × 9))),((9 × 8) + (1 − (2 + (3 × 4)))),A,((9 × 8) + (1 + (2 + (3 × 4)))),"{""numbers"": [3, 4, 1, 9, 2, 8], ""target"": 87, ""has_wrong_rule_distractor"": true}"
+Target: 87",((9 × 8) + (1 + (2 + (3 × 4)))),"{""numbers"": [3, 4, 1, 9, 2, 8], ""target"": 87, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0068,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 7, 9, 5, 4, 1], ""target"": 90}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -676,9 +542,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 7, 9, 5, 4, 1
-Target: 90
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 × ((3 + 7) + (5 ÷ (4 + 1)))),(9 × ((3 × 7) + (5 − (4 + 1)))),(9 × ((3 + 7) + (5 − (4 + 1)))),((9 × (3 + 7)) × (5 − 4)),C,(9 × ((3 + 7) + (5 − (4 + 1)))),"{""numbers"": [3, 7, 9, 5, 4, 1], ""target"": 90, ""has_wrong_rule_distractor"": true}"
+Target: 90",(9 × ((3 + 7) + (5 − (4 + 1)))),"{""numbers"": [3, 7, 9, 5, 4, 1], ""target"": 90, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0069,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 5, 6, 6, 2, 3], ""target"": 63}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -686,9 +550,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 5, 6, 6, 2, 3
-Target: 63
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(6 + (3 × ((5 + 2) × (2 × 6)))),(6 + (3 × ((5 + 2) − (2 × 6)))),((2 + 5) × (6 + (6 ÷ 2))),(6 + (3 × ((5 + 2) + (2 × 6)))),D,(6 + (3 × ((5 + 2) + (2 × 6)))),"{""numbers"": [2, 5, 6, 6, 2, 3], ""target"": 63, ""has_wrong_rule_distractor"": true}"
+Target: 63",(6 + (3 × ((5 + 2) + (2 × 6)))),"{""numbers"": [2, 5, 6, 6, 2, 3], ""target"": 63, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0070,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 9, 2, 5, 3, 9], ""target"": 78}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -696,9 +558,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 9, 2, 5, 3, 9
-Target: 78
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 + (7 × 9)) + (9 − (2 × 3))),(3 × ((7 + 9) + (2 × 5))),((5 + (7 × 9)) + (9 − (2 − 3))),((5 − (7 × 9)) + (9 − (2 − 3))),C,((5 + (7 × 9)) + (9 − (2 − 3))),"{""numbers"": [7, 9, 2, 5, 3, 9], ""target"": 78, ""has_wrong_rule_distractor"": true}"
+Target: 78",((5 + (7 × 9)) + (9 − (2 − 3))),"{""numbers"": [7, 9, 2, 5, 3, 9], ""target"": 78, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0071,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 9, 9, 9, 6, 8], ""target"": 630}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -706,9 +566,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 9, 9, 9, 6, 8
-Target: 630
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 + 9) × ((9 × 6) − 9)),((9 × (8 − (9 − 6))) × (5 + 9)),((9 × (8 × (9 − 6))) × (5 + 9)),((9 × (8 + (9 − 6))) × (5 + 9)),B,((9 × (8 − (9 − 6))) × (5 + 9)),"{""numbers"": [5, 9, 9, 9, 6, 8], ""target"": 630, ""has_wrong_rule_distractor"": true}"
+Target: 630",((9 × (8 − (9 − 6))) × (5 + 9)),"{""numbers"": [5, 9, 9, 9, 6, 8], ""target"": 630, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0072,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 3, 4, 2, 9, 3], ""target"": 51}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -716,9 +574,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 3, 4, 2, 9, 3
-Target: 51
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 + ((4 + 3) × (4 + 2))),((3 × (4 − 3)) + (4 + (2 + 9))),((3 × (4 × 3)) + (4 + (2 + 9))),((3 × (4 × 3)) − (4 + (2 + 9))),C,((3 × (4 × 3)) + (4 + (2 + 9))),"{""numbers"": [4, 3, 4, 2, 9, 3], ""target"": 51, ""has_wrong_rule_distractor"": true}"
+Target: 51",((3 × (4 × 3)) + (4 + (2 + 9))),"{""numbers"": [4, 3, 4, 2, 9, 3], ""target"": 51, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0073,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 6, 6, 7, 2, 9], ""target"": 120}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -726,9 +582,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 6, 6, 7, 2, 9
-Target: 120
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(3 + ((6 + 7) + ((6 × 9) ÷ 2))),(((3 + 6) × (7 × 2)) − 6),(3 − ((6 + 7) + ((6 × 9) ÷ 2))),(3 × ((6 + 7) + ((6 × 9) ÷ 2))),D,(3 × ((6 + 7) + ((6 × 9) ÷ 2))),"{""numbers"": [3, 6, 6, 7, 2, 9], ""target"": 120, ""has_wrong_rule_distractor"": true}"
+Target: 120",(3 × ((6 + 7) + ((6 × 9) ÷ 2))),"{""numbers"": [3, 6, 6, 7, 2, 9], ""target"": 120, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0074,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 7, 9, 9, 1, 1], ""target"": 72}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -736,9 +590,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 7, 9, 9, 1, 1
-Target: 72
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 − (9 + (9 × (7 + 1)))) ÷ 1),((9 + (9 − (9 × (7 + 1)))) ÷ 1),((9 − (9 − (9 × (7 + 1)))) ÷ 1),(9 × ((9 + 7) − (9 − 1))),C,((9 − (9 − (9 × (7 + 1)))) ÷ 1),"{""numbers"": [9, 7, 9, 9, 1, 1], ""target"": 72, ""has_wrong_rule_distractor"": true}"
+Target: 72",((9 − (9 − (9 × (7 + 1)))) ÷ 1),"{""numbers"": [9, 7, 9, 9, 1, 1], ""target"": 72, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0075,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 9, 2, 2, 3, 7], ""target"": 168}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -746,9 +598,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 9, 2, 2, 3, 7
-Target: 168
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((3 + (9 × 2)) × (2 − (1 − 7))),((2 × 7) × (2 + (1 + 9))),((3 + (9 × 2)) × (2 − (1 + 7))),((3 + (9 × 2)) − (2 − (1 − 7))),A,((3 + (9 × 2)) × (2 − (1 − 7))),"{""numbers"": [1, 9, 2, 2, 3, 7], ""target"": 168, ""has_wrong_rule_distractor"": true}"
+Target: 168",((3 + (9 × 2)) × (2 − (1 − 7))),"{""numbers"": [1, 9, 2, 2, 3, 7], ""target"": 168, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0076,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 9, 3, 4, 9, 5], ""target"": 119}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -756,9 +606,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 9, 3, 4, 9, 5
-Target: 119
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 + 4) + (9 × (9 + 3))),((9 × (4 + 9)) + ((7 + 3) ÷ 5)),((9 × (4 + 9)) − ((7 + 3) ÷ 5)),((9 × (4 + 9)) × ((7 + 3) ÷ 5)),B,((9 × (4 + 9)) + ((7 + 3) ÷ 5)),"{""numbers"": [7, 9, 3, 4, 9, 5], ""target"": 119, ""has_wrong_rule_distractor"": true}"
+Target: 119",((9 × (4 + 9)) + ((7 + 3) ÷ 5)),"{""numbers"": [7, 9, 3, 4, 9, 5], ""target"": 119, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0077,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 8, 8, 1, 7, 8], ""target"": 80}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -766,9 +614,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 8, 8, 1, 7, 8
-Target: 80
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((2 × 8) + (8 × (1 + 7))),(8 × (8 − ((8 − 1) + (2 + 7)))),(8 × (8 − ((8 ÷ 1) − (2 + 7)))),(8 × (8 − ((8 − 1) − (2 + 7)))),D,(8 × (8 − ((8 − 1) − (2 + 7)))),"{""numbers"": [2, 8, 8, 1, 7, 8], ""target"": 80, ""has_wrong_rule_distractor"": true}"
+Target: 80",(8 × (8 − ((8 − 1) − (2 + 7)))),"{""numbers"": [2, 8, 8, 1, 7, 8], ""target"": 80, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0078,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 4, 9, 2, 6, 7], ""target"": 54}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -776,9 +622,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 4, 9, 2, 6, 7
-Target: 54
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 × (2 × 6)) − (7 − (4 + 9))),((9 × 6) + (2 × (4 − 4))),((4 × (2 × 6)) × (7 − (4 + 9))),((4 × (2 × 6)) ÷ (7 − (4 + 9))),A,((4 × (2 × 6)) − (7 − (4 + 9))),"{""numbers"": [4, 4, 9, 2, 6, 7], ""target"": 54, ""has_wrong_rule_distractor"": true}"
+Target: 54",((4 × (2 × 6)) − (7 − (4 + 9))),"{""numbers"": [4, 4, 9, 2, 6, 7], ""target"": 54, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0079,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 4, 9, 6, 4, 5], ""target"": 204}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -786,9 +630,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 4, 9, 6, 4, 5
-Target: 204
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(4 × (6 + (9 × (1 + 4)))),((4 × 6) + ((1 × 5) − (9 × 4))),((4 × 6) + ((1 × 5) × (9 × 4))),((4 × 6) + ((1 + 5) × (9 × 4))),C,((4 × 6) + ((1 × 5) × (9 × 4))),"{""numbers"": [1, 4, 9, 6, 4, 5], ""target"": 204, ""has_wrong_rule_distractor"": true}"
+Target: 204",((4 × 6) + ((1 × 5) × (9 × 4))),"{""numbers"": [1, 4, 9, 6, 4, 5], ""target"": 204, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0080,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [7, 9, 2, 9, 8, 9], ""target"": 243}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -796,9 +638,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 7, 9, 2, 9, 8, 9
-Target: 243
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(9 + ((9 × 9) ÷ (2 − (7 − 8)))),(9 − ((9 × 9) ÷ (2 − (7 − 8)))),(9 × ((9 × 9) ÷ (2 − (7 − 8)))),(((7 × 9) × (8 ÷ 2)) − 9),C,(9 × ((9 × 9) ÷ (2 − (7 − 8)))),"{""numbers"": [7, 9, 2, 9, 8, 9], ""target"": 243, ""has_wrong_rule_distractor"": true}"
+Target: 243",(9 × ((9 × 9) ÷ (2 − (7 − 8)))),"{""numbers"": [7, 9, 2, 9, 8, 9], ""target"": 243, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0081,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 6, 4, 1, 1, 7], ""target"": 312}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -806,9 +646,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 6, 4, 1, 1, 7
-Target: 312
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 × 4) × (7 + (6 × 1))),(6 × (1 × ((4 − (6 + 7)) ÷ 1))),(6 × (1 × ((4 × (6 + 7)) ÷ 1))),(6 × (1 × ((4 × (6 + 7)) + 1))),C,(6 × (1 × ((4 × (6 + 7)) ÷ 1))),"{""numbers"": [6, 6, 4, 1, 1, 7], ""target"": 312, ""has_wrong_rule_distractor"": true}"
+Target: 312",(6 × (1 × ((4 × (6 + 7)) ÷ 1))),"{""numbers"": [6, 6, 4, 1, 1, 7], ""target"": 312, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0082,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 5, 9, 3, 5, 3], ""target"": 180}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -816,9 +654,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 5, 9, 3, 5, 3
-Target: 180
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((9 + 3) × (5 × (3 × (6 + 5)))),((9 × 3) × (5 × (3 × (6 − 5)))),((9 × 5) × (3 + (6 − 5))),((9 + 3) × (5 × (3 × (6 − 5)))),D,((9 + 3) × (5 × (3 × (6 − 5)))),"{""numbers"": [6, 5, 9, 3, 5, 3], ""target"": 180, ""has_wrong_rule_distractor"": true}"
+Target: 180",((9 + 3) × (5 × (3 × (6 − 5)))),"{""numbers"": [6, 5, 9, 3, 5, 3], ""target"": 180, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0083,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 5, 2, 2, 4, 5], ""target"": 81}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -826,9 +662,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 5, 2, 2, 4, 5
-Target: 81
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 ÷ 2) × (2 + (5 × 5))),((2 + (5 × 5)) × ((6 × 2) ÷ 4)),((2 + (5 + 5)) × ((6 × 2) ÷ 4)),((2 + (5 × 5)) − ((6 × 2) ÷ 4)),B,((2 + (5 × 5)) × ((6 × 2) ÷ 4)),"{""numbers"": [6, 5, 2, 2, 4, 5], ""target"": 81, ""has_wrong_rule_distractor"": true}"
+Target: 81",((2 + (5 × 5)) × ((6 × 2) ÷ 4)),"{""numbers"": [6, 5, 2, 2, 4, 5], ""target"": 81, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0084,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 4, 7, 1, 9, 5], ""target"": 70}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -836,9 +670,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 4, 7, 1, 9, 5
-Target: 70
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(7 × (1 × (9 − (4 − (1 × 5))))),((9 − 4) × (7 × (1 + 1))),(7 × (1 × (9 ÷ (4 − (1 × 5))))),(7 × (1 × (9 − (4 − (1 + 5))))),A,(7 × (1 × (9 − (4 − (1 × 5))))),"{""numbers"": [1, 4, 7, 1, 9, 5], ""target"": 70, ""has_wrong_rule_distractor"": true}"
+Target: 70",(7 × (1 × (9 − (4 − (1 × 5))))),"{""numbers"": [1, 4, 7, 1, 9, 5], ""target"": 70, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0085,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 6, 7, 7, 5, 8], ""target"": 56}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -846,9 +678,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 6, 7, 7, 5, 8
-Target: 56
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((7 × 7) − (5 − (6 + 6))),((7 × 8) + ((6 − 6) + (7 × 5))),((7 × 8) + ((6 − 6) × (7 × 5))),((7 + 8) + ((6 − 6) × (7 × 5))),C,((7 × 8) + ((6 − 6) × (7 × 5))),"{""numbers"": [6, 6, 7, 7, 5, 8], ""target"": 56, ""has_wrong_rule_distractor"": true}"
+Target: 56",((7 × 8) + ((6 − 6) × (7 × 5))),"{""numbers"": [6, 6, 7, 7, 5, 8], ""target"": 56, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0086,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 5, 4, 1, 9, 6], ""target"": 216}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -856,9 +686,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 5, 4, 1, 9, 6
-Target: 216
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((1 + (5 + 6)) × (9 × (6 − 4))),(6 × ((5 × (9 − 1)) − 4)),((1 + (5 − 6)) × (9 × (6 − 4))),((1 − (5 + 6)) × (9 × (6 − 4))),A,((1 + (5 + 6)) × (9 × (6 − 4))),"{""numbers"": [6, 5, 4, 1, 9, 6], ""target"": 216, ""has_wrong_rule_distractor"": true}"
+Target: 216",((1 + (5 + 6)) × (9 × (6 − 4))),"{""numbers"": [6, 5, 4, 1, 9, 6], ""target"": 216, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0087,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 6, 3, 7, 4, 6], ""target"": 127}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -866,9 +694,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 6, 3, 7, 4, 6
-Target: 127
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(4 − (3 − (7 × (6 + (2 × 6))))),(4 × (3 − (7 × (6 + (2 × 6))))),(4 − (3 − (7 − (6 + (2 × 6))))),(7 + ((2 + 3) × (6 × 4))),A,(4 − (3 − (7 × (6 + (2 × 6))))),"{""numbers"": [2, 6, 3, 7, 4, 6], ""target"": 127, ""has_wrong_rule_distractor"": true}"
+Target: 127",(4 − (3 − (7 × (6 + (2 × 6))))),"{""numbers"": [2, 6, 3, 7, 4, 6], ""target"": 127, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0088,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 8, 8, 5, 2, 8], ""target"": 64}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -876,9 +702,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 8, 8, 5, 2, 8
-Target: 64
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(8 × (5 − ((2 − 8) ÷ 2))),(8 ÷ ((8 + 8) + (2 − (5 × 2)))),(8 × ((8 + 8) − (2 − (5 × 2)))),(8 × ((8 + 8) + (2 − (5 × 2)))),D,(8 × ((8 + 8) + (2 − (5 × 2)))),"{""numbers"": [2, 8, 8, 5, 2, 8], ""target"": 64, ""has_wrong_rule_distractor"": true}"
+Target: 64",(8 × ((8 + 8) + (2 − (5 × 2)))),"{""numbers"": [2, 8, 8, 5, 2, 8], ""target"": 64, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0089,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 2, 7, 8, 6, 1], ""target"": 93}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -886,9 +710,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 2, 7, 8, 6, 1
-Target: 93
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((2 + (8 − 1)) + (2 × (7 − 6))),((2 × (2 + (8 × 6))) − 7),((2 + (8 − 1)) + (2 − (7 × 6))),((2 + (8 − 1)) + (2 × (7 × 6))),D,((2 + (8 − 1)) + (2 × (7 × 6))),"{""numbers"": [2, 2, 7, 8, 6, 1], ""target"": 93, ""has_wrong_rule_distractor"": true}"
+Target: 93",((2 + (8 − 1)) + (2 × (7 × 6))),"{""numbers"": [2, 2, 7, 8, 6, 1], ""target"": 93, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0090,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 5, 3, 1, 7, 7], ""target"": 357}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -896,9 +718,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 5, 3, 1, 7, 7
-Target: 357
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(7 × (1 + (5 × (3 + 7)))),(7 × (7 − (1 − (5 × (3 × 3))))),(7 × (7 + (1 − (5 × (3 × 3))))),(7 × (7 − (1 − (5 × (3 ÷ 3))))),B,(7 × (7 − (1 − (5 × (3 × 3))))),"{""numbers"": [3, 5, 3, 1, 7, 7], ""target"": 357, ""has_wrong_rule_distractor"": true}"
+Target: 357",(7 × (7 − (1 − (5 × (3 × 3))))),"{""numbers"": [3, 5, 3, 1, 7, 7], ""target"": 357, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0091,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [4, 1, 3, 8, 6, 1], ""target"": 90}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -906,9 +726,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 4, 1, 3, 8, 6, 1
-Target: 90
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 + 1) × ((3 × 8) − 6)),((4 − 1) × (6 + (3 × (8 + 1)))),((4 − 1) + (6 + (3 × (8 ÷ 1)))),((4 − 1) × (6 + (3 × (8 ÷ 1)))),D,((4 − 1) × (6 + (3 × (8 ÷ 1)))),"{""numbers"": [4, 1, 3, 8, 6, 1], ""target"": 90, ""has_wrong_rule_distractor"": true}"
+Target: 90",((4 − 1) × (6 + (3 × (8 ÷ 1)))),"{""numbers"": [4, 1, 3, 8, 6, 1], ""target"": 90, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0092,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 3, 7, 5, 9, 9], ""target"": 952}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -916,9 +734,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 3, 7, 5, 9, 9
-Target: 952
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(7 × ((5 − (3 × 9)) − (8 − 9))),(7 × ((5 × (3 × 9)) − (8 − 9))),((8 × 7) × (9 + (3 + 5))),(7 × ((5 × (3 × 9)) × (8 − 9))),B,(7 × ((5 × (3 × 9)) − (8 − 9))),"{""numbers"": [8, 3, 7, 5, 9, 9], ""target"": 952, ""has_wrong_rule_distractor"": true}"
+Target: 952",(7 × ((5 × (3 × 9)) − (8 − 9))),"{""numbers"": [8, 3, 7, 5, 9, 9], ""target"": 952, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0093,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 4, 8, 9, 8, 1], ""target"": 62}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -926,9 +742,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 4, 8, 9, 8, 1
-Target: 62
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((8 × 9) − (8 + ((8 × 4) ÷ 1))),((8 × 9) − (8 + ((8 ÷ 4) ÷ 1))),((8 × 9) − (8 + (8 ÷ 4))),((8 × 9) − (8 + ((8 − 4) ÷ 1))),B,((8 × 9) − (8 + ((8 ÷ 4) ÷ 1))),"{""numbers"": [8, 4, 8, 9, 8, 1], ""target"": 62, ""has_wrong_rule_distractor"": true}"
+Target: 62",((8 × 9) − (8 + ((8 ÷ 4) ÷ 1))),"{""numbers"": [8, 4, 8, 9, 8, 1], ""target"": 62, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0094,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [6, 4, 5, 5, 7, 1], ""target"": 144}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -936,9 +750,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 6, 4, 5, 5, 7, 1
-Target: 144
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 × 4) × (7 − (5 ÷ 5))),((1 − (4 − 5)) × (6 × (5 + 7))),((1 − (4 + 5)) × (6 × (5 + 7))),((1 × (4 − 5)) × (6 × (5 + 7))),B,((1 − (4 − 5)) × (6 × (5 + 7))),"{""numbers"": [6, 4, 5, 5, 7, 1], ""target"": 144, ""has_wrong_rule_distractor"": true}"
+Target: 144",((1 − (4 − 5)) × (6 × (5 + 7))),"{""numbers"": [6, 4, 5, 5, 7, 1], ""target"": 144, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0095,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [3, 4, 6, 5, 4, 5], ""target"": 320}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -946,9 +758,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 3, 4, 6, 5, 4, 5
-Target: 320
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 ÷ 3) × ((5 + 5) + (4 × 4))),((6 ÷ 3) × ((5 + 5) × (4 × 4))),((6 − 3) × ((5 + 5) × (4 × 4))),((4 + 6) × (4 × (3 + 5))),B,((6 ÷ 3) × ((5 + 5) × (4 × 4))),"{""numbers"": [3, 4, 6, 5, 4, 5], ""target"": 320, ""has_wrong_rule_distractor"": true}"
+Target: 320",((6 ÷ 3) × ((5 + 5) × (4 × 4))),"{""numbers"": [3, 4, 6, 5, 4, 5], ""target"": 320, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0096,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [9, 3, 8, 4, 1, 7], ""target"": 276}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -956,9 +766,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 9, 3, 8, 4, 1, 7
-Target: 276
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(4 × ((9 × 8) − (3 × 1))),(4 × ((1 − (3 − 8)) − (9 × 7))),(4 × ((1 × (3 − 8)) + (9 × 7))),(4 × ((1 − (3 − 8)) + (9 × 7))),D,(4 × ((1 − (3 − 8)) + (9 × 7))),"{""numbers"": [9, 3, 8, 4, 1, 7], ""target"": 276, ""has_wrong_rule_distractor"": true}"
+Target: 276",(4 × ((1 − (3 − 8)) + (9 × 7))),"{""numbers"": [9, 3, 8, 4, 1, 7], ""target"": 276, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0097,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [5, 7, 4, 4, 6, 4], ""target"": 350}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -966,9 +774,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 5, 7, 4, 4, 6, 4
-Target: 350
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((5 × 7) × ((4 × 4) − 6)),((4 × (7 × (5 × (4 + 6)))) + 4),((4 × (7 × (5 × (4 + 6)))) ÷ 4),((4 × (7 − (5 × (4 + 6)))) ÷ 4),C,((4 × (7 × (5 × (4 + 6)))) ÷ 4),"{""numbers"": [5, 7, 4, 4, 6, 4], ""target"": 350, ""has_wrong_rule_distractor"": true}"
+Target: 350",((4 × (7 × (5 × (4 + 6)))) ÷ 4),"{""numbers"": [5, 7, 4, 4, 6, 4], ""target"": 350, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0098,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [8, 7, 4, 2, 8, 8], ""target"": 288}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -976,9 +782,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 8, 7, 4, 2, 8, 8
-Target: 288
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((4 × 8) × ((7 + 2) + (8 − 8))),((4 × 8) × ((7 − 2) + (8 − 8))),((4 × 8) − ((7 + 2) + (8 − 8))),((4 + 2) × ((8 × 7) − 8)),A,((4 × 8) × ((7 + 2) + (8 − 8))),"{""numbers"": [8, 7, 4, 2, 8, 8], ""target"": 288, ""has_wrong_rule_distractor"": true}"
+Target: 288",((4 × 8) × ((7 + 2) + (8 − 8))),"{""numbers"": [8, 7, 4, 2, 8, 8], ""target"": 288, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0099,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [1, 1, 7, 1, 9, 3], ""target"": 252}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -986,9 +790,7 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 1, 1, 7, 1, 9, 3
-Target: 252
-
-Which expression — using **all six** numbers exactly once — reaches the target?",(((7 × 9) ÷ 1) − ((1 + 3) ÷ 1)),(((7 + 9) ÷ 1) × ((1 + 3) ÷ 1)),((7 × 9) × (3 + (1 × 1))),(((7 × 9) ÷ 1) × ((1 + 3) ÷ 1)),D,(((7 × 9) ÷ 1) × ((1 + 3) ÷ 1)),"{""numbers"": [1, 1, 7, 1, 9, 3], ""target"": 252, ""has_wrong_rule_distractor"": true}"
+Target: 252",(((7 × 9) ÷ 1) × ((1 + 3) ÷ 1)),"{""numbers"": [1, 1, 7, 1, 9, 3], ""target"": 252, ""has_wrong_rule_distractor"": true}"
 countdown_cf3_use_all_numbers_0100,countdown_cf3_use_all_numbers,counterfactual,"{""numbers"": [2, 8, 6, 6, 2, 9], ""target"": 832}","Solve the following Countdown-style puzzle.
 Rule change: you must use **all six** numbers exactly once.
   - Six numbers given; each must appear in your expression exactly once.
@@ -996,6 +798,4 @@ Rule change: you must use **all six** numbers exactly once.
   - Every intermediate division must yield an exact integer.
 
 Numbers: 2, 8, 6, 6, 2, 9
-Target: 832
-
-Which expression — using **all six** numbers exactly once — reaches the target?",((6 + 2) + (8 × (6 − (2 − 9)))),((6 + 2) × (8 × (6 − (2 − 9)))),((2 × 8) × ((6 × 9) − 2)),((6 × 2) × (8 × (6 − (2 − 9)))),B,((6 + 2) × (8 × (6 − (2 − 9)))),"{""numbers"": [2, 8, 6, 6, 2, 9], ""target"": 832, ""has_wrong_rule_distractor"": true}"
+Target: 832",((6 + 2) × (8 × (6 − (2 − 9)))),"{""numbers"": [2, 8, 6, 6, 2, 9], ""target"": 832, ""has_wrong_rule_distractor"": true}"

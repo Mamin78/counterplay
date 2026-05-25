@@ -1,8 +1,12 @@
 # Core — needed to (re)generate the dataset and run validation
 pandas>=2.0
 
-# Eval pipeline (Vertex AI) — only needed if running non_math_games_eval/run_vertex.py
+# Open-ended evaluator for game_cf (llm_eval/evaluate_games_open.py)
+# Hits OpenRouter; requires OPENROUTER_API_KEY env var.
+requests>=2.31
+tqdm>=4.65
+
+# Eval pipeline for non_math_games (Vertex AI) — non_math_games_eval/run_vertex.py
 openai>=1.0
 google-auth>=2.0
 google-cloud-aiplatform>=1.40
-tqdm>=4.65

@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 countdown_cf1_base9_0001,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""3"", ""6"", ""6"", ""4"", ""5""], ""target_base9"": ""114"", ""numbers_decimal"": [6, 3, 6, 6, 4, 5], ""target_decimal"": 94}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -10,7 +10,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 3, 6, 6, 4, 5
 Target (base 9): 114
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 + (5 × (6 × 3))),"{""numbers_decimal"": [6, 3, 6, 6, 4, 5], ""target_decimal"": 94, ""numbers_base9"": [""6"", ""3"", ""6"", ""6"", ""4"", ""5""], ""target_base9"": ""114"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 + (5 × (6 × 3))),"{""numbers_decimal"": [6, 3, 6, 6, 4, 5], ""target_decimal"": 94, ""numbers_base9"": [""6"", ""3"", ""6"", ""6"", ""4"", ""5""], ""target_base9"": ""114"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0002,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""7"", ""7"", ""8"", ""10"", ""5""], ""target_base9"": ""114"", ""numbers_decimal"": [2, 7, 7, 8, 9, 5], ""target_decimal"": 94}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -22,7 +22,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 7, 7, 8, 10, 5
 Target (base 9): 114
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(2 × ((7 × 8) − 10)),"{""numbers_decimal"": [2, 7, 7, 8, 9, 5], ""target_decimal"": 94, ""numbers_base9"": [""2"", ""7"", ""7"", ""8"", ""10"", ""5""], ""target_base9"": ""114"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(2 × ((7 × 8) − 10)),"{""numbers_decimal"": [2, 7, 7, 8, 9, 5], ""target_decimal"": 94, ""numbers_base9"": [""2"", ""7"", ""7"", ""8"", ""10"", ""5""], ""target_base9"": ""114"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0003,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""2"", ""1"", ""10"", ""1"", ""2""], ""target_base9"": ""100"", ""numbers_decimal"": [9, 2, 1, 9, 1, 2], ""target_decimal"": 81}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -34,7 +34,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 2, 1, 10, 1, 2
 Target (base 9): 100
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × 10),"{""numbers_decimal"": [9, 2, 1, 9, 1, 2], ""target_decimal"": 81, ""numbers_base9"": [""10"", ""2"", ""1"", ""10"", ""1"", ""2""], ""target_base9"": ""100"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × 10),"{""numbers_decimal"": [9, 2, 1, 9, 1, 2], ""target_decimal"": 81, ""numbers_base9"": [""10"", ""2"", ""1"", ""10"", ""1"", ""2""], ""target_base9"": ""100"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0004,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""8"", ""8"", ""8"", ""4"", ""10""], ""target_base9"": ""105"", ""numbers_decimal"": [6, 8, 8, 8, 4, 9], ""target_decimal"": 86}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -46,7 +46,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 8, 8, 8, 4, 10
 Target (base 9): 105
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 + 8) + (8 × 10)),"{""numbers_decimal"": [6, 8, 8, 8, 4, 9], ""target_decimal"": 86, ""numbers_base9"": [""6"", ""8"", ""8"", ""8"", ""4"", ""10""], ""target_base9"": ""105"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 + 8) + (8 × 10)),"{""numbers_decimal"": [6, 8, 8, 8, 4, 9], ""target_decimal"": 86, ""numbers_base9"": [""6"", ""8"", ""8"", ""8"", ""4"", ""10""], ""target_base9"": ""105"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0005,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""6"", ""7"", ""5"", ""7"", ""5""], ""target_base9"": ""104"", ""numbers_decimal"": [6, 6, 7, 5, 7, 5], ""target_decimal"": 85}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -58,7 +58,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 6, 7, 5, 7, 5
 Target (base 9): 104
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 × 6) + (7 × 7)),"{""numbers_decimal"": [6, 6, 7, 5, 7, 5], ""target_decimal"": 85, ""numbers_base9"": [""6"", ""6"", ""7"", ""5"", ""7"", ""5""], ""target_base9"": ""104"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 × 6) + (7 × 7)),"{""numbers_decimal"": [6, 6, 7, 5, 7, 5], ""target_decimal"": 85, ""numbers_base9"": [""6"", ""6"", ""7"", ""5"", ""7"", ""5""], ""target_base9"": ""104"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0006,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""6"", ""1"", ""8"", ""6"", ""3""], ""target_base9"": ""361"", ""numbers_decimal"": [7, 6, 1, 8, 6, 3], ""target_decimal"": 298}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -70,7 +70,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 6, 1, 8, 6, 3
 Target (base 9): 361
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 + 3) + (6 × (6 × 8))),"{""numbers_decimal"": [7, 6, 1, 8, 6, 3], ""target_decimal"": 298, ""numbers_base9"": [""7"", ""6"", ""1"", ""8"", ""6"", ""3""], ""target_base9"": ""361"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 + 3) + (6 × (6 × 8))),"{""numbers_decimal"": [7, 6, 1, 8, 6, 3], ""target_decimal"": 298, ""numbers_base9"": [""7"", ""6"", ""1"", ""8"", ""6"", ""3""], ""target_base9"": ""361"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0007,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""4"", ""8"", ""8"", ""8"", ""1""], ""target_base9"": ""314"", ""numbers_decimal"": [9, 4, 8, 8, 8, 1], ""target_decimal"": 256}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -82,7 +82,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 4, 8, 8, 8, 1
 Target (base 9): 314
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (4 × 8)),"{""numbers_decimal"": [9, 4, 8, 8, 8, 1], ""target_decimal"": 256, ""numbers_base9"": [""10"", ""4"", ""8"", ""8"", ""8"", ""1""], ""target_base9"": ""314"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (4 × 8)),"{""numbers_decimal"": [9, 4, 8, 8, 8, 1], ""target_decimal"": 256, ""numbers_base9"": [""10"", ""4"", ""8"", ""8"", ""8"", ""1""], ""target_base9"": ""314"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0008,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""5"", ""5"", ""1"", ""7"", ""5""], ""target_base9"": ""110"", ""numbers_decimal"": [6, 5, 5, 1, 7, 5], ""target_decimal"": 90}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -94,7 +94,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 5, 5, 1, 7, 5
 Target (base 9): 110
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (7 + (6 + 5))),"{""numbers_decimal"": [6, 5, 5, 1, 7, 5], ""target_decimal"": 90, ""numbers_base9"": [""6"", ""5"", ""5"", ""1"", ""7"", ""5""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (7 + (6 + 5))),"{""numbers_decimal"": [6, 5, 5, 1, 7, 5], ""target_decimal"": 90, ""numbers_base9"": [""6"", ""5"", ""5"", ""1"", ""7"", ""5""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0009,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""6"", ""2"", ""8"", ""2"", ""3""], ""target_base9"": ""136"", ""numbers_decimal"": [5, 6, 2, 8, 2, 3], ""target_decimal"": 114}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -106,7 +106,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 6, 2, 8, 2, 3
 Target (base 9): 136
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(3 × (8 + (5 × 6))),"{""numbers_decimal"": [5, 6, 2, 8, 2, 3], ""target_decimal"": 114, ""numbers_base9"": [""5"", ""6"", ""2"", ""8"", ""2"", ""3""], ""target_base9"": ""136"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(3 × (8 + (5 × 6))),"{""numbers_decimal"": [5, 6, 2, 8, 2, 3], ""target_decimal"": 114, ""numbers_base9"": [""5"", ""6"", ""2"", ""8"", ""2"", ""3""], ""target_base9"": ""136"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0010,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""8"", ""8"", ""2"", ""2"", ""6""], ""target_base9"": ""102"", ""numbers_decimal"": [2, 8, 8, 2, 2, 6], ""target_decimal"": 83}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -118,7 +118,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 8, 8, 2, 2, 6
 Target (base 9): 102
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × (2 + 8)) + (6 ÷ 2)),"{""numbers_decimal"": [2, 8, 8, 2, 2, 6], ""target_decimal"": 83, ""numbers_base9"": [""2"", ""8"", ""8"", ""2"", ""2"", ""6""], ""target_base9"": ""102"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × (2 + 8)) + (6 ÷ 2)),"{""numbers_decimal"": [2, 8, 8, 2, 2, 6], ""target_decimal"": 83, ""numbers_base9"": [""2"", ""8"", ""8"", ""2"", ""2"", ""6""], ""target_base9"": ""102"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0011,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""4"", ""7"", ""6"", ""8"", ""7""], ""target_base9"": ""83"", ""numbers_decimal"": [8, 4, 7, 6, 8, 7], ""target_decimal"": 75}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -130,7 +130,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 4, 7, 6, 8, 7
 Target (base 9): 83
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 8) + (4 + 7)),"{""numbers_decimal"": [8, 4, 7, 6, 8, 7], ""target_decimal"": 75, ""numbers_base9"": [""8"", ""4"", ""7"", ""6"", ""8"", ""7""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 8) + (4 + 7)),"{""numbers_decimal"": [8, 4, 7, 6, 8, 7], ""target_decimal"": 75, ""numbers_base9"": [""8"", ""4"", ""7"", ""6"", ""8"", ""7""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0012,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""7"", ""1"", ""5"", ""5"", ""6""], ""target_base9"": ""253"", ""numbers_decimal"": [6, 7, 1, 5, 5, 6], ""target_decimal"": 210}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -142,7 +142,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 7, 1, 5, 5, 6
 Target (base 9): 253
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (6 × 7)),"{""numbers_decimal"": [6, 7, 1, 5, 5, 6], ""target_decimal"": 210, ""numbers_base9"": [""6"", ""7"", ""1"", ""5"", ""5"", ""6""], ""target_base9"": ""253"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (6 × 7)),"{""numbers_decimal"": [6, 7, 1, 5, 5, 6], ""target_decimal"": 210, ""numbers_base9"": [""6"", ""7"", ""1"", ""5"", ""5"", ""6""], ""target_base9"": ""253"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0013,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""1"", ""8"", ""4"", ""6"", ""8""], ""target_base9"": ""350"", ""numbers_decimal"": [9, 1, 8, 4, 6, 8], ""target_decimal"": 288}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -154,7 +154,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 1, 8, 4, 6, 8
 Target (base 9): 350
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 × (10 × 8)),"{""numbers_decimal"": [9, 1, 8, 4, 6, 8], ""target_decimal"": 288, ""numbers_base9"": [""10"", ""1"", ""8"", ""4"", ""6"", ""8""], ""target_base9"": ""350"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 × (10 × 8)),"{""numbers_decimal"": [9, 1, 8, 4, 6, 8], ""target_decimal"": 288, ""numbers_base9"": [""10"", ""1"", ""8"", ""4"", ""6"", ""8""], ""target_base9"": ""350"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0014,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""3"", ""7"", ""10"", ""8"", ""1""], ""target_base9"": ""73"", ""numbers_decimal"": [9, 3, 7, 9, 8, 1], ""target_decimal"": 66}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -166,7 +166,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 3, 7, 10, 8, 1
 Target (base 9): 73
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(3 + (10 × 7)),"{""numbers_decimal"": [9, 3, 7, 9, 8, 1], ""target_decimal"": 66, ""numbers_base9"": [""10"", ""3"", ""7"", ""10"", ""8"", ""1""], ""target_base9"": ""73"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(3 + (10 × 7)),"{""numbers_decimal"": [9, 3, 7, 9, 8, 1], ""target_decimal"": 66, ""numbers_base9"": [""10"", ""3"", ""7"", ""10"", ""8"", ""1""], ""target_base9"": ""73"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0015,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""1"", ""10"", ""7"", ""7"", ""10""], ""target_base9"": ""170"", ""numbers_decimal"": [8, 1, 9, 7, 7, 9], ""target_decimal"": 144}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -178,7 +178,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 1, 10, 7, 7, 10
 Target (base 9): 170
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (10 + 10)),"{""numbers_decimal"": [8, 1, 9, 7, 7, 9], ""target_decimal"": 144, ""numbers_base9"": [""8"", ""1"", ""10"", ""7"", ""7"", ""10""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (10 + 10)),"{""numbers_decimal"": [8, 1, 9, 7, 7, 9], ""target_decimal"": 144, ""numbers_base9"": [""8"", ""1"", ""10"", ""7"", ""7"", ""10""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0016,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""3"", ""7"", ""8"", ""10"", ""10""], ""target_base9"": ""324"", ""numbers_decimal"": [2, 3, 7, 8, 9, 9], ""target_decimal"": 265}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -190,7 +190,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 3, 7, 8, 10, 10
 Target (base 9): 324
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((3 × (8 + (10 × 10))) − 2),"{""numbers_decimal"": [2, 3, 7, 8, 9, 9], ""target_decimal"": 265, ""numbers_base9"": [""2"", ""3"", ""7"", ""8"", ""10"", ""10""], ""target_base9"": ""324"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((3 × (8 + (10 × 10))) − 2),"{""numbers_decimal"": [2, 3, 7, 8, 9, 9], ""target_decimal"": 265, ""numbers_base9"": [""2"", ""3"", ""7"", ""8"", ""10"", ""10""], ""target_base9"": ""324"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0017,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""10"", ""8"", ""6"", ""8"", ""2""], ""target_base9"": ""134"", ""numbers_decimal"": [4, 9, 8, 6, 8, 2], ""target_decimal"": 112}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -202,7 +202,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 10, 8, 6, 8, 2
 Target (base 9): 134
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (8 + 6)),"{""numbers_decimal"": [4, 9, 8, 6, 8, 2], ""target_decimal"": 112, ""numbers_base9"": [""4"", ""10"", ""8"", ""6"", ""8"", ""2""], ""target_base9"": ""134"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (8 + 6)),"{""numbers_decimal"": [4, 9, 8, 6, 8, 2], ""target_decimal"": 112, ""numbers_base9"": [""4"", ""10"", ""8"", ""6"", ""8"", ""2""], ""target_base9"": ""134"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0018,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""6"", ""4"", ""3"", ""2"", ""4""], ""target_base9"": ""170"", ""numbers_decimal"": [9, 6, 4, 3, 2, 4], ""target_decimal"": 144}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -214,7 +214,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 6, 4, 3, 2, 4
 Target (base 9): 170
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 × (10 × 4)),"{""numbers_decimal"": [9, 6, 4, 3, 2, 4], ""target_decimal"": 144, ""numbers_base9"": [""10"", ""6"", ""4"", ""3"", ""2"", ""4""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 × (10 × 4)),"{""numbers_decimal"": [9, 6, 4, 3, 2, 4], ""target_decimal"": 144, ""numbers_base9"": [""10"", ""6"", ""4"", ""3"", ""2"", ""4""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0019,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""6"", ""4"", ""3"", ""6"", ""3""], ""target_base9"": ""183"", ""numbers_decimal"": [1, 6, 4, 3, 6, 3], ""target_decimal"": 156}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -226,7 +226,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 6, 4, 3, 6, 3
 Target (base 9): 183
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 × (3 + (6 × 6))),"{""numbers_decimal"": [1, 6, 4, 3, 6, 3], ""target_decimal"": 156, ""numbers_base9"": [""1"", ""6"", ""4"", ""3"", ""6"", ""3""], ""target_base9"": ""183"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 × (3 + (6 × 6))),"{""numbers_decimal"": [1, 6, 4, 3, 6, 3], ""target_decimal"": 156, ""numbers_base9"": [""1"", ""6"", ""4"", ""3"", ""6"", ""3""], ""target_base9"": ""183"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0020,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""10"", ""1"", ""3"", ""4"", ""4""], ""target_base9"": ""103"", ""numbers_decimal"": [3, 9, 1, 3, 4, 4], ""target_decimal"": 84}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -238,7 +238,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 10, 1, 3, 4, 4
 Target (base 9): 103
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(3 × (1 + (3 × 10))),"{""numbers_decimal"": [3, 9, 1, 3, 4, 4], ""target_decimal"": 84, ""numbers_base9"": [""3"", ""10"", ""1"", ""3"", ""4"", ""4""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(3 × (1 + (3 × 10))),"{""numbers_decimal"": [3, 9, 1, 3, 4, 4], ""target_decimal"": 84, ""numbers_base9"": [""3"", ""10"", ""1"", ""3"", ""4"", ""4""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0021,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""8"", ""3"", ""8"", ""10"", ""6""], ""target_base9"": ""440"", ""numbers_decimal"": [8, 8, 3, 8, 9, 6], ""target_decimal"": 360}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -250,7 +250,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 8, 3, 8, 10, 6
 Target (base 9): 440
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 − 3) × (8 × 10)),"{""numbers_decimal"": [8, 8, 3, 8, 9, 6], ""target_decimal"": 360, ""numbers_base9"": [""8"", ""8"", ""3"", ""8"", ""10"", ""6""], ""target_base9"": ""440"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 − 3) × (8 × 10)),"{""numbers_decimal"": [8, 8, 3, 8, 9, 6], ""target_decimal"": 360, ""numbers_base9"": [""8"", ""8"", ""3"", ""8"", ""10"", ""6""], ""target_base9"": ""440"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0022,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""6"", ""5"", ""6"", ""5"", ""5""], ""target_base9"": ""233"", ""numbers_decimal"": [2, 6, 5, 6, 5, 5], ""target_decimal"": 192}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -262,7 +262,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 6, 5, 6, 5, 5
 Target (base 9): 233
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(6 × (2 + (6 × 5))),"{""numbers_decimal"": [2, 6, 5, 6, 5, 5], ""target_decimal"": 192, ""numbers_base9"": [""2"", ""6"", ""5"", ""6"", ""5"", ""5""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(6 × (2 + (6 × 5))),"{""numbers_decimal"": [2, 6, 5, 6, 5, 5], ""target_decimal"": 192, ""numbers_base9"": [""2"", ""6"", ""5"", ""6"", ""5"", ""5""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0023,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""3"", ""7"", ""7"", ""7"", ""7""], ""target_base9"": ""103"", ""numbers_decimal"": [2, 3, 7, 7, 7, 7], ""target_decimal"": 84}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -274,7 +274,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 3, 7, 7, 7, 7
 Target (base 9): 103
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (7 + (2 + 3))),"{""numbers_decimal"": [2, 3, 7, 7, 7, 7], ""target_decimal"": 84, ""numbers_base9"": [""2"", ""3"", ""7"", ""7"", ""7"", ""7""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (7 + (2 + 3))),"{""numbers_decimal"": [2, 3, 7, 7, 7, 7], ""target_decimal"": 84, ""numbers_base9"": [""2"", ""3"", ""7"", ""7"", ""7"", ""7""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0024,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""7"", ""5"", ""10"", ""5"", ""3""], ""target_base9"": ""382"", ""numbers_decimal"": [1, 7, 5, 9, 5, 3], ""target_decimal"": 317}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -286,7 +286,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 7, 5, 10, 5, 3
 Target (base 9): 382
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 × (1 + (5 × 10))) − 5),"{""numbers_decimal"": [1, 7, 5, 9, 5, 3], ""target_decimal"": 317, ""numbers_base9"": [""1"", ""7"", ""5"", ""10"", ""5"", ""3""], ""target_base9"": ""382"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 × (1 + (5 × 10))) − 5),"{""numbers_decimal"": [1, 7, 5, 9, 5, 3], ""target_decimal"": 317, ""numbers_base9"": [""1"", ""7"", ""5"", ""10"", ""5"", ""3""], ""target_base9"": ""382"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0025,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""6"", ""4"", ""7"", ""10"", ""3""], ""target_base9"": ""75"", ""numbers_decimal"": [4, 6, 4, 7, 9, 3], ""target_decimal"": 68}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -298,7 +298,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 6, 4, 7, 10, 3
 Target (base 9): 75
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 × (7 + (4 + 6))),"{""numbers_decimal"": [4, 6, 4, 7, 9, 3], ""target_decimal"": 68, ""numbers_base9"": [""4"", ""6"", ""4"", ""7"", ""10"", ""3""], ""target_base9"": ""75"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 × (7 + (4 + 6))),"{""numbers_decimal"": [4, 6, 4, 7, 9, 3], ""target_decimal"": 68, ""numbers_base9"": [""4"", ""6"", ""4"", ""7"", ""10"", ""3""], ""target_base9"": ""75"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0026,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""6"", ""6"", ""5"", ""4"", ""4""], ""target_base9"": ""80"", ""numbers_decimal"": [9, 6, 6, 5, 4, 4], ""target_decimal"": 72}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -310,7 +310,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 6, 6, 5, 4, 4
 Target (base 9): 80
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × (4 + 4)),"{""numbers_decimal"": [9, 6, 6, 5, 4, 4], ""target_decimal"": 72, ""numbers_base9"": [""10"", ""6"", ""6"", ""5"", ""4"", ""4""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × (4 + 4)),"{""numbers_decimal"": [9, 6, 6, 5, 4, 4], ""target_decimal"": 72, ""numbers_base9"": [""10"", ""6"", ""6"", ""5"", ""4"", ""4""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0027,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""5"", ""10"", ""1"", ""7"", ""2""], ""target_base9"": ""387"", ""numbers_decimal"": [5, 5, 9, 1, 7, 2], ""target_decimal"": 322}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -322,7 +322,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 5, 10, 1, 7, 2
 Target (base 9): 387
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (1 + (5 × 10))),"{""numbers_decimal"": [5, 5, 9, 1, 7, 2], ""target_decimal"": 322, ""numbers_base9"": [""5"", ""5"", ""10"", ""1"", ""7"", ""2""], ""target_base9"": ""387"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (1 + (5 × 10))),"{""numbers_decimal"": [5, 5, 9, 1, 7, 2], ""target_decimal"": 322, ""numbers_base9"": [""5"", ""5"", ""10"", ""1"", ""7"", ""2""], ""target_base9"": ""387"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0028,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""1"", ""1"", ""7"", ""10"", ""2""], ""target_base9"": ""76"", ""numbers_decimal"": [9, 1, 1, 7, 9, 2], ""target_decimal"": 69}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -334,7 +334,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 1, 1, 7, 10, 2
 Target (base 9): 76
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 × (10 + 1)) − 1),"{""numbers_decimal"": [9, 1, 1, 7, 9, 2], ""target_decimal"": 69, ""numbers_base9"": [""10"", ""1"", ""1"", ""7"", ""10"", ""2""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 × (10 + 1)) − 1),"{""numbers_decimal"": [9, 1, 1, 7, 9, 2], ""target_decimal"": 69, ""numbers_base9"": [""10"", ""1"", ""1"", ""7"", ""10"", ""2""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0029,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""6"", ""8"", ""8"", ""10"", ""5""], ""target_base9"": ""273"", ""numbers_decimal"": [6, 6, 8, 8, 9, 5], ""target_decimal"": 228}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -346,7 +346,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 6, 8, 8, 10, 5
 Target (base 9): 273
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(6 × (8 + (6 × 5))),"{""numbers_decimal"": [6, 6, 8, 8, 9, 5], ""target_decimal"": 228, ""numbers_base9"": [""6"", ""6"", ""8"", ""8"", ""10"", ""5""], ""target_base9"": ""273"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(6 × (8 + (6 × 5))),"{""numbers_decimal"": [6, 6, 8, 8, 9, 5], ""target_decimal"": 228, ""numbers_base9"": [""6"", ""6"", ""8"", ""8"", ""10"", ""5""], ""target_base9"": ""273"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0030,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""1"", ""5"", ""1"", ""10"", ""3""], ""target_base9"": ""66"", ""numbers_decimal"": [1, 1, 5, 1, 9, 3], ""target_decimal"": 60}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -358,7 +358,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 1, 5, 1, 10, 3
 Target (base 9): 66
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (10 + 3)),"{""numbers_decimal"": [1, 1, 5, 1, 9, 3], ""target_decimal"": 60, ""numbers_base9"": [""1"", ""1"", ""5"", ""1"", ""10"", ""3""], ""target_base9"": ""66"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (10 + 3)),"{""numbers_decimal"": [1, 1, 5, 1, 9, 3], ""target_decimal"": 60, ""numbers_base9"": [""1"", ""1"", ""5"", ""1"", ""10"", ""3""], ""target_base9"": ""66"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0031,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""8"", ""1"", ""3"", ""1"", ""8""], ""target_base9"": ""124"", ""numbers_decimal"": [9, 8, 1, 3, 1, 8], ""target_decimal"": 103}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -370,7 +370,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 8, 1, 3, 1, 8
 Target (base 9): 124
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × (3 + (10 + 1))) − 1),"{""numbers_decimal"": [9, 8, 1, 3, 1, 8], ""target_decimal"": 103, ""numbers_base9"": [""10"", ""8"", ""1"", ""3"", ""1"", ""8""], ""target_base9"": ""124"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × (3 + (10 + 1))) − 1),"{""numbers_decimal"": [9, 8, 1, 3, 1, 8], ""target_decimal"": 103, ""numbers_base9"": [""10"", ""8"", ""1"", ""3"", ""1"", ""8""], ""target_base9"": ""124"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0032,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""3"", ""10"", ""7"", ""1"", ""5""], ""target_base9"": ""143"", ""numbers_decimal"": [5, 3, 9, 7, 1, 5], ""target_decimal"": 120}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -382,7 +382,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 3, 10, 7, 1, 5
 Target (base 9): 143
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((5 × 3) × (10 − 1)),"{""numbers_decimal"": [5, 3, 9, 7, 1, 5], ""target_decimal"": 120, ""numbers_base9"": [""5"", ""3"", ""10"", ""7"", ""1"", ""5""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((5 × 3) × (10 − 1)),"{""numbers_decimal"": [5, 3, 9, 7, 1, 5], ""target_decimal"": 120, ""numbers_base9"": [""5"", ""3"", ""10"", ""7"", ""1"", ""5""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0033,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""4"", ""7"", ""6"", ""7"", ""6""], ""target_base9"": ""210"", ""numbers_decimal"": [2, 4, 7, 6, 7, 6], ""target_decimal"": 171}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -394,7 +394,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 4, 7, 6, 7, 6
 Target (base 9): 210
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 ÷ 2) + (6 × (4 × 7))),"{""numbers_decimal"": [2, 4, 7, 6, 7, 6], ""target_decimal"": 171, ""numbers_base9"": [""2"", ""4"", ""7"", ""6"", ""7"", ""6""], ""target_base9"": ""210"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 ÷ 2) + (6 × (4 × 7))),"{""numbers_decimal"": [2, 4, 7, 6, 7, 6], ""target_decimal"": 171, ""numbers_base9"": [""2"", ""4"", ""7"", ""6"", ""7"", ""6""], ""target_base9"": ""210"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0034,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""1"", ""8"", ""8"", ""3"", ""7""], ""target_base9"": ""233"", ""numbers_decimal"": [8, 1, 8, 8, 3, 7], ""target_decimal"": 192}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -406,7 +406,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 1, 8, 8, 3, 7
 Target (base 9): 233
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(3 × (8 × 8)),"{""numbers_decimal"": [8, 1, 8, 8, 3, 7], ""target_decimal"": 192, ""numbers_base9"": [""8"", ""1"", ""8"", ""8"", ""3"", ""7""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(3 × (8 × 8)),"{""numbers_decimal"": [8, 1, 8, 8, 3, 7], ""target_decimal"": 192, ""numbers_base9"": [""8"", ""1"", ""8"", ""8"", ""3"", ""7""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0035,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""3"", ""10"", ""8"", ""3"", ""4""], ""target_base9"": ""101"", ""numbers_decimal"": [7, 3, 9, 8, 3, 4], ""target_decimal"": 82}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -418,7 +418,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 3, 10, 8, 3, 4
 Target (base 9): 101
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 + 3) + (10 × 8)),"{""numbers_decimal"": [7, 3, 9, 8, 3, 4], ""target_decimal"": 82, ""numbers_base9"": [""7"", ""3"", ""10"", ""8"", ""3"", ""4""], ""target_base9"": ""101"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 + 3) + (10 × 8)),"{""numbers_decimal"": [7, 3, 9, 8, 3, 4], ""target_decimal"": 82, ""numbers_base9"": [""7"", ""3"", ""10"", ""8"", ""3"", ""4""], ""target_base9"": ""101"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0036,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""2"", ""5"", ""8"", ""8"", ""4""], ""target_base9"": ""62"", ""numbers_decimal"": [2, 2, 5, 8, 8, 4], ""target_decimal"": 56}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -430,7 +430,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 2, 5, 8, 8, 4
 Target (base 9): 62
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (2 + 5)),"{""numbers_decimal"": [2, 2, 5, 8, 8, 4], ""target_decimal"": 56, ""numbers_base9"": [""2"", ""2"", ""5"", ""8"", ""8"", ""4""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (2 + 5)),"{""numbers_decimal"": [2, 2, 5, 8, 8, 4], ""target_decimal"": 56, ""numbers_base9"": [""2"", ""2"", ""5"", ""8"", ""8"", ""4""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0037,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""2"", ""4"", ""4"", ""4"", ""5""], ""target_base9"": ""62"", ""numbers_decimal"": [8, 2, 4, 4, 4, 5], ""target_decimal"": 56}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -442,7 +442,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 2, 4, 4, 4, 5
 Target (base 9): 62
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (2 + 5)),"{""numbers_decimal"": [8, 2, 4, 4, 4, 5], ""target_decimal"": 56, ""numbers_base9"": [""8"", ""2"", ""4"", ""4"", ""4"", ""5""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (2 + 5)),"{""numbers_decimal"": [8, 2, 4, 4, 4, 5], ""target_decimal"": 56, ""numbers_base9"": [""8"", ""2"", ""4"", ""4"", ""4"", ""5""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0038,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""7"", ""6"", ""3"", ""10"", ""1""], ""target_base9"": ""183"", ""numbers_decimal"": [5, 7, 6, 3, 9, 1], ""target_decimal"": 156}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -454,7 +454,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 7, 6, 3, 10, 1
 Target (base 9): 183
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(6 × (5 + (7 × 3))),"{""numbers_decimal"": [5, 7, 6, 3, 9, 1], ""target_decimal"": 156, ""numbers_base9"": [""5"", ""7"", ""6"", ""3"", ""10"", ""1""], ""target_base9"": ""183"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(6 × (5 + (7 × 3))),"{""numbers_decimal"": [5, 7, 6, 3, 9, 1], ""target_decimal"": 156, ""numbers_base9"": [""5"", ""7"", ""6"", ""3"", ""10"", ""1""], ""target_base9"": ""183"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0039,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""2"", ""8"", ""5"", ""6"", ""5""], ""target_base9"": ""57"", ""numbers_decimal"": [7, 2, 8, 5, 6, 5], ""target_decimal"": 52}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -466,7 +466,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 2, 8, 5, 6, 5
 Target (base 9): 57
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 × 8) + (2 − 6)),"{""numbers_decimal"": [7, 2, 8, 5, 6, 5], ""target_decimal"": 52, ""numbers_base9"": [""7"", ""2"", ""8"", ""5"", ""6"", ""5""], ""target_base9"": ""57"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 × 8) + (2 − 6)),"{""numbers_decimal"": [7, 2, 8, 5, 6, 5], ""target_decimal"": 52, ""numbers_base9"": [""7"", ""2"", ""8"", ""5"", ""6"", ""5""], ""target_base9"": ""57"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0040,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""2"", ""4"", ""2"", ""10"", ""4""], ""target_base9"": ""76"", ""numbers_decimal"": [7, 2, 4, 2, 9, 4], ""target_decimal"": 69}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -478,7 +478,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 2, 4, 2, 10, 4
 Target (base 9): 76
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 × 10) + (2 + 4)),"{""numbers_decimal"": [7, 2, 4, 2, 9, 4], ""target_decimal"": 69, ""numbers_base9"": [""7"", ""2"", ""4"", ""2"", ""10"", ""4""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 × 10) + (2 + 4)),"{""numbers_decimal"": [7, 2, 4, 2, 9, 4], ""target_decimal"": 69, ""numbers_base9"": [""7"", ""2"", ""4"", ""2"", ""10"", ""4""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0041,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""4"", ""8"", ""7"", ""1"", ""4""], ""target_base9"": ""68"", ""numbers_decimal"": [2, 4, 8, 7, 1, 4], ""target_decimal"": 62}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -490,7 +490,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 4, 8, 7, 1, 4
 Target (base 9): 68
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((2 + 4) + (8 × 7)),"{""numbers_decimal"": [2, 4, 8, 7, 1, 4], ""target_decimal"": 62, ""numbers_base9"": [""2"", ""4"", ""8"", ""7"", ""1"", ""4""], ""target_base9"": ""68"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((2 + 4) + (8 × 7)),"{""numbers_decimal"": [2, 4, 8, 7, 1, 4], ""target_decimal"": 62, ""numbers_base9"": [""2"", ""4"", ""8"", ""7"", ""1"", ""4""], ""target_base9"": ""68"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0042,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""10"", ""4"", ""2"", ""6"", ""10""], ""target_base9"": ""60"", ""numbers_decimal"": [7, 9, 4, 2, 6, 9], ""target_decimal"": 54}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -502,7 +502,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 10, 4, 2, 6, 10
 Target (base 9): 60
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × 6),"{""numbers_decimal"": [7, 9, 4, 2, 6, 9], ""target_decimal"": 54, ""numbers_base9"": [""7"", ""10"", ""4"", ""2"", ""6"", ""10""], ""target_base9"": ""60"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × 6),"{""numbers_decimal"": [7, 9, 4, 2, 6, 9], ""target_decimal"": 54, ""numbers_base9"": [""7"", ""10"", ""4"", ""2"", ""6"", ""10""], ""target_base9"": ""60"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0043,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""7"", ""10"", ""8"", ""1"", ""1""], ""target_base9"": ""162"", ""numbers_decimal"": [9, 7, 9, 8, 1, 1], ""target_decimal"": 137}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -514,7 +514,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 7, 10, 8, 1, 1
 Target (base 9): 162
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 + (8 × (10 + 7))),"{""numbers_decimal"": [9, 7, 9, 8, 1, 1], ""target_decimal"": 137, ""numbers_base9"": [""10"", ""7"", ""10"", ""8"", ""1"", ""1""], ""target_base9"": ""162"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 + (8 × (10 + 7))),"{""numbers_decimal"": [9, 7, 9, 8, 1, 1], ""target_decimal"": 137, ""numbers_base9"": [""10"", ""7"", ""10"", ""8"", ""1"", ""1""], ""target_base9"": ""162"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0044,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""10"", ""2"", ""3"", ""5"", ""8""], ""target_base9"": ""58"", ""numbers_decimal"": [1, 9, 2, 3, 5, 8], ""target_decimal"": 53}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -526,7 +526,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 10, 2, 3, 5, 8
 Target (base 9): 58
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 + (10 × 5)),"{""numbers_decimal"": [1, 9, 2, 3, 5, 8], ""target_decimal"": 53, ""numbers_base9"": [""1"", ""10"", ""2"", ""3"", ""5"", ""8""], ""target_base9"": ""58"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 + (10 × 5)),"{""numbers_decimal"": [1, 9, 2, 3, 5, 8], ""target_decimal"": 53, ""numbers_base9"": [""1"", ""10"", ""2"", ""3"", ""5"", ""8""], ""target_base9"": ""58"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0045,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""3"", ""5"", ""4"", ""10"", ""1""], ""target_base9"": ""220"", ""numbers_decimal"": [8, 3, 5, 4, 9, 1], ""target_decimal"": 180}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -538,7 +538,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 3, 5, 4, 10, 1
 Target (base 9): 220
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × (5 × 4)),"{""numbers_decimal"": [8, 3, 5, 4, 9, 1], ""target_decimal"": 180, ""numbers_base9"": [""8"", ""3"", ""5"", ""4"", ""10"", ""1""], ""target_base9"": ""220"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × (5 × 4)),"{""numbers_decimal"": [8, 3, 5, 4, 9, 1], ""target_decimal"": 180, ""numbers_base9"": [""8"", ""3"", ""5"", ""4"", ""10"", ""1""], ""target_base9"": ""220"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0046,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""2"", ""1"", ""1"", ""5"", ""1""], ""target_base9"": ""66"", ""numbers_decimal"": [8, 2, 1, 1, 5, 1], ""target_decimal"": 60}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -550,7 +550,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 2, 1, 1, 5, 1
 Target (base 9): 66
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 + 2) × (1 + 5)),"{""numbers_decimal"": [8, 2, 1, 1, 5, 1], ""target_decimal"": 60, ""numbers_base9"": [""8"", ""2"", ""1"", ""1"", ""5"", ""1""], ""target_base9"": ""66"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 + 2) × (1 + 5)),"{""numbers_decimal"": [8, 2, 1, 1, 5, 1], ""target_decimal"": 60, ""numbers_base9"": [""8"", ""2"", ""1"", ""1"", ""5"", ""1""], ""target_base9"": ""66"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0047,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""7"", ""4"", ""4"", ""5"", ""2""], ""target_base9"": ""58"", ""numbers_decimal"": [9, 7, 4, 4, 5, 2], ""target_decimal"": 53}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -562,7 +562,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 7, 4, 4, 5, 2
 Target (base 9): 58
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 + (4 × (7 + 4))),"{""numbers_decimal"": [9, 7, 4, 4, 5, 2], ""target_decimal"": 53, ""numbers_base9"": [""10"", ""7"", ""4"", ""4"", ""5"", ""2""], ""target_base9"": ""58"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 + (4 × (7 + 4))),"{""numbers_decimal"": [9, 7, 4, 4, 5, 2], ""target_decimal"": 53, ""numbers_base9"": [""10"", ""7"", ""4"", ""4"", ""5"", ""2""], ""target_base9"": ""58"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0048,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""8"", ""7"", ""5"", ""3"", ""1""], ""target_base9"": ""202"", ""numbers_decimal"": [3, 8, 7, 5, 3, 1], ""target_decimal"": 164}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -574,7 +574,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 8, 7, 5, 3, 1
 Target (base 9): 202
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(3 + (7 × (8 + (3 × 5)))),"{""numbers_decimal"": [3, 8, 7, 5, 3, 1], ""target_decimal"": 164, ""numbers_base9"": [""3"", ""8"", ""7"", ""5"", ""3"", ""1""], ""target_base9"": ""202"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(3 + (7 × (8 + (3 × 5)))),"{""numbers_decimal"": [3, 8, 7, 5, 3, 1], ""target_decimal"": 164, ""numbers_base9"": [""3"", ""8"", ""7"", ""5"", ""3"", ""1""], ""target_base9"": ""202"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0049,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""5"", ""3"", ""4"", ""4"", ""4""], ""target_base9"": ""117"", ""numbers_decimal"": [8, 5, 3, 4, 4, 4], ""target_decimal"": 97}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -586,7 +586,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 5, 3, 4, 4, 4
 Target (base 9): 117
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((5 − 4) + (4 × (8 × 3))),"{""numbers_decimal"": [8, 5, 3, 4, 4, 4], ""target_decimal"": 97, ""numbers_base9"": [""8"", ""5"", ""3"", ""4"", ""4"", ""4""], ""target_base9"": ""117"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((5 − 4) + (4 × (8 × 3))),"{""numbers_decimal"": [8, 5, 3, 4, 4, 4], ""target_decimal"": 97, ""numbers_base9"": [""8"", ""5"", ""3"", ""4"", ""4"", ""4""], ""target_base9"": ""117"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0050,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""10"", ""6"", ""7"", ""3"", ""7""], ""target_base9"": ""86"", ""numbers_decimal"": [2, 9, 6, 7, 3, 7], ""target_decimal"": 78}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -598,7 +598,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 10, 6, 7, 3, 7
 Target (base 9): 86
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((10 × (2 + 7)) − 3),"{""numbers_decimal"": [2, 9, 6, 7, 3, 7], ""target_decimal"": 78, ""numbers_base9"": [""2"", ""10"", ""6"", ""7"", ""3"", ""7""], ""target_base9"": ""86"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((10 × (2 + 7)) − 3),"{""numbers_decimal"": [2, 9, 6, 7, 3, 7], ""target_decimal"": 78, ""numbers_base9"": [""2"", ""10"", ""6"", ""7"", ""3"", ""7""], ""target_base9"": ""86"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0051,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""7"", ""7"", ""1"", ""4"", ""2""], ""target_base9"": ""157"", ""numbers_decimal"": [6, 7, 7, 1, 4, 2], ""target_decimal"": 133}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -610,7 +610,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 7, 7, 1, 4, 2
 Target (base 9): 157
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (7 + (6 × 2))),"{""numbers_decimal"": [6, 7, 7, 1, 4, 2], ""target_decimal"": 133, ""numbers_base9"": [""6"", ""7"", ""7"", ""1"", ""4"", ""2""], ""target_base9"": ""157"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (7 + (6 × 2))),"{""numbers_decimal"": [6, 7, 7, 1, 4, 2], ""target_decimal"": 133, ""numbers_base9"": [""6"", ""7"", ""7"", ""1"", ""4"", ""2""], ""target_base9"": ""157"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0052,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""2"", ""7"", ""4"", ""7"", ""2""], ""target_base9"": ""268"", ""numbers_decimal"": [1, 2, 7, 4, 7, 2], ""target_decimal"": 224}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -622,7 +622,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 2, 7, 4, 7, 2
 Target (base 9): 268
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((1 + 7) × (4 × 7)),"{""numbers_decimal"": [1, 2, 7, 4, 7, 2], ""target_decimal"": 224, ""numbers_base9"": [""1"", ""2"", ""7"", ""4"", ""7"", ""2""], ""target_base9"": ""268"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((1 + 7) × (4 × 7)),"{""numbers_decimal"": [1, 2, 7, 4, 7, 2], ""target_decimal"": 224, ""numbers_base9"": [""1"", ""2"", ""7"", ""4"", ""7"", ""2""], ""target_base9"": ""268"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0053,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""5"", ""6"", ""8"", ""3"", ""4""], ""target_base9"": ""107"", ""numbers_decimal"": [3, 5, 6, 8, 3, 4], ""target_decimal"": 88}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -634,7 +634,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 5, 6, 8, 3, 4
 Target (base 9): 107
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (5 + 6)),"{""numbers_decimal"": [3, 5, 6, 8, 3, 4], ""target_decimal"": 88, ""numbers_base9"": [""3"", ""5"", ""6"", ""8"", ""3"", ""4""], ""target_base9"": ""107"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (5 + 6)),"{""numbers_decimal"": [3, 5, 6, 8, 3, 4], ""target_decimal"": 88, ""numbers_base9"": [""3"", ""5"", ""6"", ""8"", ""3"", ""4""], ""target_base9"": ""107"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0054,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""7"", ""7"", ""3"", ""6"", ""5""], ""target_base9"": ""170"", ""numbers_decimal"": [4, 7, 7, 3, 6, 5], ""target_decimal"": 144}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -646,7 +646,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 7, 7, 3, 6, 5
 Target (base 9): 170
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 × 3) × (7 + 5)),"{""numbers_decimal"": [4, 7, 7, 3, 6, 5], ""target_decimal"": 144, ""numbers_base9"": [""4"", ""7"", ""7"", ""3"", ""6"", ""5""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 × 3) × (7 + 5)),"{""numbers_decimal"": [4, 7, 7, 3, 6, 5], ""target_decimal"": 144, ""numbers_base9"": [""4"", ""7"", ""7"", ""3"", ""6"", ""5""], ""target_base9"": ""170"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0055,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""8"", ""4"", ""8"", ""2"", ""1""], ""target_base9"": ""152"", ""numbers_decimal"": [1, 8, 4, 8, 2, 1], ""target_decimal"": 128}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -658,7 +658,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 8, 4, 8, 2, 1
 Target (base 9): 152
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(2 × (8 × 8)),"{""numbers_decimal"": [1, 8, 4, 8, 2, 1], ""target_decimal"": 128, ""numbers_base9"": [""1"", ""8"", ""4"", ""8"", ""2"", ""1""], ""target_base9"": ""152"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(2 × (8 × 8)),"{""numbers_decimal"": [1, 8, 4, 8, 2, 1], ""target_decimal"": 128, ""numbers_base9"": [""1"", ""8"", ""4"", ""8"", ""2"", ""1""], ""target_base9"": ""152"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0056,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""5"", ""6"", ""8"", ""1"", ""6""], ""target_base9"": ""84"", ""numbers_decimal"": [8, 5, 6, 8, 1, 6], ""target_decimal"": 76}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -670,7 +670,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 5, 6, 8, 1, 6
 Target (base 9): 84
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 5) + (6 × 6)),"{""numbers_decimal"": [8, 5, 6, 8, 1, 6], ""target_decimal"": 76, ""numbers_base9"": [""8"", ""5"", ""6"", ""8"", ""1"", ""6""], ""target_base9"": ""84"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 5) + (6 × 6)),"{""numbers_decimal"": [8, 5, 6, 8, 1, 6], ""target_decimal"": 76, ""numbers_base9"": [""8"", ""5"", ""6"", ""8"", ""1"", ""6""], ""target_base9"": ""84"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0057,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""4"", ""6"", ""10"", ""10"", ""6""], ""target_base9"": ""236"", ""numbers_decimal"": [2, 4, 6, 9, 9, 6], ""target_decimal"": 195}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -682,7 +682,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 4, 6, 10, 10, 6
 Target (base 9): 236
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 + 10) × (6 + 10)),"{""numbers_decimal"": [2, 4, 6, 9, 9, 6], ""target_decimal"": 195, ""numbers_base9"": [""2"", ""4"", ""6"", ""10"", ""10"", ""6""], ""target_base9"": ""236"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 + 10) × (6 + 10)),"{""numbers_decimal"": [2, 4, 6, 9, 9, 6], ""target_decimal"": 195, ""numbers_base9"": [""2"", ""4"", ""6"", ""10"", ""10"", ""6""], ""target_base9"": ""236"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0058,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""6"", ""7"", ""5"", ""10"", ""10""], ""target_base9"": ""75"", ""numbers_decimal"": [5, 6, 7, 5, 9, 9], ""target_decimal"": 68}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -694,7 +694,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 6, 7, 5, 10, 10
 Target (base 9): 75
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 + (7 × 10)),"{""numbers_decimal"": [5, 6, 7, 5, 9, 9], ""target_decimal"": 68, ""numbers_base9"": [""5"", ""6"", ""7"", ""5"", ""10"", ""10""], ""target_base9"": ""75"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 + (7 × 10)),"{""numbers_decimal"": [5, 6, 7, 5, 9, 9], ""target_decimal"": 68, ""numbers_base9"": [""5"", ""6"", ""7"", ""5"", ""10"", ""10""], ""target_base9"": ""75"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0059,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""10"", ""6"", ""1"", ""8"", ""3""], ""target_base9"": ""88"", ""numbers_decimal"": [3, 9, 6, 1, 8, 3], ""target_decimal"": 80}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -706,7 +706,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 10, 6, 1, 8, 3
 Target (base 9): 88
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (10 + 1)),"{""numbers_decimal"": [3, 9, 6, 1, 8, 3], ""target_decimal"": 80, ""numbers_base9"": [""3"", ""10"", ""6"", ""1"", ""8"", ""3""], ""target_base9"": ""88"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (10 + 1)),"{""numbers_decimal"": [3, 9, 6, 1, 8, 3], ""target_decimal"": 80, ""numbers_base9"": [""3"", ""10"", ""6"", ""1"", ""8"", ""3""], ""target_base9"": ""88"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0060,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""7"", ""1"", ""7"", ""5"", ""1""], ""target_base9"": ""56"", ""numbers_decimal"": [9, 7, 1, 7, 5, 1], ""target_decimal"": 51}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -718,7 +718,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 7, 1, 7, 5, 1
 Target (base 9): 56
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 + (7 × (7 − 1))),"{""numbers_decimal"": [9, 7, 1, 7, 5, 1], ""target_decimal"": 51, ""numbers_base9"": [""10"", ""7"", ""1"", ""7"", ""5"", ""1""], ""target_base9"": ""56"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 + (7 × (7 − 1))),"{""numbers_decimal"": [9, 7, 1, 7, 5, 1], ""target_decimal"": 51, ""numbers_base9"": [""10"", ""7"", ""1"", ""7"", ""5"", ""1""], ""target_base9"": ""56"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0061,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""2"", ""8"", ""7"", ""3"", ""8""], ""target_base9"": ""83"", ""numbers_decimal"": [5, 2, 8, 7, 3, 8], ""target_decimal"": 75}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -730,7 +730,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 2, 8, 7, 3, 8
 Target (base 9): 83
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (8 + 7)),"{""numbers_decimal"": [5, 2, 8, 7, 3, 8], ""target_decimal"": 75, ""numbers_base9"": [""5"", ""2"", ""8"", ""7"", ""3"", ""8""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (8 + 7)),"{""numbers_decimal"": [5, 2, 8, 7, 3, 8], ""target_decimal"": 75, ""numbers_base9"": [""5"", ""2"", ""8"", ""7"", ""3"", ""8""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0062,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""7"", ""8"", ""3"", ""6"", ""3""], ""target_base9"": ""71"", ""numbers_decimal"": [7, 7, 8, 3, 6, 3], ""target_decimal"": 64}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -742,7 +742,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 7, 8, 3, 6, 3
 Target (base 9): 71
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × ((7 + 7) − 6)),"{""numbers_decimal"": [7, 7, 8, 3, 6, 3], ""target_decimal"": 64, ""numbers_base9"": [""7"", ""7"", ""8"", ""3"", ""6"", ""3""], ""target_base9"": ""71"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × ((7 + 7) − 6)),"{""numbers_decimal"": [7, 7, 8, 3, 6, 3], ""target_decimal"": 64, ""numbers_base9"": [""7"", ""7"", ""8"", ""3"", ""6"", ""3""], ""target_base9"": ""71"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0063,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""7"", ""8"", ""6"", ""6"", ""6""], ""target_base9"": ""134"", ""numbers_decimal"": [8, 7, 8, 6, 6, 6], ""target_decimal"": 112}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -754,7 +754,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 7, 8, 6, 6, 6
 Target (base 9): 134
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (8 + 8)),"{""numbers_decimal"": [8, 7, 8, 6, 6, 6], ""target_decimal"": 112, ""numbers_base9"": [""8"", ""7"", ""8"", ""6"", ""6"", ""6""], ""target_base9"": ""134"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (8 + 8)),"{""numbers_decimal"": [8, 7, 8, 6, 6, 6], ""target_decimal"": 112, ""numbers_base9"": [""8"", ""7"", ""8"", ""6"", ""6"", ""6""], ""target_base9"": ""134"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0064,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""5"", ""7"", ""6"", ""6"", ""10""], ""target_base9"": ""323"", ""numbers_decimal"": [1, 5, 7, 6, 6, 9], ""target_decimal"": 264}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -766,7 +766,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 5, 7, 6, 6, 10
 Target (base 9): 323
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(6 × ((5 × 10) − 1)),"{""numbers_decimal"": [1, 5, 7, 6, 6, 9], ""target_decimal"": 264, ""numbers_base9"": [""1"", ""5"", ""7"", ""6"", ""6"", ""10""], ""target_base9"": ""323"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(6 × ((5 × 10) − 1)),"{""numbers_decimal"": [1, 5, 7, 6, 6, 9], ""target_decimal"": 264, ""numbers_base9"": [""1"", ""5"", ""7"", ""6"", ""6"", ""10""], ""target_base9"": ""323"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0065,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""8"", ""5"", ""1"", ""8"", ""3""], ""target_base9"": ""406"", ""numbers_decimal"": [3, 8, 5, 1, 8, 3], ""target_decimal"": 330}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -778,7 +778,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 8, 5, 1, 8, 3
 Target (base 9): 406
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × ((3 − 1) + (8 × 8))),"{""numbers_decimal"": [3, 8, 5, 1, 8, 3], ""target_decimal"": 330, ""numbers_base9"": [""3"", ""8"", ""5"", ""1"", ""8"", ""3""], ""target_base9"": ""406"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × ((3 − 1) + (8 × 8))),"{""numbers_decimal"": [3, 8, 5, 1, 8, 3], ""target_decimal"": 330, ""numbers_base9"": [""3"", ""8"", ""5"", ""1"", ""8"", ""3""], ""target_base9"": ""406"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0066,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""3"", ""6"", ""7"", ""10"", ""1""], ""target_base9"": ""83"", ""numbers_decimal"": [6, 3, 6, 7, 9, 1], ""target_decimal"": 75}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -790,7 +790,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 3, 6, 7, 10, 1
 Target (base 9): 83
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 × (6 + 7)) − 3),"{""numbers_decimal"": [6, 3, 6, 7, 9, 1], ""target_decimal"": 75, ""numbers_base9"": [""6"", ""3"", ""6"", ""7"", ""10"", ""1""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 × (6 + 7)) − 3),"{""numbers_decimal"": [6, 3, 6, 7, 9, 1], ""target_decimal"": 75, ""numbers_base9"": [""6"", ""3"", ""6"", ""7"", ""10"", ""1""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0067,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""7"", ""4"", ""3"", ""2"", ""1""], ""target_base9"": ""103"", ""numbers_decimal"": [9, 7, 4, 3, 2, 1], ""target_decimal"": 84}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -802,7 +802,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 7, 4, 3, 2, 1
 Target (base 9): 103
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (10 + 3)),"{""numbers_decimal"": [9, 7, 4, 3, 2, 1], ""target_decimal"": 84, ""numbers_base9"": [""10"", ""7"", ""4"", ""3"", ""2"", ""1""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (10 + 3)),"{""numbers_decimal"": [9, 7, 4, 3, 2, 1], ""target_decimal"": 84, ""numbers_base9"": [""10"", ""7"", ""4"", ""3"", ""2"", ""1""], ""target_base9"": ""103"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0068,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""8"", ""2"", ""2"", ""3"", ""3""], ""target_base9"": ""156"", ""numbers_decimal"": [4, 8, 2, 2, 3, 3], ""target_decimal"": 132}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -814,7 +814,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 8, 2, 2, 3, 3
 Target (base 9): 156
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 × 3) × (8 + 3)),"{""numbers_decimal"": [4, 8, 2, 2, 3, 3], ""target_decimal"": 132, ""numbers_base9"": [""4"", ""8"", ""2"", ""2"", ""3"", ""3""], ""target_base9"": ""156"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 × 3) × (8 + 3)),"{""numbers_decimal"": [4, 8, 2, 2, 3, 3], ""target_decimal"": 132, ""numbers_base9"": [""4"", ""8"", ""2"", ""2"", ""3"", ""3""], ""target_base9"": ""156"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0069,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""3"", ""7"", ""10"", ""5"", ""4"", ""1""], ""target_base9"": ""110"", ""numbers_decimal"": [3, 7, 9, 5, 4, 1], ""target_decimal"": 90}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -826,7 +826,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 3, 7, 10, 5, 4, 1
 Target (base 9): 110
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × (3 + 7)),"{""numbers_decimal"": [3, 7, 9, 5, 4, 1], ""target_decimal"": 90, ""numbers_base9"": [""3"", ""7"", ""10"", ""5"", ""4"", ""1""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × (3 + 7)),"{""numbers_decimal"": [3, 7, 9, 5, 4, 1], ""target_decimal"": 90, ""numbers_base9"": [""3"", ""7"", ""10"", ""5"", ""4"", ""1""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0070,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""5"", ""6"", ""6"", ""2"", ""3""], ""target_base9"": ""70"", ""numbers_decimal"": [2, 5, 6, 6, 2, 3], ""target_decimal"": 63}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -838,7 +838,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 5, 6, 6, 2, 3
 Target (base 9): 70
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((2 + 5) × (6 + 3)),"{""numbers_decimal"": [2, 5, 6, 6, 2, 3], ""target_decimal"": 63, ""numbers_base9"": [""2"", ""5"", ""6"", ""6"", ""2"", ""3""], ""target_base9"": ""70"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((2 + 5) × (6 + 3)),"{""numbers_decimal"": [2, 5, 6, 6, 2, 3], ""target_decimal"": 63, ""numbers_base9"": [""2"", ""5"", ""6"", ""6"", ""2"", ""3""], ""target_base9"": ""70"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0071,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""7"", ""10"", ""10"", ""1"", ""1""], ""target_base9"": ""80"", ""numbers_decimal"": [9, 7, 9, 9, 1, 1], ""target_decimal"": 72}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -850,7 +850,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 7, 10, 10, 1, 1
 Target (base 9): 80
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 + (10 × 7)),"{""numbers_decimal"": [9, 7, 9, 9, 1, 1], ""target_decimal"": 72, ""numbers_base9"": [""10"", ""7"", ""10"", ""10"", ""1"", ""1""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 + (10 × 7)),"{""numbers_decimal"": [9, 7, 9, 9, 1, 1], ""target_decimal"": 72, ""numbers_base9"": [""10"", ""7"", ""10"", ""10"", ""1"", ""1""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0072,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""10"", ""2"", ""2"", ""3"", ""7""], ""target_base9"": ""206"", ""numbers_decimal"": [1, 9, 2, 2, 3, 7], ""target_decimal"": 168}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -862,7 +862,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 10, 2, 2, 3, 7
 Target (base 9): 206
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((10 − 1) × (3 × 7)),"{""numbers_decimal"": [1, 9, 2, 2, 3, 7], ""target_decimal"": 168, ""numbers_base9"": [""1"", ""10"", ""2"", ""2"", ""3"", ""7""], ""target_base9"": ""206"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((10 − 1) × (3 × 7)),"{""numbers_decimal"": [1, 9, 2, 2, 3, 7], ""target_decimal"": 168, ""numbers_base9"": [""1"", ""10"", ""2"", ""2"", ""3"", ""7""], ""target_base9"": ""206"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0073,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""7"", ""2"", ""1"", ""2"", ""7""], ""target_base9"": ""86"", ""numbers_decimal"": [7, 7, 2, 1, 2, 7], ""target_decimal"": 78}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -874,7 +874,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 7, 2, 1, 2, 7
 Target (base 9): 86
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(1 + (7 × (2 + (7 + 2)))),"{""numbers_decimal"": [7, 7, 2, 1, 2, 7], ""target_decimal"": 78, ""numbers_base9"": [""7"", ""7"", ""2"", ""1"", ""2"", ""7""], ""target_base9"": ""86"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(1 + (7 × (2 + (7 + 2)))),"{""numbers_decimal"": [7, 7, 2, 1, 2, 7], ""target_decimal"": 78, ""numbers_base9"": [""7"", ""7"", ""2"", ""1"", ""2"", ""7""], ""target_base9"": ""86"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0074,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""3"", ""2"", ""4"", ""5"", ""10""], ""target_base9"": ""143"", ""numbers_decimal"": [9, 3, 2, 4, 5, 9], ""target_decimal"": 120}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -886,7 +886,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 3, 2, 4, 5, 10
 Target (base 9): 143
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((10 + 3) × (2 × 5)),"{""numbers_decimal"": [9, 3, 2, 4, 5, 9], ""target_decimal"": 120, ""numbers_base9"": [""10"", ""3"", ""2"", ""4"", ""5"", ""10""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((10 + 3) × (2 × 5)),"{""numbers_decimal"": [9, 3, 2, 4, 5, 9], ""target_decimal"": 120, ""numbers_base9"": [""10"", ""3"", ""2"", ""4"", ""5"", ""10""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0075,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""1"", ""5"", ""1"", ""6"", ""7""], ""target_base9"": ""473"", ""numbers_decimal"": [6, 1, 5, 1, 6, 7], ""target_decimal"": 390}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -898,7 +898,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 1, 5, 1, 6, 7
 Target (base 9): 473
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 × 5) × (6 + 7)),"{""numbers_decimal"": [6, 1, 5, 1, 6, 7], ""target_decimal"": 390, ""numbers_base9"": [""6"", ""1"", ""5"", ""1"", ""6"", ""7""], ""target_base9"": ""473"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 × 5) × (6 + 7)),"{""numbers_decimal"": [6, 1, 5, 1, 6, 7], ""target_decimal"": 390, ""numbers_base9"": [""6"", ""1"", ""5"", ""1"", ""6"", ""7""], ""target_base9"": ""473"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0076,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""6"", ""4"", ""1"", ""1"", ""7""], ""target_base9"": ""376"", ""numbers_decimal"": [6, 6, 4, 1, 1, 7], ""target_decimal"": 312}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -910,7 +910,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 6, 4, 1, 1, 7
 Target (base 9): 376
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 × 4) × (6 + 7)),"{""numbers_decimal"": [6, 6, 4, 1, 1, 7], ""target_decimal"": 312, ""numbers_base9"": [""6"", ""6"", ""4"", ""1"", ""1"", ""7""], ""target_base9"": ""376"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 × 4) × (6 + 7)),"{""numbers_decimal"": [6, 6, 4, 1, 1, 7], ""target_decimal"": 312, ""numbers_base9"": [""6"", ""6"", ""4"", ""1"", ""1"", ""7""], ""target_base9"": ""376"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0077,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""5"", ""2"", ""2"", ""4"", ""5""], ""target_base9"": ""100"", ""numbers_decimal"": [6, 5, 2, 2, 4, 5], ""target_decimal"": 81}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -922,7 +922,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 5, 2, 2, 4, 5
 Target (base 9): 100
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 ÷ 2) × (2 + (5 × 5))),"{""numbers_decimal"": [6, 5, 2, 2, 4, 5], ""target_decimal"": 81, ""numbers_base9"": [""6"", ""5"", ""2"", ""2"", ""4"", ""5""], ""target_base9"": ""100"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 ÷ 2) × (2 + (5 × 5))),"{""numbers_decimal"": [6, 5, 2, 2, 4, 5], ""target_decimal"": 81, ""numbers_base9"": [""6"", ""5"", ""2"", ""2"", ""4"", ""5""], ""target_base9"": ""100"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0078,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""4"", ""7"", ""1"", ""10"", ""5""], ""target_base9"": ""77"", ""numbers_decimal"": [1, 4, 7, 1, 9, 5], ""target_decimal"": 70}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -934,7 +934,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 4, 7, 1, 10, 5
 Target (base 9): 77
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (1 + 10)),"{""numbers_decimal"": [1, 4, 7, 1, 9, 5], ""target_decimal"": 70, ""numbers_base9"": [""1"", ""4"", ""7"", ""1"", ""10"", ""5""], ""target_base9"": ""77"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (1 + 10)),"{""numbers_decimal"": [1, 4, 7, 1, 9, 5], ""target_decimal"": 70, ""numbers_base9"": [""1"", ""4"", ""7"", ""1"", ""10"", ""5""], ""target_base9"": ""77"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0079,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""1"", ""7"", ""7"", ""10"", ""1""], ""target_base9"": ""126"", ""numbers_decimal"": [1, 1, 7, 7, 9, 1], ""target_decimal"": 105}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -946,7 +946,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 1, 7, 7, 10, 1
 Target (base 9): 126
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (10 − (1 − 7))),"{""numbers_decimal"": [1, 1, 7, 7, 9, 1], ""target_decimal"": 105, ""numbers_base9"": [""1"", ""1"", ""7"", ""7"", ""10"", ""1""], ""target_base9"": ""126"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (10 − (1 − 7))),"{""numbers_decimal"": [1, 1, 7, 7, 9, 1], ""target_decimal"": 105, ""numbers_base9"": [""1"", ""1"", ""7"", ""7"", ""10"", ""1""], ""target_base9"": ""126"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0080,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""6"", ""7"", ""7"", ""5"", ""8""], ""target_base9"": ""62"", ""numbers_decimal"": [6, 6, 7, 7, 5, 8], ""target_decimal"": 56}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -958,7 +958,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 6, 7, 7, 5, 8
 Target (base 9): 62
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × 8),"{""numbers_decimal"": [6, 6, 7, 7, 5, 8], ""target_decimal"": 56, ""numbers_base9"": [""6"", ""6"", ""7"", ""7"", ""5"", ""8""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × 8),"{""numbers_decimal"": [6, 6, 7, 7, 5, 8], ""target_decimal"": 56, ""numbers_base9"": [""6"", ""6"", ""7"", ""7"", ""5"", ""8""], ""target_base9"": ""62"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0081,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""8"", ""7"", ""5"", ""10"", ""5""], ""target_base9"": ""76"", ""numbers_decimal"": [2, 8, 7, 5, 9, 5], ""target_decimal"": 69}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -970,7 +970,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 8, 7, 5, 10, 5
 Target (base 9): 76
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((7 × 10) − (2 − 8)),"{""numbers_decimal"": [2, 8, 7, 5, 9, 5], ""target_decimal"": 69, ""numbers_base9"": [""2"", ""8"", ""7"", ""5"", ""10"", ""5""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((7 × 10) − (2 − 8)),"{""numbers_decimal"": [2, 8, 7, 5, 9, 5], ""target_decimal"": 69, ""numbers_base9"": [""2"", ""8"", ""7"", ""5"", ""10"", ""5""], ""target_base9"": ""76"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0082,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""5"", ""4"", ""1"", ""10"", ""6""], ""target_base9"": ""260"", ""numbers_decimal"": [6, 5, 4, 1, 9, 6], ""target_decimal"": 216}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -982,7 +982,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 5, 4, 1, 10, 6
 Target (base 9): 260
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(10 × (6 × 4)),"{""numbers_decimal"": [6, 5, 4, 1, 9, 6], ""target_decimal"": 216, ""numbers_base9"": [""6"", ""5"", ""4"", ""1"", ""10"", ""6""], ""target_base9"": ""260"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(10 × (6 × 4)),"{""numbers_decimal"": [6, 5, 4, 1, 9, 6], ""target_decimal"": 216, ""numbers_base9"": [""6"", ""5"", ""4"", ""1"", ""10"", ""6""], ""target_base9"": ""260"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0083,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""8"", ""8"", ""5"", ""2"", ""8""], ""target_base9"": ""71"", ""numbers_decimal"": [2, 8, 8, 5, 2, 8], ""target_decimal"": 64}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -994,7 +994,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 8, 8, 5, 2, 8
 Target (base 9): 71
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × 8),"{""numbers_decimal"": [2, 8, 8, 5, 2, 8], ""target_decimal"": 64, ""numbers_base9"": [""2"", ""8"", ""8"", ""5"", ""2"", ""8""], ""target_base9"": ""71"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × 8),"{""numbers_decimal"": [2, 8, 8, 5, 2, 8], ""target_decimal"": 64, ""numbers_base9"": [""2"", ""8"", ""8"", ""5"", ""2"", ""8""], ""target_base9"": ""71"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0084,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""1"", ""4"", ""1"", ""4"", ""4""], ""target_base9"": ""152"", ""numbers_decimal"": [4, 1, 4, 1, 4, 4], ""target_decimal"": 128}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1006,7 +1006,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 1, 4, 1, 4, 4
 Target (base 9): 152
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 + 4) × (4 × 4)),"{""numbers_decimal"": [4, 1, 4, 1, 4, 4], ""target_decimal"": 128, ""numbers_base9"": [""4"", ""1"", ""4"", ""1"", ""4"", ""4""], ""target_base9"": ""152"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 + 4) × (4 × 4)),"{""numbers_decimal"": [4, 1, 4, 1, 4, 4], ""target_decimal"": 128, ""numbers_base9"": [""4"", ""1"", ""4"", ""1"", ""4"", ""4""], ""target_base9"": ""152"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0085,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""4"", ""1"", ""3"", ""5"", ""6""], ""target_base9"": ""177"", ""numbers_decimal"": [6, 4, 1, 3, 5, 6], ""target_decimal"": 151}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1018,7 +1018,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 4, 1, 3, 5, 6
 Target (base 9): 177
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(1 + ((6 + 4) × (3 × 5))),"{""numbers_decimal"": [6, 4, 1, 3, 5, 6], ""target_decimal"": 151, ""numbers_base9"": [""6"", ""4"", ""1"", ""3"", ""5"", ""6""], ""target_base9"": ""177"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(1 + ((6 + 4) × (3 × 5))),"{""numbers_decimal"": [6, 4, 1, 3, 5, 6], ""target_decimal"": 151, ""numbers_base9"": [""6"", ""4"", ""1"", ""3"", ""5"", ""6""], ""target_base9"": ""177"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0086,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""2"", ""4"", ""10"", ""1"", ""1""], ""target_base9"": ""220"", ""numbers_decimal"": [4, 2, 4, 9, 1, 1], ""target_decimal"": 180}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1030,7 +1030,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 2, 4, 10, 1, 1
 Target (base 9): 220
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 × 10) × (4 + 1)),"{""numbers_decimal"": [4, 2, 4, 9, 1, 1], ""target_decimal"": 180, ""numbers_base9"": [""4"", ""2"", ""4"", ""10"", ""1"", ""1""], ""target_base9"": ""220"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 × 10) × (4 + 1)),"{""numbers_decimal"": [4, 2, 4, 9, 1, 1], ""target_decimal"": 180, ""numbers_base9"": [""4"", ""2"", ""4"", ""10"", ""1"", ""1""], ""target_base9"": ""220"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0087,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""7"", ""7"", ""1"", ""3"", ""1"", ""1""], ""target_base9"": ""70"", ""numbers_decimal"": [7, 7, 1, 3, 1, 1], ""target_decimal"": 63}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1042,7 +1042,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 7, 7, 1, 3, 1, 1
 Target (base 9): 70
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(7 × (3 + (7 − 1))),"{""numbers_decimal"": [7, 7, 1, 3, 1, 1], ""target_decimal"": 63, ""numbers_base9"": [""7"", ""7"", ""1"", ""3"", ""1"", ""1""], ""target_base9"": ""70"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(7 × (3 + (7 − 1))),"{""numbers_decimal"": [7, 7, 1, 3, 1, 1], ""target_decimal"": 63, ""numbers_base9"": [""7"", ""7"", ""1"", ""3"", ""1"", ""1""], ""target_base9"": ""70"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0088,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""1"", ""3"", ""8"", ""6"", ""1""], ""target_base9"": ""110"", ""numbers_decimal"": [4, 1, 3, 8, 6, 1], ""target_decimal"": 90}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1054,7 +1054,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 1, 3, 8, 6, 1
 Target (base 9): 110
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((4 + 1) × (3 × 6)),"{""numbers_decimal"": [4, 1, 3, 8, 6, 1], ""target_decimal"": 90, ""numbers_base9"": [""4"", ""1"", ""3"", ""8"", ""6"", ""1""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((4 + 1) × (3 × 6)),"{""numbers_decimal"": [4, 1, 3, 8, 6, 1], ""target_decimal"": 90, ""numbers_base9"": [""4"", ""1"", ""3"", ""8"", ""6"", ""1""], ""target_base9"": ""110"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0089,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""4"", ""8"", ""10"", ""8"", ""1""], ""target_base9"": ""68"", ""numbers_decimal"": [8, 4, 8, 9, 8, 1], ""target_decimal"": 62}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1066,7 +1066,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 4, 8, 10, 8, 1
 Target (base 9): 68
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 8) − (8 ÷ 4)),"{""numbers_decimal"": [8, 4, 8, 9, 8, 1], ""target_decimal"": 62, ""numbers_base9"": [""8"", ""4"", ""8"", ""10"", ""8"", ""1""], ""target_base9"": ""68"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 8) − (8 ÷ 4)),"{""numbers_decimal"": [8, 4, 8, 9, 8, 1], ""target_decimal"": 62, ""numbers_base9"": [""8"", ""4"", ""8"", ""10"", ""8"", ""1""], ""target_base9"": ""68"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0090,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""7"", ""4"", ""4"", ""6"", ""4""], ""target_base9"": ""428"", ""numbers_decimal"": [5, 7, 4, 4, 6, 4], ""target_decimal"": 350}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1078,7 +1078,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 7, 4, 4, 6, 4
 Target (base 9): 428
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((5 × 7) × (4 + 6)),"{""numbers_decimal"": [5, 7, 4, 4, 6, 4], ""target_decimal"": 350, ""numbers_base9"": [""5"", ""7"", ""4"", ""4"", ""6"", ""4""], ""target_base9"": ""428"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((5 × 7) × (4 + 6)),"{""numbers_decimal"": [5, 7, 4, 4, 6, 4], ""target_decimal"": 350, ""numbers_base9"": [""5"", ""7"", ""4"", ""4"", ""6"", ""4""], ""target_base9"": ""428"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0091,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""2"", ""6"", ""8"", ""4"", ""10"", ""6""], ""target_base9"": ""233"", ""numbers_decimal"": [2, 6, 8, 4, 9, 6], ""target_decimal"": 192}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1090,7 +1090,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 2, 6, 8, 4, 10, 6
 Target (base 9): 233
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(4 × (6 × 8)),"{""numbers_decimal"": [2, 6, 8, 4, 9, 6], ""target_decimal"": 192, ""numbers_base9"": [""2"", ""6"", ""8"", ""4"", ""10"", ""6""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(4 × (6 × 8)),"{""numbers_decimal"": [2, 6, 8, 4, 9, 6], ""target_decimal"": 192, ""numbers_base9"": [""2"", ""6"", ""8"", ""4"", ""10"", ""6""], ""target_base9"": ""233"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0092,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""8"", ""7"", ""4"", ""2"", ""8"", ""8""], ""target_base9"": ""350"", ""numbers_decimal"": [8, 7, 4, 2, 8, 8], ""target_decimal"": 288}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1102,7 +1102,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 8, 7, 4, 2, 8, 8
 Target (base 9): 350
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 4) × (7 + 2)),"{""numbers_decimal"": [8, 7, 4, 2, 8, 8], ""target_decimal"": 288, ""numbers_base9"": [""8"", ""7"", ""4"", ""2"", ""8"", ""8""], ""target_base9"": ""350"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 4) × (7 + 2)),"{""numbers_decimal"": [8, 7, 4, 2, 8, 8], ""target_decimal"": 288, ""numbers_base9"": [""8"", ""7"", ""4"", ""2"", ""8"", ""8""], ""target_base9"": ""350"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0093,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""3"", ""10"", ""2"", ""6"", ""1""], ""target_base9"": ""55"", ""numbers_decimal"": [5, 3, 9, 2, 6, 1], ""target_decimal"": 50}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1114,7 +1114,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 3, 10, 2, 6, 1
 Target (base 9): 55
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (10 + 1)),"{""numbers_decimal"": [5, 3, 9, 2, 6, 1], ""target_decimal"": 50, ""numbers_base9"": [""5"", ""3"", ""10"", ""2"", ""6"", ""1""], ""target_base9"": ""55"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (10 + 1)),"{""numbers_decimal"": [5, 3, 9, 2, 6, 1], ""target_decimal"": 50, ""numbers_base9"": [""5"", ""3"", ""10"", ""2"", ""6"", ""1""], ""target_base9"": ""55"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0094,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""6"", ""3"", ""5"", ""1"", ""6"", ""6""], ""target_base9"": ""143"", ""numbers_decimal"": [6, 3, 5, 1, 6, 6], ""target_decimal"": 120}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1126,7 +1126,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 6, 3, 5, 1, 6, 6
 Target (base 9): 143
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((6 × 5) × (3 + 1)),"{""numbers_decimal"": [6, 3, 5, 1, 6, 6], ""target_decimal"": 120, ""numbers_base9"": [""6"", ""3"", ""5"", ""1"", ""6"", ""6""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((6 × 5) × (3 + 1)),"{""numbers_decimal"": [6, 3, 5, 1, 6, 6], ""target_decimal"": 120, ""numbers_base9"": [""6"", ""3"", ""5"", ""1"", ""6"", ""6""], ""target_base9"": ""143"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0095,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""1"", ""5"", ""4"", ""5"", ""8""], ""target_base9"": ""80"", ""numbers_decimal"": [5, 1, 5, 4, 5, 8], ""target_decimal"": 72}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1138,7 +1138,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 1, 5, 4, 5, 8
 Target (base 9): 80
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(8 × (5 + 4)),"{""numbers_decimal"": [5, 1, 5, 4, 5, 8], ""target_decimal"": 72, ""numbers_base9"": [""5"", ""1"", ""5"", ""4"", ""5"", ""8""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(8 × (5 + 4)),"{""numbers_decimal"": [5, 1, 5, 4, 5, 8], ""target_decimal"": 72, ""numbers_base9"": [""5"", ""1"", ""5"", ""4"", ""5"", ""8""], ""target_base9"": ""80"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0096,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""6"", ""3"", ""4"", ""8"", ""6""], ""target_base9"": ""246"", ""numbers_decimal"": [5, 6, 3, 4, 8, 6], ""target_decimal"": 204}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1150,7 +1150,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 6, 3, 4, 8, 6
 Target (base 9): 246
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(6 × (4 + (5 × 6))),"{""numbers_decimal"": [5, 6, 3, 4, 8, 6], ""target_decimal"": 204, ""numbers_base9"": [""5"", ""6"", ""3"", ""4"", ""8"", ""6""], ""target_base9"": ""246"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(6 × (4 + (5 × 6))),"{""numbers_decimal"": [5, 6, 3, 4, 8, 6], ""target_decimal"": 204, ""numbers_base9"": [""5"", ""6"", ""3"", ""4"", ""8"", ""6""], ""target_base9"": ""246"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0097,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""4"", ""8"", ""8"", ""2"", ""10"", ""5""], ""target_base9"": ""65"", ""numbers_decimal"": [4, 8, 8, 2, 9, 5], ""target_decimal"": 59}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1162,7 +1162,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 4, 8, 8, 2, 10, 5
 Target (base 9): 65
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 8) − 5),"{""numbers_decimal"": [4, 8, 8, 2, 9, 5], ""target_decimal"": 59, ""numbers_base9"": [""4"", ""8"", ""8"", ""2"", ""10"", ""5""], ""target_base9"": ""65"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 8) − 5),"{""numbers_decimal"": [4, 8, 8, 2, 9, 5], ""target_decimal"": 59, ""numbers_base9"": [""4"", ""8"", ""8"", ""2"", ""10"", ""5""], ""target_base9"": ""65"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0098,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""10"", ""8"", ""2"", ""10"", ""10"", ""10""], ""target_base9"": ""67"", ""numbers_decimal"": [9, 8, 2, 9, 9, 9], ""target_decimal"": 61}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1174,7 +1174,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 10, 8, 2, 10, 10, 10
 Target (base 9): 67
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((10 × 8) − (2 + 10)),"{""numbers_decimal"": [9, 8, 2, 9, 9, 9], ""target_decimal"": 61, ""numbers_base9"": [""10"", ""8"", ""2"", ""10"", ""10"", ""10""], ""target_base9"": ""67"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((10 × 8) − (2 + 10)),"{""numbers_decimal"": [9, 8, 2, 9, 9, 9], ""target_decimal"": 61, ""numbers_base9"": [""10"", ""8"", ""2"", ""10"", ""10"", ""10""], ""target_base9"": ""67"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0099,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""5"", ""10"", ""1"", ""5"", ""6"", ""1""], ""target_base9"": ""83"", ""numbers_decimal"": [5, 9, 1, 5, 6, 1], ""target_decimal"": 75}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1186,7 +1186,7 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 5, 10, 1, 5, 6, 1
 Target (base 9): 83
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,(5 × (10 + 6)),"{""numbers_decimal"": [5, 9, 1, 5, 6, 1], ""target_decimal"": 75, ""numbers_base9"": [""5"", ""10"", ""1"", ""5"", ""6"", ""1""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",(5 × (10 + 6)),"{""numbers_decimal"": [5, 9, 1, 5, 6, 1], ""target_decimal"": 75, ""numbers_base9"": [""5"", ""10"", ""1"", ""5"", ""6"", ""1""], ""target_base9"": ""83"", ""eval_mode"": ""open_native_base9""}"
 countdown_cf1_base9_0100,countdown_cf1_base9,counterfactual,"{""numbers_base9"": [""1"", ""8"", ""8"", ""4"", ""2"", ""3""], ""target_base9"": ""215"", ""numbers_decimal"": [1, 8, 8, 4, 2, 3], ""target_decimal"": 176}","Solve the following Countdown-style puzzle.
 Rule change: every numeral in this problem — operands, the target, and every literal in your answer — is written in **base 9** (digits 0-8 only).
   - Read each given numeral as a base-9 integer (e.g. the string '10' means decimal 9, '12' means decimal 11, '100' means decimal 81).
@@ -1198,4 +1198,4 @@ Rule change: every numeral in this problem — operands, the target, and every l
 Numbers (base 9): 1, 8, 8, 4, 2, 3
 Target (base 9): 215
 
-Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",,,,,,((8 × 2) × (8 + 3)),"{""numbers_decimal"": [1, 8, 8, 4, 2, 3], ""target_decimal"": 176, ""numbers_base9"": [""1"", ""8"", ""8"", ""4"", ""2"", ""3""], ""target_base9"": ""215"", ""eval_mode"": ""open_native_base9""}"
+Produce a single parenthesized arithmetic expression in base-9 numerals that reaches the target.",((8 × 2) × (8 + 3)),"{""numbers_decimal"": [1, 8, 8, 4, 2, 3], ""target_decimal"": 176, ""numbers_base9"": [""1"", ""8"", ""8"", ""4"", ""2"", ""3""], ""target_base9"": ""215"", ""eval_mode"": ""open_native_base9""}"

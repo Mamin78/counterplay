@@ -1,4 +1,4 @@
-id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+id,rule,state,puzzle,question,correct_answer,params
 countdown_cf4_multi_target_0001,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 2, 4, 8, 7, 6], ""group_a"": [1, 3, 5], ""target1"": 60, ""target2"": 52}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -8,9 +8,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 2, 4, 8, 7, 6]
 Group A = [2, 8, 6] → target1 = 60
-Group B = [6, 4, 7] → target2 = 52
-
-Which option correctly solves BOTH partitions?",All six → 112: (7 × (2 × 8)),A: (2 + 8 + 6) ; B: (6 + 4 + 7),A: (6 × (2 + 8)) ; B: (4 × (6 + 7)),A: (6 × (2 + 8)) ; B: (6 + 4 + 7),C,A: (6 × (2 + 8)) ; B: (4 × (6 + 7)),"{""numbers"": [6, 2, 4, 8, 7, 6], ""group_a"": [1, 3, 5], ""target1"": 60, ""target2"": 52}"
+Group B = [6, 4, 7] → target2 = 52",A: (6 × (2 + 8)) ; B: (4 × (6 + 7)),"{""numbers"": [6, 2, 4, 8, 7, 6], ""group_a"": [1, 3, 5], ""target1"": 60, ""target2"": 52}"
 countdown_cf4_multi_target_0002,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 8, 6, 9, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 51, ""target2"": 64}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -20,9 +18,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 8, 6, 9, 7, 4]
 Group A = [3, 8, 6] → target1 = 51
-Group B = [9, 7, 4] → target2 = 64
-
-Which option correctly solves BOTH partitions?",A: (3 + 8 + 6) ; B: (9 + 7 + 4),All six → 115: (7 + (4 × (3 × 9))),A: (3 + (8 × 6)) ; B: (4 × (9 + 7)),A: (3 + (8 × 6)) ; B: (9 + 7 + 4),C,A: (3 + (8 × 6)) ; B: (4 × (9 + 7)),"{""numbers"": [3, 8, 6, 9, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 51, ""target2"": 64}"
+Group B = [9, 7, 4] → target2 = 64",A: (3 + (8 × 6)) ; B: (4 × (9 + 7)),"{""numbers"": [3, 8, 6, 9, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 51, ""target2"": 64}"
 countdown_cf4_multi_target_0003,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 9, 4, 6, 4, 5], ""group_a"": [0, 2, 3], ""target1"": 52, ""target2"": 81}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -32,9 +28,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 9, 4, 6, 4, 5]
 Group A = [8, 4, 6] → target1 = 52
-Group B = [9, 4, 5] → target2 = 81
-
-Which option correctly solves BOTH partitions?",A: (8 + 4 + 6) ; B: (9 + 4 + 5),All six → 133: (5 + (4 × (8 × 4))),A: (4 + (8 × 6)) ; B: (9 + 4 + 5),A: (4 + (8 × 6)) ; B: (9 × (4 + 5)),D,A: (4 + (8 × 6)) ; B: (9 × (4 + 5)),"{""numbers"": [8, 9, 4, 6, 4, 5], ""group_a"": [0, 2, 3], ""target1"": 52, ""target2"": 81}"
+Group B = [9, 4, 5] → target2 = 81",A: (4 + (8 × 6)) ; B: (9 × (4 + 5)),"{""numbers"": [8, 9, 4, 6, 4, 5], ""group_a"": [0, 2, 3], ""target1"": 52, ""target2"": 81}"
 countdown_cf4_multi_target_0004,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 3, 6, 8, 4, 9], ""group_a"": [0, 2, 5], ""target1"": 57, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -44,9 +38,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 3, 6, 8, 4, 9]
 Group A = [7, 6, 9] → target1 = 57
-Group B = [3, 8, 4] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: ((7 × 9) − 6) ; B: (3 + 8 + 4),All six → 113: (9 + (8 × (7 + 6))),A: (7 + 6 + 9) ; B: (3 + 8 + 4),A: ((7 × 9) − 6) ; B: (8 × (3 + 4)),D,A: ((7 × 9) − 6) ; B: (8 × (3 + 4)),"{""numbers"": [7, 3, 6, 8, 4, 9], ""group_a"": [0, 2, 5], ""target1"": 57, ""target2"": 56}"
+Group B = [3, 8, 4] → target2 = 56",A: ((7 × 9) − 6) ; B: (8 × (3 + 4)),"{""numbers"": [7, 3, 6, 8, 4, 9], ""group_a"": [0, 2, 5], ""target1"": 57, ""target2"": 56}"
 countdown_cf4_multi_target_0005,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 7, 8, 8, 9, 2], ""group_a"": [1, 2, 4], ""target1"": 135, ""target2"": 66}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -56,9 +48,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 7, 8, 8, 9, 2]
 Group A = [7, 8, 9] → target1 = 135
-Group B = [8, 8, 2] → target2 = 66
-
-Which option correctly solves BOTH partitions?",A: (9 × (7 + 8)) ; B: (8 + 8 + 2),A: (9 × (7 + 8)) ; B: (2 + (8 × 8)),A: (7 + 8 + 9) ; B: (8 + 8 + 2),All six → 201: ((8 × (8 + (9 × 2))) − 7),B,A: (9 × (7 + 8)) ; B: (2 + (8 × 8)),"{""numbers"": [8, 7, 8, 8, 9, 2], ""group_a"": [1, 2, 4], ""target1"": 135, ""target2"": 66}"
+Group B = [8, 8, 2] → target2 = 66",A: (9 × (7 + 8)) ; B: (2 + (8 × 8)),"{""numbers"": [8, 7, 8, 8, 9, 2], ""group_a"": [1, 2, 4], ""target1"": 135, ""target2"": 66}"
 countdown_cf4_multi_target_0006,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 8, 2, 8, 6, 9], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -68,9 +58,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 8, 2, 8, 6, 9]
 Group A = [4, 8, 8] → target1 = 60
-Group B = [2, 6, 9] → target2 = 56
-
-Which option correctly solves BOTH partitions?",All six → 116: (4 + (8 × (8 + 6))),A: ((8 × 8) − 4) ; B: (2 + 6 + 9),A: ((8 × 8) − 4) ; B: (2 + (6 × 9)),A: (4 + 8 + 8) ; B: (2 + 6 + 9),C,A: ((8 × 8) − 4) ; B: (2 + (6 × 9)),"{""numbers"": [4, 8, 2, 8, 6, 9], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}"
+Group B = [2, 6, 9] → target2 = 56",A: ((8 × 8) − 4) ; B: (2 + (6 × 9)),"{""numbers"": [4, 8, 2, 8, 6, 9], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}"
 countdown_cf4_multi_target_0007,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 3, 8, 7, 6, 5], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -80,9 +68,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 3, 8, 7, 6, 5]
 Group A = [3, 7, 6] → target1 = 60
-Group B = [2, 8, 5] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: (6 × (3 + 7)) ; B: (2 + 8 + 5),All six → 116: ((6 × (3 × 7)) − (2 + 8)),A: (3 + 7 + 6) ; B: (2 + 8 + 5),A: (6 × (3 + 7)) ; B: (8 × (2 + 5)),D,A: (6 × (3 + 7)) ; B: (8 × (2 + 5)),"{""numbers"": [2, 3, 8, 7, 6, 5], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}"
+Group B = [2, 8, 5] → target2 = 56",A: (6 × (3 + 7)) ; B: (8 × (2 + 5)),"{""numbers"": [2, 3, 8, 7, 6, 5], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}"
 countdown_cf4_multi_target_0008,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 4, 9, 6, 2, 6], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -92,9 +78,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 4, 9, 6, 2, 6]
 Group A = [6, 4, 6] → target1 = 60
-Group B = [9, 2, 6] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: (6 + 4 + 6) ; B: (9 + 2 + 6),All six → 116: (2 × (4 + (6 × 9))),A: (6 × (6 + 4)) ; B: (2 + (9 × 6)),A: (6 × (6 + 4)) ; B: (9 + 2 + 6),C,A: (6 × (6 + 4)) ; B: (2 + (9 × 6)),"{""numbers"": [6, 4, 9, 6, 2, 6], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}"
+Group B = [9, 2, 6] → target2 = 56",A: (6 × (6 + 4)) ; B: (2 + (9 × 6)),"{""numbers"": [6, 4, 9, 6, 2, 6], ""group_a"": [0, 1, 3], ""target1"": 60, ""target2"": 56}"
 countdown_cf4_multi_target_0009,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 5, 8, 7, 6, 3], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -104,9 +88,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 5, 8, 7, 6, 3]
 Group A = [2, 8, 6] → target1 = 60
-Group B = [5, 7, 3] → target2 = 56
-
-Which option correctly solves BOTH partitions?",All six → 116: ((8 × 7) + (6 × (2 × 5))),A: (6 × (2 + 8)) ; B: (5 + 7 + 3),A: (6 × (2 + 8)) ; B: (7 × (5 + 3)),A: (2 + 8 + 6) ; B: (5 + 7 + 3),C,A: (6 × (2 + 8)) ; B: (7 × (5 + 3)),"{""numbers"": [2, 5, 8, 7, 6, 3], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 56}"
+Group B = [5, 7, 3] → target2 = 56",A: (6 × (2 + 8)) ; B: (7 × (5 + 3)),"{""numbers"": [2, 5, 8, 7, 6, 3], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 56}"
 countdown_cf4_multi_target_0010,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 8, 3, 7, 7, 3], ""group_a"": [0, 1, 2], ""target1"": 77, ""target2"": 52}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -116,9 +98,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 8, 3, 7, 7, 3]
 Group A = [7, 8, 3] → target1 = 77
-Group B = [7, 7, 3] → target2 = 52
-
-Which option correctly solves BOTH partitions?",A: (7 × (8 + 3)) ; B: (3 + (7 × 7)),A: (7 × (8 + 3)) ; B: (7 + 7 + 3),All six → 129: ((8 × (7 + 3)) + (7 × 7)),A: (7 + 8 + 3) ; B: (7 + 7 + 3),A,A: (7 × (8 + 3)) ; B: (3 + (7 × 7)),"{""numbers"": [7, 8, 3, 7, 7, 3], ""group_a"": [0, 1, 2], ""target1"": 77, ""target2"": 52}"
+Group B = [7, 7, 3] → target2 = 52",A: (7 × (8 + 3)) ; B: (3 + (7 × 7)),"{""numbers"": [7, 8, 3, 7, 7, 3], ""group_a"": [0, 1, 2], ""target1"": 77, ""target2"": 52}"
 countdown_cf4_multi_target_0011,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 9, 4, 3, 6, 7], ""group_a"": [1, 3, 5], ""target1"": 66, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -128,9 +108,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 9, 4, 3, 6, 7]
 Group A = [9, 3, 7] → target1 = 66
-Group B = [5, 4, 6] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (3 + (9 × 7)) ; B: (5 + 4 + 6),A: (9 + 3 + 7) ; B: (5 + 4 + 6),All six → 120: (6 × (5 × 4)),A: (3 + (9 × 7)) ; B: (6 × (5 + 4)),D,A: (3 + (9 × 7)) ; B: (6 × (5 + 4)),"{""numbers"": [5, 9, 4, 3, 6, 7], ""group_a"": [1, 3, 5], ""target1"": 66, ""target2"": 54}"
+Group B = [5, 4, 6] → target2 = 54",A: (3 + (9 × 7)) ; B: (6 × (5 + 4)),"{""numbers"": [5, 9, 4, 3, 6, 7], ""group_a"": [1, 3, 5], ""target1"": 66, ""target2"": 54}"
 countdown_cf4_multi_target_0012,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 9, 2, 5, 3, 9], ""group_a"": [3, 4, 5], ""target1"": 60, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -140,9 +118,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 9, 2, 5, 3, 9]
 Group A = [5, 3, 9] → target1 = 60
-Group B = [4, 9, 2] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (5 + 3 + 9) ; B: (4 + 9 + 2),A: (5 × (3 + 9)) ; B: (9 × (4 + 2)),All six → 114: (3 × (2 + (4 × 9))),A: (5 × (3 + 9)) ; B: (4 + 9 + 2),B,A: (5 × (3 + 9)) ; B: (9 × (4 + 2)),"{""numbers"": [4, 9, 2, 5, 3, 9], ""group_a"": [3, 4, 5], ""target1"": 60, ""target2"": 54}"
+Group B = [4, 9, 2] → target2 = 54",A: (5 × (3 + 9)) ; B: (9 × (4 + 2)),"{""numbers"": [4, 9, 2, 5, 3, 9], ""group_a"": [3, 4, 5], ""target1"": 60, ""target2"": 54}"
 countdown_cf4_multi_target_0013,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 5, 6, 7, 7, 3], ""group_a"": [0, 1, 4], ""target1"": 77, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -152,9 +128,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 5, 6, 7, 7, 3]
 Group A = [6, 5, 7] → target1 = 77
-Group B = [6, 7, 3] → target2 = 60
-
-Which option correctly solves BOTH partitions?",A: (7 × (6 + 5)) ; B: (6 + 7 + 3),A: (7 × (6 + 5)) ; B: (6 × (7 + 3)),All six → 137: (((6 + 6) × (5 + 7)) − 7),A: (6 + 5 + 7) ; B: (6 + 7 + 3),B,A: (7 × (6 + 5)) ; B: (6 × (7 + 3)),"{""numbers"": [6, 5, 6, 7, 7, 3], ""group_a"": [0, 1, 4], ""target1"": 77, ""target2"": 60}"
+Group B = [6, 7, 3] → target2 = 60",A: (7 × (6 + 5)) ; B: (6 × (7 + 3)),"{""numbers"": [6, 5, 6, 7, 7, 3], ""group_a"": [0, 1, 4], ""target1"": 77, ""target2"": 60}"
 countdown_cf4_multi_target_0014,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 5, 6, 8, 9, 2], ""group_a"": [0, 2, 3], ""target1"": 102, ""target2"": 55}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -164,9 +138,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 5, 6, 8, 9, 2]
 Group A = [9, 6, 8] → target1 = 102
-Group B = [5, 9, 2] → target2 = 55
-
-Which option correctly solves BOTH partitions?",A: (6 × (9 + 8)) ; B: (5 + 9 + 2),A: (6 × (9 + 8)) ; B: (5 × (9 + 2)),All six → 157: ((2 × (9 × 9)) − 5),A: (9 + 6 + 8) ; B: (5 + 9 + 2),B,A: (6 × (9 + 8)) ; B: (5 × (9 + 2)),"{""numbers"": [9, 5, 6, 8, 9, 2], ""group_a"": [0, 2, 3], ""target1"": 102, ""target2"": 55}"
+Group B = [5, 9, 2] → target2 = 55",A: (6 × (9 + 8)) ; B: (5 × (9 + 2)),"{""numbers"": [9, 5, 6, 8, 9, 2], ""group_a"": [0, 2, 3], ""target1"": 102, ""target2"": 55}"
 countdown_cf4_multi_target_0015,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 8, 9, 3, 8, 7], ""group_a"": [0, 1, 5], ""target1"": 70, ""target2"": 96}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -176,9 +148,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 8, 9, 3, 8, 7]
 Group A = [2, 8, 7] → target1 = 70
-Group B = [9, 3, 8] → target2 = 96
-
-Which option correctly solves BOTH partitions?",A: (7 × (2 + 8)) ; B: (8 × (9 + 3)),A: (2 + 8 + 7) ; B: (9 + 3 + 8),All six → 166: ((7 × (8 × 3)) − 2),A: (7 × (2 + 8)) ; B: (9 + 3 + 8),A,A: (7 × (2 + 8)) ; B: (8 × (9 + 3)),"{""numbers"": [2, 8, 9, 3, 8, 7], ""group_a"": [0, 1, 5], ""target1"": 70, ""target2"": 96}"
+Group B = [9, 3, 8] → target2 = 96",A: (7 × (2 + 8)) ; B: (8 × (9 + 3)),"{""numbers"": [2, 8, 9, 3, 8, 7], ""group_a"": [0, 1, 5], ""target1"": 70, ""target2"": 96}"
 countdown_cf4_multi_target_0016,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 7, 8, 7, 7, 9], ""group_a"": [1, 3, 5], ""target1"": 70, ""target2"": 119}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -188,9 +158,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 7, 8, 7, 7, 9]
 Group A = [7, 7, 9] → target1 = 70
-Group B = [9, 8, 7] → target2 = 119
-
-Which option correctly solves BOTH partitions?",All six → 189: (9 × (7 + (7 + 7))),A: (7 + (7 × 9)) ; B: (7 × (9 + 8)),A: (7 + 7 + 9) ; B: (9 + 8 + 7),A: (7 + (7 × 9)) ; B: (9 + 8 + 7),B,A: (7 + (7 × 9)) ; B: (7 × (9 + 8)),"{""numbers"": [9, 7, 8, 7, 7, 9], ""group_a"": [1, 3, 5], ""target1"": 70, ""target2"": 119}"
+Group B = [9, 8, 7] → target2 = 119",A: (7 + (7 × 9)) ; B: (7 × (9 + 8)),"{""numbers"": [9, 7, 8, 7, 7, 9], ""group_a"": [1, 3, 5], ""target1"": 70, ""target2"": 119}"
 countdown_cf4_multi_target_0017,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 3, 2, 6, 9, 9], ""group_a"": [2, 3, 5], ""target1"": 56, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -200,9 +168,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 3, 2, 6, 9, 9]
 Group A = [2, 6, 9] → target1 = 56
-Group B = [9, 3, 9] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (2 + (6 × 9)) ; B: (9 × (9 − 3)),All six → 110: (2 + (9 × (9 + 3))),A: (2 + 6 + 9) ; B: (9 + 3 + 9),A: (2 + (6 × 9)) ; B: (9 + 3 + 9),A,A: (2 + (6 × 9)) ; B: (9 × (9 − 3)),"{""numbers"": [9, 3, 2, 6, 9, 9], ""group_a"": [2, 3, 5], ""target1"": 56, ""target2"": 54}"
+Group B = [9, 3, 9] → target2 = 54",A: (2 + (6 × 9)) ; B: (9 × (9 − 3)),"{""numbers"": [9, 3, 2, 6, 9, 9], ""group_a"": [2, 3, 5], ""target1"": 56, ""target2"": 54}"
 countdown_cf4_multi_target_0018,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 5, 8, 3, 5, 4], ""group_a"": [1, 2, 3], ""target1"": 55, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -212,9 +178,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 5, 8, 3, 5, 4]
 Group A = [5, 8, 3] → target1 = 55
-Group B = [6, 5, 4] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (5 × (8 + 3)) ; B: (6 × (5 + 4)),All six → 109: ((5 × (8 × 3)) − (6 + 5)),A: (5 × (8 + 3)) ; B: (6 + 5 + 4),A: (5 + 8 + 3) ; B: (6 + 5 + 4),A,A: (5 × (8 + 3)) ; B: (6 × (5 + 4)),"{""numbers"": [6, 5, 8, 3, 5, 4], ""group_a"": [1, 2, 3], ""target1"": 55, ""target2"": 54}"
+Group B = [6, 5, 4] → target2 = 54",A: (5 × (8 + 3)) ; B: (6 × (5 + 4)),"{""numbers"": [6, 5, 8, 3, 5, 4], ""group_a"": [1, 2, 3], ""target1"": 55, ""target2"": 54}"
 countdown_cf4_multi_target_0019,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 7, 8, 9, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 105, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -224,9 +188,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 7, 8, 9, 6, 8]
 Group A = [7, 9, 6] → target1 = 105
-Group B = [4, 8, 8] → target2 = 60
-
-Which option correctly solves BOTH partitions?",All six → 165: ((4 + 7) × (9 + 6)),A: (7 × (9 + 6)) ; B: (4 + 8 + 8),A: (7 + 9 + 6) ; B: (4 + 8 + 8),A: (7 × (9 + 6)) ; B: ((8 × 8) − 4),D,A: (7 × (9 + 6)) ; B: ((8 × 8) − 4),"{""numbers"": [4, 7, 8, 9, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 105, ""target2"": 60}"
+Group B = [4, 8, 8] → target2 = 60",A: (7 × (9 + 6)) ; B: ((8 × 8) − 4),"{""numbers"": [4, 7, 8, 9, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 105, ""target2"": 60}"
 countdown_cf4_multi_target_0020,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 3, 6, 8, 7, 6], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 84}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -236,9 +198,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 3, 6, 8, 7, 6]
 Group A = [3, 6, 6] → target1 = 54
-Group B = [4, 8, 7] → target2 = 84
-
-Which option correctly solves BOTH partitions?",A: (6 × (3 + 6)) ; B: (4 + 8 + 7),A: (6 × (3 + 6)) ; B: (7 × (4 + 8)),All six → 138: (3 × (4 + (6 × 7))),A: (3 + 6 + 6) ; B: (4 + 8 + 7),B,A: (6 × (3 + 6)) ; B: (7 × (4 + 8)),"{""numbers"": [4, 3, 6, 8, 7, 6], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 84}"
+Group B = [4, 8, 7] → target2 = 84",A: (6 × (3 + 6)) ; B: (7 × (4 + 8)),"{""numbers"": [4, 3, 6, 8, 7, 6], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 84}"
 countdown_cf4_multi_target_0021,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 2, 4, 7, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 90}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -248,9 +208,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 2, 4, 7, 3, 9]
 Group A = [2, 4, 9] → target1 = 54
-Group B = [9, 7, 3] → target2 = 90
-
-Which option correctly solves BOTH partitions?",A: (9 × (2 + 4)) ; B: (9 × (7 + 3)),A: (2 + 4 + 9) ; B: (9 + 7 + 3),A: (9 × (2 + 4)) ; B: (9 + 7 + 3),All six → 144: (9 × (9 + 7)),A,A: (9 × (2 + 4)) ; B: (9 × (7 + 3)),"{""numbers"": [9, 2, 4, 7, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 90}"
+Group B = [9, 7, 3] → target2 = 90",A: (9 × (2 + 4)) ; B: (9 × (7 + 3)),"{""numbers"": [9, 2, 4, 7, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 90}"
 countdown_cf4_multi_target_0022,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 3, 8, 3, 3, 9], ""group_a"": [1, 4, 5], ""target1"": 54, ""target2"": 55}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -260,9 +218,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 3, 8, 3, 3, 9]
 Group A = [3, 3, 9] → target1 = 54
-Group B = [5, 8, 3] → target2 = 55
-
-Which option correctly solves BOTH partitions?",A: (9 × (3 + 3)) ; B: (5 + 8 + 3),A: (9 × (3 + 3)) ; B: (5 × (8 + 3)),A: (3 + 3 + 9) ; B: (5 + 8 + 3),All six → 109: ((8 × (5 + 9)) − 3),B,A: (9 × (3 + 3)) ; B: (5 × (8 + 3)),"{""numbers"": [5, 3, 8, 3, 3, 9], ""group_a"": [1, 4, 5], ""target1"": 54, ""target2"": 55}"
+Group B = [5, 8, 3] → target2 = 55",A: (9 × (3 + 3)) ; B: (5 × (8 + 3)),"{""numbers"": [5, 3, 8, 3, 3, 9], ""group_a"": [1, 4, 5], ""target1"": 54, ""target2"": 55}"
 countdown_cf4_multi_target_0023,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 9, 6, 9, 6, 2], ""group_a"": [0, 1, 2], ""target1"": 99, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -272,9 +228,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 9, 6, 9, 6, 2]
 Group A = [5, 9, 6] → target1 = 99
-Group B = [9, 6, 2] → target2 = 72
-
-Which option correctly solves BOTH partitions?",All six → 171: ((6 × (5 × 6)) − 9),A: (5 + 9 + 6) ; B: (9 + 6 + 2),A: (9 × (5 + 6)) ; B: (9 × (6 + 2)),A: (9 × (5 + 6)) ; B: (9 + 6 + 2),C,A: (9 × (5 + 6)) ; B: (9 × (6 + 2)),"{""numbers"": [5, 9, 6, 9, 6, 2], ""group_a"": [0, 1, 2], ""target1"": 99, ""target2"": 72}"
+Group B = [9, 6, 2] → target2 = 72",A: (9 × (5 + 6)) ; B: (9 × (6 + 2)),"{""numbers"": [5, 9, 6, 9, 6, 2], ""group_a"": [0, 1, 2], ""target1"": 99, ""target2"": 72}"
 countdown_cf4_multi_target_0024,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 6, 5, 7, 5, 5], ""group_a"": [1, 3, 5], ""target1"": 65, ""target2"": 50}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -284,9 +238,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 6, 5, 7, 5, 5]
 Group A = [6, 7, 5] → target1 = 65
-Group B = [9, 5, 5] → target2 = 50
-
-Which option correctly solves BOTH partitions?",A: (5 × (6 + 7)) ; B: (5 + (9 × 5)),All six → 115: (5 × ((6 × 5) − 7)),A: (6 + 7 + 5) ; B: (9 + 5 + 5),A: (5 × (6 + 7)) ; B: (9 + 5 + 5),A,A: (5 × (6 + 7)) ; B: (5 + (9 × 5)),"{""numbers"": [9, 6, 5, 7, 5, 5], ""group_a"": [1, 3, 5], ""target1"": 65, ""target2"": 50}"
+Group B = [9, 5, 5] → target2 = 50",A: (5 × (6 + 7)) ; B: (5 + (9 × 5)),"{""numbers"": [9, 6, 5, 7, 5, 5], ""group_a"": [1, 3, 5], ""target1"": 65, ""target2"": 50}"
 countdown_cf4_multi_target_0025,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 9, 3, 4, 5, 8], ""group_a"": [3, 4, 5], ""target1"": 72, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -296,9 +248,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 9, 3, 4, 5, 8]
 Group A = [4, 5, 8] → target1 = 72
-Group B = [3, 9, 3] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (8 × (4 + 5)) ; B: (9 × (3 + 3)),All six → 126: ((3 × 3) × (9 + 5)),A: (4 + 5 + 8) ; B: (3 + 9 + 3),A: (8 × (4 + 5)) ; B: (3 + 9 + 3),A,A: (8 × (4 + 5)) ; B: (9 × (3 + 3)),"{""numbers"": [3, 9, 3, 4, 5, 8], ""group_a"": [3, 4, 5], ""target1"": 72, ""target2"": 54}"
+Group B = [3, 9, 3] → target2 = 54",A: (8 × (4 + 5)) ; B: (9 × (3 + 3)),"{""numbers"": [3, 9, 3, 4, 5, 8], ""group_a"": [3, 4, 5], ""target1"": 72, ""target2"": 54}"
 countdown_cf4_multi_target_0026,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 5, 9, 9, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 126, ""target2"": 90}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -308,9 +258,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 5, 9, 9, 5, 7]
 Group A = [7, 9, 7] → target1 = 126
-Group B = [5, 9, 5] → target2 = 90
-
-Which option correctly solves BOTH partitions?",A: (9 × (7 + 7)) ; B: (5 + 9 + 5),A: (7 + 9 + 7) ; B: (5 + 9 + 5),All six → 216: ((7 + 5) × (9 + 9)),A: (9 × (7 + 7)) ; B: (9 × (5 + 5)),D,A: (9 × (7 + 7)) ; B: (9 × (5 + 5)),"{""numbers"": [7, 5, 9, 9, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 126, ""target2"": 90}"
+Group B = [5, 9, 5] → target2 = 90",A: (9 × (7 + 7)) ; B: (9 × (5 + 5)),"{""numbers"": [7, 5, 9, 9, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 126, ""target2"": 90}"
 countdown_cf4_multi_target_0027,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 8, 3, 3, 5, 8], ""group_a"": [0, 3, 5], ""target1"": 96, ""target2"": 64}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -320,9 +268,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 8, 3, 3, 5, 8]
 Group A = [9, 3, 8] → target1 = 96
-Group B = [8, 3, 5] → target2 = 64
-
-Which option correctly solves BOTH partitions?",All six → 160: (8 × (3 + (9 + 8))),A: (8 × (9 + 3)) ; B: (8 × (3 + 5)),A: (9 + 3 + 8) ; B: (8 + 3 + 5),A: (8 × (9 + 3)) ; B: (8 + 3 + 5),B,A: (8 × (9 + 3)) ; B: (8 × (3 + 5)),"{""numbers"": [9, 8, 3, 3, 5, 8], ""group_a"": [0, 3, 5], ""target1"": 96, ""target2"": 64}"
+Group B = [8, 3, 5] → target2 = 64",A: (8 × (9 + 3)) ; B: (8 × (3 + 5)),"{""numbers"": [9, 8, 3, 3, 5, 8], ""group_a"": [0, 3, 5], ""target1"": 96, ""target2"": 64}"
 countdown_cf4_multi_target_0028,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 7, 8, 2, 6, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -332,9 +278,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 7, 8, 2, 6, 6]
 Group A = [8, 6, 6] → target1 = 96
-Group B = [7, 8, 2] → target2 = 72
-
-Which option correctly solves BOTH partitions?",All six → 168: (7 × (8 + (8 × 2))),A: (8 × (6 + 6)) ; B: (7 + 8 + 2),A: (8 + 6 + 6) ; B: (7 + 8 + 2),A: (8 × (6 + 6)) ; B: (8 × (7 + 2)),D,A: (8 × (6 + 6)) ; B: (8 × (7 + 2)),"{""numbers"": [8, 7, 8, 2, 6, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 72}"
+Group B = [7, 8, 2] → target2 = 72",A: (8 × (6 + 6)) ; B: (8 × (7 + 2)),"{""numbers"": [8, 7, 8, 2, 6, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 72}"
 countdown_cf4_multi_target_0029,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 9, 8, 9, 9, 8], ""group_a"": [0, 2, 4], ""target1"": 66, ""target2"": 153}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -344,9 +288,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 9, 8, 9, 9, 8]
 Group A = [6, 8, 9] → target1 = 66
-Group B = [9, 9, 8] → target2 = 153
-
-Which option correctly solves BOTH partitions?",A: ((8 × 9) − 6) ; B: (9 × (9 + 8)),A: (6 + 8 + 9) ; B: (9 + 9 + 8),A: ((8 × 9) − 6) ; B: (9 + 9 + 8),All six → 219: ((6 − 9) × (8 − (9 × 9))),A,A: ((8 × 9) − 6) ; B: (9 × (9 + 8)),"{""numbers"": [6, 9, 8, 9, 9, 8], ""group_a"": [0, 2, 4], ""target1"": 66, ""target2"": 153}"
+Group B = [9, 9, 8] → target2 = 153",A: ((8 × 9) − 6) ; B: (9 × (9 + 8)),"{""numbers"": [6, 9, 8, 9, 9, 8], ""group_a"": [0, 2, 4], ""target1"": 66, ""target2"": 153}"
 countdown_cf4_multi_target_0030,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 8, 6, 7, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 52, ""target2"": 53}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -356,9 +298,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 8, 6, 7, 5, 7]
 Group A = [3, 7, 7] → target1 = 52
-Group B = [8, 6, 5] → target2 = 53
-
-Which option correctly solves BOTH partitions?",A: (3 + (7 × 7)) ; B: (5 + (8 × 6)),All six → 105: (5 × (3 × 7)),A: (3 + 7 + 7) ; B: (8 + 6 + 5),A: (3 + (7 × 7)) ; B: (8 + 6 + 5),A,A: (3 + (7 × 7)) ; B: (5 + (8 × 6)),"{""numbers"": [3, 8, 6, 7, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 52, ""target2"": 53}"
+Group B = [8, 6, 5] → target2 = 53",A: (3 + (7 × 7)) ; B: (5 + (8 × 6)),"{""numbers"": [3, 8, 6, 7, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 52, ""target2"": 53}"
 countdown_cf4_multi_target_0031,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 9, 3, 9, 9, 6], ""group_a"": [1, 2, 5], ""target1"": 57, ""target2"": 85}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -368,9 +308,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 9, 3, 9, 9, 6]
 Group A = [9, 3, 6] → target1 = 57
-Group B = [4, 9, 9] → target2 = 85
-
-Which option correctly solves BOTH partitions?",A: (3 + (9 × 6)) ; B: (4 + 9 + 9),A: (3 + (9 × 6)) ; B: (4 + (9 × 9)),All six → 142: ((4 + 3) + (9 × (9 + 6))),A: (9 + 3 + 6) ; B: (4 + 9 + 9),B,A: (3 + (9 × 6)) ; B: (4 + (9 × 9)),"{""numbers"": [4, 9, 3, 9, 9, 6], ""group_a"": [1, 2, 5], ""target1"": 57, ""target2"": 85}"
+Group B = [4, 9, 9] → target2 = 85",A: (3 + (9 × 6)) ; B: (4 + (9 × 9)),"{""numbers"": [4, 9, 3, 9, 9, 6], ""group_a"": [1, 2, 5], ""target1"": 57, ""target2"": 85}"
 countdown_cf4_multi_target_0032,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 7, 6, 8, 8, 7], ""group_a"": [1, 2, 4], ""target1"": 98, ""target2"": 57}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -380,9 +318,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 7, 6, 8, 8, 7]
 Group A = [7, 6, 8] → target1 = 98
-Group B = [7, 8, 7] → target2 = 57
-
-Which option correctly solves BOTH partitions?",A: (7 × (6 + 8)) ; B: (8 + (7 × 7)),All six → 155: ((7 × (7 + 6)) + (8 × 8)),A: (7 × (6 + 8)) ; B: (7 + 8 + 7),A: (7 + 6 + 8) ; B: (7 + 8 + 7),A,A: (7 × (6 + 8)) ; B: (8 + (7 × 7)),"{""numbers"": [7, 7, 6, 8, 8, 7], ""group_a"": [1, 2, 4], ""target1"": 98, ""target2"": 57}"
+Group B = [7, 8, 7] → target2 = 57",A: (7 × (6 + 8)) ; B: (8 + (7 × 7)),"{""numbers"": [7, 7, 6, 8, 8, 7], ""group_a"": [1, 2, 4], ""target1"": 98, ""target2"": 57}"
 countdown_cf4_multi_target_0033,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 7, 6, 4, 5, 7], ""group_a"": [0, 1, 5], ""target1"": 63, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -392,9 +328,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 7, 6, 4, 5, 7]
 Group A = [2, 7, 7] → target1 = 63
-Group B = [6, 4, 5] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (7 × (2 + 7)) ; B: (6 + 4 + 5),All six → 117: ((2 + 7) × (6 + 7)),A: (7 × (2 + 7)) ; B: (6 × (4 + 5)),A: (2 + 7 + 7) ; B: (6 + 4 + 5),C,A: (7 × (2 + 7)) ; B: (6 × (4 + 5)),"{""numbers"": [2, 7, 6, 4, 5, 7], ""group_a"": [0, 1, 5], ""target1"": 63, ""target2"": 54}"
+Group B = [6, 4, 5] → target2 = 54",A: (7 × (2 + 7)) ; B: (6 × (4 + 5)),"{""numbers"": [2, 7, 6, 4, 5, 7], ""group_a"": [0, 1, 5], ""target1"": 63, ""target2"": 54}"
 countdown_cf4_multi_target_0034,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 5, 9, 6, 9, 5], ""group_a"": [0, 1, 4], ""target1"": 58, ""target2"": 84}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -404,9 +338,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 5, 9, 6, 9, 5]
 Group A = [7, 5, 9] → target1 = 58
-Group B = [9, 6, 5] → target2 = 84
-
-Which option correctly solves BOTH partitions?",A: ((7 × 9) − 5) ; B: (9 + 6 + 5),A: ((7 × 9) − 5) ; B: (6 × (9 + 5)),A: (7 + 5 + 9) ; B: (9 + 6 + 5),All six → 142: (7 + (9 × (9 + 6))),B,A: ((7 × 9) − 5) ; B: (6 × (9 + 5)),"{""numbers"": [7, 5, 9, 6, 9, 5], ""group_a"": [0, 1, 4], ""target1"": 58, ""target2"": 84}"
+Group B = [9, 6, 5] → target2 = 84",A: ((7 × 9) − 5) ; B: (6 × (9 + 5)),"{""numbers"": [7, 5, 9, 6, 9, 5], ""group_a"": [0, 1, 4], ""target1"": 58, ""target2"": 84}"
 countdown_cf4_multi_target_0035,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 9, 7, 2, 8, 2], ""group_a"": [2, 4, 5], ""target1"": 58, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -416,9 +348,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 9, 7, 2, 8, 2]
 Group A = [7, 8, 2] → target1 = 58
-Group B = [5, 9, 2] → target2 = 63
-
-Which option correctly solves BOTH partitions?",All six → 121: ((2 × (9 × 7)) − 5),A: (7 + 8 + 2) ; B: (5 + 9 + 2),A: (2 + (7 × 8)) ; B: (9 × (5 + 2)),A: (2 + (7 × 8)) ; B: (5 + 9 + 2),C,A: (2 + (7 × 8)) ; B: (9 × (5 + 2)),"{""numbers"": [5, 9, 7, 2, 8, 2], ""group_a"": [2, 4, 5], ""target1"": 58, ""target2"": 63}"
+Group B = [5, 9, 2] → target2 = 63",A: (2 + (7 × 8)) ; B: (9 × (5 + 2)),"{""numbers"": [5, 9, 7, 2, 8, 2], ""group_a"": [2, 4, 5], ""target1"": 58, ""target2"": 63}"
 countdown_cf4_multi_target_0036,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 3, 6, 5, 6, 3], ""group_a"": [1, 2, 4], ""target1"": 54, ""target2"": 55}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -428,9 +358,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 3, 6, 5, 6, 3]
 Group A = [3, 6, 6] → target1 = 54
-Group B = [8, 5, 3] → target2 = 55
-
-Which option correctly solves BOTH partitions?",A: (3 + 6 + 6) ; B: (8 + 5 + 3),A: (6 × (3 + 6)) ; B: (5 × (8 + 3)),A: (6 × (3 + 6)) ; B: (8 + 5 + 3),All six → 109: (((8 + 6) × (3 + 5)) − 3),B,A: (6 × (3 + 6)) ; B: (5 × (8 + 3)),"{""numbers"": [8, 3, 6, 5, 6, 3], ""group_a"": [1, 2, 4], ""target1"": 54, ""target2"": 55}"
+Group B = [8, 5, 3] → target2 = 55",A: (6 × (3 + 6)) ; B: (5 × (8 + 3)),"{""numbers"": [8, 3, 6, 5, 6, 3], ""group_a"": [1, 2, 4], ""target1"": 54, ""target2"": 55}"
 countdown_cf4_multi_target_0037,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 9, 4, 4, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 85, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -440,9 +368,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 9, 4, 4, 3, 9]
 Group A = [9, 4, 9] → target1 = 85
-Group B = [9, 4, 3] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (4 + (9 × 9)) ; B: (9 × (4 + 3)),All six → 148: (4 + (9 × (3 + (9 + 4)))),A: (4 + (9 × 9)) ; B: (9 + 4 + 3),A: (9 + 4 + 9) ; B: (9 + 4 + 3),A,A: (4 + (9 × 9)) ; B: (9 × (4 + 3)),"{""numbers"": [9, 9, 4, 4, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 85, ""target2"": 63}"
+Group B = [9, 4, 3] → target2 = 63",A: (4 + (9 × 9)) ; B: (9 × (4 + 3)),"{""numbers"": [9, 9, 4, 4, 3, 9], ""group_a"": [1, 2, 5], ""target1"": 85, ""target2"": 63}"
 countdown_cf4_multi_target_0038,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 7, 4, 9, 9, 7], ""group_a"": [0, 1, 2], ""target1"": 52, ""target2"": 74}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -452,9 +378,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 7, 4, 9, 9, 7]
 Group A = [8, 7, 4] → target1 = 52
-Group B = [9, 9, 7] → target2 = 74
-
-Which option correctly solves BOTH partitions?",A: (8 + 7 + 4) ; B: (9 + 9 + 7),All six → 126: (7 × (9 + 9)),A: ((8 × 7) − 4) ; B: (9 + 9 + 7),A: ((8 × 7) − 4) ; B: ((9 × 9) − 7),D,A: ((8 × 7) − 4) ; B: ((9 × 9) − 7),"{""numbers"": [8, 7, 4, 9, 9, 7], ""group_a"": [0, 1, 2], ""target1"": 52, ""target2"": 74}"
+Group B = [9, 9, 7] → target2 = 74",A: ((8 × 7) − 4) ; B: ((9 × 9) − 7),"{""numbers"": [8, 7, 4, 9, 9, 7], ""group_a"": [0, 1, 2], ""target1"": 52, ""target2"": 74}"
 countdown_cf4_multi_target_0039,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 7, 6, 5, 3, 2], ""group_a"": [0, 3, 5], ""target1"": 50, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -464,9 +388,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 7, 6, 5, 3, 2]
 Group A = [8, 5, 2] → target1 = 50
-Group B = [7, 6, 3] → target2 = 63
-
-Which option correctly solves BOTH partitions?",All six → 113: ((3 × (8 × 5)) − 7),A: (5 × (8 + 2)) ; B: (7 × (6 + 3)),A: (8 + 5 + 2) ; B: (7 + 6 + 3),A: (5 × (8 + 2)) ; B: (7 + 6 + 3),B,A: (5 × (8 + 2)) ; B: (7 × (6 + 3)),"{""numbers"": [8, 7, 6, 5, 3, 2], ""group_a"": [0, 3, 5], ""target1"": 50, ""target2"": 63}"
+Group B = [7, 6, 3] → target2 = 63",A: (5 × (8 + 2)) ; B: (7 × (6 + 3)),"{""numbers"": [8, 7, 6, 5, 3, 2], ""group_a"": [0, 3, 5], ""target1"": 50, ""target2"": 63}"
 countdown_cf4_multi_target_0040,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 6, 4, 4, 7, 5], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -476,9 +398,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 6, 4, 4, 7, 5]
 Group A = [4, 7, 5] → target1 = 55
-Group B = [6, 6, 4] → target2 = 60
-
-Which option correctly solves BOTH partitions?",A: (5 × (4 + 7)) ; B: (6 + 6 + 4),All six → 115: (5 × (7 + (4 × 4))),A: (4 + 7 + 5) ; B: (6 + 6 + 4),A: (5 × (4 + 7)) ; B: (6 × (6 + 4)),D,A: (5 × (4 + 7)) ; B: (6 × (6 + 4)),"{""numbers"": [6, 6, 4, 4, 7, 5], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 60}"
+Group B = [6, 6, 4] → target2 = 60",A: (5 × (4 + 7)) ; B: (6 × (6 + 4)),"{""numbers"": [6, 6, 4, 4, 7, 5], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 60}"
 countdown_cf4_multi_target_0041,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 9, 9, 7, 4, 4], ""group_a"": [1, 3, 5], ""target1"": 91, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -488,9 +408,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 9, 9, 7, 4, 4]
 Group A = [9, 7, 4] → target1 = 91
-Group B = [3, 9, 4] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (7 × (9 + 4)) ; B: (9 × (3 + 4)),A: (9 + 7 + 4) ; B: (3 + 9 + 4),A: (7 × (9 + 4)) ; B: (3 + 9 + 4),All six → 154: (7 × (4 + (9 + 9))),A,A: (7 × (9 + 4)) ; B: (9 × (3 + 4)),"{""numbers"": [3, 9, 9, 7, 4, 4], ""group_a"": [1, 3, 5], ""target1"": 91, ""target2"": 63}"
+Group B = [3, 9, 4] → target2 = 63",A: (7 × (9 + 4)) ; B: (9 × (3 + 4)),"{""numbers"": [3, 9, 9, 7, 4, 4], ""group_a"": [1, 3, 5], ""target1"": 91, ""target2"": 63}"
 countdown_cf4_multi_target_0042,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 9, 5, 7, 4, 7], ""group_a"": [0, 1, 4], ""target1"": 72, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -500,9 +418,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 9, 5, 7, 4, 7]
 Group A = [9, 9, 4] → target1 = 72
-Group B = [5, 7, 7] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (4 × (9 + 9)) ; B: (5 + 7 + 7),A: (9 + 9 + 4) ; B: (5 + 7 + 7),A: (4 × (9 + 9)) ; B: (5 + (7 × 7)),All six → 126: (9 × (9 + 5)),C,A: (4 × (9 + 9)) ; B: (5 + (7 × 7)),"{""numbers"": [9, 9, 5, 7, 4, 7], ""group_a"": [0, 1, 4], ""target1"": 72, ""target2"": 54}"
+Group B = [5, 7, 7] → target2 = 54",A: (4 × (9 + 9)) ; B: (5 + (7 × 7)),"{""numbers"": [9, 9, 5, 7, 4, 7], ""group_a"": [0, 1, 4], ""target1"": 72, ""target2"": 54}"
 countdown_cf4_multi_target_0043,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 9, 6, 9, 2, 3], ""group_a"": [0, 1, 4], ""target1"": 99, ""target2"": 51}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -512,9 +428,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 9, 6, 9, 2, 3]
 Group A = [9, 9, 2] → target1 = 99
-Group B = [6, 9, 3] → target2 = 51
-
-Which option correctly solves BOTH partitions?",A: (9 × (9 + 2)) ; B: ((6 × 9) − 3),All six → 150: (2 × ((9 × 9) − 6)),A: (9 + 9 + 2) ; B: (6 + 9 + 3),A: (9 × (9 + 2)) ; B: (6 + 9 + 3),A,A: (9 × (9 + 2)) ; B: ((6 × 9) − 3),"{""numbers"": [9, 9, 6, 9, 2, 3], ""group_a"": [0, 1, 4], ""target1"": 99, ""target2"": 51}"
+Group B = [6, 9, 3] → target2 = 51",A: (9 × (9 + 2)) ; B: ((6 × 9) − 3),"{""numbers"": [9, 9, 6, 9, 2, 3], ""group_a"": [0, 1, 4], ""target1"": 99, ""target2"": 51}"
 countdown_cf4_multi_target_0044,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 8, 9, 6, 3, 4], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 52}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -524,9 +438,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 8, 9, 6, 3, 4]
 Group A = [3, 9, 3] → target1 = 54
-Group B = [8, 6, 4] → target2 = 52
-
-Which option correctly solves BOTH partitions?",A: (9 × (3 + 3)) ; B: (4 + (8 × 6)),A: (9 × (3 + 3)) ; B: (8 + 6 + 4),A: (3 + 9 + 3) ; B: (8 + 6 + 4),All six → 106: (4 + (6 × (8 + 9))),A,A: (9 × (3 + 3)) ; B: (4 + (8 × 6)),"{""numbers"": [3, 8, 9, 6, 3, 4], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 52}"
+Group B = [8, 6, 4] → target2 = 52",A: (9 × (3 + 3)) ; B: (4 + (8 × 6)),"{""numbers"": [3, 8, 9, 6, 3, 4], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 52}"
 countdown_cf4_multi_target_0045,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 9, 6, 9, 2, 7], ""group_a"": [0, 2, 5], ""target1"": 55, ""target2"": 83}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -536,9 +448,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 9, 6, 9, 2, 7]
 Group A = [7, 6, 7] → target1 = 55
-Group B = [9, 9, 2] → target2 = 83
-
-Which option correctly solves BOTH partitions?",A: (6 + (7 × 7)) ; B: (9 + 9 + 2),All six → 138: ((9 × (7 + 9)) − 6),A: (6 + (7 × 7)) ; B: (2 + (9 × 9)),A: (7 + 6 + 7) ; B: (9 + 9 + 2),C,A: (6 + (7 × 7)) ; B: (2 + (9 × 9)),"{""numbers"": [7, 9, 6, 9, 2, 7], ""group_a"": [0, 2, 5], ""target1"": 55, ""target2"": 83}"
+Group B = [9, 9, 2] → target2 = 83",A: (6 + (7 × 7)) ; B: (2 + (9 × 9)),"{""numbers"": [7, 9, 6, 9, 2, 7], ""group_a"": [0, 2, 5], ""target1"": 55, ""target2"": 83}"
 countdown_cf4_multi_target_0046,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 8, 9, 2, 4, 5], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 81}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -548,9 +458,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 8, 9, 2, 4, 5]
 Group A = [5, 8, 2] → target1 = 50
-Group B = [9, 4, 5] → target2 = 81
-
-Which option correctly solves BOTH partitions?",A: (5 × (8 + 2)) ; B: (9 × (4 + 5)),A: (5 × (8 + 2)) ; B: (9 + 4 + 5),All six → 131: ((9 × (2 + (5 + 8))) − 4),A: (5 + 8 + 2) ; B: (9 + 4 + 5),A,A: (5 × (8 + 2)) ; B: (9 × (4 + 5)),"{""numbers"": [5, 8, 9, 2, 4, 5], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 81}"
+Group B = [9, 4, 5] → target2 = 81",A: (5 × (8 + 2)) ; B: (9 × (4 + 5)),"{""numbers"": [5, 8, 9, 2, 4, 5], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 81}"
 countdown_cf4_multi_target_0047,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 6, 6, 3, 8, 8], ""group_a"": [0, 2, 5], ""target1"": 62, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -560,9 +468,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 6, 6, 3, 8, 8]
 Group A = [7, 6, 8] → target1 = 62
-Group B = [6, 3, 8] → target2 = 72
-
-Which option correctly solves BOTH partitions?",A: (6 + (7 × 8)) ; B: (6 + 3 + 8),All six → 134: (8 + (3 × (7 × 6))),A: (7 + 6 + 8) ; B: (6 + 3 + 8),A: (6 + (7 × 8)) ; B: (8 × (6 + 3)),D,A: (6 + (7 × 8)) ; B: (8 × (6 + 3)),"{""numbers"": [7, 6, 6, 3, 8, 8], ""group_a"": [0, 2, 5], ""target1"": 62, ""target2"": 72}"
+Group B = [6, 3, 8] → target2 = 72",A: (6 + (7 × 8)) ; B: (8 × (6 + 3)),"{""numbers"": [7, 6, 6, 3, 8, 8], ""group_a"": [0, 2, 5], ""target1"": 62, ""target2"": 72}"
 countdown_cf4_multi_target_0048,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 7, 6, 5, 4, 8], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -572,9 +478,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 7, 6, 5, 4, 8]
 Group A = [2, 6, 8] → target1 = 60
-Group B = [7, 5, 4] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (2 + 6 + 8) ; B: (7 + 5 + 4),A: (6 × (2 + 8)) ; B: (7 + 5 + 4),A: (6 × (2 + 8)) ; B: (7 × (5 + 4)),All six → 123: (4 + (7 × (5 + (2 × 6)))),C,A: (6 × (2 + 8)) ; B: (7 × (5 + 4)),"{""numbers"": [2, 7, 6, 5, 4, 8], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 63}"
+Group B = [7, 5, 4] → target2 = 63",A: (6 × (2 + 8)) ; B: (7 × (5 + 4)),"{""numbers"": [2, 7, 6, 5, 4, 8], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 63}"
 countdown_cf4_multi_target_0049,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 6, 4, 8, 6, 3], ""group_a"": [0, 1, 5], ""target1"": 51, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -584,9 +488,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 6, 4, 8, 6, 3]
 Group A = [9, 6, 3] → target1 = 51
-Group B = [4, 8, 6] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: ((9 × 6) − 3) ; B: (4 + 8 + 6),A: (9 + 6 + 3) ; B: (4 + 8 + 6),A: ((9 × 6) − 3) ; B: (4 × (8 + 6)),All six → 107: (3 + (8 × (9 + 4))),C,A: ((9 × 6) − 3) ; B: (4 × (8 + 6)),"{""numbers"": [9, 6, 4, 8, 6, 3], ""group_a"": [0, 1, 5], ""target1"": 51, ""target2"": 56}"
+Group B = [4, 8, 6] → target2 = 56",A: ((9 × 6) − 3) ; B: (4 × (8 + 6)),"{""numbers"": [9, 6, 4, 8, 6, 3], ""group_a"": [0, 1, 5], ""target1"": 51, ""target2"": 56}"
 countdown_cf4_multi_target_0050,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 3, 5, 9, 3, 9], ""group_a"": [1, 2, 3], ""target1"": 72, ""target2"": 84}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -596,9 +498,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 3, 5, 9, 3, 9]
 Group A = [3, 5, 9] → target1 = 72
-Group B = [9, 3, 9] → target2 = 84
-
-Which option correctly solves BOTH partitions?",A: (3 + 5 + 9) ; B: (9 + 3 + 9),A: (9 × (3 + 5)) ; B: (9 + 3 + 9),All six → 156: (3 + (9 × (5 + (9 + 3)))),A: (9 × (3 + 5)) ; B: (3 + (9 × 9)),D,A: (9 × (3 + 5)) ; B: (3 + (9 × 9)),"{""numbers"": [9, 3, 5, 9, 3, 9], ""group_a"": [1, 2, 3], ""target1"": 72, ""target2"": 84}"
+Group B = [9, 3, 9] → target2 = 84",A: (9 × (3 + 5)) ; B: (3 + (9 × 9)),"{""numbers"": [9, 3, 5, 9, 3, 9], ""group_a"": [1, 2, 3], ""target1"": 72, ""target2"": 84}"
 countdown_cf4_multi_target_0051,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 4, 8, 7, 8, 9], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 99}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -608,9 +508,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 4, 8, 7, 8, 9]
 Group A = [4, 8, 8] → target1 = 60
-Group B = [4, 7, 9] → target2 = 99
-
-Which option correctly solves BOTH partitions?",A: ((8 × 8) − 4) ; B: (4 + 7 + 9),All six → 159: ((8 + 7) + (9 × (4 × 4))),A: (4 + 8 + 8) ; B: (4 + 7 + 9),A: ((8 × 8) − 4) ; B: (9 × (4 + 7)),D,A: ((8 × 8) − 4) ; B: (9 × (4 + 7)),"{""numbers"": [4, 4, 8, 7, 8, 9], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 99}"
+Group B = [4, 7, 9] → target2 = 99",A: ((8 × 8) − 4) ; B: (9 × (4 + 7)),"{""numbers"": [4, 4, 8, 7, 8, 9], ""group_a"": [0, 2, 4], ""target1"": 60, ""target2"": 99}"
 countdown_cf4_multi_target_0052,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 6, 4, 5, 8, 6], ""group_a"": [1, 2, 5], ""target1"": 60, ""target2"": 65}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -620,9 +518,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 6, 4, 5, 8, 6]
 Group A = [6, 4, 6] → target1 = 60
-Group B = [5, 5, 8] → target2 = 65
-
-Which option correctly solves BOTH partitions?",A: (6 × (6 + 4)) ; B: (5 + 5 + 8),A: (6 + 4 + 6) ; B: (5 + 5 + 8),A: (6 × (6 + 4)) ; B: (5 × (5 + 8)),All six → 125: (5 + (4 × (5 × 6))),C,A: (6 × (6 + 4)) ; B: (5 × (5 + 8)),"{""numbers"": [5, 6, 4, 5, 8, 6], ""group_a"": [1, 2, 5], ""target1"": 60, ""target2"": 65}"
+Group B = [5, 5, 8] → target2 = 65",A: (6 × (6 + 4)) ; B: (5 × (5 + 8)),"{""numbers"": [5, 6, 4, 5, 8, 6], ""group_a"": [1, 2, 5], ""target1"": 60, ""target2"": 65}"
 countdown_cf4_multi_target_0053,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 9, 2, 8, 8, 4], ""group_a"": [2, 3, 4], ""target1"": 66, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -632,9 +528,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 9, 2, 8, 8, 4]
 Group A = [2, 8, 8] → target1 = 66
-Group B = [4, 9, 4] → target2 = 72
-
-Which option correctly solves BOTH partitions?",All six → 138: (2 + (8 × (9 + 8))),A: (2 + (8 × 8)) ; B: (4 + 9 + 4),A: (2 + 8 + 8) ; B: (4 + 9 + 4),A: (2 + (8 × 8)) ; B: (9 × (4 + 4)),D,A: (2 + (8 × 8)) ; B: (9 × (4 + 4)),"{""numbers"": [4, 9, 2, 8, 8, 4], ""group_a"": [2, 3, 4], ""target1"": 66, ""target2"": 72}"
+Group B = [4, 9, 4] → target2 = 72",A: (2 + (8 × 8)) ; B: (9 × (4 + 4)),"{""numbers"": [4, 9, 2, 8, 8, 4], ""group_a"": [2, 3, 4], ""target1"": 66, ""target2"": 72}"
 countdown_cf4_multi_target_0054,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 9, 5, 5, 8, 5], ""group_a"": [0, 1, 3], ""target1"": 72, ""target2"": 80}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -644,9 +538,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 9, 5, 5, 8, 5]
 Group A = [3, 9, 5] → target1 = 72
-Group B = [5, 8, 5] → target2 = 80
-
-Which option correctly solves BOTH partitions?",A: (9 × (3 + 5)) ; B: (5 + 8 + 5),A: (3 + 9 + 5) ; B: (5 + 8 + 5),A: (9 × (3 + 5)) ; B: (8 × (5 + 5)),All six → 152: (8 × (5 + (9 + 5))),C,A: (9 × (3 + 5)) ; B: (8 × (5 + 5)),"{""numbers"": [3, 9, 5, 5, 8, 5], ""group_a"": [0, 1, 3], ""target1"": 72, ""target2"": 80}"
+Group B = [5, 8, 5] → target2 = 80",A: (9 × (3 + 5)) ; B: (8 × (5 + 5)),"{""numbers"": [3, 9, 5, 5, 8, 5], ""group_a"": [0, 1, 3], ""target1"": 72, ""target2"": 80}"
 countdown_cf4_multi_target_0055,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 6, 4, 5, 7, 5], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -656,9 +548,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 6, 4, 5, 7, 5]
 Group A = [8, 6, 4] → target1 = 80
-Group B = [5, 7, 5] → target2 = 60
-
-Which option correctly solves BOTH partitions?",A: (8 × (6 + 4)) ; B: (5 + 7 + 5),A: (8 + 6 + 4) ; B: (5 + 7 + 5),All six → 140: (7 × (4 × 5)),A: (8 × (6 + 4)) ; B: (5 × (5 + 7)),D,A: (8 × (6 + 4)) ; B: (5 × (5 + 7)),"{""numbers"": [8, 6, 4, 5, 7, 5], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 60}"
+Group B = [5, 7, 5] → target2 = 60",A: (8 × (6 + 4)) ; B: (5 × (5 + 7)),"{""numbers"": [8, 6, 4, 5, 7, 5], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 60}"
 countdown_cf4_multi_target_0056,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 4, 5, 5, 6, 7], ""group_a"": [0, 2, 5], ""target1"": 56, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -668,9 +558,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 4, 5, 5, 6, 7]
 Group A = [3, 5, 7] → target1 = 56
-Group B = [4, 5, 6] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (3 + 5 + 7) ; B: (4 + 5 + 6),A: (7 × (3 + 5)) ; B: (4 + 5 + 6),All six → 110: (5 × (4 + (3 × 6))),A: (7 × (3 + 5)) ; B: (6 × (4 + 5)),D,A: (7 × (3 + 5)) ; B: (6 × (4 + 5)),"{""numbers"": [3, 4, 5, 5, 6, 7], ""group_a"": [0, 2, 5], ""target1"": 56, ""target2"": 54}"
+Group B = [4, 5, 6] → target2 = 54",A: (7 × (3 + 5)) ; B: (6 × (4 + 5)),"{""numbers"": [3, 4, 5, 5, 6, 7], ""group_a"": [0, 2, 5], ""target1"": 56, ""target2"": 54}"
 countdown_cf4_multi_target_0057,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 3, 2, 5, 5, 9], ""group_a"": [2, 3, 5], ""target1"": 55, ""target2"": 50}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -680,9 +568,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 3, 2, 5, 5, 9]
 Group A = [2, 5, 9] → target1 = 55
-Group B = [7, 3, 5] → target2 = 50
-
-Which option correctly solves BOTH partitions?",A: (2 + 5 + 9) ; B: (7 + 3 + 5),All six → 105: (5 × (7 × 3)),A: (5 × (2 + 9)) ; B: (7 + 3 + 5),A: (5 × (2 + 9)) ; B: (5 × (7 + 3)),D,A: (5 × (2 + 9)) ; B: (5 × (7 + 3)),"{""numbers"": [7, 3, 2, 5, 5, 9], ""group_a"": [2, 3, 5], ""target1"": 55, ""target2"": 50}"
+Group B = [7, 3, 5] → target2 = 50",A: (5 × (2 + 9)) ; B: (5 × (7 + 3)),"{""numbers"": [7, 3, 2, 5, 5, 9], ""group_a"": [2, 3, 5], ""target1"": 55, ""target2"": 50}"
 countdown_cf4_multi_target_0058,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 9, 4, 3, 4, 8], ""group_a"": [3, 4, 5], ""target1"": 56, ""target2"": 50}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -692,9 +578,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 9, 4, 3, 4, 8]
 Group A = [3, 4, 8] → target1 = 56
-Group B = [6, 9, 4] → target2 = 50
-
-Which option correctly solves BOTH partitions?",A: (3 + 4 + 8) ; B: (6 + 9 + 4),A: (8 × (3 + 4)) ; B: ((6 × 9) − 4),All six → 106: (4 + (6 × (9 + 8))),A: (8 × (3 + 4)) ; B: (6 + 9 + 4),B,A: (8 × (3 + 4)) ; B: ((6 × 9) − 4),"{""numbers"": [6, 9, 4, 3, 4, 8], ""group_a"": [3, 4, 5], ""target1"": 56, ""target2"": 50}"
+Group B = [6, 9, 4] → target2 = 50",A: (8 × (3 + 4)) ; B: ((6 × 9) − 4),"{""numbers"": [6, 9, 4, 3, 4, 8], ""group_a"": [3, 4, 5], ""target1"": 56, ""target2"": 50}"
 countdown_cf4_multi_target_0059,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 7, 4, 8, 7, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 88}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -704,9 +588,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 7, 4, 8, 7, 6]
 Group A = [9, 7, 6] → target1 = 96
-Group B = [7, 4, 8] → target2 = 88
-
-Which option correctly solves BOTH partitions?",A: (6 × (9 + 7)) ; B: (8 × (7 + 4)),A: (9 + 7 + 6) ; B: (7 + 4 + 8),A: (6 × (9 + 7)) ; B: (7 + 4 + 8),All six → 184: (8 × (7 + (9 + 7))),A,A: (6 × (9 + 7)) ; B: (8 × (7 + 4)),"{""numbers"": [9, 7, 4, 8, 7, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 88}"
+Group B = [7, 4, 8] → target2 = 88",A: (6 × (9 + 7)) ; B: (8 × (7 + 4)),"{""numbers"": [9, 7, 4, 8, 7, 6], ""group_a"": [0, 4, 5], ""target1"": 96, ""target2"": 88}"
 countdown_cf4_multi_target_0060,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 3, 9, 9, 8, 8], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 75}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -716,9 +598,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 3, 9, 9, 8, 8]
 Group A = [9, 8, 8] → target1 = 55
-Group B = [8, 3, 9] → target2 = 75
-
-Which option correctly solves BOTH partitions?",A: ((8 × 8) − 9) ; B: (8 + 3 + 9),All six → 130: ((8 − 3) × (8 + (9 + 9))),A: ((8 × 8) − 9) ; B: (3 + (8 × 9)),A: (9 + 8 + 8) ; B: (8 + 3 + 9),C,A: ((8 × 8) − 9) ; B: (3 + (8 × 9)),"{""numbers"": [8, 3, 9, 9, 8, 8], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 75}"
+Group B = [8, 3, 9] → target2 = 75",A: ((8 × 8) − 9) ; B: (3 + (8 × 9)),"{""numbers"": [8, 3, 9, 9, 8, 8], ""group_a"": [2, 4, 5], ""target1"": 55, ""target2"": 75}"
 countdown_cf4_multi_target_0061,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 3, 3, 4, 7, 6], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -728,9 +608,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 3, 3, 4, 7, 6]
 Group A = [8, 3, 4] → target1 = 56
-Group B = [3, 7, 6] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (8 + 3 + 4) ; B: (3 + 7 + 6),A: (8 × (3 + 4)) ; B: (7 × (3 + 6)),A: (8 × (3 + 4)) ; B: (3 + 7 + 6),All six → 119: (7 × (8 + (3 × 3))),B,A: (8 × (3 + 4)) ; B: (7 × (3 + 6)),"{""numbers"": [8, 3, 3, 4, 7, 6], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 63}"
+Group B = [3, 7, 6] → target2 = 63",A: (8 × (3 + 4)) ; B: (7 × (3 + 6)),"{""numbers"": [8, 3, 3, 4, 7, 6], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 63}"
 countdown_cf4_multi_target_0062,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 8, 9, 5, 8, 4], ""group_a"": [0, 1, 3], ""target1"": 91, ""target2"": 68}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -740,9 +618,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 8, 9, 5, 8, 4]
 Group A = [7, 8, 5] → target1 = 91
-Group B = [9, 8, 4] → target2 = 68
-
-Which option correctly solves BOTH partitions?",A: (7 × (8 + 5)) ; B: (4 × (9 + 8)),All six → 159: (((7 × 8) × (8 − 5)) − 9),A: (7 × (8 + 5)) ; B: (9 + 8 + 4),A: (7 + 8 + 5) ; B: (9 + 8 + 4),A,A: (7 × (8 + 5)) ; B: (4 × (9 + 8)),"{""numbers"": [7, 8, 9, 5, 8, 4], ""group_a"": [0, 1, 3], ""target1"": 91, ""target2"": 68}"
+Group B = [9, 8, 4] → target2 = 68",A: (7 × (8 + 5)) ; B: (4 × (9 + 8)),"{""numbers"": [7, 8, 9, 5, 8, 4], ""group_a"": [0, 1, 3], ""target1"": 91, ""target2"": 68}"
 countdown_cf4_multi_target_0063,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 7, 7, 9, 4, 6], ""group_a"": [0, 3, 5], ""target1"": 81, ""target2"": 53}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -752,9 +628,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 7, 7, 9, 4, 6]
 Group A = [3, 9, 6] → target1 = 81
-Group B = [7, 7, 4] → target2 = 53
-
-Which option correctly solves BOTH partitions?",A: (9 × (3 + 6)) ; B: (4 + (7 × 7)),A: (9 × (3 + 6)) ; B: (7 + 7 + 4),A: (3 + 9 + 6) ; B: (7 + 7 + 4),All six → 134: ((7 × (3 × 7)) − (9 + 4)),A,A: (9 × (3 + 6)) ; B: (4 + (7 × 7)),"{""numbers"": [3, 7, 7, 9, 4, 6], ""group_a"": [0, 3, 5], ""target1"": 81, ""target2"": 53}"
+Group B = [7, 7, 4] → target2 = 53",A: (9 × (3 + 6)) ; B: (4 + (7 × 7)),"{""numbers"": [3, 7, 7, 9, 4, 6], ""group_a"": [0, 3, 5], ""target1"": 81, ""target2"": 53}"
 countdown_cf4_multi_target_0064,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 6, 4, 9, 9, 3], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -764,9 +638,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 6, 4, 9, 9, 3]
 Group A = [5, 4, 9] → target1 = 56
-Group B = [6, 9, 3] → target2 = 72
-
-Which option correctly solves BOTH partitions?",A: (5 + 4 + 9) ; B: (6 + 9 + 3),A: (4 × (5 + 9)) ; B: (6 × (9 + 3)),A: (4 × (5 + 9)) ; B: (6 + 9 + 3),All six → 128: (4 × (5 + (9 × 3))),B,A: (4 × (5 + 9)) ; B: (6 × (9 + 3)),"{""numbers"": [5, 6, 4, 9, 9, 3], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 72}"
+Group B = [6, 9, 3] → target2 = 72",A: (4 × (5 + 9)) ; B: (6 × (9 + 3)),"{""numbers"": [5, 6, 4, 9, 9, 3], ""group_a"": [0, 2, 3], ""target1"": 56, ""target2"": 72}"
 countdown_cf4_multi_target_0065,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 4, 6, 8, 8, 9], ""group_a"": [0, 2, 5], ""target1"": 135, ""target2"": 68}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -776,9 +648,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 4, 6, 8, 8, 9]
 Group A = [9, 6, 9] → target1 = 135
-Group B = [4, 8, 8] → target2 = 68
-
-Which option correctly solves BOTH partitions?",A: (9 × (9 + 6)) ; B: (4 + 8 + 8),A: (9 × (9 + 6)) ; B: (4 + (8 × 8)),All six → 203: (8 + ((9 + 4) × (6 + 9))),A: (9 + 6 + 9) ; B: (4 + 8 + 8),B,A: (9 × (9 + 6)) ; B: (4 + (8 × 8)),"{""numbers"": [9, 4, 6, 8, 8, 9], ""group_a"": [0, 2, 5], ""target1"": 135, ""target2"": 68}"
+Group B = [4, 8, 8] → target2 = 68",A: (9 × (9 + 6)) ; B: (4 + (8 × 8)),"{""numbers"": [9, 4, 6, 8, 8, 9], ""group_a"": [0, 2, 5], ""target1"": 135, ""target2"": 68}"
 countdown_cf4_multi_target_0066,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 6, 2, 5, 9, 8], ""group_a"": [0, 1, 3], ""target1"": 78, ""target2"": 90}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -788,9 +658,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 6, 2, 5, 9, 8]
 Group A = [8, 6, 5] → target1 = 78
-Group B = [2, 9, 8] → target2 = 90
-
-Which option correctly solves BOTH partitions?",A: (6 × (8 + 5)) ; B: (9 × (2 + 8)),All six → 168: (8 × (9 + (6 × 2))),A: (6 × (8 + 5)) ; B: (2 + 9 + 8),A: (8 + 6 + 5) ; B: (2 + 9 + 8),A,A: (6 × (8 + 5)) ; B: (9 × (2 + 8)),"{""numbers"": [8, 6, 2, 5, 9, 8], ""group_a"": [0, 1, 3], ""target1"": 78, ""target2"": 90}"
+Group B = [2, 9, 8] → target2 = 90",A: (6 × (8 + 5)) ; B: (9 × (2 + 8)),"{""numbers"": [8, 6, 2, 5, 9, 8], ""group_a"": [0, 1, 3], ""target1"": 78, ""target2"": 90}"
 countdown_cf4_multi_target_0067,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 3, 6, 3, 9, 9], ""group_a"": [1, 3, 4], ""target1"": 54, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -800,9 +668,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 3, 6, 3, 9, 9]
 Group A = [3, 3, 9] → target1 = 54
-Group B = [6, 6, 9] → target2 = 60
-
-Which option correctly solves BOTH partitions?",A: (3 + 3 + 9) ; B: (6 + 6 + 9),All six → 114: (6 + (9 × (3 + 9))),A: (9 × (3 + 3)) ; B: (6 + (6 × 9)),A: (9 × (3 + 3)) ; B: (6 + 6 + 9),C,A: (9 × (3 + 3)) ; B: (6 + (6 × 9)),"{""numbers"": [6, 3, 6, 3, 9, 9], ""group_a"": [1, 3, 4], ""target1"": 54, ""target2"": 60}"
+Group B = [6, 6, 9] → target2 = 60",A: (9 × (3 + 3)) ; B: (6 + (6 × 9)),"{""numbers"": [6, 3, 6, 3, 9, 9], ""group_a"": [1, 3, 4], ""target1"": 54, ""target2"": 60}"
 countdown_cf4_multi_target_0068,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 2, 5, 8, 7, 9], ""group_a"": [1, 4, 5], ""target1"": 61, ""target2"": 55}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -812,9 +678,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 2, 5, 8, 7, 9]
 Group A = [2, 7, 9] → target1 = 61
-Group B = [3, 5, 8] → target2 = 55
-
-Which option correctly solves BOTH partitions?",All six → 116: ((7 × (8 + 9)) − 3),A: ((7 × 9) − 2) ; B: (3 + 5 + 8),A: (2 + 7 + 9) ; B: (3 + 5 + 8),A: ((7 × 9) − 2) ; B: (5 × (3 + 8)),D,A: ((7 × 9) − 2) ; B: (5 × (3 + 8)),"{""numbers"": [3, 2, 5, 8, 7, 9], ""group_a"": [1, 4, 5], ""target1"": 61, ""target2"": 55}"
+Group B = [3, 5, 8] → target2 = 55",A: ((7 × 9) − 2) ; B: (5 × (3 + 8)),"{""numbers"": [3, 2, 5, 8, 7, 9], ""group_a"": [1, 4, 5], ""target1"": 61, ""target2"": 55}"
 countdown_cf4_multi_target_0069,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 4, 3, 4, 9, 9], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -824,9 +688,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 4, 3, 4, 9, 9]
 Group A = [3, 3, 9] → target1 = 54
-Group B = [4, 4, 9] → target2 = 72
-
-Which option correctly solves BOTH partitions?",A: (3 + 3 + 9) ; B: (4 + 4 + 9),A: (9 × (3 + 3)) ; B: (4 + 4 + 9),All six → 126: ((3 + 4) × (9 + 9)),A: (9 × (3 + 3)) ; B: (9 × (4 + 4)),D,A: (9 × (3 + 3)) ; B: (9 × (4 + 4)),"{""numbers"": [3, 4, 3, 4, 9, 9], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 72}"
+Group B = [4, 4, 9] → target2 = 72",A: (9 × (3 + 3)) ; B: (9 × (4 + 4)),"{""numbers"": [3, 4, 3, 4, 9, 9], ""group_a"": [0, 2, 4], ""target1"": 54, ""target2"": 72}"
 countdown_cf4_multi_target_0070,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 9, 8, 9, 2, 3], ""group_a"": [2, 3, 5], ""target1"": 51, ""target2"": 66}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -836,9 +698,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 9, 8, 9, 2, 3]
 Group A = [8, 9, 3] → target1 = 51
-Group B = [6, 9, 2] → target2 = 66
-
-Which option correctly solves BOTH partitions?",A: (3 × (8 + 9)) ; B: (6 + 9 + 2),A: (8 + 9 + 3) ; B: (6 + 9 + 2),All six → 117: ((9 × (6 + 8)) − 9),A: (3 × (8 + 9)) ; B: (6 × (9 + 2)),D,A: (3 × (8 + 9)) ; B: (6 × (9 + 2)),"{""numbers"": [6, 9, 8, 9, 2, 3], ""group_a"": [2, 3, 5], ""target1"": 51, ""target2"": 66}"
+Group B = [6, 9, 2] → target2 = 66",A: (3 × (8 + 9)) ; B: (6 × (9 + 2)),"{""numbers"": [6, 9, 8, 9, 2, 3], ""group_a"": [2, 3, 5], ""target1"": 51, ""target2"": 66}"
 countdown_cf4_multi_target_0071,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 7, 5, 4, 3, 5], ""group_a"": [1, 4, 5], ""target1"": 50, ""target2"": 65}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -848,9 +708,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 7, 5, 4, 3, 5]
 Group A = [7, 3, 5] → target1 = 50
-Group B = [9, 5, 4] → target2 = 65
-
-Which option correctly solves BOTH partitions?",A: (5 × (7 + 3)) ; B: (9 + 5 + 4),A: (5 × (7 + 3)) ; B: (5 × (9 + 4)),A: (7 + 3 + 5) ; B: (9 + 5 + 4),All six → 115: (7 + (3 × (9 × 4))),B,A: (5 × (7 + 3)) ; B: (5 × (9 + 4)),"{""numbers"": [9, 7, 5, 4, 3, 5], ""group_a"": [1, 4, 5], ""target1"": 50, ""target2"": 65}"
+Group B = [9, 5, 4] → target2 = 65",A: (5 × (7 + 3)) ; B: (5 × (9 + 4)),"{""numbers"": [9, 7, 5, 4, 3, 5], ""group_a"": [1, 4, 5], ""target1"": 50, ""target2"": 65}"
 countdown_cf4_multi_target_0072,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 3, 7, 6, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 53, ""target2"": 70}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -860,9 +718,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 3, 7, 6, 7, 4]
 Group A = [8, 3, 7] → target1 = 53
-Group B = [6, 7, 4] → target2 = 70
-
-Which option correctly solves BOTH partitions?",A: (8 + 3 + 7) ; B: (6 + 7 + 4),A: ((8 × 7) − 3) ; B: (7 × (6 + 4)),A: ((8 × 7) − 3) ; B: (6 + 7 + 4),All six → 123: (3 × ((8 × 6) − 7)),B,A: ((8 × 7) − 3) ; B: (7 × (6 + 4)),"{""numbers"": [8, 3, 7, 6, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 53, ""target2"": 70}"
+Group B = [6, 7, 4] → target2 = 70",A: ((8 × 7) − 3) ; B: (7 × (6 + 4)),"{""numbers"": [8, 3, 7, 6, 7, 4], ""group_a"": [0, 1, 2], ""target1"": 53, ""target2"": 70}"
 countdown_cf4_multi_target_0073,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 4, 7, 3, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 60, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -872,9 +728,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 4, 7, 3, 5, 7]
 Group A = [9, 3, 7] → target1 = 60
-Group B = [4, 7, 5] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: ((9 × 7) − 3) ; B: (4 + 7 + 5),A: (9 + 3 + 7) ; B: (4 + 7 + 5),All six → 123: (3 × (5 + (9 × 4))),A: ((9 × 7) − 3) ; B: (7 × (4 + 5)),D,A: ((9 × 7) − 3) ; B: (7 × (4 + 5)),"{""numbers"": [9, 4, 7, 3, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 60, ""target2"": 63}"
+Group B = [4, 7, 5] → target2 = 63",A: ((9 × 7) − 3) ; B: (7 × (4 + 5)),"{""numbers"": [9, 4, 7, 3, 5, 7], ""group_a"": [0, 3, 5], ""target1"": 60, ""target2"": 63}"
 countdown_cf4_multi_target_0074,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 6, 9, 9, 6, 5], ""group_a"": [0, 3, 4], ""target1"": 52, ""target2"": 51}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -884,9 +738,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 6, 9, 9, 6, 5]
 Group A = [2, 9, 6] → target1 = 52
-Group B = [6, 9, 5] → target2 = 51
-
-Which option correctly solves BOTH partitions?",A: ((9 × 6) − 2) ; B: (6 + 9 + 5),A: (2 + 9 + 6) ; B: (6 + 9 + 5),All six → 103: ((9 × (2 × 6)) − 5),A: ((9 × 6) − 2) ; B: (6 + (9 × 5)),D,A: ((9 × 6) − 2) ; B: (6 + (9 × 5)),"{""numbers"": [2, 6, 9, 9, 6, 5], ""group_a"": [0, 3, 4], ""target1"": 52, ""target2"": 51}"
+Group B = [6, 9, 5] → target2 = 51",A: ((9 × 6) − 2) ; B: (6 + (9 × 5)),"{""numbers"": [2, 6, 9, 9, 6, 5], ""group_a"": [0, 3, 4], ""target1"": 52, ""target2"": 51}"
 countdown_cf4_multi_target_0075,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 8, 7, 5, 2, 9], ""group_a"": [1, 3, 4], ""target1"": 56, ""target2"": 77}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -896,9 +748,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 8, 7, 5, 2, 9]
 Group A = [8, 5, 2] → target1 = 56
-Group B = [2, 7, 9] → target2 = 77
-
-Which option correctly solves BOTH partitions?",A: (8 × (5 + 2)) ; B: (7 × (2 + 9)),All six → 133: (7 × (9 + (2 + 8))),A: (8 × (5 + 2)) ; B: (2 + 7 + 9),A: (8 + 5 + 2) ; B: (2 + 7 + 9),A,A: (8 × (5 + 2)) ; B: (7 × (2 + 9)),"{""numbers"": [2, 8, 7, 5, 2, 9], ""group_a"": [1, 3, 4], ""target1"": 56, ""target2"": 77}"
+Group B = [2, 7, 9] → target2 = 77",A: (8 × (5 + 2)) ; B: (7 × (2 + 9)),"{""numbers"": [2, 8, 7, 5, 2, 9], ""group_a"": [1, 3, 4], ""target1"": 56, ""target2"": 77}"
 countdown_cf4_multi_target_0076,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 3, 2, 5, 7, 9], ""group_a"": [1, 3, 4], ""target1"": 50, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -908,9 +758,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 3, 2, 5, 7, 9]
 Group A = [3, 5, 7] → target1 = 50
-Group B = [8, 2, 9] → target2 = 54
-
-Which option correctly solves BOTH partitions?",All six → 104: (8 × ((3 × 5) − 2)),A: (5 × (3 + 7)) ; B: (8 + 2 + 9),A: (5 × (3 + 7)) ; B: (9 × (8 − 2)),A: (3 + 5 + 7) ; B: (8 + 2 + 9),C,A: (5 × (3 + 7)) ; B: (9 × (8 − 2)),"{""numbers"": [8, 3, 2, 5, 7, 9], ""group_a"": [1, 3, 4], ""target1"": 50, ""target2"": 54}"
+Group B = [8, 2, 9] → target2 = 54",A: (5 × (3 + 7)) ; B: (9 × (8 − 2)),"{""numbers"": [8, 3, 2, 5, 7, 9], ""group_a"": [1, 3, 4], ""target1"": 50, ""target2"": 54}"
 countdown_cf4_multi_target_0077,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 5, 6, 6, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 66, ""target2"": 50}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -920,9 +768,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 5, 6, 6, 6, 8]
 Group A = [5, 6, 6] → target1 = 66
-Group B = [2, 6, 8] → target2 = 50
-
-Which option correctly solves BOTH partitions?",A: (5 + 6 + 6) ; B: (2 + 6 + 8),A: (6 × (5 + 6)) ; B: (2 + 6 + 8),A: (6 × (5 + 6)) ; B: (2 + (6 × 8)),All six → 116: (8 − ((2 − 5) × (6 × 6))),C,A: (6 × (5 + 6)) ; B: (2 + (6 × 8)),"{""numbers"": [2, 5, 6, 6, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 66, ""target2"": 50}"
+Group B = [2, 6, 8] → target2 = 50",A: (6 × (5 + 6)) ; B: (2 + (6 × 8)),"{""numbers"": [2, 5, 6, 6, 6, 8], ""group_a"": [1, 3, 4], ""target1"": 66, ""target2"": 50}"
 countdown_cf4_multi_target_0078,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 9, 3, 9, 2, 3], ""group_a"": [0, 3, 4], ""target1"": 66, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -932,9 +778,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 9, 3, 9, 2, 3]
 Group A = [6, 9, 2] → target1 = 66
-Group B = [9, 3, 3] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (6 × (9 + 2)) ; B: (9 + 3 + 3),All six → 120: (6 × (2 + (9 + 9))),A: (6 + 9 + 2) ; B: (9 + 3 + 3),A: (6 × (9 + 2)) ; B: (9 × (3 + 3)),D,A: (6 × (9 + 2)) ; B: (9 × (3 + 3)),"{""numbers"": [6, 9, 3, 9, 2, 3], ""group_a"": [0, 3, 4], ""target1"": 66, ""target2"": 54}"
+Group B = [9, 3, 3] → target2 = 54",A: (6 × (9 + 2)) ; B: (9 × (3 + 3)),"{""numbers"": [6, 9, 3, 9, 2, 3], ""group_a"": [0, 3, 4], ""target1"": 66, ""target2"": 54}"
 countdown_cf4_multi_target_0079,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 5, 4, 4, 9, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -944,9 +788,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 5, 4, 4, 9, 3]
 Group A = [6, 5, 4] → target1 = 54
-Group B = [4, 9, 3] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (6 + 5 + 4) ; B: (4 + 9 + 3),A: (6 × (5 + 4)) ; B: (9 × (4 + 3)),All six → 117: ((4 × (6 × 5)) − 3),A: (6 × (5 + 4)) ; B: (4 + 9 + 3),B,A: (6 × (5 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [6, 5, 4, 4, 9, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}"
+Group B = [4, 9, 3] → target2 = 63",A: (6 × (5 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [6, 5, 4, 4, 9, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}"
 countdown_cf4_multi_target_0080,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 2, 6, 8, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -956,9 +798,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 2, 6, 8, 3, 6]
 Group A = [5, 2, 8] → target1 = 50
-Group B = [6, 3, 6] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (5 × (2 + 8)) ; B: (6 + 3 + 6),All six → 104: (8 × (6 + (5 + 2))),A: (5 × (2 + 8)) ; B: (6 × (6 + 3)),A: (5 + 2 + 8) ; B: (6 + 3 + 6),C,A: (5 × (2 + 8)) ; B: (6 × (6 + 3)),"{""numbers"": [5, 2, 6, 8, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 54}"
+Group B = [6, 3, 6] → target2 = 54",A: (5 × (2 + 8)) ; B: (6 × (6 + 3)),"{""numbers"": [5, 2, 6, 8, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 50, ""target2"": 54}"
 countdown_cf4_multi_target_0081,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 7, 7, 8, 3, 3], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 80}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -968,9 +808,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 7, 7, 8, 3, 3]
 Group A = [6, 7, 3] → target1 = 60
-Group B = [7, 8, 3] → target2 = 80
-
-Which option correctly solves BOTH partitions?",All six → 140: ((6 + 8) × (7 + 3)),A: (6 × (7 + 3)) ; B: (7 + 8 + 3),A: (6 + 7 + 3) ; B: (7 + 8 + 3),A: (6 × (7 + 3)) ; B: (8 × (7 + 3)),D,A: (6 × (7 + 3)) ; B: (8 × (7 + 3)),"{""numbers"": [6, 7, 7, 8, 3, 3], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 80}"
+Group B = [7, 8, 3] → target2 = 80",A: (6 × (7 + 3)) ; B: (8 × (7 + 3)),"{""numbers"": [6, 7, 7, 8, 3, 3], ""group_a"": [0, 2, 5], ""target1"": 60, ""target2"": 80}"
 countdown_cf4_multi_target_0082,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 9, 9, 4, 8, 7], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 60}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -980,9 +818,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 9, 9, 4, 8, 7]
 Group A = [9, 9, 7] → target1 = 54
-Group B = [8, 4, 8] → target2 = 60
-
-Which option correctly solves BOTH partitions?",A: (9 + 9 + 7) ; B: (8 + 4 + 8),A: ((9 × 7) − 9) ; B: ((8 × 8) − 4),A: ((9 × 7) − 9) ; B: (8 + 4 + 8),All six → 114: ((9 + 9) + (8 × (8 + 4))),B,A: ((9 × 7) − 9) ; B: ((8 × 8) − 4),"{""numbers"": [8, 9, 9, 4, 8, 7], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 60}"
+Group B = [8, 4, 8] → target2 = 60",A: ((9 × 7) − 9) ; B: ((8 × 8) − 4),"{""numbers"": [8, 9, 9, 4, 8, 7], ""group_a"": [1, 2, 5], ""target1"": 54, ""target2"": 60}"
 countdown_cf4_multi_target_0083,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 4, 9, 9, 4, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -992,9 +828,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 4, 9, 9, 4, 3]
 Group A = [2, 4, 9] → target1 = 54
-Group B = [9, 4, 3] → target2 = 63
-
-Which option correctly solves BOTH partitions?",A: (9 × (2 + 4)) ; B: (9 + 4 + 3),A: (2 + 4 + 9) ; B: (9 + 4 + 3),All six → 117: (9 × (4 + 9)),A: (9 × (2 + 4)) ; B: (9 × (4 + 3)),D,A: (9 × (2 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [2, 4, 9, 9, 4, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}"
+Group B = [9, 4, 3] → target2 = 63",A: (9 × (2 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [2, 4, 9, 9, 4, 3], ""group_a"": [0, 1, 3], ""target1"": 54, ""target2"": 63}"
 countdown_cf4_multi_target_0084,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 2, 7, 7, 6, 7], ""group_a"": [0, 3, 5], ""target1"": 70, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1004,9 +838,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 2, 7, 7, 6, 7]
 Group A = [5, 7, 7] → target1 = 70
-Group B = [2, 7, 6] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: (5 × (7 + 7)) ; B: (2 + 7 + 6),A: (5 × (7 + 7)) ; B: (7 × (2 + 6)),All six → 126: ((5 − 2) × (7 × 6)),A: (5 + 7 + 7) ; B: (2 + 7 + 6),B,A: (5 × (7 + 7)) ; B: (7 × (2 + 6)),"{""numbers"": [5, 2, 7, 7, 6, 7], ""group_a"": [0, 3, 5], ""target1"": 70, ""target2"": 56}"
+Group B = [2, 7, 6] → target2 = 56",A: (5 × (7 + 7)) ; B: (7 × (2 + 6)),"{""numbers"": [5, 2, 7, 7, 6, 7], ""group_a"": [0, 3, 5], ""target1"": 70, ""target2"": 56}"
 countdown_cf4_multi_target_0085,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 8, 8, 8, 7, 2], ""group_a"": [1, 4, 5], ""target1"": 72, ""target2"": 66}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1016,9 +848,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 8, 8, 8, 7, 2]
 Group A = [8, 7, 2] → target1 = 72
-Group B = [2, 8, 8] → target2 = 66
-
-Which option correctly solves BOTH partitions?",A: (8 × (7 + 2)) ; B: (2 + (8 × 8)),All six → 138: ((8 − 2) × (7 + (8 + 8))),A: (8 + 7 + 2) ; B: (2 + 8 + 8),A: (8 × (7 + 2)) ; B: (2 + 8 + 8),A,A: (8 × (7 + 2)) ; B: (2 + (8 × 8)),"{""numbers"": [2, 8, 8, 8, 7, 2], ""group_a"": [1, 4, 5], ""target1"": 72, ""target2"": 66}"
+Group B = [2, 8, 8] → target2 = 66",A: (8 × (7 + 2)) ; B: (2 + (8 × 8)),"{""numbers"": [2, 8, 8, 8, 7, 2], ""group_a"": [1, 4, 5], ""target1"": 72, ""target2"": 66}"
 countdown_cf4_multi_target_0086,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 4, 6, 2, 7, 9], ""group_a"": [0, 1, 5], ""target1"": 52, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1028,9 +858,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 4, 6, 2, 7, 9]
 Group A = [4, 4, 9] → target1 = 52
-Group B = [6, 2, 7] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (4 × (4 + 9)) ; B: (6 + 2 + 7),A: (4 + 4 + 9) ; B: (6 + 2 + 7),All six → 106: ((7 × (4 × 4)) − 6),A: (4 × (4 + 9)) ; B: (6 × (2 + 7)),D,A: (4 × (4 + 9)) ; B: (6 × (2 + 7)),"{""numbers"": [4, 4, 6, 2, 7, 9], ""group_a"": [0, 1, 5], ""target1"": 52, ""target2"": 54}"
+Group B = [6, 2, 7] → target2 = 54",A: (4 × (4 + 9)) ; B: (6 × (2 + 7)),"{""numbers"": [4, 4, 6, 2, 7, 9], ""group_a"": [0, 1, 5], ""target1"": 52, ""target2"": 54}"
 countdown_cf4_multi_target_0087,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 7, 7, 7, 6, 5], ""group_a"": [0, 2, 3], ""target1"": 70, ""target2"": 77}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1040,9 +868,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 7, 7, 7, 6, 5]
 Group A = [5, 7, 7] → target1 = 70
-Group B = [7, 6, 5] → target2 = 77
-
-Which option correctly solves BOTH partitions?",All six → 147: ((7 × 7) × (6 ÷ (7 − 5))),A: (5 × (7 + 7)) ; B: (7 × (6 + 5)),A: (5 + 7 + 7) ; B: (7 + 6 + 5),A: (5 × (7 + 7)) ; B: (7 + 6 + 5),B,A: (5 × (7 + 7)) ; B: (7 × (6 + 5)),"{""numbers"": [5, 7, 7, 7, 6, 5], ""group_a"": [0, 2, 3], ""target1"": 70, ""target2"": 77}"
+Group B = [7, 6, 5] → target2 = 77",A: (5 × (7 + 7)) ; B: (7 × (6 + 5)),"{""numbers"": [5, 7, 7, 7, 6, 5], ""group_a"": [0, 2, 3], ""target1"": 70, ""target2"": 77}"
 countdown_cf4_multi_target_0088,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 3, 6, 6, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 63, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1052,9 +878,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 3, 6, 6, 3, 6]
 Group A = [7, 3, 6] → target1 = 63
-Group B = [6, 3, 6] → target2 = 54
-
-Which option correctly solves BOTH partitions?",All six → 117: ((7 + 6) × (3 + 6)),A: (7 × (3 + 6)) ; B: (6 × (6 + 3)),A: (7 × (3 + 6)) ; B: (6 + 3 + 6),A: (7 + 3 + 6) ; B: (6 + 3 + 6),B,A: (7 × (3 + 6)) ; B: (6 × (6 + 3)),"{""numbers"": [7, 3, 6, 6, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 63, ""target2"": 54}"
+Group B = [6, 3, 6] → target2 = 54",A: (7 × (3 + 6)) ; B: (6 × (6 + 3)),"{""numbers"": [7, 3, 6, 6, 3, 6], ""group_a"": [0, 1, 3], ""target1"": 63, ""target2"": 54}"
 countdown_cf4_multi_target_0089,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 5, 7, 5, 8, 4], ""group_a"": [1, 2, 4], ""target1"": 61, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1064,9 +888,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 5, 7, 5, 8, 4]
 Group A = [5, 7, 8] → target1 = 61
-Group B = [6, 5, 4] → target2 = 54
-
-Which option correctly solves BOTH partitions?",A: (5 + (7 × 8)) ; B: (6 + 5 + 4),A: (5 + 7 + 8) ; B: (6 + 5 + 4),All six → 115: (5 × ((6 × 5) − 7)),A: (5 + (7 × 8)) ; B: (6 × (5 + 4)),D,A: (5 + (7 × 8)) ; B: (6 × (5 + 4)),"{""numbers"": [6, 5, 7, 5, 8, 4], ""group_a"": [1, 2, 4], ""target1"": 61, ""target2"": 54}"
+Group B = [6, 5, 4] → target2 = 54",A: (5 + (7 × 8)) ; B: (6 × (5 + 4)),"{""numbers"": [6, 5, 7, 5, 8, 4], ""group_a"": [1, 2, 4], ""target1"": 61, ""target2"": 54}"
 countdown_cf4_multi_target_0090,countdown_cf4_multi_target,counterfactual,"{""numbers"": [5, 7, 9, 9, 7, 6], ""group_a"": [1, 4, 5], ""target1"": 91, ""target2"": 54}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1076,9 +898,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [5, 7, 9, 9, 7, 6]
 Group A = [7, 7, 6] → target1 = 91
-Group B = [5, 9, 9] → target2 = 54
-
-Which option correctly solves BOTH partitions?",All six → 145: (7 + (6 × (9 + (5 + 9)))),A: (7 + 7 + 6) ; B: (5 + 9 + 9),A: (7 × (7 + 6)) ; B: (9 + (5 × 9)),A: (7 × (7 + 6)) ; B: (5 + 9 + 9),C,A: (7 × (7 + 6)) ; B: (9 + (5 × 9)),"{""numbers"": [5, 7, 9, 9, 7, 6], ""group_a"": [1, 4, 5], ""target1"": 91, ""target2"": 54}"
+Group B = [5, 9, 9] → target2 = 54",A: (7 × (7 + 6)) ; B: (9 + (5 × 9)),"{""numbers"": [5, 7, 9, 9, 7, 6], ""group_a"": [1, 4, 5], ""target1"": 91, ""target2"": 54}"
 countdown_cf4_multi_target_0091,countdown_cf4_multi_target,counterfactual,"{""numbers"": [9, 9, 2, 4, 9, 4], ""group_a"": [0, 2, 3], ""target1"": 54, ""target2"": 85}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1088,9 +908,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [9, 9, 2, 4, 9, 4]
 Group A = [9, 2, 4] → target1 = 54
-Group B = [9, 9, 4] → target2 = 85
-
-Which option correctly solves BOTH partitions?",All six → 139: (((9 + 2) × (9 + 4)) − 4),A: (9 × (2 + 4)) ; B: (9 + 9 + 4),A: (9 + 2 + 4) ; B: (9 + 9 + 4),A: (9 × (2 + 4)) ; B: (4 + (9 × 9)),D,A: (9 × (2 + 4)) ; B: (4 + (9 × 9)),"{""numbers"": [9, 9, 2, 4, 9, 4], ""group_a"": [0, 2, 3], ""target1"": 54, ""target2"": 85}"
+Group B = [9, 9, 4] → target2 = 85",A: (9 × (2 + 4)) ; B: (4 + (9 × 9)),"{""numbers"": [9, 9, 2, 4, 9, 4], ""group_a"": [0, 2, 3], ""target1"": 54, ""target2"": 85}"
 countdown_cf4_multi_target_0092,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 4, 4, 6, 4, 7], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 66}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1100,9 +918,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 4, 4, 6, 4, 7]
 Group A = [8, 4, 4] → target1 = 64
-Group B = [4, 6, 7] → target2 = 66
-
-Which option correctly solves BOTH partitions?",A: (8 + 4 + 4) ; B: (4 + 6 + 7),A: (8 × (4 + 4)) ; B: (6 × (4 + 7)),A: (8 × (4 + 4)) ; B: (4 + 6 + 7),All six → 130: ((4 × (8 × 4)) − (4 − 6)),B,A: (8 × (4 + 4)) ; B: (6 × (4 + 7)),"{""numbers"": [8, 4, 4, 6, 4, 7], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 66}"
+Group B = [4, 6, 7] → target2 = 66",A: (8 × (4 + 4)) ; B: (6 × (4 + 7)),"{""numbers"": [8, 4, 4, 6, 4, 7], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 66}"
 countdown_cf4_multi_target_0093,countdown_cf4_multi_target,counterfactual,"{""numbers"": [8, 8, 7, 2, 8, 5], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 50}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1112,9 +928,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [8, 8, 7, 2, 8, 5]
 Group A = [8, 7, 8] → target1 = 64
-Group B = [8, 2, 5] → target2 = 50
-
-Which option correctly solves BOTH partitions?",A: (8 + (8 × 7)) ; B: (8 + 2 + 5),A: (8 + (8 × 7)) ; B: (5 × (8 + 2)),All six → 114: (2 + (7 × (8 + 8))),A: (8 + 7 + 8) ; B: (8 + 2 + 5),B,A: (8 + (8 × 7)) ; B: (5 × (8 + 2)),"{""numbers"": [8, 8, 7, 2, 8, 5], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 50}"
+Group B = [8, 2, 5] → target2 = 50",A: (8 + (8 × 7)) ; B: (5 × (8 + 2)),"{""numbers"": [8, 8, 7, 2, 8, 5], ""group_a"": [0, 2, 4], ""target1"": 64, ""target2"": 50}"
 countdown_cf4_multi_target_0094,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 8, 6, 6, 8, 7], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 62}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1124,9 +938,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 8, 6, 6, 8, 7]
 Group A = [4, 8, 6] → target1 = 80
-Group B = [6, 8, 7] → target2 = 62
-
-Which option correctly solves BOTH partitions?",All six → 142: (6 + (8 × (7 + (4 + 6)))),A: (8 × (4 + 6)) ; B: (6 + (8 × 7)),A: (4 + 8 + 6) ; B: (6 + 8 + 7),A: (8 × (4 + 6)) ; B: (6 + 8 + 7),B,A: (8 × (4 + 6)) ; B: (6 + (8 × 7)),"{""numbers"": [4, 8, 6, 6, 8, 7], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 62}"
+Group B = [6, 8, 7] → target2 = 62",A: (8 × (4 + 6)) ; B: (6 + (8 × 7)),"{""numbers"": [4, 8, 6, 6, 8, 7], ""group_a"": [0, 1, 2], ""target1"": 80, ""target2"": 62}"
 countdown_cf4_multi_target_0095,countdown_cf4_multi_target,counterfactual,"{""numbers"": [4, 8, 2, 3, 4, 9], ""group_a"": [2, 4, 5], ""target1"": 54, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1136,9 +948,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [4, 8, 2, 3, 4, 9]
 Group A = [2, 4, 9] → target1 = 54
-Group B = [4, 8, 3] → target2 = 56
-
-Which option correctly solves BOTH partitions?",A: (9 × (2 + 4)) ; B: (8 × (4 + 3)),A: (2 + 4 + 9) ; B: (4 + 8 + 3),A: (9 × (2 + 4)) ; B: (4 + 8 + 3),All six → 110: (2 + (9 × (4 + 8))),A,A: (9 × (2 + 4)) ; B: (8 × (4 + 3)),"{""numbers"": [4, 8, 2, 3, 4, 9], ""group_a"": [2, 4, 5], ""target1"": 54, ""target2"": 56}"
+Group B = [4, 8, 3] → target2 = 56",A: (9 × (2 + 4)) ; B: (8 × (4 + 3)),"{""numbers"": [4, 8, 2, 3, 4, 9], ""group_a"": [2, 4, 5], ""target1"": 54, ""target2"": 56}"
 countdown_cf4_multi_target_0096,countdown_cf4_multi_target,counterfactual,"{""numbers"": [7, 7, 6, 5, 5, 9], ""group_a"": [1, 3, 5], ""target1"": 52, ""target2"": 72}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1148,9 +958,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [7, 7, 6, 5, 5, 9]
 Group A = [7, 5, 9] → target1 = 52
-Group B = [7, 6, 5] → target2 = 72
-
-Which option correctly solves BOTH partitions?",A: (7 + (5 × 9)) ; B: (7 + 6 + 5),All six → 124: (7 + (9 × (7 + 6))),A: (7 + (5 × 9)) ; B: (6 × (7 + 5)),A: (7 + 5 + 9) ; B: (7 + 6 + 5),C,A: (7 + (5 × 9)) ; B: (6 × (7 + 5)),"{""numbers"": [7, 7, 6, 5, 5, 9], ""group_a"": [1, 3, 5], ""target1"": 52, ""target2"": 72}"
+Group B = [7, 6, 5] → target2 = 72",A: (7 + (5 × 9)) ; B: (6 × (7 + 5)),"{""numbers"": [7, 7, 6, 5, 5, 9], ""group_a"": [1, 3, 5], ""target1"": 52, ""target2"": 72}"
 countdown_cf4_multi_target_0097,countdown_cf4_multi_target,counterfactual,"{""numbers"": [3, 8, 5, 5, 7, 8], ""group_a"": [2, 4, 5], ""target1"": 91, ""target2"": 64}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1160,9 +968,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [3, 8, 5, 5, 7, 8]
 Group A = [5, 7, 8] → target1 = 91
-Group B = [3, 8, 5] → target2 = 64
-
-Which option correctly solves BOTH partitions?",All six → 155: (5 × (7 + (3 × 8))),A: (5 + 7 + 8) ; B: (3 + 8 + 5),A: (7 × (5 + 8)) ; B: (8 × (3 + 5)),A: (7 × (5 + 8)) ; B: (3 + 8 + 5),C,A: (7 × (5 + 8)) ; B: (8 × (3 + 5)),"{""numbers"": [3, 8, 5, 5, 7, 8], ""group_a"": [2, 4, 5], ""target1"": 91, ""target2"": 64}"
+Group B = [3, 8, 5] → target2 = 64",A: (7 × (5 + 8)) ; B: (8 × (3 + 5)),"{""numbers"": [3, 8, 5, 5, 7, 8], ""group_a"": [2, 4, 5], ""target1"": 91, ""target2"": 64}"
 countdown_cf4_multi_target_0098,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 8, 9, 2, 7, 8], ""group_a"": [0, 4, 5], ""target1"": 72, ""target2"": 90}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1172,9 +978,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 8, 9, 2, 7, 8]
 Group A = [2, 7, 8] → target1 = 72
-Group B = [8, 9, 2] → target2 = 90
-
-Which option correctly solves BOTH partitions?",A: (8 × (2 + 7)) ; B: (9 × (8 + 2)),A: (2 + 7 + 8) ; B: (8 + 9 + 2),All six → 162: (9 × (2 + (2 × 8))),A: (8 × (2 + 7)) ; B: (8 + 9 + 2),A,A: (8 × (2 + 7)) ; B: (9 × (8 + 2)),"{""numbers"": [2, 8, 9, 2, 7, 8], ""group_a"": [0, 4, 5], ""target1"": 72, ""target2"": 90}"
+Group B = [8, 9, 2] → target2 = 90",A: (8 × (2 + 7)) ; B: (9 × (8 + 2)),"{""numbers"": [2, 8, 9, 2, 7, 8], ""group_a"": [0, 4, 5], ""target1"": 72, ""target2"": 90}"
 countdown_cf4_multi_target_0099,countdown_cf4_multi_target,counterfactual,"{""numbers"": [6, 9, 4, 4, 5, 3], ""group_a"": [0, 2, 4], ""target1"": 50, ""target2"": 63}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1184,9 +988,7 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [6, 9, 4, 4, 5, 3]
 Group A = [6, 4, 5] → target1 = 50
-Group B = [9, 4, 3] → target2 = 63
-
-Which option correctly solves BOTH partitions?",All six → 113: (5 + (3 × (9 × 4))),A: (6 + 4 + 5) ; B: (9 + 4 + 3),A: (5 × (6 + 4)) ; B: (9 + 4 + 3),A: (5 × (6 + 4)) ; B: (9 × (4 + 3)),D,A: (5 × (6 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [6, 9, 4, 4, 5, 3], ""group_a"": [0, 2, 4], ""target1"": 50, ""target2"": 63}"
+Group B = [9, 4, 3] → target2 = 63",A: (5 × (6 + 4)) ; B: (9 × (4 + 3)),"{""numbers"": [6, 9, 4, 4, 5, 3], ""group_a"": [0, 2, 4], ""target1"": 50, ""target2"": 63}"
 countdown_cf4_multi_target_0100,countdown_cf4_multi_target,counterfactual,"{""numbers"": [2, 5, 6, 9, 3, 9], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}","Solve the following two-target Countdown-style puzzle.
 Rule change: there are **two targets** and a **fixed partition** of the six numbers into Group A (three numbers) and Group B (three numbers).
   - Group A must reach target1 using each of its three numbers exactly once.
@@ -1196,6 +998,4 @@ Rule change: there are **two targets** and a **fixed partition** of the six numb
 
 All numbers: [2, 5, 6, 9, 3, 9]
 Group A = [5, 9, 3] → target1 = 60
-Group B = [2, 6, 9] → target2 = 56
-
-Which option correctly solves BOTH partitions?",All six → 116: ((5 + 3) + (9 × (2 × 6))),A: (5 × (9 + 3)) ; B: (2 + (6 × 9)),A: (5 × (9 + 3)) ; B: (2 + 6 + 9),A: (5 + 9 + 3) ; B: (2 + 6 + 9),B,A: (5 × (9 + 3)) ; B: (2 + (6 × 9)),"{""numbers"": [2, 5, 6, 9, 3, 9], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}"
+Group B = [2, 6, 9] → target2 = 56",A: (5 × (9 + 3)) ; B: (2 + (6 × 9)),"{""numbers"": [2, 5, 6, 9, 3, 9], ""group_a"": [1, 3, 4], ""target1"": 60, ""target2"": 56}"

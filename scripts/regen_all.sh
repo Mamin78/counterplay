@@ -26,6 +26,13 @@ echo "=== non_math_games ==="
 python3 non_math_games/run_all.py
 
 echo ""
+echo "=== Strip MCQ residue from game_cf CSVs ==="
+# Generators still emit MCQ-shaped CSVs (option_A..D, correct_option) because
+# the original design used MCQ. The shipped benchmark is open-ended, so we
+# strip those columns and the MCQ-prompting lines from `question` here.
+python3 scripts/strip_mcq_from_game_cf.py
+
+echo ""
 echo "=== Unified datasets ==="
 python3 game_cf/build_game_dataset.py --out game_cf/dataset.csv
 python3 scripts/build_non_math_games_dataset.py --out non_math_games/dataset.csv
