@@ -1,4 +1,4 @@
-# Counterplay — A Counterfactual Game Benchmark for LLMs
+# Counterplay  
 
 Counterplay is a benchmark for evaluating how language models reason about
 familiar games under *counterfactual* (CF) rule changes. Each game has a
