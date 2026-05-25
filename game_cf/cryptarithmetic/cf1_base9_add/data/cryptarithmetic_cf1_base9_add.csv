@@ -1,0 +1,1101 @@
+id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+cryptarithmetic_cf1_base9_add_0001,cryptarithmetic_cf1_base9_add,counterfactual,AEFF + GCG = BDAD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  AEFF + GCG = BDAD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""AEFF + GCG = BDAD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0002,cryptarithmetic_cf1_base9_add,counterfactual,HDED + HDD = BACGF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HDED + HDD = BACGF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDED + HDD = BACGF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0003,cryptarithmetic_cf1_base9_add,counterfactual,FCED + CCEF = BCACC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FCED + CCEF = BCACC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FCED + CCEF = BCACC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0004,cryptarithmetic_cf1_base9_add,counterfactual,FDEF + CEF = BAADE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDEF + CEF = BAADE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDEF + CEF = BAADE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0005,cryptarithmetic_cf1_base9_add,counterfactual,GFGC + CDC = BABCE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFGC + CDC = BABCE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFGC + CDC = BABCE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0006,cryptarithmetic_cf1_base9_add,counterfactual,EFB + GEDD = BACCE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  EFB + GEDD = BACCE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EFB + GEDD = BACCE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0007,cryptarithmetic_cf1_base9_add,counterfactual,GGAF + EED = BADFC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GGAF + EED = BADFC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGAF + EED = BADFC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0008,cryptarithmetic_cf1_base9_add,counterfactual,GEFC + DBD = BABGF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEFC + DBD = BABGF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEFC + DBD = BABGF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0009,cryptarithmetic_cf1_base9_add,counterfactual,DEE + FEFB = BACDF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DEE + FEFB = BACDF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DEE + FEFB = BACDF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0010,cryptarithmetic_cf1_base9_add,counterfactual,FDEB + FECF = AFCBA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDEB + FECF = AFCBA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDEB + FECF = AFCBA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0011,cryptarithmetic_cf1_base9_add,counterfactual,ECD + FECD = BACEF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  ECD + FECD = BACEF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECD + FECD = BACEF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0012,cryptarithmetic_cf1_base9_add,counterfactual,GCCE + FAF = BABDD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GCCE + FAF = BABDD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCCE + FAF = BABDD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0013,cryptarithmetic_cf1_base9_add,counterfactual,AFEE + ECF = BDAC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  AFEE + ECF = BDAC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""AFEE + ECF = BDAC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0014,cryptarithmetic_cf1_base9_add,counterfactual,GECB + EFF = BADAG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GECB + EFF = BADAG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECB + EFF = BADAG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0015,cryptarithmetic_cf1_base9_add,counterfactual,ECB + FBEC = BAABD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  ECB + FBEC = BAABD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECB + FBEC = BAABD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0016,cryptarithmetic_cf1_base9_add,counterfactual,FFCE + DEE = BACFB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FFCE + DEE = BACFB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FFCE + DEE = BACFB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0017,cryptarithmetic_cf1_base9_add,counterfactual,FBB + GFCD = BACDE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FBB + GFCD = BACDE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FBB + GFCD = BACDE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0018,cryptarithmetic_cf1_base9_add,counterfactual,ACEE + CFFC = EBDA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  ACEE + CFFC = EBDA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ACEE + CFFC = EBDA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0019,cryptarithmetic_cf1_base9_add,counterfactual,GDE + GGBD = BAFFC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GDE + GGBD = BAFFC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDE + GGBD = BAFFC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0020,cryptarithmetic_cf1_base9_add,counterfactual,FDBF + CCF = BABDE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDBF + CCF = BABDE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDBF + CCF = BABDE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0021,cryptarithmetic_cf1_base9_add,counterfactual,HEDC + GGD = BADCF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HEDC + GGD = BADCF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEDC + GGD = BADCF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0022,cryptarithmetic_cf1_base9_add,counterfactual,DABC + FDGG = BBEAA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DABC + FDGG = BBEAA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DABC + FDGG = BBEAA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0023,cryptarithmetic_cf1_base9_add,counterfactual,BDBE + DAF = CAFD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BDBE + DAF = CAFD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 3, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDBE + DAF = CAFD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0024,cryptarithmetic_cf1_base9_add,counterfactual,IGEI + ICE = BAFHD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  IGEI + ICE = BAFHD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGEI + ICE = BAFHD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0025,cryptarithmetic_cf1_base9_add,counterfactual,HFAG + FDE = BADEC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HFAG + FDE = BADEC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFAG + FDE = BADEC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0026,cryptarithmetic_cf1_base9_add,counterfactual,GFCG + DCF = BACAE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCG + DCF = BACAE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCG + DCF = BACAE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0027,cryptarithmetic_cf1_base9_add,counterfactual,FEBC + FDE = BADFA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEBC + FDE = BADFA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FEBC + FDE = BADFA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0028,cryptarithmetic_cf1_base9_add,counterfactual,DDFF + ECFF = ABAED,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DDFF + ECFF = ABAED
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DDFF + ECFF = ABAED"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0029,cryptarithmetic_cf1_base9_add,counterfactual,HGI + IGED = BAFCC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HGI + IGED = BAFCC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""HGI + IGED = BAFCC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0030,cryptarithmetic_cf1_base9_add,counterfactual,CCB + EFDA = FBAB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CCB + EFDA = FBAB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CCB + EFDA = FBAB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0031,cryptarithmetic_cf1_base9_add,counterfactual,FBG + GFCE = BADDD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FBG + GFCE = BADDD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FBG + GFCE = BADDD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0032,cryptarithmetic_cf1_base9_add,counterfactual,FECD + BDD = BAABC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FECD + BDD = BAABC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FECD + BDD = BAABC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0033,cryptarithmetic_cf1_base9_add,counterfactual,HGBH + EAF = BADCE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HGBH + EAF = BADCE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGBH + EAF = BADCE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0034,cryptarithmetic_cf1_base9_add,counterfactual,FBEE + FEC = BABDB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FBEE + FEC = BABDB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FBEE + FEC = BABDB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0035,cryptarithmetic_cf1_base9_add,counterfactual,FCCF + EDC = BAAEB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FCCF + EDC = BAAEB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FCCF + EDC = BAAEB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0036,cryptarithmetic_cf1_base9_add,counterfactual,FBDE + ECC = BAAAA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FBDE + ECC = BAAAA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FBDE + ECC = BAAAA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0037,cryptarithmetic_cf1_base9_add,counterfactual,DCG + HFAG = BAADE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DCG + HFAG = BAADE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""DCG + HFAG = BAADE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0038,cryptarithmetic_cf1_base9_add,counterfactual,GFDD + FCG = BAEBC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFDD + FCG = BAEBC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFDD + FCG = BAEBC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0039,cryptarithmetic_cf1_base9_add,counterfactual,GEE + HBFD = BAACH,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEE + HBFD = BAACH
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GEE + HBFD = BAACH"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0040,cryptarithmetic_cf1_base9_add,counterfactual,DDBC + EAFF = BAEBB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DDBC + EAFF = BAEBB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DDBC + EAFF = BAEBB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0041,cryptarithmetic_cf1_base9_add,counterfactual,EGC + GEGC = BACFD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  EGC + GEGC = BACFD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""EGC + GEGC = BACFD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0042,cryptarithmetic_cf1_base9_add,counterfactual,ECAD + FEDD = BEAEB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  ECAD + FEDD = BEAEB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECAD + FEDD = BEAEB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0043,cryptarithmetic_cf1_base9_add,counterfactual,GFCC + GCD = BAEDF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCC + GCD = BAEDF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCC + GCD = BAEDF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0044,cryptarithmetic_cf1_base9_add,counterfactual,FDAD + EDF = BAAEC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDAD + EDF = BAAEC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDAD + EDF = BAAEC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0045,cryptarithmetic_cf1_base9_add,counterfactual,GEDE + FDD = BADCC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEDE + FDD = BADCC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDE + FDD = BADCC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0046,cryptarithmetic_cf1_base9_add,counterfactual,FDDC + FBC = BACEE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDDC + FBC = BACEE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDDC + FBC = BACEE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0047,cryptarithmetic_cf1_base9_add,counterfactual,GFCC + DDC = BACED,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCC + DDC = BACED
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCC + DDC = BACED"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0048,cryptarithmetic_cf1_base9_add,counterfactual,BDED + GCCF = BAEGA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BDED + GCCF = BAEGA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""BDED + GCCF = BAEGA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0049,cryptarithmetic_cf1_base9_add,counterfactual,GFCG + FEF = BADGE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCG + FEF = BADGE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCG + FEF = BADGE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0050,cryptarithmetic_cf1_base9_add,counterfactual,GEGF + DCCF = BAHAB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEGF + DCCF = BAHAB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7}","{""base"": 9, ""num_letters"": 8, ""equation"": ""GEGF + DCCF = BAHAB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0051,cryptarithmetic_cf1_base9_add,counterfactual,CBB + FECE = BABDF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CBB + FECE = BABDF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CBB + FECE = BABDF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0052,cryptarithmetic_cf1_base9_add,counterfactual,ECFB + EBCD = ADACA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  ECFB + EBCD = ADACA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""ECFB + EBCD = ADACA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0053,cryptarithmetic_cf1_base9_add,counterfactual,BHDF + GCED = BABGH,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BHDF + GCED = BABGH
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""BHDF + GCED = BABGH"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0054,cryptarithmetic_cf1_base9_add,counterfactual,GCDG + CFE = BAACD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GCDG + CFE = BAACD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GCDG + CFE = BAACD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0055,cryptarithmetic_cf1_base9_add,counterfactual,GFEE + CFF = BABDC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFEE + CFF = BABDC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFEE + CFF = BABDC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0056,cryptarithmetic_cf1_base9_add,counterfactual,FEC + GBDD = BAACF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEC + GBDD = BAACF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FEC + GBDD = BAACF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0057,cryptarithmetic_cf1_base9_add,counterfactual,HFFF + GEG = BAECD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HFFF + GEG = BAECD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HFFF + GEG = BAECD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0058,cryptarithmetic_cf1_base9_add,counterfactual,GDEB + DDF = BACCG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GDEB + DDF = BACCG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDEB + DDF = BACCG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0059,cryptarithmetic_cf1_base9_add,counterfactual,FFDC + FAE = BAEEB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FFDC + FAE = BAEEB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FFDC + FAE = BAEEB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0060,cryptarithmetic_cf1_base9_add,counterfactual,FGF + HEDF = BADCD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FGF + HEDF = BADCD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""FGF + HEDF = BADCD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0061,cryptarithmetic_cf1_base9_add,counterfactual,FDCF + EAC = BABDB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDCF + EAC = BABDB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDCF + EAC = BABDB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0062,cryptarithmetic_cf1_base9_add,counterfactual,DCD + FDCB = BABFE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DCD + FDCB = BABFE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DCD + FDCB = BABFE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0063,cryptarithmetic_cf1_base9_add,counterfactual,GFCG + FBE = BAEED,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCG + FBE = BAEED
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCG + FBE = BAEED"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0064,cryptarithmetic_cf1_base9_add,counterfactual,DED + FEAF = BABFC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DED + FEAF = BABFC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""DED + FEAF = BABFC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0065,cryptarithmetic_cf1_base9_add,counterfactual,HDFD + GEE = BACCH,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HDFD + GEE = BACCH
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HDFD + GEE = BACCH"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0066,cryptarithmetic_cf1_base9_add,counterfactual,HGDG + FCE = BAEFC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HGDG + FCE = BAEFC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGDG + FCE = BAEFC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0067,cryptarithmetic_cf1_base9_add,counterfactual,FFH + HGEE = BAECD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FFH + HGEE = BAECD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""FFH + HGEE = BAECD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0068,cryptarithmetic_cf1_base9_add,counterfactual,BDB + FFDE = BABCF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BDB + FFDE = BABCF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BDB + FFDE = BABCF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0069,cryptarithmetic_cf1_base9_add,counterfactual,BEDF + EDCC = AABFB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BEDF + EDCC = AABFB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BEDF + EDCC = AABFB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0070,cryptarithmetic_cf1_base9_add,counterfactual,GECD + FED = BADAB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GECD + FED = BADAB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GECD + FED = BADAB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0071,cryptarithmetic_cf1_base9_add,counterfactual,GEBG + FEE = BACFD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEBG + FEE = BACFD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEBG + FEE = BACFD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0072,cryptarithmetic_cf1_base9_add,counterfactual,GDDD + FEG = BAAGC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GDDD + FEG = BAAGC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GDDD + FEG = BAAGC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0073,cryptarithmetic_cf1_base9_add,counterfactual,HGGC + DHC = BACFE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HGGC + DHC = BACFE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HGGC + DHC = BACFE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0074,cryptarithmetic_cf1_base9_add,counterfactual,GFBD + CCE = BABEA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFBD + CCE = BABEA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFBD + CCE = BABEA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0075,cryptarithmetic_cf1_base9_add,counterfactual,FCE + HHEH = BAEGD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FCE + HHEH = BAEGD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""FCE + HHEH = BAEGD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0076,cryptarithmetic_cf1_base9_add,counterfactual,FDEC + ECC = BACAE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDEC + ECC = BACAE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDEC + ECC = BACAE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0077,cryptarithmetic_cf1_base9_add,counterfactual,HEED + EGC = BAACF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  HEED + EGC = BAACF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""HEED + EGC = BAACF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0078,cryptarithmetic_cf1_base9_add,counterfactual,FABE + FCCD = BCCEA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FABE + FCCD = BCCEA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FABE + FCCD = BCCEA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0079,cryptarithmetic_cf1_base9_add,counterfactual,BEBD + DCF = CCAC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  BEBD + DCF = CCAC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""BEBD + DCF = CCAC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0080,cryptarithmetic_cf1_base9_add,counterfactual,FFEE + DEC = BADDB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FFEE + DEC = BADDB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FFEE + DEC = BADDB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0081,cryptarithmetic_cf1_base9_add,counterfactual,CCEC + DBFB = BAECD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CCEC + DBFB = BAECD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CCEC + DBFB = BAECD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0082,cryptarithmetic_cf1_base9_add,counterfactual,FECB + DCD = BACFE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FECB + DCD = BACFE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FECB + DCD = BACFE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0083,cryptarithmetic_cf1_base9_add,counterfactual,FEDC + HCEE = BEHAG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEDC + HCEE = BEHAG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""FEDC + HCEE = BEHAG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0084,cryptarithmetic_cf1_base9_add,counterfactual,DED + GFCE = BABFG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  DED + GFCE = BABFG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""DED + GFCE = BABFG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0085,cryptarithmetic_cf1_base9_add,counterfactual,FEDE + EFB = BADCF,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEDE + EFB = BADCF
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FEDE + EFB = BADCF"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0086,cryptarithmetic_cf1_base9_add,counterfactual,IDFG + HFH = BACCE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  IDFG + HFH = BACCE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IDFG + HFH = BACCE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0087,cryptarithmetic_cf1_base9_add,counterfactual,FECC + FFGC = AEDBG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FECC + FFGC = AEDBG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 1, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""FECC + FFGC = AEDBG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0088,cryptarithmetic_cf1_base9_add,counterfactual,FEED + EDB = BACAE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEED + EDB = BACAE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FEED + EDB = BACAE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0089,cryptarithmetic_cf1_base9_add,counterfactual,FEBE + FCD = BADEA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FEBE + FCD = BADEA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FEBE + FCD = BADEA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0090,cryptarithmetic_cf1_base9_add,counterfactual,GGDG + CEF = BABGE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GGDG + CEF = BABGE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GGDG + CEF = BABGE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0091,cryptarithmetic_cf1_base9_add,counterfactual,EDE + HFGD = BACBG,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  EDE + HFGD = BACBG
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 7, ""H"": 8}","{""base"": 9, ""num_letters"": 8, ""equation"": ""EDE + HFGD = BACBG"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0092,cryptarithmetic_cf1_base9_add,counterfactual,GFCE + DBD = BACDB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GFCE + DBD = BACDB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GFCE + DBD = BACDB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0093,cryptarithmetic_cf1_base9_add,counterfactual,IGFH + HDE = BAFAC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  IGFH + HDE = BAFAC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 6, ""H"": 7, ""I"": 8}","{""base"": 9, ""num_letters"": 9, ""equation"": ""IGFH + HDE = BAFAC"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0094,cryptarithmetic_cf1_base9_add,counterfactual,CFD + FECC = BAABE,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CFD + FECC = BAABE
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CFD + FECC = BAABE"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0095,cryptarithmetic_cf1_base9_add,counterfactual,EDCD + FDEE = BEABB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  EDCD + FDEE = BEABB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EDCD + FDEE = BEABB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0096,cryptarithmetic_cf1_base9_add,counterfactual,CFEE + CEE = DACB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CFEE + CEE = DACB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CFEE + CEE = DACB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0097,cryptarithmetic_cf1_base9_add,counterfactual,EFFD + CFC = FBEA,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  EFFD + CFC = FBEA
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 9, ""num_letters"": 6, ""equation"": ""EFFD + CFC = FBEA"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0098,cryptarithmetic_cf1_base9_add,counterfactual,FDAD + CED = BAAFB,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  FDAD + CED = BAAFB
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""FDAD + CED = BAAFB"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0099,cryptarithmetic_cf1_base9_add,counterfactual,CDCB + EFA = DBBD,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  CDCB + EFA = DBBD
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 2, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 9, ""num_letters"": 6, ""equation"": ""CDCB + EFA = DBBD"", ""eval_mode"": ""open_native_base9""}"
+cryptarithmetic_cf1_base9_add_0100,cryptarithmetic_cf1_base9_add,counterfactual,GEDF + DCD = BAAFC,"Solve the following cryptarithmetic puzzle in Base 9 (Nonary arithmetic).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8}.  The digit 9 does not exist.
+  - Each letter represents a unique digit from this set.
+  - No multi-letter word may begin with 0.
+  - Carrying occurs when a column sum reaches 9 (not 10): writing 0 and carrying 1 to the next column.
+  - Example: 5 + 4 = 10 in Base 9 (write 0, carry 1).
+
+Equation:  GEDF + DCD = BAAFC
+
+Provide the unique letter-to-digit assignment as a JSON object.",,,,,,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 8}","{""base"": 9, ""num_letters"": 7, ""equation"": ""GEDF + DCD = BAAFC"", ""eval_mode"": ""open_native_base9""}"

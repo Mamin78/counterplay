@@ -1,0 +1,8 @@
+# Core — needed to (re)generate the dataset and run validation
+pandas>=2.0
+
+# Eval pipeline (Vertex AI) — only needed if running non_math_games_eval/run_vertex.py
+openai>=1.0
+google-auth>=2.0
+google-cloud-aiplatform>=1.40
+tqdm>=4.65

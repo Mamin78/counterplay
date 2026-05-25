@@ -1,0 +1,1201 @@
+id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+cryptarithmetic_baseline_0001,cryptarithmetic_baseline,baseline,GFCD + FEC = BAEAF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFCD + FEC = BAEAF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 5, ""C"": 3, ""D"": 1, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 9, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 1}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFCD + FEC = BAEAF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0002,cryptarithmetic_baseline,baseline,EDBF + DCCF = ACBAE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EDBF + DCCF = ACBAE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 8, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 3}","{""A"": 1, ""B"": 4, ""C"": 6, ""D"": 8, ""E"": 7, ""F"": 9}","{""A"": 1, ""B"": 4, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 7, ""B"": 4, ""C"": 6, ""D"": 1, ""E"": 8, ""F"": 9}",C,"{""A"": 1, ""B"": 4, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EDBF + DCCF = ACBAE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0003,cryptarithmetic_baseline,baseline,GFAF + DBF = BABCE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFAF + DBF = BABCE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 3, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 2, ""B"": 1, ""C"": 0, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFAF + DBF = BABCE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0004,cryptarithmetic_baseline,baseline,BBEE + FDED = BAECA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  BBEE + FDED = BAECA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 3, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 9, ""E"": 6, ""F"": 4}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 9}","{""A"": 4, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 6, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""BBEE + FDED = BAECA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0005,cryptarithmetic_baseline,baseline,GFCD + EGE = BADBG,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFCD + EGE = BADBG
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 8, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 0, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 2, ""B"": 1, ""C"": 0, ""D"": 4, ""E"": 5, ""F"": 8, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFCD + EGE = BADBG"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0006,cryptarithmetic_baseline,baseline,GDD + GECE = BADFB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDD + GECE = BADFB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 6, ""C"": 2, ""D"": 5, ""E"": 1, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 8, ""E"": 6, ""F"": 5, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 6, ""F"": 8, ""G"": 5}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDD + GECE = BADFB"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0007,cryptarithmetic_baseline,baseline,FCAB + FCAD = AEDBE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCAB + FCAD = AEDBE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 3, ""B"": 2, ""C"": 1, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 9, ""D"": 6, ""E"": 8, ""F"": 3}","{""A"": 8, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 1, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 8, ""F"": 9}",D,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FCAB + FCAD = AEDBE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0008,cryptarithmetic_baseline,baseline,FEBC + DCD = BACDA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEBC + DCD = BACDA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 9, ""F"": 8}","{""A"": 0, ""B"": 4, ""C"": 1, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEBC + DCD = BACDA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0009,cryptarithmetic_baseline,baseline,FECB + CDE = BAAFF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FECB + CDE = BAAFF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 7, ""C"": 2, ""D"": 1, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 7, ""E"": 8, ""F"": 2}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FECB + CDE = BAAFF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0010,cryptarithmetic_baseline,baseline,GEE + HDGD = BACCF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GEE + HDGD = BACCF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 3, ""C"": 2, ""D"": 1, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 4, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 0, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 3, ""B"": 1, ""C"": 2, ""D"": 0, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""base"": 10, ""num_letters"": 8, ""equation"": ""GEE + HDGD = BACCF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0011,cryptarithmetic_baseline,baseline,ECD + GEGE = BABBF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  ECD + GEGE = BABBF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 5, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 5, ""F"": 8, ""G"": 3}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 3, ""F"": 8, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""ECD + GEGE = BABBF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0012,cryptarithmetic_baseline,baseline,FBEC + EED = BAADE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FBEC + EED = BAADE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 6, ""E"": 2, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 2, ""B"": 1, ""C"": 0, ""D"": 6, ""E"": 8, ""F"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FBEC + EED = BAADE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0013,cryptarithmetic_baseline,baseline,GDD + GEBE = BADFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDD + GEBE = BADFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 3, ""B"": 1, ""C"": 0, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 7, ""C"": 3, ""D"": 6, ""E"": 1, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDD + GEBE = BADFC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0014,cryptarithmetic_baseline,baseline,FECD + DCF = BACBC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FECD + DCF = BACBC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 5, ""D"": 6, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 9, ""E"": 8, ""F"": 6}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 6, ""E"": 5, ""F"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FECD + DCF = BACBC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0015,cryptarithmetic_baseline,baseline,FDDF + CBF = BAAFE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDDF + CBF = BAAFE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 7, ""E"": 3, ""F"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDDF + CBF = BAAFE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0016,cryptarithmetic_baseline,baseline,EGFG + DBFC = ABADA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EGFG + DBFC = ABADA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 2, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 8, ""G"": 7}","{""A"": 1, ""B"": 2, ""C"": 7, ""D"": 5, ""E"": 6, ""F"": 3, ""G"": 8}",B,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 10, ""num_letters"": 7, ""equation"": ""EGFG + DBFC = ABADA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0017,cryptarithmetic_baseline,baseline,FDAE + FEC = BACFB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDAE + FEC = BACFB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 3, ""C"": 1, ""D"": 4, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 9, ""E"": 8, ""F"": 4}",A,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDAE + FEC = BACFB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0018,cryptarithmetic_baseline,baseline,GFDB + FCB = BADEC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFDB + FCB = BADEC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 6, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 0, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 6, ""F"": 7, ""G"": 4}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFDB + FCB = BADEC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0019,cryptarithmetic_baseline,baseline,FAED + CAEE = BABDC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FAED + CAEE = BABDC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 5, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 2, ""F"": 7}","{""A"": 0, ""B"": 7, ""C"": 2, ""D"": 5, ""E"": 1, ""F"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FAED + CAEE = BABDC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0020,cryptarithmetic_baseline,baseline,DBF + GFEE = BACFD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  DBF + GFEE = BACFD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 2}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 3, ""F"": 4, ""G"": 8}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""DBF + GFEE = BACFD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0021,cryptarithmetic_baseline,baseline,GFCE + FFD = BAEAG,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFCE + FFD = BAEAG
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 4, ""C"": 3, ""D"": 1, ""E"": 5, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 2, ""F"": 5, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 9, ""E"": 5, ""F"": 7, ""G"": 4}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFCE + FFD = BAEAG"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0022,cryptarithmetic_baseline,baseline,EBD + FFDE = BADFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EBD + FFDE = BADFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 8, ""E"": 7, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 7, ""E"": 5, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EBD + FFDE = BADFC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0023,cryptarithmetic_baseline,baseline,FCDF + DBF = BAAFE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCDF + DBF = BAAFE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 8, ""C"": 3, ""D"": 7, ""E"": 1, ""F"": 9}","{""A"": 3, ""B"": 1, ""C"": 0, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FCDF + DBF = BAAFE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0024,cryptarithmetic_baseline,baseline,FBCC + CEAC = ABFDF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FBCC + CEAC = ABFDF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 8, ""D"": 5, ""E"": 6, ""F"": 4}","{""A"": 2, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 8, ""E"": 6, ""F"": 5}","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}",D,"{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FBCC + CEAC = ABFDF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0025,cryptarithmetic_baseline,baseline,FDC + GEFC = BADCA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDC + GEFC = BADCA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 7, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 0, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 5, ""C"": 1, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 8, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 1, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FDC + GEFC = BADCA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0026,cryptarithmetic_baseline,baseline,FEBC + FBE = BADCB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEBC + FBE = BADCB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 7, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 7, ""E"": 8, ""F"": 3}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEBC + FBE = BADCB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0027,cryptarithmetic_baseline,baseline,FDD + FCBE = BABEA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDD + FCBE = BABEA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 1}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 4, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 2, ""F"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDD + FCBE = BABEA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0028,cryptarithmetic_baseline,baseline,FCBC + CEB = BAAFD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCBC + CEB = BAAFD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 5, ""C"": 1, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 6, ""E"": 5, ""F"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FCBC + CEB = BAAFD"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0029,cryptarithmetic_baseline,baseline,FDF + GDDC = BABEA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDF + GDDC = BABEA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 3, ""B"": 1, ""C"": 2, ""D"": 0, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8, ""G"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 7, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 0, ""F"": 8, ""G"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FDF + GDDC = BABEA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0030,cryptarithmetic_baseline,baseline,EDEE + DFBC = BCCGA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EDEE + DFBC = BCCGA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 8, ""E"": 7, ""F"": 5, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 3, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""EDEE + DFBC = BCCGA"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0031,cryptarithmetic_baseline,baseline,BCDD + FEAF = BABEC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  BCDD + FEAF = BABEC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 7, ""F"": 8}","{""A"": 7, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 0, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 7, ""C"": 4, ""D"": 6, ""E"": 1, ""F"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""BCDD + FEAF = BABEC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0032,cryptarithmetic_baseline,baseline,EFE + HEHC = BADEG,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EFE + HEHC = BADEG
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 7, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 0, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 3, ""E"": 6, ""F"": 2, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 9, ""G"": 8, ""H"": 7}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}","{""base"": 10, ""num_letters"": 8, ""equation"": ""EFE + HEHC = BADEG"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0033,cryptarithmetic_baseline,baseline,FECB + EEE = BADBF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FECB + EEE = BADBF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 7, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 9, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FECB + EEE = BADBF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0034,cryptarithmetic_baseline,baseline,GFFE + FEG = BADCD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFFE + FEG = BADCD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 7, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 1, ""G"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFFE + FEG = BADCD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0035,cryptarithmetic_baseline,baseline,EFD + FDCB = BACBE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EFD + FDCB = BACBE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 5, ""E"": 2, ""F"": 9}","{""A"": 0, ""B"": 5, ""C"": 2, ""D"": 1, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 9, ""F"": 6}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EFD + FDCB = BACBE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0036,cryptarithmetic_baseline,baseline,CAF + GFED = BABFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  CAF + GFED = BABFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 8, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 0, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 7, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 7, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""CAF + GFED = BABFC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0037,cryptarithmetic_baseline,baseline,GBD + GCEF = BABFA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GBD + GCEF = BABFA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 9}","{""A"": 2, ""B"": 1, ""C"": 0, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GBD + GCEF = BABFA"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0038,cryptarithmetic_baseline,baseline,ECED + FCFG = ACFDB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  ECED + FCFG = ACFDB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 8, ""E"": 6, ""F"": 7, ""G"": 4}","{""A"": 7, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 1, ""G"": 8}","{""A"": 1, ""B"": 4, ""C"": 3, ""D"": 2, ""E"": 6, ""F"": 7, ""G"": 8}",A,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 10, ""num_letters"": 7, ""equation"": ""ECED + FCFG = ACFDB"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0039,cryptarithmetic_baseline,baseline,FEFC + ECBA = ADFAD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEFC + ECBA = ADFAD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 4, ""B"": 2, ""C"": 3, ""D"": 1, ""E"": 5, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 9}","{""A"": 1, ""B"": 3, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 9}","{""A"": 1, ""B"": 5, ""C"": 3, ""D"": 4, ""E"": 2, ""F"": 9}",B,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEFC + ECBA = ADFAD"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0040,cryptarithmetic_baseline,baseline,EDC + GFCB = BADED,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EDC + GFCB = BADED
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 5, ""F"": 8, ""G"": 3}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 2, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""EDC + GFCB = BADED"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0041,cryptarithmetic_baseline,baseline,HCEF + HDE = BABGB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  HCEF + HDE = BABGB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 2, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 8, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 0, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 3, ""F"": 7, ""G"": 8, ""H"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8, ""H"": 9}","{""base"": 10, ""num_letters"": 8, ""equation"": ""HCEF + HDE = BABGB"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0042,cryptarithmetic_baseline,baseline,BEED + FGAD = BADFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  BEED + FGAD = BADFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 9, ""F"": 8, ""G"": 7}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 2}","{""A"": 6, ""B"": 1, ""C"": 2, ""D"": 0, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""BEED + FGAD = BADFC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0043,cryptarithmetic_baseline,baseline,FDGB + BDFE = BACEF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDGB + BDFE = BACEF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 6, ""C"": 3, ""D"": 1, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 8, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 1, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FDGB + BDFE = BACEF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0044,cryptarithmetic_baseline,baseline,FEC + GFGE = BAEDG,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEC + GFGE = BAEDG
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 9, ""F"": 8, ""G"": 7}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 6, ""E"": 2, ""F"": 8, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FEC + GFGE = BAEDG"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0045,cryptarithmetic_baseline,baseline,FEAC + DCF = BABDB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEAC + DCF = BABDB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 2, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEAC + DCF = BABDB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0046,cryptarithmetic_baseline,baseline,GDDE + DBB = BACEF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDDE + DBB = BACEF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 2, ""B"": 1, ""C"": 0, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 9, ""F"": 8, ""G"": 7}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDDE + DBB = BACEF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0047,cryptarithmetic_baseline,baseline,FFC + GCFD = BABEE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFC + GCFD = BABEE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 2}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 4, ""F"": 8, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FFC + GCFD = BABEE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0048,cryptarithmetic_baseline,baseline,AFCF + FCCD = AABEC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  AFCF + FCCD = AABEC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 9}","{""A"": 1, ""B"": 9, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 2}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 8}","{""A"": 1, ""B"": 2, ""C"": 9, ""D"": 4, ""E"": 7, ""F"": 3}",A,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""AFCF + FCCD = AABEC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0049,cryptarithmetic_baseline,baseline,FEBF + EDE = BACFD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEBF + EDE = BACFD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 7, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 8, ""C"": 6, ""D"": 7, ""E"": 1, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEBF + EDE = BACFD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0050,cryptarithmetic_baseline,baseline,EDEE + DFFA = ABCDF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EDEE + DFFA = ABCDF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 5, ""B"": 3, ""C"": 4, ""D"": 1, ""E"": 7, ""F"": 8}","{""A"": 1, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 1, ""B"": 3, ""C"": 8, ""D"": 5, ""E"": 7, ""F"": 4}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 7}",B,"{""A"": 1, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EDEE + DFFA = ABCDF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0051,cryptarithmetic_baseline,baseline,FECD + BEB = BAAAE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FECD + BEB = BAAAE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 8, ""F"": 7}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FECD + BEB = BAAAE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0052,cryptarithmetic_baseline,baseline,DDC + FEEC = BACBD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  DDC + FEEC = BACBD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2, ""E"": 7, ""F"": 9}","{""A"": 7, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 0, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""DDC + FEEC = BACBD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0053,cryptarithmetic_baseline,baseline,FBDD + EDC = BAAAE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FBDD + EDC = BAAAE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 5, ""E"": 3, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 8, ""C"": 3, ""D"": 5, ""E"": 1, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FBDD + EDC = BAAAE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0054,cryptarithmetic_baseline,baseline,EEC + FBDD = BAACE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EEC + FBDD = BAACE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 9, ""E"": 8, ""F"": 5}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 3, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 8, ""C"": 3, ""D"": 5, ""E"": 1, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EEC + FBDD = BAACE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0055,cryptarithmetic_baseline,baseline,DADC + FCDE = BCCFF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  DADC + FCDE = BCCFF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2, ""E"": 6, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 2, ""F"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""DADC + FCDE = BCCFF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0056,cryptarithmetic_baseline,baseline,GGDD + DEB = BACFE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GGDD + DEB = BACFE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 7, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 1, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 3, ""E"": 4, ""F"": 2, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GGDD + DEB = BACFE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0057,cryptarithmetic_baseline,baseline,CEBB + CFEB = AADAF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  CEBB + CFEB = AADAF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 7, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 1, ""F"": 8}","{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 8, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 1}","{""A"": 1, ""B"": 5, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}",B,"{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""CEBB + CFEB = AADAF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0058,cryptarithmetic_baseline,baseline,GGDC + GDE = BAFEF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GGDC + GDE = BAFEF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 9, ""F"": 8, ""G"": 6}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 2, ""E"": 4, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 2}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GGDC + GDE = BAFEF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0059,cryptarithmetic_baseline,baseline,HDCG + FFG = BABAE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  HDCG + FFG = BABAE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 9, ""H"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 7, ""H"": 8}","{""A"": 8, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 0, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}","{""base"": 10, ""num_letters"": 8, ""equation"": ""HDCG + FFG = BABAE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0060,cryptarithmetic_baseline,baseline,EBFE + EFCF = ACABD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EBFE + EFCF = ACABD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8}","{""A"": 3, ""B"": 2, ""C"": 1, ""D"": 4, ""E"": 6, ""F"": 8}","{""A"": 2, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8}","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 3, ""E"": 6, ""F"": 8}",A,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EBFE + EFCF = ACABD"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0061,cryptarithmetic_baseline,baseline,GFDE + FBE = BADEC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFDE + FBE = BADEC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 4, ""E"": 6, ""F"": 2, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 9, ""F"": 7, ""G"": 6}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFDE + FBE = BADEC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0062,cryptarithmetic_baseline,baseline,FEC + FDBD = BACFF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEC + FDBD = BACFF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 5, ""B"": 1, ""C"": 4, ""D"": 0, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 8, ""E"": 5, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 4, ""E"": 8, ""F"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEC + FDBD = BACFF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0063,cryptarithmetic_baseline,baseline,GEDE + EEF = BADCD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GEDE + EEF = BADCD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 8, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 1, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 8, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 0, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GEDE + EEF = BADCD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0064,cryptarithmetic_baseline,baseline,GEFG + GCF = BADGE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GEFG + GCF = BADGE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 5, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GEFG + GCF = BADGE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0065,cryptarithmetic_baseline,baseline,FDCE + DDD = BACAC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDCE + DDD = BACAC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 9}","{""A"": 0, ""B"": 3, ""C"": 1, ""D"": 6, ""E"": 7, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 9, ""E"": 7, ""F"": 6}","{""A"": 0, ""B"": 9, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 1}",A,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDCE + DDD = BACAC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0066,cryptarithmetic_baseline,baseline,GDED + ECGF = BCGDA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDED + ECGF = BCGDA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 3, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 4, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 5, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 6, ""G"": 8}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDED + ECGF = BCGDA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0067,cryptarithmetic_baseline,baseline,EBDC + EAAF = ACCFB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EBDC + EAAF = ACCFB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 8, ""C"": 6, ""D"": 7, ""E"": 5, ""F"": 9}","{""A"": 1, ""B"": 5, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 1, ""B"": 4, ""C"": 5, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 1, ""B"": 5, ""C"": 6, ""D"": 9, ""E"": 8, ""F"": 7}",B,"{""A"": 1, ""B"": 5, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EBDC + EAAF = ACCFB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0068,cryptarithmetic_baseline,baseline,GDBE + FEG = BACGD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDBE + FEG = BACGD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 1}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}",B,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDBE + FEG = BACGD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0069,cryptarithmetic_baseline,baseline,CEFF + EDE = DABB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  CEFF + EDE = DABB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 7, ""E"": 5, ""F"": 4}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 4, ""F"": 7}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 6}",B,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 10, ""num_letters"": 6, ""equation"": ""CEFF + EDE = DABB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0070,cryptarithmetic_baseline,baseline,FDED + DBC = BAAFF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDED + DBC = BAAFF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 4, ""B"": 1, ""C"": 0, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 5, ""E"": 8, ""F"": 4}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 4, ""E"": 8, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDED + DBC = BAAFF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0071,cryptarithmetic_baseline,baseline,FEDC + CFD = BABCE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEDC + CFD = BABCE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 4, ""E"": 3, ""F"": 9}","{""A"": 0, ""B"": 9, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 9}","{""A"": 4, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 7, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 7, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEDC + CFD = BABCE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0072,cryptarithmetic_baseline,baseline,DBFB + EBCA = ACDBC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  DBFB + EBCA = ACDBC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 1, ""B"": 3, ""C"": 2, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 5, ""D"": 3, ""E"": 8, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}",D,"{""A"": 1, ""B"": 2, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""DBFB + EBCA = ACDBC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0073,cryptarithmetic_baseline,baseline,FFBF + FBE = BAECD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFBF + FBE = BAECD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 7, ""E"": 3, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 9, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FFBF + FBE = BAECD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0074,cryptarithmetic_baseline,baseline,GCDE + GEF = BABFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GCDE + GEF = BABFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 3, ""E"": 4, ""F"": 2, ""G"": 9}","{""A"": 8, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 0, ""G"": 9}","{""A"": 0, ""B"": 8, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 1, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 8, ""G"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GCDE + GEF = BABFC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0075,cryptarithmetic_baseline,baseline,FECD + CDD = BABAA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FECD + CDD = BABAA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 9, ""E"": 6, ""F"": 5}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 5, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 6, ""C"": 4, ""D"": 5, ""E"": 1, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FECD + CDD = BABAA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0076,cryptarithmetic_baseline,baseline,FCAD + FEE = BABFB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCAD + FEE = BABFB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 3, ""E"": 2, ""F"": 9}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 3, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FCAD + FEE = BABFB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0077,cryptarithmetic_baseline,baseline,FFCF + CBE = BABED,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFCF + CBE = BABED
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 3, ""E"": 2, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 3, ""E"": 4, ""F"": 2}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FFCF + CBE = BABED"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0078,cryptarithmetic_baseline,baseline,EFBE + DDEF = ABCFD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EFBE + DDEF = ABCFD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 5, ""C"": 4, ""D"": 2, ""E"": 6, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 6, ""D"": 5, ""E"": 4, ""F"": 9}","{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 9}","{""A"": 4, ""B"": 2, ""C"": 1, ""D"": 5, ""E"": 6, ""F"": 9}",C,"{""A"": 1, ""B"": 2, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EFBE + DDEF = ABCFD"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0079,cryptarithmetic_baseline,baseline,FEG + GFCF = BADBE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEG + GFCF = BADBE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 5, ""C"": 4, ""D"": 1, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 9, ""F"": 7, ""G"": 6}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 9, ""E"": 6, ""F"": 7, ""G"": 5}",A,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FEG + GFCF = BADBE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0080,cryptarithmetic_baseline,baseline,GDCG + FDF = BACEE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GDCG + FDF = BACEE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 7, ""F"": 8, ""G"": 4}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 8, ""E"": 7, ""F"": 4, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 9, ""F"": 8, ""G"": 7}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GDCG + FDF = BACEE"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0081,cryptarithmetic_baseline,baseline,IGAG + HDF = BAFEC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  IGAG + HDF = BAFEC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 4, ""F"": 3, ""G"": 7, ""H"": 8, ""I"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8, ""I"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 5, ""H"": 8, ""I"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 7, ""F"": 5, ""G"": 4, ""H"": 8, ""I"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 5, ""G"": 7, ""H"": 8, ""I"": 9}","{""base"": 10, ""num_letters"": 9, ""equation"": ""IGAG + HDF = BAFEC"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0082,cryptarithmetic_baseline,baseline,FFBD + FCFE = BDGGA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFBD + FCFE = BDGGA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 2}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 6, ""C"": 2, ""D"": 4, ""E"": 1, ""F"": 7, ""G"": 9}","{""A"": 6, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 0, ""F"": 7, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 4, ""E"": 6, ""F"": 7, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FFBD + FCFE = BDGGA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0083,cryptarithmetic_baseline,baseline,FBC + FEDD = BADFB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FBC + FEDD = BADFB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 8, ""C"": 4, ""D"": 7, ""E"": 1, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 7, ""E"": 8, ""F"": 4}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FBC + FEDD = BADFB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0084,cryptarithmetic_baseline,baseline,EDD + FDFC = BACCF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  EDD + FDFC = BACCF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 5, ""E"": 8, ""F"": 4}","{""A"": 0, ""B"": 4, ""C"": 1, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 5, ""D"": 4, ""E"": 8, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 5, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""EDD + FDFC = BACCF"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0085,cryptarithmetic_baseline,baseline,BDEB + FBF = CBAA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  BDEB + FBF = CBAA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""A"": 0, ""B"": 3, ""C"": 5, ""D"": 4, ""E"": 6, ""F"": 7}","{""A"": 6, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 0, ""F"": 7}","{""A"": 0, ""B"": 3, ""C"": 7, ""D"": 5, ""E"": 6, ""F"": 4}",A,"{""A"": 0, ""B"": 3, ""C"": 4, ""D"": 5, ""E"": 6, ""F"": 7}","{""base"": 10, ""num_letters"": 6, ""equation"": ""BDEB + FBF = CBAA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0086,cryptarithmetic_baseline,baseline,FEEC + EDF = BADAB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FEEC + EDF = BADAB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 9}","{""A"": 3, ""B"": 1, ""C"": 2, ""D"": 0, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 3, ""C"": 2, ""D"": 1, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 3, ""E"": 6, ""F"": 2}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FEEC + EDF = BADAB"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0087,cryptarithmetic_baseline,baseline,FFAE + FBE = BAECD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFAE + FBE = BAECD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 9, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 9}",D,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FFAE + FBE = BAECD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0088,cryptarithmetic_baseline,baseline,FFDB + FCD = BAEFE,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FFDB + FCD = BAEFE
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 7, ""E"": 2, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 9, ""E"": 8, ""F"": 7}",B,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FFDB + FCD = BAEFE"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0089,cryptarithmetic_baseline,baseline,CEEF + CFEE = ABEDD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  CEEF + CFEE = ABEDD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 1, ""B"": 0, ""C"": 4, ""D"": 6, ""E"": 7, ""F"": 8}","{""A"": 6, ""B"": 3, ""C"": 1, ""D"": 7, ""E"": 8, ""F"": 9}","{""A"": 1, ""B"": 3, ""C"": 6, ""D"": 8, ""E"": 7, ""F"": 9}","{""A"": 1, ""B"": 3, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}",D,"{""A"": 1, ""B"": 3, ""C"": 6, ""D"": 7, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""CEEF + CFEE = ABEDD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0090,cryptarithmetic_baseline,baseline,HDGE + FAH = BACHD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  HDGE + FAH = BACHD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 2, ""H"": 9}","{""A"": 0, ""B"": 6, ""C"": 2, ""D"": 5, ""E"": 1, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}","{""A"": 0, ""B"": 5, ""C"": 2, ""D"": 1, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8, ""H"": 9}","{""base"": 10, ""num_letters"": 8, ""equation"": ""HDGE + FAH = BACHD"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0091,cryptarithmetic_baseline,baseline,FCDB + FEC = BABFD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCDB + FEC = BABFD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 2, ""E"": 6, ""F"": 9}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 6, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FCDB + FEC = BABFD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0092,cryptarithmetic_baseline,baseline,ECAC + EDCF = BAFDA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  ECAC + EDCF = BAFDA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 4, ""F"": 7}","{""A"": 0, ""B"": 5, ""C"": 3, ""D"": 4, ""E"": 1, ""F"": 7}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""A"": 0, ""B"": 7, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 1}",C,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 5, ""F"": 7}","{""base"": 10, ""num_letters"": 6, ""equation"": ""ECAC + EDCF = BAFDA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0093,cryptarithmetic_baseline,baseline,GEDE + BEDF = BACBC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GEDE + BEDF = BACBC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 8, ""E"": 6, ""F"": 7, ""G"": 5}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 6, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 7, ""D"": 5, ""E"": 3, ""F"": 4, ""G"": 8}",B,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 6, ""F"": 7, ""G"": 8}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GEDE + BEDF = BACBC"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0094,cryptarithmetic_baseline,baseline,GEFF + EFC = BADEA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GEFF + EFC = BADEA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 5, ""E"": 7, ""F"": 3, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 8, ""D"": 5, ""E"": 7, ""F"": 2, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GEFF + EFC = BADEA"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0095,cryptarithmetic_baseline,baseline,GFAE + FCF = BAEDD,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFAE + FCF = BAEDD
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 6, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 0, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 7, ""G"": 8}","{""A"": 0, ""B"": 1, ""C"": 6, ""D"": 4, ""E"": 3, ""F"": 8, ""G"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 4, ""E"": 6, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFAE + FCF = BAEDD"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0096,cryptarithmetic_baseline,baseline,GFEC + FEG = BAEDB,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFEC + FEG = BAEDB
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 9, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 2}","{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 7, ""E"": 3, ""F"": 6, ""G"": 8}",C,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 5, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFEC + FEG = BAEDB"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0097,cryptarithmetic_baseline,baseline,FDAE + BDEC = BAAFA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FDAE + BDEC = BAAFA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8}","{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 8, ""F"": 7}","{""A"": 5, ""B"": 1, ""C"": 3, ""D"": 0, ""E"": 7, ""F"": 8}","{""A"": 3, ""B"": 1, ""C"": 0, ""D"": 5, ""E"": 7, ""F"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 3, ""D"": 5, ""E"": 7, ""F"": 8}","{""base"": 10, ""num_letters"": 6, ""equation"": ""FDAE + BDEC = BAAFA"", ""has_base9_distractor"": false}"
+cryptarithmetic_baseline_0098,cryptarithmetic_baseline,baseline,GFDB + EDE = BADCF,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  GFDB + EDE = BADCF
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 8, ""F"": 7, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 2, ""E"": 5, ""F"": 6, ""G"": 8}","{""A"": 8, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 0, ""G"": 9}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 6, ""E"": 7, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""GFDB + EDE = BADCF"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0099,cryptarithmetic_baseline,baseline,FCC + GDEF = BABFA,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  FCC + GDEF = BABFA
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 8, ""F"": 5, ""G"": 9}","{""A"": 0, ""B"": 3, ""C"": 2, ""D"": 1, ""E"": 5, ""F"": 8, ""G"": 9}","{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 4, ""F"": 7, ""G"": 8}",A,"{""A"": 0, ""B"": 1, ""C"": 2, ""D"": 3, ""E"": 5, ""F"": 8, ""G"": 9}","{""base"": 10, ""num_letters"": 7, ""equation"": ""FCC + GDEF = BABFA"", ""has_base9_distractor"": true}"
+cryptarithmetic_baseline_0100,cryptarithmetic_baseline,baseline,DCE + FCCD = BAAFC,"Solve the following cryptarithmetic puzzle using standard arithmetic (Base 10).
+Rules:
+  - Valid digits: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}.
+  - Each letter represents a unique digit.
+  - No multi-letter word may begin with 0.
+  - Addition carries when a column sum reaches 10 (standard rule).
+  - Subtraction borrows by adding 10 to the current digit (standard rule).
+
+Equation:  DCE + FCCD = BAAFC
+
+Which of the following letter-to-digit assignments is the correct solution?
+Note: one option shows the solution obtained by applying Base-9 rules instead.","{""A"": 0, ""B"": 9, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 1}","{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 9}","{""A"": 8, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 0, ""F"": 9}","{""A"": 0, ""B"": 8, ""C"": 4, ""D"": 6, ""E"": 1, ""F"": 9}",B,"{""A"": 0, ""B"": 1, ""C"": 4, ""D"": 6, ""E"": 8, ""F"": 9}","{""base"": 10, ""num_letters"": 6, ""equation"": ""DCE + FCCD = BAAFC"", ""has_base9_distractor"": false}"

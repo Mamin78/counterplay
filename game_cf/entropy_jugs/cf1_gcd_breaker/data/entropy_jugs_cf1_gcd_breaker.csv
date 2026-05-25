@@ -1,0 +1,1601 @@
+id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+entropy_jugs_cf1_gcd_breaker_0001,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 9], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(9, 9) = 9, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]",D,"[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]","{""cap1"": 9, ""cap2"": 9, ""target"": 2, ""gcd"": 9, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 9, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0002,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 10], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(4, 10) = 2, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0]]","[[0, 0], [0, 10], [4, 6], [0, 6], [4, 2]]",B,"[[0, 0], [4, 0], [0, 3]]","{""cap1"": 4, ""cap2"": 10, ""target"": 3, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0003,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(9, 12) = 3, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [9, 3]]","[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12], [4, 0], [0, 3]]","[[0, 0], [0, 12], [9, 2]]","[[0, 0], [0, 12], [9, 2], [0, 2], [1, 0]]",C,"[[0, 0], [0, 12], [9, 2]]","{""cap1"": 9, ""cap2"": 12, ""target"": 2, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0004,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(3, 9) = 3, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0]]",B,"[[0, 0], [3, 0], [0, 2]]","{""cap1"": 3, ""cap2"": 9, ""target"": 2, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0005,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 8], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(8, 8) = 8, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]",C,"[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","{""cap1"": 8, ""cap2"": 8, ""target"": 2, ""gcd"": 8, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 8, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0006,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 10], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(8, 10) = 2, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [0, 10], [8, 2], [0, 2], [2, 0], [2, 10], [8, 4]]","[[0, 0], [8, 0], [0, 7], [8, 7], [4, 10]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]",D,"[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","{""cap1"": 8, ""cap2"": 10, ""target"": 5, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0007,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 10], ""target"": 6, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 6L in either jug
+(Note: gcd(5, 10) = 5, so 6 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 10], [5, 7]]","[[0, 0], [0, 10], [5, 4], [0, 8]]","[[0, 0], [0, 10], [5, 4], [0, 8], [5, 2], [0, 6]]","[[0, 0], [5, 0]]",C,"[[0, 0], [0, 10], [5, 4], [0, 8], [5, 2], [0, 6]]","{""cap1"": 5, ""cap2"": 10, ""target"": 6, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 5, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0008,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 12], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(3, 12) = 3, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]",C,"[[0, 0], [3, 0], [0, 2]]","{""cap1"": 3, ""cap2"": 12, ""target"": 2, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0009,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 6], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(6, 6) = 6, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]",C,"[[0, 0], [6, 0], [0, 5]]","{""cap1"": 6, ""cap2"": 6, ""target"": 5, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0010,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 8], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(8, 8) = 8, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]",C,"[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 8, ""cap2"": 8, ""target"": 1, ""gcd"": 8, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 9, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0011,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 9], ""target"": 6, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 6L in either jug
+(Note: gcd(9, 9) = 9, so 6 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0]]",B,"[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","{""cap1"": 9, ""cap2"": 9, ""target"": 6, ""gcd"": 9, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0012,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 6], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(3, 6) = 3, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0]]","[[0, 0], [0, 6], [3, 2], [0, 4]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 2], [1, 0]]",C,"[[0, 0], [3, 0], [0, 2]]","{""cap1"": 3, ""cap2"": 6, ""target"": 2, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0013,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 12], ""target"": 10, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 10L in either jug
+(Note: gcd(3, 12) = 3, so 10 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [3, 8], [0, 10]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 12], [3, 9]]","[[0, 0], [0, 12], [3, 9]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 12], [3, 9], [0, 11]]",A,"[[0, 0], [0, 12], [3, 8], [0, 10]]","{""cap1"": 3, ""cap2"": 12, ""target"": 10, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 9, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0014,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 6], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(4, 6) = 2, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 6], [4, 2]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0]]",C,"[[0, 0], [4, 0], [0, 3]]","{""cap1"": 4, ""cap2"": 6, ""target"": 3, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0015,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(10, 10) = 10, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]",B,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","{""cap1"": 10, ""cap2"": 10, ""target"": 2, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 10, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0016,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 8], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(6, 8) = 2, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [4, 8]]",A,"[[0, 0], [6, 0], [0, 5]]","{""cap1"": 6, ""cap2"": 8, ""target"": 5, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0017,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 6], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(3, 6) = 3, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 6], [3, 3], [0, 5]]","[[0, 0], [0, 6], [3, 2], [0, 4]]","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2]]",B,"[[0, 0], [0, 6], [3, 2], [0, 4]]","{""cap1"": 3, ""cap2"": 6, ""target"": 4, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0018,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 8], ""target"": 6, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 6L in either jug
+(Note: gcd(4, 8) = 4, so 6 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 8], [4, 5]]","[[0, 0], [4, 0]]","[[0, 0], [0, 8], [4, 3], [0, 6]]","[[0, 0], [0, 8], [4, 3], [0, 6], [4, 6], [1, 8], [4, 4], [0, 7]]",C,"[[0, 0], [0, 8], [4, 3], [0, 6]]","{""cap1"": 4, ""cap2"": 8, ""target"": 6, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0019,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 8], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(6, 8) = 2, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [0, 8], [6, 1], [0, 6], [6, 6], [3, 8], [3, 0], [0, 2], [6, 2], [0, 7]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0]]",B,"[[0, 0], [0, 8], [6, 1], [0, 6], [6, 6], [3, 8], [3, 0], [0, 2], [6, 2], [0, 7]]","{""cap1"": 6, ""cap2"": 8, ""target"": 7, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 10, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0020,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 10], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(4, 10) = 2, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3], [4, 3], [0, 6], [4, 6], [0, 9]]","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8]]","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 10], [4, 7]]","[[0, 0], [0, 10], [4, 5], [0, 8]]",A,"[[0, 0], [4, 0], [0, 3], [4, 3], [0, 6], [4, 6], [0, 9]]","{""cap1"": 4, ""cap2"": 10, ""target"": 9, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0021,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 10], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(8, 10) = 2, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 8], [8, 8], [6, 10]]","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 7]]","[[0, 0], [8, 0]]",C,"[[0, 0], [8, 0], [0, 7]]","{""cap1"": 8, ""cap2"": 10, ""target"": 7, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0022,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [7, 7], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(7, 7) = 7, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [7, 0], [0, 6], [5, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [7, 0], [0, 6]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]",D,"[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]","{""cap1"": 7, ""cap2"": 7, ""target"": 4, ""gcd"": 7, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0023,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 6], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(4, 6) = 2, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0]]","[[0, 0], [0, 6], [4, 1], [0, 4], [4, 4], [1, 6], [4, 2], [0, 5]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0], [0, 3], [2, 0]]",B,"[[0, 0], [0, 6], [4, 1], [0, 4], [4, 4], [1, 6], [4, 2], [0, 5]]","{""cap1"": 4, ""cap2"": 6, ""target"": 5, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 8, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0024,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 12], ""target"": 10, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 10L in either jug
+(Note: gcd(8, 12) = 4, so 10 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0]]","[[0, 0], [0, 12], [8, 3], [0, 10]]","[[0, 0], [8, 0], [0, 7], [6, 0], [6, 12], [8, 9]]","[[0, 0], [0, 12], [8, 3], [0, 10], [8, 10], [5, 12], [5, 0], [0, 4], [8, 4], [0, 11]]",B,"[[0, 0], [0, 12], [8, 3], [0, 10]]","{""cap1"": 8, ""cap2"": 12, ""target"": 10, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0025,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(9, 12) = 3, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","[[0, 0], [9, 0], [0, 9], [9, 9], [6, 12]]","[[0, 0], [9, 0], [0, 8], [7, 0]]","[[0, 0], [9, 0], [0, 8]]",C,"[[0, 0], [9, 0], [0, 8], [7, 0]]","{""cap1"": 9, ""cap2"": 12, ""target"": 7, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0026,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 9], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(6, 9) = 3, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [0, 9], [6, 3]]","[[0, 0], [0, 9], [6, 2]]","[[0, 0], [6, 0], [0, 5], [6, 5], [1, 9]]",C,"[[0, 0], [0, 9], [6, 2]]","{""cap1"": 6, ""cap2"": 9, ""target"": 2, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0027,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [7, 7], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(7, 7) = 7, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]",D,"[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]","{""cap1"": 7, ""cap2"": 7, ""target"": 2, ""gcd"": 7, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0028,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 9], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(9, 9) = 9, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]",B,"[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4]]","{""cap1"": 9, ""cap2"": 9, ""target"": 4, ""gcd"": 9, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0029,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 8], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(8, 8) = 8, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [8, 0], [0, 7]]",D,"[[0, 0], [8, 0], [0, 7]]","{""cap1"": 8, ""cap2"": 8, ""target"": 7, ""gcd"": 8, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0030,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(6, 12) = 6, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]",D,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 6, ""cap2"": 12, ""target"": 1, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0031,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 10], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(4, 10) = 2, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 10], [4, 6], [0, 6], [4, 2]]",B,"[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 4, ""cap2"": 10, ""target"": 1, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0032,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 8, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 8L in either jug
+(Note: gcd(3, 9) = 3, so 8 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 9], [3, 6]]","[[0, 0], [0, 9], [3, 5], [0, 7]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6], [0, 8]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6]]",C,"[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6], [0, 8]]","{""cap1"": 3, ""cap2"": 9, ""target"": 8, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0033,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 10, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 10L in either jug
+(Note: gcd(6, 12) = 6, so 10 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [6, 5], [0, 10]]","[[0, 0], [0, 12], [6, 5], [0, 10], [6, 10], [3, 12], [6, 8], [1, 12], [6, 6], [0, 11]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9]]","[[0, 0], [6, 0]]",A,"[[0, 0], [0, 12], [6, 5], [0, 10]]","{""cap1"": 6, ""cap2"": 12, ""target"": 10, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0034,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 12], ""target"": 11, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 11L in either jug
+(Note: gcd(10, 12) = 2, so 11 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [10, 1], [0, 10], [10, 10], [7, 12], [7, 0], [0, 6], [10, 6], [3, 12], [3, 0], [0, 2], [10, 2], [0, 11]]","[[0, 0], [10, 0], [0, 9], [8, 0]]","[[0, 0], [10, 0], [0, 9]]","[[0, 0], [10, 0]]",A,"[[0, 0], [0, 12], [10, 1], [0, 10], [10, 10], [7, 12], [7, 0], [0, 6], [10, 6], [3, 12], [3, 0], [0, 2], [10, 2], [0, 11]]","{""cap1"": 10, ""cap2"": 12, ""target"": 11, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 14, ""near_target"": 10, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0035,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 10], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(6, 10) = 2, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 10], [6, 4], [0, 4], [4, 0], [4, 10], [6, 8]]","[[0, 0], [0, 10], [6, 3], [0, 8]]","[[0, 0], [0, 10], [6, 3], [0, 8], [6, 8], [3, 10], [6, 6], [1, 10], [6, 4], [0, 9]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 10], [6, 7]]",C,"[[0, 0], [0, 10], [6, 3], [0, 8], [6, 8], [3, 10], [6, 6], [1, 10], [6, 4], [0, 9]]","{""cap1"": 6, ""cap2"": 10, ""target"": 9, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 10, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0036,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 10], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(5, 10) = 5, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [5, 0]]",B,"[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","{""cap1"": 5, ""cap2"": 10, ""target"": 1, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 5, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0037,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(10, 10) = 10, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]",C,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 10, ""cap2"": 10, ""target"": 1, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 11, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0038,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 10], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(5, 10) = 5, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [5, 0]]",A,"[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","{""cap1"": 5, ""cap2"": 10, ""target"": 2, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 5, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0039,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 10], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(8, 10) = 2, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7]]","[[0, 0], [8, 0]]","[[0, 0], [0, 10], [8, 1], [0, 8], [8, 8], [5, 10], [5, 0], [0, 4], [8, 4], [1, 10], [8, 2], [0, 9]]","[[0, 0], [8, 0], [0, 7], [6, 0]]",C,"[[0, 0], [0, 10], [8, 1], [0, 8], [8, 8], [5, 10], [5, 0], [0, 4], [8, 4], [1, 10], [8, 2], [0, 9]]","{""cap1"": 8, ""cap2"": 10, ""target"": 9, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 12, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0040,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 10, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 10L in either jug
+(Note: gcd(9, 12) = 3, so 10 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [9, 2], [0, 10]]","[[0, 0], [9, 0], [0, 8]]","[[0, 0], [9, 0]]","[[0, 0], [0, 12], [9, 2], [0, 2], [1, 0], [1, 12], [9, 3], [0, 11]]",A,"[[0, 0], [0, 12], [9, 2], [0, 10]]","{""cap1"": 9, ""cap2"": 12, ""target"": 10, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 9, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0041,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 10], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(6, 10) = 2, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 10], [6, 3], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [2, 10]]","[[0, 0], [0, 10], [6, 3]]","[[0, 0], [0, 10], [6, 3], [0, 8], [6, 1]]",D,"[[0, 0], [0, 10], [6, 3], [0, 8], [6, 1]]","{""cap1"": 6, ""cap2"": 10, ""target"": 1, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0042,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 12], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(10, 12) = 2, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [10, 2], [0, 2], [2, 0], [2, 12], [10, 4]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [10, 7], [4, 12]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [6, 0], [0, 5]]",D,"[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [6, 0], [0, 5]]","{""cap1"": 10, ""cap2"": 12, ""target"": 5, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0043,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 10], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(6, 10) = 2, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [2, 10]]","[[0, 0], [0, 10], [6, 3]]","[[0, 0], [0, 10], [6, 3], [0, 3], [2, 0]]",C,"[[0, 0], [0, 10], [6, 3]]","{""cap1"": 6, ""cap2"": 10, ""target"": 3, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0044,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(3, 9) = 3, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 9], [3, 6]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [0, 9], [3, 5]]",D,"[[0, 0], [0, 9], [3, 5]]","{""cap1"": 3, ""cap2"": 9, ""target"": 5, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0045,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(6, 12) = 6, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [6, 5], [0, 10]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9]]","[[0, 0], [0, 12], [6, 5], [0, 10], [6, 3], [0, 8]]","[[0, 0], [6, 0]]",B,"[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9]]","{""cap1"": 6, ""cap2"": 12, ""target"": 9, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0046,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 10, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 10L in either jug
+(Note: gcd(4, 12) = 4, so 10 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [4, 7], [0, 10]]","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 12], [4, 9]]","[[0, 0], [0, 12], [4, 8]]","[[0, 0], [0, 12], [4, 7], [0, 10], [4, 10], [1, 12], [4, 8], [0, 11]]",A,"[[0, 0], [0, 12], [4, 7], [0, 10]]","{""cap1"": 4, ""cap2"": 12, ""target"": 10, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0047,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 5], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(5, 5) = 5, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0], [0, 4]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]",D,"[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","{""cap1"": 5, ""cap2"": 5, ""target"": 2, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0048,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 6], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(3, 6) = 3, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [0, 6], [3, 2], [0, 4]]",B,"[[0, 0], [3, 0], [0, 2], [1, 0]]","{""cap1"": 3, ""cap2"": 6, ""target"": 1, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0049,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 6], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(4, 6) = 2, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 6], [4, 2]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 6], [4, 1]]",D,"[[0, 0], [0, 6], [4, 1]]","{""cap1"": 4, ""cap2"": 6, ""target"": 1, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0050,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 8], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(6, 8) = 2, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [0, 8], [6, 1]]","[[0, 0], [6, 0], [0, 5], [6, 5], [2, 8]]","[[0, 0], [0, 8], [6, 2]]",B,"[[0, 0], [0, 8], [6, 1]]","{""cap1"": 6, ""cap2"": 8, ""target"": 1, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0051,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 12], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(8, 12) = 4, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [8, 7], [2, 12]]","[[0, 0], [0, 12], [8, 4]]","[[0, 0], [0, 12], [8, 3]]","[[0, 0], [0, 12], [8, 3], [0, 10], [8, 1]]",A,"[[0, 0], [8, 0], [0, 7], [8, 7], [2, 12]]","{""cap1"": 8, ""cap2"": 12, ""target"": 2, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0052,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(4, 12) = 4, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [4, 7]]","[[0, 0], [4, 0]]","[[0, 0], [0, 12], [4, 7], [0, 10], [4, 5]]","[[0, 0], [4, 0], [0, 3], [4, 3], [0, 6]]",C,"[[0, 0], [0, 12], [4, 7], [0, 10], [4, 5]]","{""cap1"": 4, ""cap2"": 12, ""target"": 5, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0053,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 8], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(6, 8) = 2, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [6, 5], [2, 8]]","[[0, 0], [0, 8], [6, 2]]","[[0, 0], [6, 0], [0, 5], [4, 0]]",A,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","{""cap1"": 6, ""cap2"": 8, ""target"": 3, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0054,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(3, 9) = 3, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]",B,"[[0, 0], [3, 0], [0, 2], [1, 0]]","{""cap1"": 3, ""cap2"": 9, ""target"": 1, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0055,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(3, 9) = 3, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 9], [3, 5], [0, 7]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6], [0, 8]]","[[0, 0], [0, 9], [3, 6]]",A,"[[0, 0], [0, 9], [3, 5], [0, 7]]","{""cap1"": 3, ""cap2"": 9, ""target"": 7, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0056,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 6], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(6, 6) = 6, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0]]",A,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","{""cap1"": 6, ""cap2"": 6, ""target"": 3, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0057,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 12], ""target"": 11, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 11L in either jug
+(Note: gcd(8, 12) = 4, so 11 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [6, 12], [8, 9]]","[[0, 0], [8, 0]]","[[0, 0], [0, 12], [8, 3], [0, 10]]","[[0, 0], [0, 12], [8, 3], [0, 10], [8, 10], [5, 12], [5, 0], [0, 4], [8, 4], [0, 11]]",D,"[[0, 0], [0, 12], [8, 3], [0, 10], [8, 10], [5, 12], [5, 0], [0, 4], [8, 4], [0, 11]]","{""cap1"": 8, ""cap2"": 12, ""target"": 11, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 10, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0058,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 12], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(10, 12) = 2, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9]]","[[0, 0], [10, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0]]","[[0, 0], [10, 0], [0, 10], [10, 10], [8, 12]]",A,"[[0, 0], [10, 0], [0, 9]]","{""cap1"": 10, ""cap2"": 12, ""target"": 9, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0059,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 12], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(8, 12) = 4, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 12], [8, 4]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [8, 0], [0, 7], [6, 0]]",C,"[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","{""cap1"": 8, ""cap2"": 12, ""target"": 5, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0060,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(4, 12) = 4, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]",D,"[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 4, ""cap2"": 12, ""target"": 1, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0061,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(4, 12) = 4, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 12], [4, 7], [0, 10], [4, 5]]",A,"[[0, 0], [4, 0], [0, 3]]","{""cap1"": 4, ""cap2"": 12, ""target"": 3, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0062,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(10, 10) = 10, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]",D,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]","{""cap1"": 10, ""cap2"": 10, ""target"": 3, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 9, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0063,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 6], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(6, 6) = 6, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]",C,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 6, ""cap2"": 6, ""target"": 1, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0064,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 9], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(6, 9) = 3, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [6, 5], [1, 9], [6, 3], [0, 8]]","[[0, 0], [0, 9], [6, 2], [0, 7]]","[[0, 0], [6, 0]]",C,"[[0, 0], [0, 9], [6, 2], [0, 7]]","{""cap1"": 6, ""cap2"": 9, ""target"": 7, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0065,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 9], ""target"": 8, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 8L in either jug
+(Note: gcd(6, 9) = 3, so 8 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 9], [6, 2], [0, 7]]","[[0, 0], [6, 0], [0, 5], [6, 5], [1, 9], [6, 3], [0, 8]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0]]",B,"[[0, 0], [6, 0], [0, 5], [6, 5], [1, 9], [6, 3], [0, 8]]","{""cap1"": 6, ""cap2"": 9, ""target"": 8, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0066,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(6, 12) = 6, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0]]",A,"[[0, 0], [6, 0], [0, 5], [4, 0]]","{""cap1"": 6, ""cap2"": 12, ""target"": 4, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0067,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(9, 12) = 3, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","[[0, 0], [9, 0], [0, 9], [9, 9], [6, 12]]","[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12]]",A,"[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]","{""cap1"": 9, ""cap2"": 12, ""target"": 5, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0068,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 9], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(3, 9) = 3, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6]]","[[0, 0], [0, 9], [3, 5]]",A,"[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","{""cap1"": 3, ""cap2"": 9, ""target"": 4, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0069,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 8, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 8L in either jug
+(Note: gcd(9, 12) = 3, so 8 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0]]","[[0, 0], [9, 0]]","[[0, 0], [0, 12], [9, 2], [0, 10]]","[[0, 0], [9, 0], [0, 8]]",D,"[[0, 0], [9, 0], [0, 8]]","{""cap1"": 9, ""cap2"": 12, ""target"": 8, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 9, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0070,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [7, 7], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(7, 7) = 7, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]",B,"[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","{""cap1"": 7, ""cap2"": 7, ""target"": 1, ""gcd"": 7, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 8, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0071,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(10, 10) = 10, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0]]","[[0, 0], [10, 0], [0, 9]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]",D,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]","{""cap1"": 10, ""cap2"": 10, ""target"": 7, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0072,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 6], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(6, 6) = 6, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0]]",D,"[[0, 0], [6, 0], [0, 5], [4, 0]]","{""cap1"": 6, ""cap2"": 6, ""target"": 4, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0073,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 12], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(8, 12) = 4, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [6, 12], [8, 9]]","[[0, 0], [8, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 7]]",D,"[[0, 0], [8, 0], [0, 7]]","{""cap1"": 8, ""cap2"": 12, ""target"": 7, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0074,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [7, 7], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(7, 7) = 7, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [7, 0], [0, 6], [5, 0]]",A,"[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","{""cap1"": 7, ""cap2"": 7, ""target"": 3, ""gcd"": 7, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0075,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(10, 10) = 10, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0]]",C,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5]]","{""cap1"": 10, ""cap2"": 10, ""target"": 5, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0076,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(9, 12) = 3, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12], [4, 0], [0, 3]]","[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12]]","[[0, 0], [0, 12], [9, 3]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]",B,"[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12]]","{""cap1"": 9, ""cap2"": 12, ""target"": 4, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0077,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 5], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(5, 5) = 5, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [5, 0], [0, 4]]",A,"[[0, 0], [5, 0], [0, 4], [3, 0]]","{""cap1"": 5, ""cap2"": 5, ""target"": 3, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0078,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 10], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(6, 10) = 2, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 10], [6, 7]]","[[0, 0], [0, 10], [6, 3], [0, 8]]","[[0, 0], [0, 10], [6, 3], [0, 8], [6, 8], [3, 10], [6, 6], [1, 10], [6, 4], [0, 9]]",B,"[[0, 0], [6, 0], [0, 5], [4, 0], [4, 10], [6, 7]]","{""cap1"": 6, ""cap2"": 10, ""target"": 7, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0079,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 12], ""target"": 3, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 3L in either jug
+(Note: gcd(10, 12) = 2, so 3 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [6, 0], [0, 5], [10, 5], [2, 12]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [10, 7], [4, 12]]","[[0, 0], [0, 12], [10, 2]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [6, 0], [0, 5], [4, 0], [0, 3]]",D,"[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12], [6, 0], [0, 5], [4, 0], [0, 3]]","{""cap1"": 10, ""cap2"": 12, ""target"": 3, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 9, ""near_target"": 2, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0080,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 11, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 11L in either jug
+(Note: gcd(6, 12) = 6, so 11 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9]]","[[0, 0], [0, 12], [6, 5], [0, 10]]","[[0, 0], [6, 0]]","[[0, 0], [0, 12], [6, 5], [0, 10], [6, 10], [3, 12], [6, 8], [1, 12], [6, 6], [0, 11]]",D,"[[0, 0], [0, 12], [6, 5], [0, 10], [6, 10], [3, 12], [6, 8], [1, 12], [6, 6], [0, 11]]","{""cap1"": 6, ""cap2"": 12, ""target"": 11, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 10, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0081,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 8, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 8L in either jug
+(Note: gcd(6, 12) = 6, so 8 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9], [2, 12], [6, 7]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 12], [6, 9]]","[[0, 0], [0, 12], [6, 5], [0, 10], [6, 3], [0, 8]]","[[0, 0], [6, 0]]",C,"[[0, 0], [0, 12], [6, 5], [0, 10], [6, 3], [0, 8]]","{""cap1"": 6, ""cap2"": 12, ""target"": 8, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0082,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(10, 10) = 10, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]","[[0, 0], [10, 0], [0, 9]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0]]",C,"[[0, 0], [10, 0], [0, 9]]","{""cap1"": 10, ""cap2"": 10, ""target"": 9, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0083,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 12], ""target"": 11, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 11L in either jug
+(Note: gcd(3, 12) = 3, so 11 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 12], [3, 9], [0, 11]]","[[0, 0], [0, 12], [3, 8], [0, 10]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 12], [3, 9]]","[[0, 0], [0, 12], [3, 9]]",A,"[[0, 0], [3, 0], [0, 2], [1, 0], [1, 12], [3, 9], [0, 11]]","{""cap1"": 3, ""cap2"": 12, ""target"": 11, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 7, ""near_target"": 9, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0084,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 12], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(10, 12) = 2, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]","[[0, 0], [10, 0], [0, 10], [10, 10], [8, 12], [8, 0], [0, 8], [10, 8], [6, 12]]","[[0, 0], [10, 0], [0, 9], [10, 9], [6, 12]]",B,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7]]","{""cap1"": 10, ""cap2"": 12, ""target"": 7, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0085,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 9], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(9, 9) = 9, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [9, 0], [0, 8], [7, 0]]",B,"[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0]]","{""cap1"": 9, ""cap2"": 9, ""target"": 5, ""gcd"": 9, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0086,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(4, 12) = 4, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [4, 8]]","[[0, 0], [0, 12], [4, 7]]","[[0, 0], [4, 0], [0, 3], [4, 3], [0, 6]]","[[0, 0], [0, 12], [4, 7], [0, 10], [4, 5], [0, 8]]",B,"[[0, 0], [0, 12], [4, 7]]","{""cap1"": 4, ""cap2"": 12, ""target"": 7, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0087,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 10], ""target"": 7, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 7L in either jug
+(Note: gcd(4, 10) = 2, so 7 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3], [4, 3], [0, 6]]","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 10], [4, 7]]","[[0, 0], [0, 10], [4, 5], [0, 8]]","[[0, 0], [0, 10], [4, 6]]",B,"[[0, 0], [4, 0], [0, 3], [2, 0], [2, 10], [4, 7]]","{""cap1"": 4, ""cap2"": 10, ""target"": 7, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0088,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 9], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(6, 9) = 3, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 9], [6, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]",B,"[[0, 0], [6, 0], [0, 5], [4, 0]]","{""cap1"": 6, ""cap2"": 9, ""target"": 4, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0089,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 8], ""target"": 5, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 5L in either jug
+(Note: gcd(4, 8) = 4, so 5 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 8], [4, 5]]","[[0, 0], [0, 8], [4, 3], [0, 6]]","[[0, 0], [0, 8], [4, 3], [0, 6], [4, 6], [1, 8], [4, 4], [0, 7]]",B,"[[0, 0], [4, 0], [0, 3], [2, 0], [2, 8], [4, 5]]","{""cap1"": 4, ""cap2"": 8, ""target"": 5, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0090,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 8], ""target"": 6, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 6L in either jug
+(Note: gcd(8, 8) = 8, so 6 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [8, 0], [0, 7]]",B,"[[0, 0], [8, 0], [0, 7], [6, 0]]","{""cap1"": 8, ""cap2"": 8, ""target"": 6, ""gcd"": 8, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0091,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 12], ""target"": 9, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 9L in either jug
+(Note: gcd(4, 12) = 4, so 9 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 12], [4, 7], [0, 10]]","[[0, 0], [0, 12], [4, 8]]","[[0, 0], [4, 0], [0, 3], [2, 0], [2, 12], [4, 9]]","[[0, 0], [0, 12], [4, 7], [0, 10], [4, 5], [0, 8]]",C,"[[0, 0], [4, 0], [0, 3], [2, 0], [2, 12], [4, 9]]","{""cap1"": 4, ""cap2"": 12, ""target"": 9, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 8, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0092,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 10], ""target"": 8, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 8L in either jug
+(Note: gcd(5, 10) = 5, so 8 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 10], [5, 7], [1, 10], [5, 5], [0, 9]]","[[0, 0], [0, 10], [5, 4], [0, 8]]","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 10], [5, 7]]","[[0, 0], [5, 0]]",B,"[[0, 0], [0, 10], [5, 4], [0, 8]]","{""cap1"": 5, ""cap2"": 10, ""target"": 8, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 5, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0093,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [9, 12], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(9, 12) = 3, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [9, 0], [0, 8], [9, 8], [4, 12], [4, 0], [0, 3]]","[[0, 0], [0, 12], [9, 3]]","[[0, 0], [0, 12], [9, 2]]","[[0, 0], [0, 12], [9, 2], [0, 2], [1, 0]]",D,"[[0, 0], [0, 12], [9, 2], [0, 2], [1, 0]]","{""cap1"": 9, ""cap2"": 12, ""target"": 1, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0094,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [5, 10], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(5, 10) = 5, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [5, 0], [0, 4]]","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0]]","[[0, 0], [0, 10], [5, 4], [0, 8], [5, 2], [0, 6]]",A,"[[0, 0], [5, 0], [0, 4]]","{""cap1"": 5, ""cap2"": 10, ""target"": 4, ""gcd"": 5, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 5, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0095,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 6], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(6, 6) = 6, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]",D,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","{""cap1"": 6, ""cap2"": 6, ""target"": 2, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0096,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [4, 8], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(4, 8) = 4, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [4, 0]]",C,"[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","{""cap1"": 4, ""cap2"": 8, ""target"": 1, ""gcd"": 4, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 5, ""near_target"": 4, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0097,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [6, 12], ""target"": 2, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 2L in either jug
+(Note: gcd(6, 12) = 6, so 2 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [6, 0]]",A,"[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","{""cap1"": 6, ""cap2"": 12, ""target"": 2, ""gcd"": 6, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 6, ""near_target"": 6, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0098,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [3, 12], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(3, 12) = 3, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [3, 0], [0, 2]]",A,"[[0, 0], [3, 0], [0, 2], [1, 0]]","{""cap1"": 3, ""cap2"": 12, ""target"": 1, ""gcd"": 3, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 4, ""near_target"": 3, ""has_classic_near_distractor"": true}"
+entropy_jugs_cf1_gcd_breaker_0099,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [10, 10], ""target"": 4, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 10L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 4L in either jug
+(Note: gcd(10, 10) = 10, so 4 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]",D,"[[0, 0], [10, 0], [0, 9], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","{""cap1"": 10, ""cap2"": 10, ""target"": 4, ""gcd"": 10, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 8, ""near_target"": null, ""has_classic_near_distractor"": false}"
+entropy_jugs_cf1_gcd_breaker_0100,entropy_jugs_cf1_gcd_breaker,counterfactual,"{""capacities"": [8, 10], ""target"": 1, ""start"": [0, 0]}","You are playing Entropy Jugs — a variant of the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other — with a 1-unit EVAPORATION TAX:
+      Amount removed from source jug = min(Source, TargetSpace + 1)
+      Amount added to target jug     = max(0, AmountRemoved - 1)
+    Example: pouring 4 units removes 4 from source but delivers only 3 to target.
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 1L in either jug
+(Note: gcd(8, 10) = 2, so 1 is unreachable under standard rules — the tax changes what is possible.)
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence under Entropy Jugs rules?
+Note: one option shows the path obtained by applying standard Water Jug rules (which cannot reach this target and instead reaches the nearest achievable amount).","[[0, 0], [0, 10], [8, 1]]","[[0, 0], [0, 10], [8, 2]]","[[0, 0], [8, 0], [0, 7], [8, 7], [4, 10], [4, 0], [0, 3]]","[[0, 0], [8, 0], [0, 7], [8, 7], [4, 10], [8, 5], [2, 10]]",A,"[[0, 0], [0, 10], [8, 1]]","{""cap1"": 8, ""cap2"": 10, ""target"": 1, ""gcd"": 2, ""taxed"": true, ""category"": ""gcd_breaker"", ""taxed_path_length"": 3, ""near_target"": 2, ""has_classic_near_distractor"": true}"

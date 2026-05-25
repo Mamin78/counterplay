@@ -1,0 +1,1101 @@
+id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+countdown_baseline_0001,countdown_baseline,baseline,"{""numbers"": [7, 6, 1, 8, 6, 3], ""target"": 298}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 6, 1, 8, 6, 3
+Target: 298
+
+Which of the following expressions correctly reaches the target?",((7 + 3) + (6 × (6 × 8))),((7 − 3) + (6 × (6 × 8))),((7 + 3) − (6 × (6 × 8))),((7 + 3) + (6 × (6 − 8))),A,((7 + 3) + (6 × (6 × 8))),"{""numbers"": [7, 6, 1, 8, 6, 3], ""target"": 298}"
+countdown_baseline_0002,countdown_baseline,baseline,"{""numbers"": [5, 6, 2, 8, 2, 3], ""target"": 114}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 6, 2, 8, 2, 3
+Target: 114
+
+Which of the following expressions correctly reaches the target?",(3 + (8 + (5 × 6))),(3 − (8 + (5 × 6))),(3 × (8 + (5 + 6))),(3 × (8 + (5 × 6))),D,(3 × (8 + (5 × 6))),"{""numbers"": [5, 6, 2, 8, 2, 3], ""target"": 114}"
+countdown_baseline_0003,countdown_baseline,baseline,"{""numbers"": [6, 7, 1, 5, 5, 6], ""target"": 210}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 7, 1, 5, 5, 6
+Target: 210
+
+Which of the following expressions correctly reaches the target?",(5 + (6 × 7)),(5 × (6 × 7)),(5 × (6 + 7)),(5 × (6 − 7)),B,(5 × (6 × 7)),"{""numbers"": [6, 7, 1, 5, 5, 6], ""target"": 210}"
+countdown_baseline_0004,countdown_baseline,baseline,"{""numbers"": [9, 1, 8, 4, 6, 8], ""target"": 288}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 1, 8, 4, 6, 8
+Target: 288
+
+Which of the following expressions correctly reaches the target?",(4 × (9 + 8)),(4 × (9 − 8)),(4 − (9 × 8)),(4 × (9 × 8)),D,(4 × (9 × 8)),"{""numbers"": [9, 1, 8, 4, 6, 8], ""target"": 288}"
+countdown_baseline_0005,countdown_baseline,baseline,"{""numbers"": [8, 7, 6, 3, 8, 8], ""target"": 672}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 7, 6, 3, 8, 8
+Target: 672
+
+Which of the following expressions correctly reaches the target?",((8 − 8) × (7 × 6)),((8 + 8) × (7 × 6)),((8 × 8) × (7 × 6)),((8 + 8) + (7 × 6)),B,((8 + 8) × (7 × 6)),"{""numbers"": [8, 7, 6, 3, 8, 8], ""target"": 672}"
+countdown_baseline_0006,countdown_baseline,baseline,"{""numbers"": [4, 5, 8, 4, 2, 3], ""target"": 240}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 5, 8, 4, 2, 3
+Target: 240
+
+Which of the following expressions correctly reaches the target?",((4 × 5) × (8 + 4)),((4 + 5) × (8 + 4)),((4 × 5) × (8 ÷ 4)),((4 × 5) × (8 × 4)),A,((4 × 5) × (8 + 4)),"{""numbers"": [4, 5, 8, 4, 2, 3], ""target"": 240}"
+countdown_baseline_0007,countdown_baseline,baseline,"{""numbers"": [8, 1, 9, 7, 7, 9], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 1, 9, 7, 7, 9
+Target: 144
+
+Which of the following expressions correctly reaches the target?",(8 + (9 + 9)),(8 × (9 + 9)),(8 × (9 − 9)),(8 − (9 + 9)),B,(8 × (9 + 9)),"{""numbers"": [8, 1, 9, 7, 7, 9], ""target"": 144}"
+countdown_baseline_0008,countdown_baseline,baseline,"{""numbers"": [2, 3, 7, 8, 9, 9], ""target"": 265}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 3, 7, 8, 9, 9
+Target: 265
+
+Which of the following expressions correctly reaches the target?",((3 − (8 + (9 × 9))) − 2),((3 × (8 + (9 × 9))) − 2),((3 × (8 + (9 − 9))) − 2),((3 × (8 + (9 ÷ 9))) − 2),B,((3 × (8 + (9 × 9))) − 2),"{""numbers"": [2, 3, 7, 8, 9, 9], ""target"": 265}"
+countdown_baseline_0009,countdown_baseline,baseline,"{""numbers"": [4, 9, 8, 6, 8, 2], ""target"": 112}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 9, 8, 6, 8, 2
+Target: 112
+
+Which of the following expressions correctly reaches the target?",(8 × (8 − 6)),(8 × (8 + 6)),(8 − (8 + 6)),(8 × (8 × 6)),B,(8 × (8 + 6)),"{""numbers"": [4, 9, 8, 6, 8, 2], ""target"": 112}"
+countdown_baseline_0010,countdown_baseline,baseline,"{""numbers"": [9, 6, 4, 3, 2, 4], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 6, 4, 3, 2, 4
+Target: 144
+
+Which of the following expressions correctly reaches the target?",(4 × (9 × 4)),(4 + (9 × 4)),(4 − (9 × 4)),(4 × (9 + 4)),A,(4 × (9 × 4)),"{""numbers"": [9, 6, 4, 3, 2, 4], ""target"": 144}"
+countdown_baseline_0011,countdown_baseline,baseline,"{""numbers"": [9, 8, 3, 1, 6, 1], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 8, 3, 1, 6, 1
+Target: 144
+
+Which of the following expressions correctly reaches the target?",(6 × (8 + 3)),(6 − (8 × 3)),(6 + (8 × 3)),(6 × (8 × 3)),D,(6 × (8 × 3)),"{""numbers"": [9, 8, 3, 1, 6, 1], ""target"": 144}"
+countdown_baseline_0012,countdown_baseline,baseline,"{""numbers"": [1, 7, 6, 4, 1, 8], ""target"": 448}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 7, 6, 4, 1, 8
+Target: 448
+
+Which of the following expressions correctly reaches the target?",((6 × 8) × (4 × (1 + 7))),((6 − 8) × (4 × (1 + 7))),((6 + 8) + (4 × (1 + 7))),((6 + 8) × (4 × (1 + 7))),D,((6 + 8) × (4 × (1 + 7))),"{""numbers"": [1, 7, 6, 4, 1, 8], ""target"": 448}"
+countdown_baseline_0013,countdown_baseline,baseline,"{""numbers"": [2, 6, 5, 6, 5, 5], ""target"": 192}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 6, 5, 6, 5, 5
+Target: 192
+
+Which of the following expressions correctly reaches the target?",(6 × (2 + (6 × 5))),(6 + (2 + (6 × 5))),(6 × (2 + (6 − 5))),(6 − (2 + (6 × 5))),A,(6 × (2 + (6 × 5))),"{""numbers"": [2, 6, 5, 6, 5, 5], ""target"": 192}"
+countdown_baseline_0014,countdown_baseline,baseline,"{""numbers"": [1, 7, 5, 9, 5, 3], ""target"": 317}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 7, 5, 9, 5, 3
+Target: 317
+
+Which of the following expressions correctly reaches the target?",((7 × (1 + (5 × 9))) × 5),((7 − (1 + (5 × 9))) − 5),((7 × (1 + (5 − 9))) − 5),((7 × (1 + (5 × 9))) − 5),D,((7 × (1 + (5 × 9))) − 5),"{""numbers"": [1, 7, 5, 9, 5, 3], ""target"": 317}"
+countdown_baseline_0015,countdown_baseline,baseline,"{""numbers"": [7, 1, 8, 3, 9, 4], ""target"": 576}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 1, 8, 3, 9, 4
+Target: 576
+
+Which of the following expressions correctly reaches the target?",((7 + 1) × (8 × 9)),((7 × 1) × (8 × 9)),((7 − 1) × (8 × 9)),((7 + 1) × (8 − 9)),A,((7 + 1) × (8 × 9)),"{""numbers"": [7, 1, 8, 3, 9, 4], ""target"": 576}"
+countdown_baseline_0016,countdown_baseline,baseline,"{""numbers"": [6, 2, 8, 8, 8, 4], ""target"": 112}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 2, 8, 8, 8, 4
+Target: 112
+
+Which of the following expressions correctly reaches the target?",(8 × (6 − 8)),(8 × (6 × 8)),(8 × (6 + 8)),(8 + (6 + 8)),C,(8 × (6 + 8)),"{""numbers"": [6, 2, 8, 8, 8, 4], ""target"": 112}"
+countdown_baseline_0017,countdown_baseline,baseline,"{""numbers"": [5, 5, 9, 1, 7, 2], ""target"": 322}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 5, 9, 1, 7, 2
+Target: 322
+
+Which of the following expressions correctly reaches the target?",(7 × (1 + (5 × 9))),(7 × (1 + (5 − 9))),(7 × (1 × (5 × 9))),(7 × (1 + (5 + 9))),A,(7 × (1 + (5 × 9))),"{""numbers"": [5, 5, 9, 1, 7, 2], ""target"": 322}"
+countdown_baseline_0018,countdown_baseline,baseline,"{""numbers"": [6, 6, 8, 8, 9, 5], ""target"": 228}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 6, 8, 8, 9, 5
+Target: 228
+
+Which of the following expressions correctly reaches the target?",(6 × (8 + (6 × 5))),(6 × (8 + (6 − 5))),(6 × (8 + (6 + 5))),(6 × (8 × (6 × 5))),A,(6 × (8 + (6 × 5))),"{""numbers"": [6, 6, 8, 8, 9, 5], ""target"": 228}"
+countdown_baseline_0019,countdown_baseline,baseline,"{""numbers"": [4, 2, 1, 7, 8, 9], ""target"": 497}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 2, 1, 7, 8, 9
+Target: 497
+
+Which of the following expressions correctly reaches the target?",(7 × ((8 − 9) − 1)),(7 × ((8 + 9) − 1)),(7 − ((8 × 9) − 1)),(7 × ((8 × 9) − 1)),D,(7 × ((8 × 9) − 1)),"{""numbers"": [4, 2, 1, 7, 8, 9], ""target"": 497}"
+countdown_baseline_0020,countdown_baseline,baseline,"{""numbers"": [8, 2, 5, 1, 7, 2], ""target"": 100}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 2, 5, 1, 7, 2
+Target: 100
+
+Which of the following expressions correctly reaches the target?",((8 + 2) ÷ (5 × 2)),((8 + 2) × (5 × 2)),((8 × 2) × (5 × 2)),((8 + 2) + (5 × 2)),B,((8 + 2) × (5 × 2)),"{""numbers"": [8, 2, 5, 1, 7, 2], ""target"": 100}"
+countdown_baseline_0021,countdown_baseline,baseline,"{""numbers"": [9, 8, 1, 3, 1, 8], ""target"": 103}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 8, 1, 3, 1, 8
+Target: 103
+
+Which of the following expressions correctly reaches the target?",((8 × (3 + (9 + 1))) − 1),((8 + (3 + (9 + 1))) − 1),((8 × (3 + (9 × 1))) − 1),((8 × (3 − (9 + 1))) − 1),A,((8 × (3 + (9 + 1))) − 1),"{""numbers"": [9, 8, 1, 3, 1, 8], ""target"": 103}"
+countdown_baseline_0022,countdown_baseline,baseline,"{""numbers"": [5, 3, 9, 7, 1, 5], ""target"": 120}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 3, 9, 7, 1, 5
+Target: 120
+
+Which of the following expressions correctly reaches the target?",((5 + 3) × (9 − 1)),((5 × 3) × (9 − 1)),((5 − 3) × (9 − 1)),((5 × 3) × (9 + 1)),B,((5 × 3) × (9 − 1)),"{""numbers"": [5, 3, 9, 7, 1, 5], ""target"": 120}"
+countdown_baseline_0023,countdown_baseline,baseline,"{""numbers"": [2, 8, 5, 7, 6, 5], ""target"": 106}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 8, 5, 7, 6, 5
+Target: 106
+
+Which of the following expressions correctly reaches the target?",(2 − (5 + (8 × 6))),(2 × (5 + (8 × 6))),(2 × (5 + (8 − 6))),(2 × (5 + (8 + 6))),B,(2 × (5 + (8 × 6))),"{""numbers"": [2, 8, 5, 7, 6, 5], ""target"": 106}"
+countdown_baseline_0024,countdown_baseline,baseline,"{""numbers"": [8, 1, 8, 8, 3, 7], ""target"": 192}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 1, 8, 8, 3, 7
+Target: 192
+
+Which of the following expressions correctly reaches the target?",(3 × (8 × 8)),(3 × (8 ÷ 8)),(3 − (8 × 8)),(3 × (8 − 8)),A,(3 × (8 × 8)),"{""numbers"": [8, 1, 8, 8, 3, 7], ""target"": 192}"
+countdown_baseline_0025,countdown_baseline,baseline,"{""numbers"": [5, 7, 6, 3, 9, 1], ""target"": 156}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 7, 6, 3, 9, 1
+Target: 156
+
+Which of the following expressions correctly reaches the target?",(6 × (5 + (7 × 3))),(6 × (5 + (7 + 3))),(6 × (5 − (7 × 3))),(6 − (5 + (7 × 3))),A,(6 × (5 + (7 × 3))),"{""numbers"": [5, 7, 6, 3, 9, 1], ""target"": 156}"
+countdown_baseline_0026,countdown_baseline,baseline,"{""numbers"": [9, 7, 9, 8, 1, 1], ""target"": 137}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 7, 9, 8, 1, 1
+Target: 137
+
+Which of the following expressions correctly reaches the target?",(9 + (8 − (9 + 7))),(9 + (8 × (9 × 7))),(9 + (8 × (9 + 7))),(9 + (8 + (9 + 7))),C,(9 + (8 × (9 + 7))),"{""numbers"": [9, 7, 9, 8, 1, 1], ""target"": 137}"
+countdown_baseline_0027,countdown_baseline,baseline,"{""numbers"": [8, 3, 5, 4, 9, 1], ""target"": 180}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 3, 5, 4, 9, 1
+Target: 180
+
+Which of the following expressions correctly reaches the target?",(9 + (5 × 4)),(9 × (5 − 4)),(9 − (5 × 4)),(9 × (5 × 4)),D,(9 × (5 × 4)),"{""numbers"": [8, 3, 5, 4, 9, 1], ""target"": 180}"
+countdown_baseline_0028,countdown_baseline,baseline,"{""numbers"": [8, 3, 8, 5, 3, 3], ""target"": 528}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 3, 8, 5, 3, 3
+Target: 528
+
+Which of the following expressions correctly reaches the target?",((8 × (8 + 3)) × (3 − 3)),((8 − (8 + 3)) × (3 + 3)),((8 × (8 + 3)) × (3 + 3)),((8 × (8 + 3)) × (3 × 3)),C,((8 × (8 + 3)) × (3 + 3)),"{""numbers"": [8, 3, 8, 5, 3, 3], ""target"": 528}"
+countdown_baseline_0029,countdown_baseline,baseline,"{""numbers"": [3, 8, 7, 5, 3, 1], ""target"": 164}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 8, 7, 5, 3, 1
+Target: 164
+
+Which of the following expressions correctly reaches the target?",(3 + (7 × (8 − (3 × 5)))),(3 + (7 × (8 × (3 × 5)))),(3 + (7 × (8 + (3 × 5)))),(3 + (7 × (8 + (3 + 5)))),C,(3 + (7 × (8 + (3 × 5)))),"{""numbers"": [3, 8, 7, 5, 3, 1], ""target"": 164}"
+countdown_baseline_0030,countdown_baseline,baseline,"{""numbers"": [8, 2, 5, 7, 3, 9], ""target"": 324}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 2, 5, 7, 3, 9
+Target: 324
+
+Which of the following expressions correctly reaches the target?",((5 + 7) × (3 × 9)),((5 × 7) × (3 × 9)),((5 − 7) × (3 × 9)),((5 + 7) × (3 − 9)),A,((5 + 7) × (3 × 9)),"{""numbers"": [8, 2, 5, 7, 3, 9], ""target"": 324}"
+countdown_baseline_0031,countdown_baseline,baseline,"{""numbers"": [9, 6, 4, 9, 1, 8], ""target"": 160}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 6, 4, 9, 1, 8
+Target: 160
+
+Which of the following expressions correctly reaches the target?",((6 − 1) × (4 × 8)),((6 × 1) × (4 × 8)),((6 + 1) × (4 × 8)),((6 − 1) − (4 × 8)),A,((6 − 1) × (4 × 8)),"{""numbers"": [9, 6, 4, 9, 1, 8], ""target"": 160}"
+countdown_baseline_0032,countdown_baseline,baseline,"{""numbers"": [4, 7, 7, 3, 6, 5], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 7, 7, 3, 6, 5
+Target: 144
+
+Which of the following expressions correctly reaches the target?",((4 × 3) × (7 − 5)),((4 × 3) × (7 × 5)),((4 × 3) × (7 + 5)),((4 × 3) − (7 + 5)),C,((4 × 3) × (7 + 5)),"{""numbers"": [4, 7, 7, 3, 6, 5], ""target"": 144}"
+countdown_baseline_0033,countdown_baseline,baseline,"{""numbers"": [9, 9, 8, 9, 9, 4], ""target"": 166}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 9, 8, 9, 9, 4
+Target: 166
+
+Which of the following expressions correctly reaches the target?",(4 + (9 × (9 − 9))),(4 + (9 × (9 ÷ 9))),(4 + (9 × (9 + 9))),(4 + (9 − (9 + 9))),C,(4 + (9 × (9 + 9))),"{""numbers"": [9, 9, 8, 9, 9, 4], ""target"": 166}"
+countdown_baseline_0034,countdown_baseline,baseline,"{""numbers"": [1, 8, 4, 8, 2, 1], ""target"": 128}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 8, 4, 8, 2, 1
+Target: 128
+
+Which of the following expressions correctly reaches the target?",(2 + (8 × 8)),(2 − (8 × 8)),(2 × (8 − 8)),(2 × (8 × 8)),D,(2 × (8 × 8)),"{""numbers"": [1, 8, 4, 8, 2, 1], ""target"": 128}"
+countdown_baseline_0035,countdown_baseline,baseline,"{""numbers"": [8, 1, 7, 7, 8, 1], ""target"": 840}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 1, 7, 7, 8, 1
+Target: 840
+
+Which of the following expressions correctly reaches the target?",((8 + 7) × (7 × 8)),((8 − 7) × (7 × 8)),((8 × 7) × (7 × 8)),((8 + 7) − (7 × 8)),A,((8 + 7) × (7 × 8)),"{""numbers"": [8, 1, 7, 7, 8, 1], ""target"": 840}"
+countdown_baseline_0036,countdown_baseline,baseline,"{""numbers"": [7, 9, 5, 3, 7, 8], ""target"": 742}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 9, 5, 3, 7, 8
+Target: 742
+
+Which of the following expressions correctly reaches the target?",((9 + 5) × ((7 + 8) − 3)),((9 + 5) × ((7 − 8) − 3)),((9 + 5) × ((7 × 8) − 3)),((9 + 5) + ((7 × 8) − 3)),C,((9 + 5) × ((7 × 8) − 3)),"{""numbers"": [7, 9, 5, 3, 7, 8], ""target"": 742}"
+countdown_baseline_0037,countdown_baseline,baseline,"{""numbers"": [2, 4, 6, 9, 9, 6], ""target"": 195}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 4, 6, 9, 9, 6
+Target: 195
+
+Which of the following expressions correctly reaches the target?",((4 − 9) × (6 + 9)),((4 + 9) + (6 + 9)),((4 + 9) × (6 + 9)),((4 × 9) × (6 + 9)),C,((4 + 9) × (6 + 9)),"{""numbers"": [2, 4, 6, 9, 9, 6], ""target"": 195}"
+countdown_baseline_0038,countdown_baseline,baseline,"{""numbers"": [8, 7, 8, 6, 6, 6], ""target"": 112}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 7, 8, 6, 6, 6
+Target: 112
+
+Which of the following expressions correctly reaches the target?",(7 × (8 × 8)),(7 × (8 ÷ 8)),(7 × (8 + 8)),(7 − (8 + 8)),C,(7 × (8 + 8)),"{""numbers"": [8, 7, 8, 6, 6, 6], ""target"": 112}"
+countdown_baseline_0039,countdown_baseline,baseline,"{""numbers"": [1, 5, 7, 6, 6, 9], ""target"": 264}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 5, 7, 6, 6, 9
+Target: 264
+
+Which of the following expressions correctly reaches the target?",(6 × ((5 × 9) ÷ 1)),(6 × ((5 − 9) − 1)),(6 × ((5 + 9) − 1)),(6 × ((5 × 9) − 1)),D,(6 × ((5 × 9) − 1)),"{""numbers"": [1, 5, 7, 6, 6, 9], ""target"": 264}"
+countdown_baseline_0040,countdown_baseline,baseline,"{""numbers"": [3, 8, 5, 1, 8, 3], ""target"": 330}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 8, 5, 1, 8, 3
+Target: 330
+
+Which of the following expressions correctly reaches the target?",(5 × ((3 − 1) + (8 + 8))),(5 × ((3 − 1) + (8 × 8))),(5 × ((3 − 1) + (8 − 8))),(5 − ((3 − 1) + (8 × 8))),B,(5 × ((3 − 1) + (8 × 8))),"{""numbers"": [3, 8, 5, 1, 8, 3], ""target"": 330}"
+countdown_baseline_0041,countdown_baseline,baseline,"{""numbers"": [8, 9, 3, 6, 6, 9], ""target"": 440}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 9, 3, 6, 6, 9
+Target: 440
+
+Which of the following expressions correctly reaches the target?",(8 × ((9 + 3) × (6 × 6))),(8 + ((9 − 3) × (6 × 6))),(8 + ((9 + 3) × (6 − 6))),(8 + ((9 + 3) × (6 × 6))),D,(8 + ((9 + 3) × (6 × 6))),"{""numbers"": [8, 9, 3, 6, 6, 9], ""target"": 440}"
+countdown_baseline_0042,countdown_baseline,baseline,"{""numbers"": [5, 9, 9, 9, 6, 8], ""target"": 630}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 9, 9, 9, 6, 8
+Target: 630
+
+Which of the following expressions correctly reaches the target?",((5 − 9) × (6 + 8)),((5 + 9) × (6 + 8)),((5 × 9) + (6 + 8)),((5 × 9) × (6 + 8)),D,((5 × 9) × (6 + 8)),"{""numbers"": [5, 9, 9, 9, 6, 8], ""target"": 630}"
+countdown_baseline_0043,countdown_baseline,baseline,"{""numbers"": [7, 3, 1, 9, 3, 9], ""target"": 133}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 3, 1, 9, 3, 9
+Target: 133
+
+Which of the following expressions correctly reaches the target?",(7 × (9 + (1 + 9))),(7 × (9 − (1 + 9))),(7 + (9 + (1 + 9))),(7 × (9 × (1 + 9))),A,(7 × (9 + (1 + 9))),"{""numbers"": [7, 3, 1, 9, 3, 9], ""target"": 133}"
+countdown_baseline_0044,countdown_baseline,baseline,"{""numbers"": [1, 9, 2, 2, 3, 7], ""target"": 168}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 9, 2, 2, 3, 7
+Target: 168
+
+Which of the following expressions correctly reaches the target?",((9 − 1) × (3 + 7)),((9 − 1) × (3 × 7)),((9 × 1) × (3 × 7)),((9 − 1) + (3 × 7)),B,((9 − 1) × (3 × 7)),"{""numbers"": [1, 9, 2, 2, 3, 7], ""target"": 168}"
+countdown_baseline_0045,countdown_baseline,baseline,"{""numbers"": [9, 3, 2, 4, 5, 9], ""target"": 120}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 3, 2, 4, 5, 9
+Target: 120
+
+Which of the following expressions correctly reaches the target?",((9 ÷ 3) × (2 × 5)),((9 + 3) × (2 × 5)),((9 − 3) × (2 × 5)),((9 + 3) − (2 × 5)),B,((9 + 3) × (2 × 5)),"{""numbers"": [9, 3, 2, 4, 5, 9], ""target"": 120}"
+countdown_baseline_0046,countdown_baseline,baseline,"{""numbers"": [6, 1, 5, 1, 6, 7], ""target"": 390}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 1, 5, 1, 6, 7
+Target: 390
+
+Which of the following expressions correctly reaches the target?",((6 × 5) × (6 − 7)),((6 − 5) × (6 + 7)),((6 × 5) × (6 + 7)),((6 × 5) + (6 + 7)),C,((6 × 5) × (6 + 7)),"{""numbers"": [6, 1, 5, 1, 6, 7], ""target"": 390}"
+countdown_baseline_0047,countdown_baseline,baseline,"{""numbers"": [6, 6, 4, 1, 1, 7], ""target"": 312}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 6, 4, 1, 1, 7
+Target: 312
+
+Which of the following expressions correctly reaches the target?",((6 × 4) × (6 − 7)),((6 × 4) − (6 + 7)),((6 + 4) × (6 + 7)),((6 × 4) × (6 + 7)),D,((6 × 4) × (6 + 7)),"{""numbers"": [6, 6, 4, 1, 1, 7], ""target"": 312}"
+countdown_baseline_0048,countdown_baseline,baseline,"{""numbers"": [1, 1, 7, 7, 9, 1], ""target"": 105}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 1, 7, 7, 9, 1
+Target: 105
+
+Which of the following expressions correctly reaches the target?",(7 + (9 − (1 − 7))),(7 × (9 − (1 − 7))),(7 × (9 × (1 − 7))),(7 × (9 − (1 + 7))),B,(7 × (9 − (1 − 7))),"{""numbers"": [1, 1, 7, 7, 9, 1], ""target"": 105}"
+countdown_baseline_0049,countdown_baseline,baseline,"{""numbers"": [6, 5, 4, 1, 9, 6], ""target"": 216}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 5, 4, 1, 9, 6
+Target: 216
+
+Which of the following expressions correctly reaches the target?",(9 × (6 + 4)),(9 × (6 − 4)),(9 − (6 × 4)),(9 × (6 × 4)),D,(9 × (6 × 4)),"{""numbers"": [6, 5, 4, 1, 9, 6], ""target"": 216}"
+countdown_baseline_0050,countdown_baseline,baseline,"{""numbers"": [4, 1, 4, 1, 4, 4], ""target"": 128}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 1, 4, 1, 4, 4
+Target: 128
+
+Which of the following expressions correctly reaches the target?",((4 + 4) × (4 − 4)),((4 + 4) − (4 × 4)),((4 + 4) × (4 × 4)),((4 + 4) × (4 ÷ 4)),C,((4 + 4) × (4 × 4)),"{""numbers"": [4, 1, 4, 1, 4, 4], ""target"": 128}"
+countdown_baseline_0051,countdown_baseline,baseline,"{""numbers"": [3, 8, 3, 6, 9, 2], ""target"": 282}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 8, 3, 6, 9, 2
+Target: 282
+
+Which of the following expressions correctly reaches the target?",(((3 × 8) + (3 + 9)) − 6),(((3 × 8) × (3 + 9)) − 6),(((3 × 8) × (3 + 9)) × 6),(((3 × 8) × (3 + 9)) + 6),B,(((3 × 8) × (3 + 9)) − 6),"{""numbers"": [3, 8, 3, 6, 9, 2], ""target"": 282}"
+countdown_baseline_0052,countdown_baseline,baseline,"{""numbers"": [1, 9, 4, 4, 5, 5], ""target"": 425}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 9, 4, 4, 5, 5
+Target: 425
+
+Which of the following expressions correctly reaches the target?",((1 + (4 × 4)) × (5 − 5)),((1 + (4 × 4)) × (5 + 5)),((1 + (4 × 4)) × (5 × 5)),((1 × (4 × 4)) × (5 × 5)),C,((1 + (4 × 4)) × (5 × 5)),"{""numbers"": [1, 9, 4, 4, 5, 5], ""target"": 425}"
+countdown_baseline_0053,countdown_baseline,baseline,"{""numbers"": [3, 5, 3, 1, 7, 7], ""target"": 357}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 5, 3, 1, 7, 7
+Target: 357
+
+Which of the following expressions correctly reaches the target?",(7 × (1 + (5 − (3 + 7)))),(7 × (1 − (5 × (3 + 7)))),(7 × (1 + (5 × (3 + 7)))),(7 × (1 + (5 × (3 − 7)))),C,(7 × (1 + (5 × (3 + 7)))),"{""numbers"": [3, 5, 3, 1, 7, 7], ""target"": 357}"
+countdown_baseline_0054,countdown_baseline,baseline,"{""numbers"": [8, 3, 7, 5, 9, 9], ""target"": 952}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 3, 7, 5, 9, 9
+Target: 952
+
+Which of the following expressions correctly reaches the target?",((8 × 7) − (9 + (3 + 5))),((8 + 7) × (9 + (3 + 5))),((8 × 7) × (9 + (3 × 5))),((8 × 7) × (9 + (3 + 5))),D,((8 × 7) × (9 + (3 + 5))),"{""numbers"": [8, 3, 7, 5, 9, 9], ""target"": 952}"
+countdown_baseline_0055,countdown_baseline,baseline,"{""numbers"": [9, 9, 3, 9, 2, 6], ""target"": 324}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 9, 3, 9, 2, 6
+Target: 324
+
+Which of the following expressions correctly reaches the target?",(9 × (9 + (9 + 3))),(9 × (9 + (9 × 3))),(9 × (9 × (9 × 3))),(9 × (9 + (9 − 3))),B,(9 × (9 + (9 × 3))),"{""numbers"": [9, 9, 3, 9, 2, 6], ""target"": 324}"
+countdown_baseline_0056,countdown_baseline,baseline,"{""numbers"": [1, 6, 4, 5, 3, 9], ""target"": 270}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 6, 4, 5, 3, 9
+Target: 270
+
+Which of the following expressions correctly reaches the target?",(9 × (6 − 5)),(9 × (6 + 5)),(9 − (6 × 5)),(9 × (6 × 5)),D,(9 × (6 × 5)),"{""numbers"": [1, 6, 4, 5, 3, 9], ""target"": 270}"
+countdown_baseline_0057,countdown_baseline,baseline,"{""numbers"": [5, 7, 4, 4, 6, 4], ""target"": 350}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 7, 4, 4, 6, 4
+Target: 350
+
+Which of the following expressions correctly reaches the target?",((5 × 7) − (4 + 6)),((5 × 7) × (4 + 6)),((5 + 7) × (4 + 6)),((5 × 7) × (4 × 6)),B,((5 × 7) × (4 + 6)),"{""numbers"": [5, 7, 4, 4, 6, 4], ""target"": 350}"
+countdown_baseline_0058,countdown_baseline,baseline,"{""numbers"": [8, 7, 4, 2, 8, 8], ""target"": 288}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 7, 4, 2, 8, 8
+Target: 288
+
+Which of the following expressions correctly reaches the target?",((8 ÷ 4) × (7 + 2)),((8 × 4) − (7 + 2)),((8 × 4) × (7 × 2)),((8 × 4) × (7 + 2)),D,((8 × 4) × (7 + 2)),"{""numbers"": [8, 7, 4, 2, 8, 8], ""target"": 288}"
+countdown_baseline_0059,countdown_baseline,baseline,"{""numbers"": [2, 8, 6, 6, 2, 9], ""target"": 832}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 8, 6, 6, 2, 9
+Target: 832
+
+Which of the following expressions correctly reaches the target?",((2 × 8) × ((6 × 9) − 2)),((2 × 8) × ((6 × 9) ÷ 2)),((2 × 8) + ((6 × 9) − 2)),((2 × 8) × ((6 + 9) − 2)),A,((2 × 8) × ((6 × 9) − 2)),"{""numbers"": [2, 8, 6, 6, 2, 9], ""target"": 832}"
+countdown_baseline_0060,countdown_baseline,baseline,"{""numbers"": [6, 3, 5, 1, 6, 6], ""target"": 120}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 3, 5, 1, 6, 6
+Target: 120
+
+Which of the following expressions correctly reaches the target?",((6 × 5) × (3 × 1)),((6 × 5) + (3 + 1)),((6 × 5) × (3 + 1)),((6 + 5) × (3 + 1)),C,((6 × 5) × (3 + 1)),"{""numbers"": [6, 3, 5, 1, 6, 6], ""target"": 120}"
+countdown_baseline_0061,countdown_baseline,baseline,"{""numbers"": [3, 4, 7, 1, 7, 7], ""target"": 140}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 4, 7, 1, 7, 7
+Target: 140
+
+Which of the following expressions correctly reaches the target?",(7 × ((3 − 7) − 1)),(7 × ((3 × 7) − 1)),(7 × ((3 × 7) + 1)),(7 × ((3 + 7) − 1)),B,(7 × ((3 × 7) − 1)),"{""numbers"": [3, 4, 7, 1, 7, 7], ""target"": 140}"
+countdown_baseline_0062,countdown_baseline,baseline,"{""numbers"": [5, 6, 3, 4, 8, 6], ""target"": 204}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 6, 3, 4, 8, 6
+Target: 204
+
+Which of the following expressions correctly reaches the target?",(6 × (4 + (5 + 6))),(6 × (4 × (5 × 6))),(6 − (4 + (5 × 6))),(6 × (4 + (5 × 6))),D,(6 × (4 + (5 × 6))),"{""numbers"": [5, 6, 3, 4, 8, 6], ""target"": 204}"
+countdown_baseline_0063,countdown_baseline,baseline,"{""numbers"": [1, 8, 8, 4, 2, 3], ""target"": 176}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 8, 8, 4, 2, 3
+Target: 176
+
+Which of the following expressions correctly reaches the target?",((8 ÷ 2) × (8 + 3)),((8 − 2) × (8 + 3)),((8 × 2) × (8 + 3)),((8 × 2) × (8 − 3)),C,((8 × 2) × (8 + 3)),"{""numbers"": [1, 8, 8, 4, 2, 3], ""target"": 176}"
+countdown_baseline_0064,countdown_baseline,baseline,"{""numbers"": [1, 7, 4, 7, 4, 3], ""target"": 132}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 7, 4, 7, 4, 3
+Target: 132
+
+Which of the following expressions correctly reaches the target?",((7 × 4) × (4 × 3)),((7 − 4) × (4 × 3)),((7 + 4) + (4 × 3)),((7 + 4) × (4 × 3)),D,((7 + 4) × (4 × 3)),"{""numbers"": [1, 7, 4, 7, 4, 3], ""target"": 132}"
+countdown_baseline_0065,countdown_baseline,baseline,"{""numbers"": [5, 6, 2, 4, 6, 1], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 6, 2, 4, 6, 1
+Target: 144
+
+Which of the following expressions correctly reaches the target?",(6 × (6 + 4)),(6 × (6 − 4)),(6 × (6 × 4)),(6 − (6 × 4)),C,(6 × (6 × 4)),"{""numbers"": [5, 6, 2, 4, 6, 1], ""target"": 144}"
+countdown_baseline_0066,countdown_baseline,baseline,"{""numbers"": [1, 9, 6, 8, 4, 9], ""target"": 291}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 9, 6, 8, 4, 9
+Target: 291
+
+Which of the following expressions correctly reaches the target?",((9 × (1 + (8 ÷ 4))) − 6),((9 × (1 + (8 × 4))) × 6),((9 × (1 + (8 × 4))) − 6),((9 × (1 × (8 × 4))) − 6),C,((9 × (1 + (8 × 4))) − 6),"{""numbers"": [1, 9, 6, 8, 4, 9], ""target"": 291}"
+countdown_baseline_0067,countdown_baseline,baseline,"{""numbers"": [7, 1, 8, 6, 8, 9], ""target"": 446}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 1, 8, 6, 8, 9
+Target: 446
+
+Which of the following expressions correctly reaches the target?",(6 × (8 × (1 − (7 × 8)))),(6 − (8 × (1 − (7 − 8)))),(6 − (8 × (1 − (7 + 8)))),(6 − (8 × (1 − (7 × 8)))),D,(6 − (8 × (1 − (7 × 8)))),"{""numbers"": [7, 1, 8, 6, 8, 9], ""target"": 446}"
+countdown_baseline_0068,countdown_baseline,baseline,"{""numbers"": [7, 4, 3, 4, 7, 6], ""target"": 156}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 4, 3, 4, 7, 6
+Target: 156
+
+Which of the following expressions correctly reaches the target?",((7 + 6) × (4 + 3)),((7 + 6) × (4 × 3)),((7 + 6) − (4 × 3)),((7 − 6) × (4 × 3)),B,((7 + 6) × (4 × 3)),"{""numbers"": [7, 4, 3, 4, 7, 6], ""target"": 156}"
+countdown_baseline_0069,countdown_baseline,baseline,"{""numbers"": [7, 3, 7, 3, 7, 4], ""target"": 252}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 3, 7, 3, 7, 4
+Target: 252
+
+Which of the following expressions correctly reaches the target?",((7 × 3) × (3 × 4)),((7 × 3) × (3 − 4)),((7 × 3) − (3 × 4)),((7 × 3) × (3 + 4)),A,((7 × 3) × (3 × 4)),"{""numbers"": [7, 3, 7, 3, 7, 4], ""target"": 252}"
+countdown_baseline_0070,countdown_baseline,baseline,"{""numbers"": [8, 7, 9, 8, 5, 1], ""target"": 648}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 7, 9, 8, 5, 1
+Target: 648
+
+Which of the following expressions correctly reaches the target?",((8 × 9) × (8 ÷ 1)),((8 × 9) − (8 + 1)),((8 + 9) × (8 + 1)),((8 × 9) × (8 + 1)),D,((8 × 9) × (8 + 1)),"{""numbers"": [8, 7, 9, 8, 5, 1], ""target"": 648}"
+countdown_baseline_0071,countdown_baseline,baseline,"{""numbers"": [1, 7, 1, 5, 9, 1], ""target"": 315}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 7, 1, 5, 9, 1
+Target: 315
+
+Which of the following expressions correctly reaches the target?",(9 × (7 + 5)),(9 + (7 × 5)),(9 × (7 × 5)),(9 − (7 × 5)),C,(9 × (7 × 5)),"{""numbers"": [1, 7, 1, 5, 9, 1], ""target"": 315}"
+countdown_baseline_0072,countdown_baseline,baseline,"{""numbers"": [5, 8, 6, 9, 2, 7], ""target"": 448}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 8, 6, 9, 2, 7
+Target: 448
+
+Which of the following expressions correctly reaches the target?",(8 × (2 + (6 × 9))),(8 − (2 + (6 × 9))),(8 × (2 × (6 × 9))),(8 × (2 − (6 × 9))),A,(8 × (2 + (6 × 9))),"{""numbers"": [5, 8, 6, 9, 2, 7], ""target"": 448}"
+countdown_baseline_0073,countdown_baseline,baseline,"{""numbers"": [1, 5, 7, 2, 7, 4], ""target"": 770}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 5, 7, 2, 7, 4
+Target: 770
+
+Which of the following expressions correctly reaches the target?",((2 × (5 × 7)) × (7 + 4)),((2 × (5 × 7)) − (7 + 4)),((2 × (5 + 7)) × (7 + 4)),((2 × (5 × 7)) × (7 × 4)),A,((2 × (5 × 7)) × (7 + 4)),"{""numbers"": [1, 5, 7, 2, 7, 4], ""target"": 770}"
+countdown_baseline_0074,countdown_baseline,baseline,"{""numbers"": [6, 6, 9, 7, 3, 8], ""target"": 100}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 6, 9, 7, 3, 8
+Target: 100
+
+Which of the following expressions correctly reaches the target?",((9 − (6 + 6)) − 8),((9 + (6 + 6)) − 8),((9 × (6 + 6)) × 8),((9 × (6 + 6)) − 8),D,((9 × (6 + 6)) − 8),"{""numbers"": [6, 6, 9, 7, 3, 8], ""target"": 100}"
+countdown_baseline_0075,countdown_baseline,baseline,"{""numbers"": [7, 5, 8, 6, 2, 3], ""target"": 292}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 5, 8, 6, 2, 3
+Target: 292
+
+Which of the following expressions correctly reaches the target?",((8 + (7 × 5)) + (6 × 2)),((8 × (7 × 5)) − (6 × 2)),((8 × (7 × 5)) + (6 × 2)),((8 × (7 + 5)) + (6 × 2)),C,((8 × (7 × 5)) + (6 × 2)),"{""numbers"": [7, 5, 8, 6, 2, 3], ""target"": 292}"
+countdown_baseline_0076,countdown_baseline,baseline,"{""numbers"": [1, 5, 3, 4, 8, 2], ""target"": 245}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 5, 3, 4, 8, 2
+Target: 245
+
+Which of the following expressions correctly reaches the target?",((5 × (8 − 1)) × (3 + 4)),((5 × (8 − 1)) + (3 + 4)),((5 − (8 − 1)) × (3 + 4)),((5 × (8 − 1)) × (3 − 4)),A,((5 × (8 − 1)) × (3 + 4)),"{""numbers"": [1, 5, 3, 4, 8, 2], ""target"": 245}"
+countdown_baseline_0077,countdown_baseline,baseline,"{""numbers"": [2, 6, 7, 9, 7, 3], ""target"": 189}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 6, 7, 9, 7, 3
+Target: 189
+
+Which of the following expressions correctly reaches the target?",(3 × (7 − 9)),(3 + (7 × 9)),(3 × (7 × 9)),(3 × (7 + 9)),C,(3 × (7 × 9)),"{""numbers"": [2, 6, 7, 9, 7, 3], ""target"": 189}"
+countdown_baseline_0078,countdown_baseline,baseline,"{""numbers"": [9, 3, 9, 8, 9, 1], ""target"": 243}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 3, 9, 8, 9, 1
+Target: 243
+
+Which of the following expressions correctly reaches the target?",(9 − (9 × 3)),(9 × (9 ÷ 3)),(9 × (9 × 3)),(9 + (9 × 3)),C,(9 × (9 × 3)),"{""numbers"": [9, 3, 9, 8, 9, 1], ""target"": 243}"
+countdown_baseline_0079,countdown_baseline,baseline,"{""numbers"": [3, 9, 9, 7, 7, 1], ""target"": 549}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 9, 9, 7, 7, 1
+Target: 549
+
+Which of the following expressions correctly reaches the target?",(9 × ((3 + 9) × (7 × 7))),(9 × ((3 + 9) + (7 ÷ 7))),(9 × ((3 + 9) − (7 × 7))),(9 × ((3 + 9) + (7 × 7))),D,(9 × ((3 + 9) + (7 × 7))),"{""numbers"": [3, 9, 9, 7, 7, 1], ""target"": 549}"
+countdown_baseline_0080,countdown_baseline,baseline,"{""numbers"": [4, 1, 3, 8, 4, 3], ""target"": 240}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 1, 3, 8, 4, 3
+Target: 240
+
+Which of the following expressions correctly reaches the target?",((3 + 3) × (8 × (4 − 1))),((3 + 3) × (8 × (4 + 1))),((3 ÷ 3) × (8 × (4 + 1))),((3 + 3) − (8 × (4 + 1))),B,((3 + 3) × (8 × (4 + 1))),"{""numbers"": [4, 1, 3, 8, 4, 3], ""target"": 240}"
+countdown_baseline_0081,countdown_baseline,baseline,"{""numbers"": [3, 6, 5, 7, 1, 2], ""target"": 124}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 6, 5, 7, 1, 2
+Target: 124
+
+Which of the following expressions correctly reaches the target?",((7 + (3 × 6)) − 2),((7 × (3 + 6)) − 2),((7 × (3 × 6)) − 2),((7 × (3 × 6)) + 2),C,((7 × (3 × 6)) − 2),"{""numbers"": [3, 6, 5, 7, 1, 2], ""target"": 124}"
+countdown_baseline_0082,countdown_baseline,baseline,"{""numbers"": [5, 9, 7, 4, 3, 9], ""target"": 184}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 9, 7, 4, 3, 9
+Target: 184
+
+Which of the following expressions correctly reaches the target?",((3 × (9 × 7)) − 5),((3 × (9 × 7)) + 5),((3 + (9 × 7)) − 5),((3 × (9 − 7)) − 5),A,((3 × (9 × 7)) − 5),"{""numbers"": [5, 9, 7, 4, 3, 9], ""target"": 184}"
+countdown_baseline_0083,countdown_baseline,baseline,"{""numbers"": [7, 5, 4, 2, 7, 8], ""target"": 243}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 5, 4, 2, 7, 8
+Target: 243
+
+Which of the following expressions correctly reaches the target?",((7 × (7 × 5)) × 2),((7 × (7 − 5)) − 2),((7 × (7 × 5)) + 2),((7 × (7 × 5)) − 2),D,((7 × (7 × 5)) − 2),"{""numbers"": [7, 5, 4, 2, 7, 8], ""target"": 243}"
+countdown_baseline_0084,countdown_baseline,baseline,"{""numbers"": [3, 2, 8, 4, 4, 7], ""target"": 266}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 2, 8, 4, 4, 7
+Target: 266
+
+Which of the following expressions correctly reaches the target?",(7 × ((3 + 2) + (8 × 4))),(7 × ((3 × 2) + (8 × 4))),(7 × ((3 × 2) + (8 − 4))),(7 × ((3 × 2) × (8 × 4))),B,(7 × ((3 × 2) + (8 × 4))),"{""numbers"": [3, 2, 8, 4, 4, 7], ""target"": 266}"
+countdown_baseline_0085,countdown_baseline,baseline,"{""numbers"": [9, 4, 1, 5, 6, 6], ""target"": 193}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 4, 1, 5, 6, 6
+Target: 193
+
+Which of the following expressions correctly reaches the target?",(1 − (4 − (6 − (9 × 6)))),(1 − (4 × (6 + (9 × 6)))),(1 − (4 × (6 − (9 × 6)))),(1 × (4 × (6 − (9 × 6)))),C,(1 − (4 × (6 − (9 × 6)))),"{""numbers"": [9, 4, 1, 5, 6, 6], ""target"": 193}"
+countdown_baseline_0086,countdown_baseline,baseline,"{""numbers"": [6, 7, 5, 2, 9, 6], ""target"": 143}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 7, 5, 2, 9, 6
+Target: 143
+
+Which of the following expressions correctly reaches the target?",((6 + 7) × (5 × 6)),((6 + 7) × (5 + 6)),((6 − 7) × (5 + 6)),((6 × 7) × (5 + 6)),B,((6 + 7) × (5 + 6)),"{""numbers"": [6, 7, 5, 2, 9, 6], ""target"": 143}"
+countdown_baseline_0087,countdown_baseline,baseline,"{""numbers"": [6, 6, 2, 4, 4, 1], ""target"": 192}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 6, 2, 4, 4, 1
+Target: 192
+
+Which of the following expressions correctly reaches the target?",((6 − 2) × (6 × 4)),((6 + 2) − (6 × 4)),((6 × 2) × (6 × 4)),((6 + 2) × (6 × 4)),D,((6 + 2) × (6 × 4)),"{""numbers"": [6, 6, 2, 4, 4, 1], ""target"": 192}"
+countdown_baseline_0088,countdown_baseline,baseline,"{""numbers"": [7, 2, 6, 5, 5, 3], ""target"": 216}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 2, 6, 5, 5, 3
+Target: 216
+
+Which of the following expressions correctly reaches the target?",((7 + 5) × (6 + 3)),((7 + 5) × (6 × 3)),((7 + 5) + (6 × 3)),((7 + 5) × (6 − 3)),B,((7 + 5) × (6 × 3)),"{""numbers"": [7, 2, 6, 5, 5, 3], ""target"": 216}"
+countdown_baseline_0089,countdown_baseline,baseline,"{""numbers"": [1, 4, 3, 6, 1, 4], ""target"": 288}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 1, 4, 3, 6, 1, 4
+Target: 288
+
+Which of the following expressions correctly reaches the target?",((4 − 3) × (6 × 4)),((4 × 3) × (6 × 4)),((4 × 3) + (6 × 4)),((4 × 3) × (6 + 4)),B,((4 × 3) × (6 × 4)),"{""numbers"": [1, 4, 3, 6, 1, 4], ""target"": 288}"
+countdown_baseline_0090,countdown_baseline,baseline,"{""numbers"": [7, 2, 9, 3, 5, 9], ""target"": 113}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 7, 2, 9, 3, 5, 9
+Target: 113
+
+Which of the following expressions correctly reaches the target?",(5 × (9 × (9 + 3))),(5 + (9 × (9 − 3))),(5 + (9 × (9 + 3))),(5 + (9 × (9 ÷ 3))),C,(5 + (9 × (9 + 3))),"{""numbers"": [7, 2, 9, 3, 5, 9], ""target"": 113}"
+countdown_baseline_0091,countdown_baseline,baseline,"{""numbers"": [8, 8, 7, 6, 8, 7], ""target"": 280}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 8, 7, 6, 8, 7
+Target: 280
+
+Which of the following expressions correctly reaches the target?",(7 × ((8 × 6) − 8)),(7 − ((8 × 6) − 8)),(7 × ((8 − 6) − 8)),(7 × ((8 × 6) + 8)),A,(7 × ((8 × 6) − 8)),"{""numbers"": [8, 8, 7, 6, 8, 7], ""target"": 280}"
+countdown_baseline_0092,countdown_baseline,baseline,"{""numbers"": [6, 4, 1, 5, 1, 6], ""target"": 720}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 4, 1, 5, 1, 6
+Target: 720
+
+Which of the following expressions correctly reaches the target?",((6 × 4) × (5 × 6)),((6 × 4) − (5 × 6)),((6 × 4) + (5 × 6)),((6 + 4) × (5 × 6)),A,((6 × 4) × (5 × 6)),"{""numbers"": [6, 4, 1, 5, 1, 6], ""target"": 720}"
+countdown_baseline_0093,countdown_baseline,baseline,"{""numbers"": [4, 2, 3, 5, 1, 8], ""target"": 132}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 4, 2, 3, 5, 1, 8
+Target: 132
+
+Which of the following expressions correctly reaches the target?",(3 × (4 × (5 × 8))),(3 + (4 + (5 × 8))),(3 − (4 + (5 × 8))),(3 × (4 + (5 × 8))),D,(3 × (4 + (5 × 8))),"{""numbers"": [4, 2, 3, 5, 1, 8], ""target"": 132}"
+countdown_baseline_0094,countdown_baseline,baseline,"{""numbers"": [6, 3, 4, 7, 8, 5], ""target"": 140}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 6, 3, 4, 7, 8, 5
+Target: 140
+
+Which of the following expressions correctly reaches the target?",(5 × (4 × 7)),(5 + (4 × 7)),(5 × (4 + 7)),(5 − (4 × 7)),A,(5 × (4 × 7)),"{""numbers"": [6, 3, 4, 7, 8, 5], ""target"": 140}"
+countdown_baseline_0095,countdown_baseline,baseline,"{""numbers"": [8, 8, 8, 4, 7, 6], ""target"": 183}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 8, 8, 8, 4, 7, 6
+Target: 183
+
+Which of the following expressions correctly reaches the target?",(7 + (8 × (6 + (8 − 8)))),(7 + (8 × (6 − (8 + 8)))),(7 + (8 × (6 + (8 + 8)))),(7 + (8 × (6 × (8 + 8)))),C,(7 + (8 × (6 + (8 + 8)))),"{""numbers"": [8, 8, 8, 4, 7, 6], ""target"": 183}"
+countdown_baseline_0096,countdown_baseline,baseline,"{""numbers"": [3, 2, 7, 5, 9, 4], ""target"": 180}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 3, 2, 7, 5, 9, 4
+Target: 180
+
+Which of the following expressions correctly reaches the target?",(4 × (5 × 9)),(4 × (5 − 9)),(4 × (5 + 9)),(4 + (5 × 9)),A,(4 × (5 × 9)),"{""numbers"": [3, 2, 7, 5, 9, 4], ""target"": 180}"
+countdown_baseline_0097,countdown_baseline,baseline,"{""numbers"": [2, 6, 6, 7, 7, 2], ""target"": 105}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 6, 6, 7, 7, 2
+Target: 105
+
+Which of the following expressions correctly reaches the target?",(7 × (7 − (2 + 6))),(7 × (7 × (2 + 6))),(7 × (7 + (2 + 6))),(7 + (7 + (2 + 6))),C,(7 × (7 + (2 + 6))),"{""numbers"": [2, 6, 6, 7, 7, 2], ""target"": 105}"
+countdown_baseline_0098,countdown_baseline,baseline,"{""numbers"": [9, 1, 9, 4, 9, 4], ""target"": 144}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 9, 1, 9, 4, 9, 4
+Target: 144
+
+Which of the following expressions correctly reaches the target?",(4 × (9 × 4)),(4 + (9 × 4)),(4 × (9 − 4)),(4 × (9 + 4)),A,(4 × (9 × 4)),"{""numbers"": [9, 1, 9, 4, 9, 4], ""target"": 144}"
+countdown_baseline_0099,countdown_baseline,baseline,"{""numbers"": [5, 2, 5, 9, 7, 4], ""target"": 190}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 5, 2, 5, 9, 7, 4
+Target: 190
+
+Which of the following expressions correctly reaches the target?",(5 × (2 × (9 × 4))),(5 × (2 − (9 × 4))),(5 × (2 + (9 − 4))),(5 × (2 + (9 × 4))),D,(5 × (2 + (9 × 4))),"{""numbers"": [5, 2, 5, 9, 7, 4], ""target"": 190}"
+countdown_baseline_0100,countdown_baseline,baseline,"{""numbers"": [2, 3, 7, 6, 8, 3], ""target"": 195}","Solve the following Countdown-style puzzle.
+Rules:
+  - You are given six numbers and a single integer target.
+  - Use a subset of the numbers (each at most once).
+  - Combine them with +, −, ×, ÷ and parentheses.
+  - Every intermediate division must yield an exact integer (no fractions).
+
+Numbers: 2, 3, 7, 6, 8, 3
+Target: 195
+
+Which of the following expressions correctly reaches the target?",((7 × 6) × (3 × (2 + 3))),((7 − 6) × (3 × (2 + 3))),((7 + 6) × (3 × (2 + 3))),((7 + 6) × (3 × (2 − 3))),C,((7 + 6) × (3 × (2 + 3))),"{""numbers"": [2, 3, 7, 6, 8, 3], ""target"": 195}"

@@ -1,0 +1,1201 @@
+id,rule,state,puzzle,question,option_A,option_B,option_C,option_D,correct_option,correct_answer,params
+entropy_jugs_baseline_0001,entropy_jugs_baseline,baseline,"{""capacities"": [7, 8], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 8], [7, 1]]","[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2], [0, 2], [2, 0], [2, 8], [7, 3]]","[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2]]","[[0, 0], [7, 0], [0, 6], [7, 6], [4, 8], [7, 4], [2, 8]]",C,"[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2]]","{""cap1"": 7, ""cap2"": 8, ""target"": 2, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0002,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [8, 2]]","[[0, 0], [0, 11], [8, 3]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1]]",C,"[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11]]","{""cap1"": 8, ""cap2"": 11, ""target"": 2, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0003,entropy_jugs_baseline,baseline,"{""capacities"": [7, 12], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 12], [7, 5], [0, 5], [5, 0], [5, 12], [7, 10], [0, 10], [7, 3], [0, 3], [3, 0], [3, 12], [7, 8], [0, 8], [7, 1]]","[[0, 0], [0, 12], [7, 5], [0, 5], [5, 0], [5, 12], [7, 10], [0, 10], [7, 3]]","[[0, 0], [7, 0], [0, 7], [7, 7], [2, 12]]","[[0, 0], [0, 12], [7, 4], [0, 4], [3, 0], [0, 2], [1, 0]]",A,"[[0, 0], [0, 12], [7, 5], [0, 5], [5, 0], [5, 12], [7, 10], [0, 10], [7, 3], [0, 3], [3, 0], [3, 12], [7, 8], [0, 8], [7, 1]]","{""cap1"": 7, ""cap2"": 12, ""target"": 1, ""taxed"": false, ""path_length"": 15, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0004,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9], [6, 0], [0, 6], [8, 6], [5, 9]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9]]",C,"[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9]]","{""cap1"": 8, ""cap2"": 9, ""target"": 6, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0005,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3]]","[[0, 0], [0, 9], [8, 1]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2]]",D,"[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2]]","{""cap1"": 8, ""cap2"": 9, ""target"": 2, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0006,entropy_jugs_baseline,baseline,"{""capacities"": [3, 5], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [0, 5], [3, 2]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [0, 5], [3, 2], [0, 2], [2, 0], [2, 5], [3, 4]]",D,"[[0, 0], [0, 5], [3, 2], [0, 2], [2, 0], [2, 5], [3, 4]]","{""cap1"": 3, ""cap2"": 5, ""target"": 4, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0007,entropy_jugs_baseline,baseline,"{""capacities"": [7, 8], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8], [5, 0], [0, 5], [7, 5], [4, 8]]","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8]]","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8]]","[[0, 0], [7, 0], [0, 6], [5, 0]]",B,"[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8]]","{""cap1"": 7, ""cap2"": 8, ""target"": 5, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0008,entropy_jugs_baseline,baseline,"{""capacities"": [6, 7], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2], [0, 2], [2, 0], [2, 7], [6, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7], [5, 0], [0, 5], [6, 5], [4, 7]]","[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7]]",C,"[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7], [5, 0], [0, 5], [6, 5], [4, 7]]","{""cap1"": 6, ""cap2"": 7, ""target"": 4, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0009,entropy_jugs_baseline,baseline,"{""capacities"": [5, 6], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [0, 6], [5, 1], [0, 1], [1, 0], [1, 6], [5, 2]]","[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6]]","[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6], [4, 0], [0, 4], [5, 4], [3, 6]]",D,"[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6], [4, 0], [0, 4], [5, 4], [3, 6]]","{""cap1"": 5, ""cap2"": 6, ""target"": 3, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0010,entropy_jugs_baseline,baseline,"{""capacities"": [6, 7], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2]]","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2], [0, 2], [2, 0], [2, 7], [6, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3], [2, 0]]","[[0, 0], [0, 7], [6, 1]]",A,"[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2]]","{""cap1"": 6, ""cap2"": 7, ""target"": 2, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0011,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 11], [8, 3]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1], [0, 1], [1, 0], [1, 11], [8, 4]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11]]",C,"[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1], [0, 1], [1, 0], [1, 11], [8, 4]]","{""cap1"": 8, ""cap2"": 11, ""target"": 4, ""taxed"": false, ""path_length"": 17, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0012,entropy_jugs_baseline,baseline,"{""capacities"": [3, 9], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [0, 9], [3, 6]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 9], [3, 6]]","[[0, 0], [0, 9], [3, 5], [0, 7]]",B,"[[0, 0], [0, 9], [3, 6]]","{""cap1"": 3, ""cap2"": 9, ""target"": 6, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0013,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 9, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 9L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9]]","[[0, 0], [0, 11], [8, 2], [0, 9]]","[[0, 0], [8, 0]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11], [2, 0], [0, 2], [8, 2], [0, 10]]",A,"[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9]]","{""cap1"": 8, ""cap2"": 11, ""target"": 9, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0014,entropy_jugs_baseline,baseline,"{""capacities"": [7, 9], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [7, 0]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9]]","[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4], [0, 4], [4, 0], [4, 9], [7, 6]]","[[0, 0], [7, 0], [0, 6]]",C,"[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4], [0, 4], [4, 0], [4, 9], [7, 6]]","{""cap1"": 7, ""cap2"": 9, ""target"": 6, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0015,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1], [0, 1], [1, 0], [1, 11], [8, 4]]","[[0, 0], [8, 0], [0, 7], [6, 0], [0, 5]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6]]",C,"[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11]]","{""cap1"": 8, ""cap2"": 11, ""target"": 5, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0016,entropy_jugs_baseline,baseline,"{""capacities"": [5, 6], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6], [4, 0], [0, 4], [5, 4], [3, 6]]","[[0, 0], [5, 0], [0, 4]]","[[0, 0], [5, 0]]","[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6]]",D,"[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6]]","{""cap1"": 5, ""cap2"": 6, ""target"": 4, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0017,entropy_jugs_baseline,baseline,"{""capacities"": [3, 7], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [3, 4], [0, 4], [3, 1], [0, 1], [1, 0], [1, 7], [3, 5]]","[[0, 0], [0, 7], [3, 4]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4], [3, 4], [0, 6]]",C,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","{""cap1"": 3, ""cap2"": 7, ""target"": 6, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0018,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9]]","[[0, 0], [0, 9], [5, 3], [0, 7], [5, 1]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6], [5, 6], [2, 9]]",B,"[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9]]","{""cap1"": 5, ""cap2"": 9, ""target"": 1, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0019,entropy_jugs_baseline,baseline,"{""capacities"": [3, 8], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 8], [3, 5], [0, 7]]","[[0, 0], [0, 8], [3, 5]]","[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2], [0, 2], [2, 0], [2, 8], [3, 7]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]",C,"[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2], [0, 2], [2, 0], [2, 8], [3, 7]]","{""cap1"": 3, ""cap2"": 8, ""target"": 7, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0020,entropy_jugs_baseline,baseline,"{""capacities"": [3, 10], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [0, 10], [3, 7], [0, 7], [3, 4], [0, 4], [3, 1]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [2, 10]]","[[0, 0], [3, 0], [0, 2]]",C,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [2, 10]]","{""cap1"": 3, ""cap2"": 10, ""target"": 2, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0021,entropy_jugs_baseline,baseline,"{""capacities"": [5, 7], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [0, 7], [5, 2], [0, 2], [2, 0], [2, 7], [5, 4]]","[[0, 0], [5, 0], [0, 5], [5, 5], [3, 7]]","[[0, 0], [0, 7], [5, 2]]",C,"[[0, 0], [5, 0], [0, 5], [5, 5], [3, 7]]","{""cap1"": 5, ""cap2"": 7, ""target"": 3, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0022,entropy_jugs_baseline,baseline,"{""capacities"": [7, 8], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8], [5, 0], [0, 5], [7, 5], [4, 8]]","[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2], [0, 2], [2, 0], [2, 8], [7, 3]]","[[0, 0], [7, 0], [0, 6], [7, 6], [4, 8]]","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8]]",A,"[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8], [5, 0], [0, 5], [7, 5], [4, 8]]","{""cap1"": 7, ""cap2"": 8, ""target"": 4, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0023,entropy_jugs_baseline,baseline,"{""capacities"": [3, 8], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [1, 8]]","[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2]]","[[0, 0], [3, 0], [0, 2], [1, 0]]",B,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [1, 8]]","{""cap1"": 3, ""cap2"": 8, ""target"": 1, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0024,entropy_jugs_baseline,baseline,"{""capacities"": [3, 8], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [1, 8]]","[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2]]",D,"[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2]]","{""cap1"": 3, ""cap2"": 8, ""target"": 2, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0025,entropy_jugs_baseline,baseline,"{""capacities"": [3, 11], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [1, 11], [1, 0], [0, 1], [3, 1], [0, 4]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [3, 0]]","[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5]]",A,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [1, 11], [1, 0], [0, 1], [3, 1], [0, 4]]","{""cap1"": 3, ""cap2"": 11, ""target"": 4, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0026,entropy_jugs_baseline,baseline,"{""capacities"": [4, 11], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [0, 11], [4, 7], [0, 7], [4, 3]]","[[0, 0], [0, 11], [4, 7], [0, 7], [4, 3], [0, 3], [3, 0], [3, 11], [4, 10], [0, 10], [4, 6], [0, 6], [4, 2]]",C,"[[0, 0], [0, 11], [4, 7], [0, 7], [4, 3]]","{""cap1"": 4, ""cap2"": 11, ""target"": 3, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0027,entropy_jugs_baseline,baseline,"{""capacities"": [6, 8], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [4, 8]]","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 8], [6, 2]]",B,"[[0, 0], [6, 0], [0, 6], [6, 6], [4, 8]]","{""cap1"": 6, ""cap2"": 8, ""target"": 4, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0028,entropy_jugs_baseline,baseline,"{""capacities"": [9, 11], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [9, 0], [0, 8], [9, 8], [5, 11], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11], [7, 0], [0, 7], [9, 7], [5, 11], [5, 0], [0, 5], [9, 5], [3, 11], [3, 0], [0, 3], [9, 3], [1, 11]]","[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11], [7, 0], [0, 7], [9, 7], [5, 11], [5, 0], [0, 5], [9, 5], [3, 11]]","[[0, 0], [0, 11], [9, 2]]",D,"[[0, 0], [0, 11], [9, 2]]","{""cap1"": 9, ""cap2"": 11, ""target"": 2, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0029,entropy_jugs_baseline,baseline,"{""capacities"": [6, 10], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0]]","[[0, 0], [0, 10], [6, 4], [0, 4], [4, 0], [4, 10], [6, 8]]","[[0, 0], [0, 10], [6, 4]]","[[0, 0], [0, 10], [6, 3], [0, 8]]",B,"[[0, 0], [0, 10], [6, 4], [0, 4], [4, 0], [4, 10], [6, 8]]","{""cap1"": 6, ""cap2"": 10, ""target"": 8, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0030,entropy_jugs_baseline,baseline,"{""capacities"": [4, 9], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1]]","[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1], [0, 1], [1, 0], [1, 9], [4, 6], [0, 6], [4, 2]]","[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8], [4, 8], [3, 9]]",A,"[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1]]","{""cap1"": 4, ""cap2"": 9, ""target"": 1, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0031,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3], [0, 3], [3, 0], [3, 9], [5, 7]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6]]","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8]]","[[0, 0], [5, 0], [0, 4], [5, 4], [0, 8]]",C,"[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8]]","{""cap1"": 5, ""cap2"": 9, ""target"": 8, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0032,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [8, 2], [0, 2], [1, 0]]","[[0, 0], [0, 11], [8, 3]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11]]",C,"[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1]]","{""cap1"": 8, ""cap2"": 11, ""target"": 1, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0033,entropy_jugs_baseline,baseline,"{""capacities"": [7, 10], ""target"": 9, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 9L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [7, 0]]","[[0, 0], [7, 0], [0, 7], [7, 7], [4, 10], [4, 0], [0, 4], [7, 4], [1, 10], [1, 0], [0, 1], [7, 1], [0, 8]]","[[0, 0], [0, 10], [7, 3], [0, 3], [3, 0], [3, 10], [7, 6], [0, 6], [6, 0], [6, 10], [7, 9]]","[[0, 0], [0, 10], [7, 2], [0, 2], [1, 0], [1, 10], [7, 3], [0, 9]]",C,"[[0, 0], [0, 10], [7, 3], [0, 3], [3, 0], [3, 10], [7, 6], [0, 6], [6, 0], [6, 10], [7, 9]]","{""cap1"": 7, ""cap2"": 10, ""target"": 9, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0034,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9]]","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6], [5, 6], [2, 9]]",D,"[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6], [5, 6], [2, 9]]","{""cap1"": 5, ""cap2"": 9, ""target"": 2, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0035,entropy_jugs_baseline,baseline,"{""capacities"": [7, 8], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2], [0, 2], [2, 0], [2, 8], [7, 3]]","[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2]]","[[0, 0], [7, 0], [0, 7], [7, 7], [6, 8], [6, 0], [0, 6], [7, 6], [5, 8], [5, 0], [0, 5], [7, 5], [4, 8]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]",A,"[[0, 0], [0, 8], [7, 1], [0, 1], [1, 0], [1, 8], [7, 2], [0, 2], [2, 0], [2, 8], [7, 3]]","{""cap1"": 7, ""cap2"": 8, ""target"": 3, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0036,entropy_jugs_baseline,baseline,"{""capacities"": [4, 5], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0], [0, 3], [4, 3], [1, 5]]","[[0, 0], [0, 5], [4, 1]]","[[0, 0], [0, 5], [4, 1], [0, 1], [1, 0], [1, 5], [4, 2]]","[[0, 0], [4, 0], [0, 4], [4, 4], [3, 5]]",B,"[[0, 0], [0, 5], [4, 1]]","{""cap1"": 4, ""cap2"": 5, ""target"": 1, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0037,entropy_jugs_baseline,baseline,"{""capacities"": [4, 5], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 5], [4, 1]]","[[0, 0], [0, 5], [4, 1], [0, 1], [1, 0], [1, 5], [4, 2]]","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [4, 0], [0, 4], [4, 4], [3, 5]]",B,"[[0, 0], [0, 5], [4, 1], [0, 1], [1, 0], [1, 5], [4, 2]]","{""cap1"": 4, ""cap2"": 5, ""target"": 2, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0038,entropy_jugs_baseline,baseline,"{""capacities"": [6, 11], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [6, 5], [0, 5], [5, 0], [5, 11], [6, 10], [0, 10], [6, 4]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0]]","[[0, 0], [0, 11], [6, 5]]",D,"[[0, 0], [0, 11], [6, 5]]","{""cap1"": 6, ""cap2"": 11, ""target"": 5, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0039,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11]]","[[0, 0], [0, 11], [8, 3]]","[[0, 0], [8, 0], [0, 7], [8, 7], [3, 11]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6], [0, 6], [6, 0], [6, 11], [8, 9], [0, 9], [8, 1], [0, 1], [1, 0], [1, 11], [8, 4]]",B,"[[0, 0], [0, 11], [8, 3]]","{""cap1"": 8, ""cap2"": 11, ""target"": 3, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0040,entropy_jugs_baseline,baseline,"{""capacities"": [6, 7], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2], [0, 2], [2, 0], [2, 7], [6, 3]]","[[0, 0], [6, 0], [0, 5], [6, 5], [3, 7], [6, 3], [1, 7]]","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2]]","[[0, 0], [0, 7], [6, 1]]",D,"[[0, 0], [0, 7], [6, 1]]","{""cap1"": 6, ""cap2"": 7, ""target"": 1, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0041,entropy_jugs_baseline,baseline,"{""capacities"": [7, 9], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [7, 2]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9]]","[[0, 0], [0, 9], [7, 1]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9], [3, 0], [0, 3], [7, 3], [1, 9]]",D,"[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9], [3, 0], [0, 3], [7, 3], [1, 9]]","{""cap1"": 7, ""cap2"": 9, ""target"": 1, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0042,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 7], [8, 7], [5, 9], [8, 5], [3, 9], [8, 3], [1, 9]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3]]","[[0, 0], [0, 9], [8, 1]]",D,"[[0, 0], [0, 9], [8, 1]]","{""cap1"": 8, ""cap2"": 9, ""target"": 1, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0043,entropy_jugs_baseline,baseline,"{""capacities"": [7, 11], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [7, 3]]","[[0, 0], [0, 11], [7, 4]]","[[0, 0], [7, 0], [0, 7], [7, 7], [3, 11]]","[[0, 0], [7, 0], [0, 7], [7, 7], [3, 11], [3, 0], [0, 3], [7, 3], [0, 10], [7, 10], [6, 11], [6, 0], [0, 6], [7, 6], [2, 11]]",C,"[[0, 0], [7, 0], [0, 7], [7, 7], [3, 11]]","{""cap1"": 7, ""cap2"": 11, ""target"": 3, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0044,entropy_jugs_baseline,baseline,"{""capacities"": [5, 8], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 8], [5, 3], [0, 3], [3, 0], [3, 8], [5, 6]]","[[0, 0], [5, 0]]","[[0, 0], [0, 8], [5, 2], [0, 2], [1, 0], [1, 8], [5, 3], [0, 7]]","[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8], [2, 0], [0, 2], [5, 2], [0, 7]]",D,"[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8], [2, 0], [0, 2], [5, 2], [0, 7]]","{""cap1"": 5, ""cap2"": 8, ""target"": 7, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0045,entropy_jugs_baseline,baseline,"{""capacities"": [7, 9], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [7, 2]]","[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9]]","[[0, 0], [7, 0], [0, 6], [7, 6], [3, 9]]",C,"[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9]]","{""cap1"": 7, ""cap2"": 9, ""target"": 3, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0046,entropy_jugs_baseline,baseline,"{""capacities"": [5, 7], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [3, 7], [3, 0], [0, 3], [5, 3], [1, 7]]","[[0, 0], [5, 0], [0, 5], [5, 5], [3, 7]]","[[0, 0], [0, 7], [5, 2]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2]]",C,"[[0, 0], [0, 7], [5, 2]]","{""cap1"": 5, ""cap2"": 7, ""target"": 2, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0047,entropy_jugs_baseline,baseline,"{""capacities"": [4, 9], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [4, 5]]","[[0, 0], [0, 9], [4, 4], [0, 7], [4, 2], [0, 5]]","[[0, 0], [4, 0]]","[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1], [0, 1], [1, 0], [1, 9], [4, 6]]",A,"[[0, 0], [0, 9], [4, 5]]","{""cap1"": 4, ""cap2"": 9, ""target"": 5, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0048,entropy_jugs_baseline,baseline,"{""capacities"": [8, 11], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11], [5, 0], [0, 5], [8, 5], [2, 11], [2, 0], [0, 2], [8, 2], [0, 10], [8, 10], [7, 11]]","[[0, 0], [8, 0], [0, 7], [6, 0]]","[[0, 0], [8, 0], [0, 8], [8, 8], [5, 11]]","[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6]]",D,"[[0, 0], [0, 11], [8, 3], [0, 3], [3, 0], [3, 11], [8, 6]]","{""cap1"": 8, ""cap2"": 11, ""target"": 6, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0049,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9]]","[[0, 0], [8, 0], [0, 7]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9]]",D,"[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9]]","{""cap1"": 8, ""cap2"": 9, ""target"": 7, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0050,entropy_jugs_baseline,baseline,"{""capacities"": [3, 11], ""target"": 9, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 9L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9]]","[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5], [0, 5], [3, 2], [0, 2], [2, 0], [2, 11], [3, 10]]","[[0, 0], [0, 11], [3, 8]]","[[0, 0], [0, 11], [3, 7], [0, 9]]",A,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9]]","{""cap1"": 3, ""cap2"": 11, ""target"": 9, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0051,entropy_jugs_baseline,baseline,"{""capacities"": [3, 8], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 8], [3, 5]]","[[0, 0], [0, 8], [3, 5]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [1, 8], [1, 0], [0, 1], [3, 1], [0, 4]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]",B,"[[0, 0], [0, 8], [3, 5]]","{""cap1"": 3, ""cap2"": 8, ""target"": 5, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0052,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6]]","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 9], [5, 6]]","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3], [0, 3], [3, 0], [3, 9], [5, 7]]","[[0, 0], [5, 0]]",A,"[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6]]","{""cap1"": 5, ""cap2"": 9, ""target"": 6, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0053,entropy_jugs_baseline,baseline,"{""capacities"": [6, 9], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 9], [6, 3]]","[[0, 0], [6, 0], [0, 5], [4, 0], [0, 3]]","[[0, 0], [6, 0]]",B,"[[0, 0], [0, 9], [6, 3]]","{""cap1"": 6, ""cap2"": 9, ""target"": 3, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0054,entropy_jugs_baseline,baseline,"{""capacities"": [6, 10], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0], [0, 5], [4, 0]]","[[0, 0], [0, 10], [6, 4]]","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [2, 10]]",B,"[[0, 0], [0, 10], [6, 4]]","{""cap1"": 6, ""cap2"": 10, ""target"": 4, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0055,entropy_jugs_baseline,baseline,"{""capacities"": [7, 12], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [7, 0]]","[[0, 0], [7, 0], [0, 6]]","[[0, 0], [0, 12], [7, 5]]","[[0, 0], [7, 0], [0, 7], [7, 7], [2, 12], [2, 0], [0, 2], [7, 2], [0, 9], [7, 9], [4, 12], [4, 0], [0, 4], [7, 4], [0, 11], [7, 11], [6, 12]]",D,"[[0, 0], [7, 0], [0, 7], [7, 7], [2, 12], [2, 0], [0, 2], [7, 2], [0, 9], [7, 9], [4, 12], [4, 0], [0, 4], [7, 4], [0, 11], [7, 11], [6, 12]]","{""cap1"": 7, ""cap2"": 12, ""target"": 6, ""taxed"": false, ""path_length"": 17, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0056,entropy_jugs_baseline,baseline,"{""capacities"": [4, 6], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0], [0, 3], [2, 0]]","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 3]]","[[0, 0], [0, 6], [4, 2]]",D,"[[0, 0], [0, 6], [4, 2]]","{""cap1"": 4, ""cap2"": 6, ""target"": 2, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0057,entropy_jugs_baseline,baseline,"{""capacities"": [4, 9], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8]]","[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1], [0, 1], [1, 0], [1, 9], [4, 6]]","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8], [4, 8], [3, 9], [3, 0], [0, 3], [4, 3], [0, 7]]","[[0, 0], [0, 9], [4, 4], [0, 7]]",C,"[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8], [4, 8], [3, 9], [3, 0], [0, 3], [4, 3], [0, 7]]","{""cap1"": 4, ""cap2"": 9, ""target"": 7, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0058,entropy_jugs_baseline,baseline,"{""capacities"": [4, 9], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8]]","[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8], [4, 8], [3, 9], [3, 0], [0, 3], [4, 3], [0, 7]]","[[0, 0], [0, 9], [4, 5], [0, 5], [4, 1], [0, 1], [1, 0], [1, 9], [4, 6]]","[[0, 0], [0, 9], [4, 4], [0, 7], [4, 7], [1, 9], [4, 5], [0, 8]]",A,"[[0, 0], [4, 0], [0, 4], [4, 4], [0, 8]]","{""cap1"": 4, ""cap2"": 9, ""target"": 8, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0059,entropy_jugs_baseline,baseline,"{""capacities"": [6, 11], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0], [0, 6], [6, 6], [1, 11], [1, 0], [0, 1], [6, 1], [0, 7], [6, 7], [2, 11], [2, 0], [0, 2], [6, 2], [0, 8]]","[[0, 0], [6, 0], [0, 6], [6, 6], [1, 11], [1, 0], [0, 1], [6, 1], [0, 7]]","[[0, 0], [0, 11], [6, 5], [0, 5], [5, 0], [5, 11], [6, 10], [0, 10], [6, 4], [0, 4], [4, 0], [4, 11], [6, 9]]","[[0, 0], [6, 0], [0, 5], [4, 0], [4, 11], [6, 8]]",A,"[[0, 0], [6, 0], [0, 6], [6, 6], [1, 11], [1, 0], [0, 1], [6, 1], [0, 7], [6, 7], [2, 11], [2, 0], [0, 2], [6, 2], [0, 8]]","{""cap1"": 6, ""cap2"": 11, ""target"": 8, ""taxed"": false, ""path_length"": 15, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0060,entropy_jugs_baseline,baseline,"{""capacities"": [7, 9], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4], [0, 4], [4, 0], [4, 9], [7, 6], [0, 6], [6, 0], [6, 9], [7, 8]]","[[0, 0], [7, 0]]","[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4], [0, 4], [4, 0], [4, 9], [7, 6]]","[[0, 0], [7, 0], [0, 6], [7, 6], [3, 9], [3, 0], [0, 2], [7, 2], [0, 8]]",A,"[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4], [0, 4], [4, 0], [4, 9], [7, 6], [0, 6], [6, 0], [6, 9], [7, 8]]","{""cap1"": 7, ""cap2"": 9, ""target"": 8, ""taxed"": false, ""path_length"": 15, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0061,entropy_jugs_baseline,baseline,"{""capacities"": [3, 7], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [2, 7]]","[[0, 0], [0, 7], [3, 4], [0, 4], [3, 1]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0]]",A,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [2, 7]]","{""cap1"": 3, ""cap2"": 7, ""target"": 2, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0062,entropy_jugs_baseline,baseline,"{""capacities"": [4, 7], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [4, 3]]","[[0, 0], [4, 0], [0, 4], [4, 4], [1, 7]]","[[0, 0], [0, 7], [4, 3], [0, 3], [3, 0], [3, 7], [4, 6], [0, 6], [4, 2]]","[[0, 0], [0, 7], [4, 2]]",C,"[[0, 0], [0, 7], [4, 3], [0, 3], [3, 0], [3, 7], [4, 6], [0, 6], [4, 2]]","{""cap1"": 4, ""cap2"": 7, ""target"": 2, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0063,entropy_jugs_baseline,baseline,"{""capacities"": [5, 8], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8], [2, 0], [0, 2], [5, 2], [0, 7]]","[[0, 0], [5, 0]]","[[0, 0], [0, 8], [5, 3], [0, 3], [3, 0], [3, 8], [5, 6]]","[[0, 0], [0, 8], [5, 2], [0, 6]]",C,"[[0, 0], [0, 8], [5, 3], [0, 3], [3, 0], [3, 8], [5, 6]]","{""cap1"": 5, ""cap2"": 8, ""target"": 6, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0064,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8]]","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3], [0, 3], [3, 0], [3, 9], [5, 7]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6]]","[[0, 0], [0, 9], [5, 3], [0, 7]]",B,"[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3], [0, 3], [3, 0], [3, 9], [5, 7]]","{""cap1"": 5, ""cap2"": 9, ""target"": 7, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0065,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 7], [8, 7], [5, 9], [8, 5], [3, 9]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3], [0, 3], [3, 0], [3, 9], [8, 4]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2]]",C,"[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3]]","{""cap1"": 8, ""cap2"": 9, ""target"": 3, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0066,entropy_jugs_baseline,baseline,"{""capacities"": [9, 10], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 10], [9, 1], [0, 1], [1, 0], [1, 10], [9, 2]]","[[0, 0], [0, 10], [9, 1], [0, 1], [1, 0], [1, 10], [9, 2], [0, 2], [2, 0], [2, 10], [9, 3], [0, 3], [3, 0], [3, 10], [9, 4]]","[[0, 0], [9, 0], [0, 8], [7, 0], [0, 6], [5, 0], [0, 4], [3, 0]]","[[0, 0], [0, 10], [9, 1], [0, 1], [1, 0], [1, 10], [9, 2], [0, 2], [2, 0], [2, 10], [9, 3]]",D,"[[0, 0], [0, 10], [9, 1], [0, 1], [1, 0], [1, 10], [9, 2], [0, 2], [2, 0], [2, 10], [9, 3]]","{""cap1"": 9, ""cap2"": 10, ""target"": 3, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0067,entropy_jugs_baseline,baseline,"{""capacities"": [3, 11], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [1, 11]]","[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5], [0, 5], [3, 2]]",C,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [1, 11]]","{""cap1"": 3, ""cap2"": 11, ""target"": 1, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0068,entropy_jugs_baseline,baseline,"{""capacities"": [4, 10], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 10], [4, 6], [0, 6], [4, 2]]","[[0, 0], [4, 0]]","[[0, 0], [0, 10], [4, 6]]","[[0, 0], [4, 0], [0, 3], [2, 0]]",A,"[[0, 0], [0, 10], [4, 6], [0, 6], [4, 2]]","{""cap1"": 4, ""cap2"": 10, ""target"": 2, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0069,entropy_jugs_baseline,baseline,"{""capacities"": [7, 12], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 12], [7, 5], [0, 5], [5, 0], [5, 12], [7, 10], [0, 10], [7, 3]]","[[0, 0], [7, 0], [0, 7], [7, 7], [2, 12]]","[[0, 0], [0, 12], [7, 5], [0, 5], [5, 0], [5, 12], [7, 10], [0, 10], [7, 3], [0, 3], [3, 0], [3, 12], [7, 8], [0, 8], [7, 1]]","[[0, 0], [0, 12], [7, 4], [0, 10], [7, 2]]",B,"[[0, 0], [7, 0], [0, 7], [7, 7], [2, 12]]","{""cap1"": 7, ""cap2"": 12, ""target"": 2, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0070,entropy_jugs_baseline,baseline,"{""capacities"": [5, 11], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [5, 6]]","[[0, 0], [0, 11], [5, 5], [0, 9], [5, 3], [0, 7]]","[[0, 0], [0, 11], [5, 6], [0, 6], [5, 1], [0, 1], [1, 0], [1, 11], [5, 7]]","[[0, 0], [0, 11], [5, 6], [0, 6], [5, 1], [0, 1], [1, 0], [1, 11], [5, 7], [0, 7], [5, 2], [0, 2], [2, 0], [2, 11], [5, 8]]",C,"[[0, 0], [0, 11], [5, 6], [0, 6], [5, 1], [0, 1], [1, 0], [1, 11], [5, 7]]","{""cap1"": 5, ""cap2"": 11, ""target"": 7, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0071,entropy_jugs_baseline,baseline,"{""capacities"": [9, 11], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4], [0, 4], [4, 0], [4, 11], [9, 6], [0, 6], [6, 0], [6, 11], [9, 8]]","[[0, 0], [9, 0]]","[[0, 0], [9, 0], [0, 8]]","[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11]]",A,"[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4], [0, 4], [4, 0], [4, 11], [9, 6], [0, 6], [6, 0], [6, 11], [9, 8]]","{""cap1"": 9, ""cap2"": 11, ""target"": 8, ""taxed"": false, ""path_length"": 15, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0072,entropy_jugs_baseline,baseline,"{""capacities"": [5, 6], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 6L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [4, 6], [4, 0], [0, 4], [5, 4], [3, 6]]","[[0, 0], [0, 6], [5, 1]]","[[0, 0], [5, 0], [0, 4], [3, 0], [0, 2], [1, 0]]","[[0, 0], [0, 6], [5, 1], [0, 1], [1, 0], [1, 6], [5, 2]]",B,"[[0, 0], [0, 6], [5, 1]]","{""cap1"": 5, ""cap2"": 6, ""target"": 1, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0073,entropy_jugs_baseline,baseline,"{""capacities"": [9, 10], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10], [8, 0], [0, 8], [9, 8], [7, 10], [7, 0], [0, 7], [9, 7], [6, 10]]","[[0, 0], [9, 0], [0, 8], [7, 0]]","[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10], [8, 0], [0, 8], [9, 8], [7, 10]]","[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10]]",C,"[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10], [8, 0], [0, 8], [9, 8], [7, 10]]","{""cap1"": 9, ""cap2"": 10, ""target"": 7, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0074,entropy_jugs_baseline,baseline,"{""capacities"": [3, 7], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [3, 4]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","[[0, 0], [0, 7], [3, 4], [0, 4], [3, 1], [0, 1], [1, 0], [1, 7], [3, 5]]","[[0, 0], [0, 7], [3, 3], [0, 5]]",C,"[[0, 0], [0, 7], [3, 4], [0, 4], [3, 1], [0, 1], [1, 0], [1, 7], [3, 5]]","{""cap1"": 3, ""cap2"": 7, ""target"": 5, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0075,entropy_jugs_baseline,baseline,"{""capacities"": [6, 11], ""target"": 9, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 9L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [6, 5], [0, 5], [5, 0], [5, 11], [6, 10], [0, 10], [6, 4], [0, 4], [4, 0], [4, 11], [6, 9]]","[[0, 0], [6, 0], [0, 6], [6, 6], [1, 11], [1, 0], [0, 1], [6, 1], [0, 7], [6, 7], [2, 11], [2, 0], [0, 2], [6, 2], [0, 8]]","[[0, 0], [0, 11], [6, 4], [0, 9]]","[[0, 0], [0, 11], [6, 5], [0, 5], [5, 0], [5, 11], [6, 10]]",A,"[[0, 0], [0, 11], [6, 5], [0, 5], [5, 0], [5, 11], [6, 10], [0, 10], [6, 4], [0, 4], [4, 0], [4, 11], [6, 9]]","{""cap1"": 6, ""cap2"": 11, ""target"": 9, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0076,entropy_jugs_baseline,baseline,"{""capacities"": [5, 12], ""target"": 9, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 9L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 12], [5, 9]]","[[0, 0], [5, 0], [0, 5], [5, 5], [0, 10], [5, 10], [3, 12], [3, 0], [0, 3], [5, 3], [0, 8]]","[[0, 0], [0, 12], [5, 7], [0, 7], [5, 2], [0, 2], [2, 0], [2, 12], [5, 9]]","[[0, 0], [5, 0], [0, 5], [5, 5], [0, 10]]",C,"[[0, 0], [0, 12], [5, 7], [0, 7], [5, 2], [0, 2], [2, 0], [2, 12], [5, 9]]","{""cap1"": 5, ""cap2"": 12, ""target"": 9, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0077,entropy_jugs_baseline,baseline,"{""capacities"": [4, 7], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [4, 3], [0, 3], [3, 0], [3, 7], [4, 6], [0, 6], [4, 2]]","[[0, 0], [4, 0], [0, 4], [4, 4], [1, 7]]","[[0, 0], [0, 7], [4, 3]]","[[0, 0], [4, 0], [0, 3], [2, 0], [0, 1]]",B,"[[0, 0], [4, 0], [0, 4], [4, 4], [1, 7]]","{""cap1"": 4, ""cap2"": 7, ""target"": 1, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0078,entropy_jugs_baseline,baseline,"{""capacities"": [3, 11], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [1, 11], [1, 0], [0, 1], [3, 1], [0, 4]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","[[0, 0], [0, 11], [3, 7], [0, 9], [3, 5]]",A,"[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5]]","{""cap1"": 3, ""cap2"": 11, ""target"": 5, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0079,entropy_jugs_baseline,baseline,"{""capacities"": [7, 9], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 7L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9]]","[[0, 0], [7, 0], [0, 6], [5, 0], [0, 4]]","[[0, 0], [7, 0], [0, 7], [7, 7], [5, 9], [5, 0], [0, 5], [7, 5], [3, 9]]",A,"[[0, 0], [0, 9], [7, 2], [0, 2], [2, 0], [2, 9], [7, 4]]","{""cap1"": 7, ""cap2"": 9, ""target"": 4, ""taxed"": false, ""path_length"": 7, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0080,entropy_jugs_baseline,baseline,"{""capacities"": [5, 12], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 12L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 4], [3, 0], [3, 12], [5, 9], [1, 12], [5, 7]]","[[0, 0], [0, 12], [5, 7]]","[[0, 0], [5, 0], [0, 5], [5, 5], [0, 10], [5, 10], [3, 12], [3, 0], [0, 3], [5, 3], [0, 8], [5, 8], [1, 12], [1, 0], [0, 1], [5, 1], [0, 6]]","[[0, 0], [5, 0], [0, 5], [5, 5], [0, 10], [5, 10], [3, 12], [3, 0], [0, 3], [5, 3], [0, 8]]",B,"[[0, 0], [0, 12], [5, 7]]","{""cap1"": 5, ""cap2"": 12, ""target"": 7, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0081,entropy_jugs_baseline,baseline,"{""capacities"": [3, 4], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 4L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [2, 4]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0]]","[[0, 0], [0, 4], [3, 1]]",A,"[[0, 0], [3, 0], [0, 3], [3, 3], [2, 4]]","{""cap1"": 3, ""cap2"": 4, ""target"": 2, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0082,entropy_jugs_baseline,baseline,"{""capacities"": [3, 5], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 5], [3, 2]]","[[0, 0], [3, 0], [0, 2]]","[[0, 0], [3, 0], [0, 3], [3, 3], [1, 5]]","[[0, 0], [3, 0]]",A,"[[0, 0], [0, 5], [3, 2]]","{""cap1"": 3, ""cap2"": 5, ""target"": 2, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0083,entropy_jugs_baseline,baseline,"{""capacities"": [8, 10], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 10], [8, 2], [0, 2], [2, 0], [2, 10], [8, 4]]","[[0, 0], [0, 10], [8, 2]]","[[0, 0], [8, 0], [0, 8], [8, 8], [6, 10]]","[[0, 0], [8, 0], [0, 7], [8, 7], [4, 10], [8, 5], [2, 10]]",B,"[[0, 0], [0, 10], [8, 2]]","{""cap1"": 8, ""cap2"": 10, ""target"": 2, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0084,entropy_jugs_baseline,baseline,"{""capacities"": [4, 5], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 5L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 5], [4, 1], [0, 1], [1, 0], [1, 5], [4, 2]]","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 4], [4, 4], [3, 5]]","[[0, 0], [4, 0], [0, 3]]",C,"[[0, 0], [4, 0], [0, 4], [4, 4], [3, 5]]","{""cap1"": 4, ""cap2"": 5, ""target"": 3, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0085,entropy_jugs_baseline,baseline,"{""capacities"": [4, 7], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 4L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [4, 0]]","[[0, 0], [4, 0], [0, 4], [4, 4], [1, 7], [1, 0], [0, 1], [4, 1], [0, 5]]","[[0, 0], [0, 7], [4, 2], [0, 5]]","[[0, 0], [0, 7], [4, 3], [0, 3], [3, 0], [3, 7], [4, 6]]",B,"[[0, 0], [4, 0], [0, 4], [4, 4], [1, 7], [1, 0], [0, 1], [4, 1], [0, 5]]","{""cap1"": 4, ""cap2"": 7, ""target"": 5, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0086,entropy_jugs_baseline,baseline,"{""capacities"": [6, 7], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0]]","[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7]]","[[0, 0], [6, 0], [0, 5]]","[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7], [5, 0], [0, 5], [6, 5], [4, 7]]",B,"[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7]]","{""cap1"": 6, ""cap2"": 7, ""target"": 5, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0087,entropy_jugs_baseline,baseline,"{""capacities"": [3, 7], ""target"": 4, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 4L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 7], [3, 4]]","[[0, 0], [3, 0], [0, 2], [3, 2], [0, 4]]","[[0, 0], [3, 0]]","[[0, 0], [0, 7], [3, 4], [0, 4], [3, 1], [0, 1], [1, 0], [1, 7], [3, 5]]",A,"[[0, 0], [0, 7], [3, 4]]","{""cap1"": 3, ""cap2"": 7, ""target"": 4, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0088,entropy_jugs_baseline,baseline,"{""capacities"": [3, 4], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 4L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0]]","[[0, 0], [3, 0], [0, 2], [1, 0]]","[[0, 0], [3, 0], [0, 3], [3, 3], [2, 4]]","[[0, 0], [0, 4], [3, 1]]",D,"[[0, 0], [0, 4], [3, 1]]","{""cap1"": 3, ""cap2"": 4, ""target"": 1, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0089,entropy_jugs_baseline,baseline,"{""capacities"": [5, 8], ""target"": 1, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 1L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 8], [5, 2], [0, 2], [1, 0]]","[[0, 0], [0, 8], [5, 3], [0, 3], [3, 0], [3, 8], [5, 6], [0, 6], [5, 1]]","[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8]]","[[0, 0], [0, 8], [5, 3]]",B,"[[0, 0], [0, 8], [5, 3], [0, 3], [3, 0], [3, 8], [5, 6], [0, 6], [5, 1]]","{""cap1"": 5, ""cap2"": 8, ""target"": 1, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0090,entropy_jugs_baseline,baseline,"{""capacities"": [9, 10], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [9, 0]]","[[0, 0], [9, 0], [0, 8]]","[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10], [8, 0], [0, 8], [9, 8], [7, 10]]","[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10]]",D,"[[0, 0], [9, 0], [0, 9], [9, 9], [8, 10]]","{""cap1"": 9, ""cap2"": 10, ""target"": 8, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0091,entropy_jugs_baseline,baseline,"{""capacities"": [6, 10], ""target"": 2, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 2L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 10], [6, 3], [0, 3], [2, 0]]","[[0, 0], [6, 0]]","[[0, 0], [0, 10], [6, 4]]","[[0, 0], [6, 0], [0, 6], [6, 6], [2, 10]]",D,"[[0, 0], [6, 0], [0, 6], [6, 6], [2, 10]]","{""cap1"": 6, ""cap2"": 10, ""target"": 2, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0092,entropy_jugs_baseline,baseline,"{""capacities"": [5, 8], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8]]","[[0, 0], [5, 0], [0, 4], [3, 0]]","[[0, 0], [5, 0], [0, 5], [5, 5], [2, 8], [2, 0], [0, 2], [5, 2], [0, 7], [5, 7], [4, 8]]","[[0, 0], [0, 8], [5, 3]]",D,"[[0, 0], [0, 8], [5, 3]]","{""cap1"": 5, ""cap2"": 8, ""target"": 3, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0093,entropy_jugs_baseline,baseline,"{""capacities"": [9, 11], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4]]","[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4], [0, 4], [4, 0], [4, 11], [9, 6]]","[[0, 0], [9, 0], [0, 8], [9, 8], [5, 11]]","[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11], [7, 0], [0, 7], [9, 7], [5, 11]]",D,"[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11], [7, 0], [0, 7], [9, 7], [5, 11]]","{""cap1"": 9, ""cap2"": 11, ""target"": 5, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0094,entropy_jugs_baseline,baseline,"{""capacities"": [9, 11], ""target"": 7, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 9L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 7L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4], [0, 4], [4, 0], [4, 11], [9, 6], [0, 6], [6, 0], [6, 11], [9, 8]]","[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11]]","[[0, 0], [9, 0], [0, 8], [7, 0]]","[[0, 0], [0, 11], [9, 2], [0, 2], [2, 0], [2, 11], [9, 4], [0, 4], [4, 0], [4, 11], [9, 6]]",B,"[[0, 0], [9, 0], [0, 9], [9, 9], [7, 11]]","{""cap1"": 9, ""cap2"": 11, ""target"": 7, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0095,entropy_jugs_baseline,baseline,"{""capacities"": [3, 8], ""target"": 6, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 8L | Starting state: [0, 0] | Target: 6L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","[[0, 0], [0, 8], [3, 4], [0, 6]]","[[0, 0], [0, 8], [3, 5], [0, 5], [3, 2], [0, 2], [2, 0], [2, 8], [3, 7]]","[[0, 0], [0, 8], [3, 5]]",A,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","{""cap1"": 3, ""cap2"": 8, ""target"": 6, ""taxed"": false, ""path_length"": 5, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0096,entropy_jugs_baseline,baseline,"{""capacities"": [3, 11], ""target"": 8, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 11L | Starting state: [0, 0] | Target: 8L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 11], [3, 8]]","[[0, 0], [0, 11], [3, 8], [0, 8], [3, 5], [0, 5], [3, 2], [0, 2], [2, 0], [2, 11], [3, 10], [0, 10], [3, 7]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9]]","[[0, 0], [0, 11], [3, 8]]",D,"[[0, 0], [0, 11], [3, 8]]","{""cap1"": 3, ""cap2"": 11, ""target"": 8, ""taxed"": false, ""path_length"": 3, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0097,entropy_jugs_baseline,baseline,"{""capacities"": [6, 7], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 6L | Jug B capacity: 7L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [6, 0], [0, 5], [6, 5], [3, 7]]","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2], [0, 2], [2, 0], [2, 7], [6, 3]]","[[0, 0], [6, 0], [0, 6], [6, 6], [5, 7], [5, 0], [0, 5], [6, 5], [4, 7]]","[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2]]",B,"[[0, 0], [0, 7], [6, 1], [0, 1], [1, 0], [1, 7], [6, 2], [0, 2], [2, 0], [2, 7], [6, 3]]","{""cap1"": 6, ""cap2"": 7, ""target"": 3, ""taxed"": false, ""path_length"": 11, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0098,entropy_jugs_baseline,baseline,"{""capacities"": [5, 9], ""target"": 3, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 5L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 3L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3]]","[[0, 0], [5, 0], [0, 5], [5, 5], [1, 9], [1, 0], [0, 1], [5, 1], [0, 6], [5, 6], [2, 9]]","[[0, 0], [0, 9], [5, 4]]","[[0, 0], [0, 9], [5, 3]]",A,"[[0, 0], [0, 9], [5, 4], [0, 4], [4, 0], [4, 9], [5, 8], [0, 8], [5, 3]]","{""cap1"": 5, ""cap2"": 9, ""target"": 3, ""taxed"": false, ""path_length"": 9, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0099,entropy_jugs_baseline,baseline,"{""capacities"": [3, 10], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 3L | Jug B capacity: 10L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6]]","[[0, 0], [0, 10], [3, 7], [0, 7], [3, 4]]","[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [2, 10], [2, 0], [0, 2], [3, 2], [0, 5]]","[[0, 0], [3, 0], [0, 2], [1, 0], [1, 10], [3, 7], [0, 9], [3, 5]]",C,"[[0, 0], [3, 0], [0, 3], [3, 3], [0, 6], [3, 6], [0, 9], [3, 9], [2, 10], [2, 0], [0, 2], [3, 2], [0, 5]]","{""cap1"": 3, ""cap2"": 10, ""target"": 5, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
+entropy_jugs_baseline_0100,entropy_jugs_baseline,baseline,"{""capacities"": [8, 9], ""target"": 5, ""start"": [0, 0]}","You are playing the classic Water Jug puzzle.
+Rules — allowed moves:
+  - Fill a jug from the tap (fills it to full capacity).
+  - Empty a jug (drains it completely to 0).
+  - Pour from one jug to the other (transfers water exactly, no loss).
+Goal: reach the exact target volume in either jug using the fewest moves.
+
+Puzzle: Jug A capacity: 8L | Jug B capacity: 9L | Starting state: [0, 0] | Target: 5L in either jug
+
+Each answer option is a JSON list of [Jug_A, Jug_B] states representing the sequence of jug states from start to the goal state.
+Which option shows the correct (shortest) solution sequence?
+Note: one option shows the path obtained by applying Entropy Jugs rules (1-unit evaporation tax on pours).","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9]]","[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9], [6, 0], [0, 6], [8, 6], [5, 9]]","[[0, 0], [8, 0], [0, 7], [8, 7], [5, 9]]","[[0, 0], [0, 9], [8, 1], [0, 1], [1, 0], [1, 9], [8, 2], [0, 2], [2, 0], [2, 9], [8, 3], [0, 3], [3, 0], [3, 9], [8, 4]]",B,"[[0, 0], [8, 0], [0, 8], [8, 8], [7, 9], [7, 0], [0, 7], [8, 7], [6, 9], [6, 0], [0, 6], [8, 6], [5, 9]]","{""cap1"": 8, ""cap2"": 9, ""target"": 5, ""taxed"": false, ""path_length"": 13, ""has_taxed_distractor"": true}"
