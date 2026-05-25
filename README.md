@@ -17,7 +17,7 @@ exact version).
 
 Eight games, two answer formats:
 
-### Puzzle games (`game_cf/`) — 2,100 items
+### Math-driven games (`game_cf/`) — 2,100 items
 
 Model outputs a structured answer (filled grid, letter-to-digit map, jug
 states, arithmetic expression …) wrapped in `<answer>...</answer>` tags. A
@@ -43,7 +43,7 @@ Expected answer format by game:
 | Game of 24       | Arithmetic expression evaluating to 24                                   |
 | Countdown        | Arithmetic expression evaluating to the target (two for `cf4_multi_target`) |
 
-### Path games (`non_math_games/`) — 53 items
+### Non-math games (`non_math_games/`) — 53 items
 
 Model outputs a sequence of moves leading from `initial_state` to
 `goal_state`. A per-game grader validates each move and confirms goal
